@@ -1,0 +1,45 @@
+{
+  "meta" : {
+    "packageName" : "com.heinrichreimersoftware.materialintro.demo",
+    "label" : "material-intro",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.6.2",
+    "versionCode" : 16200,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.CAMERA", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WAKE_LOCK", "com.google.android.c2dm.permission.RECEIVE", "com.heinrichreimersoftware.materialintro.demo.permission.C2D_MESSAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ {
+      "name" : "com.heinrichreimersoftware.materialintro.demo.permission.C2D_MESSAGE",
+      "label" : null,
+      "icon" : null,
+      "description" : null,
+      "group" : null,
+      "protectionLevel" : null
+    } ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAG/0lEQVRo3u1azWtcVRT/nZk3k6/WTGkgsYsxtFKw06JlpCoI1aX9A1wUhApd1E0XQlcu2opaP8CIFj9RqgsR6lYEFyJSKmpbxTZSoi1paZqaapuYTJzP+3Pxvu69786bmTTBjQ9C8u67771z7/md3++c8wL8f/y3h3SaMLX32L7sUmOCtUaBSgEERBEkAQKgAkmIAohwjKAiwPAnGAvPlX8OhPP854TXCAIi09wweLR0+vUTafZ5HezPZOerhzM1VaBqRYZAKf8q4RsAAio2NjaUmuHw72PwZEXfUGOhBOPFjTfnKxMAPoG/ZLeBadaXy+UsFcdjgxk7jto5Y4cyMab7W3yfB7sfPy+YT4FIfC5NFsrlcjZ1h9MuVqtVkfAdkWG0EKifO+YwwGkEJQvB4Xgwmca9RLValZ5iYO/7U/sWa5iot1hQzSbe+eozZBoafDR4+O8K4UET59Z8quQ4tft8GAKkiua0coJPM49CmIVkZLpvQ+7oc6efPJHmgcytZR6uNFGoK0GT+g5pOxgOpe4N9Y1s4zHda0HwhnPCdzUINAhVbY3XbtcngCOZ9kFcfi/bUhhXtEAcWRCPbT71yqrS4W9bDwSmB8ZL8tWqyQJK8DCJunsB1VkxYKpDJgo0C6drQu4SQAuad9wOT9CoCrEZrcE0HmtlfPRoSbKmtGE1pw7QQgxhMAUDDl+TFcB8F4SmHd0sIJpLmP4jg3GfFy8/ckhzMU3xMsZgiFoUrIYCJwPfMDrYUZfzHRByeQAmZdIEp0GdsBnLhp39t/iLgL1zBJiJGS8IjY5CRjKIA0bCQtI0Cjqd0m2XHfy6JcaCCYgkNy2AEOnWx465ULTRukto4tSACMzUgnb0pTiBZBtFNye7PNAWQgxjSA9iAUZfe9rxEjg0w75G51xahl7ffzxaFNtKY4dcSOkbaigJuzceacan0DEdmY60X4FTBwCBIoP7NAYR4I9nP9S0wca1lpApK0+CI/cxCIAJ1rGzXemaRnXKDJM0IDaqjfFGsNvGQ0ujdewT1g8TsiAp5VdyATR1irYaWzs09sb+FAi4ApjG0PX9xy2mCrHPtuLVcQFGXLn43fZAqrImx2jJQBx0Fs12rnjbeABt3GoZThKzBz9wpNx6PCBRG0f6waRqplZ07DYGVFRGmcZpriEdqba123R5ELrxLrXvrQXhuZTYr21NRSUYl7PtmEIbo1FGOjLahMdo8ris0AOwk9nA+JhlJMlEtL3DttAzhEtZQU2mps9ED0ps5CXKrs5iWFys/aNhWveYmQPp7RedILbl+5PVXw/ZujOIUwsaJCFkMxbtNNsmMZr5FZlGm0ztwjmCmMmSUtGdFug5v3Z/wpgon6fFYsmaI2m79AYhtqvIHPkOaVZAds2gn9OqCUhH0YNVYaFYX+hgCFqUmsyLiIGNy9h54GcMFxeQG2pg9swozn9cwvLcQLywNpuSaj+7KWi0dEKFPczQ87piKkdxQt/4x176FoMjyzj37v049fzDGL5nHo8f+waDIxVTG3oM2K5ai2ZDjUnFVGZ3zujKAdj+1AXkhuqY/XEUxd1XseWJy7j0xWbkhurY+cxP2rNoenOFh1PImOhI+GVfQoBgQQjA3Q/eAEBs2XMJIHHx860YHl8AQBTGF5JawA6YZ68ecNTncWuc7hqAsScaFS/KC2bPjGF5bhDF3VcAELmhuqUXK2q8dOMBifnc1cwy2hw+k0hgz8L0eoxs+xMAMFxcwMh9N+Ny8YcxrWDvFj3pNbEjBkTbHEeXmYziQ4+D8Pzc2w8EXlBYmF6Phem7ABCNpSx++Wi7w8U9cCd71AHafO4oTuy6uTI3gK8P7caOfeexadcsGhUPNy9sxNnjO30avfPeXWclVnpO5WpMGTGgTE0QYPnmAL5/dZfZLlmFbqR0q8TJ5pBL4exygFoq24O69rDl3bVVlFqM4U2TgSIdgOMrTOyFSD9WselLARQ403kBf916wWs1rntCeKCjHIzzl+izUdQ2UW2+hd0BbPIZIC9o5bg4l6u+1QFWlGLx5UJDKmPK87L9Mp//Ektns3VlVYV2942rZrB+tHIZ7PHuKldZqEujpjzVd+PatcO39azIs9Olq1ePLKDkVQCghJk8qsNJybdxL1izY13fzNQVFOro/x2YLDXtlM5RUh5R0TeoUgkNPLTYB7UeFPNbDztE1x0eSoBGRs0Av9YxeTL4Jnay++40APT393NK/f3ivWrdwbzIJihJ7jiR7F8K3Ior1nX9t87SAtRELV7OLb25Emo1gnxHsTi8sT8zimzWqwPwSGkGn789UjIirMdpiIh2DQCaIszHfVdjrK69KDzPA6iR4jWbrWafuvHd5LV5pPyrQTfolXK57HX6Yr4Wx+TkZDPNeAD4F6UBb0nWho+4AAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 3069,
+  "locales" : [ "", "kk_KZ", "bg", "mr", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "lv", "tl", "pt", "gl", "bs_BA", "gu_IN", "sk", "kn_IN", "ml", "et", "cs", "sv", "pa", "el", "hu", "af", "in", "km", "pt_BR", "ml_IN", "be", "es", "is_IS", "hy_AM", "tr", "ne_NP", "hr", "ms_MY", "lt", "ta_IN", "sq", "fr", "ja", "is", "si", "de", "es_US", "ca", "te", "az_AZ", "sl", "mr_IN", "zh_HK", "mn", "fi", "mk", "uz", "eu", "et_EE", "bs", "sw", "pt_PT", "th", "sq_AL", "uz_UZ", "bn", "ar", "ru", "eu_ES", "kn", "az", "bn_BD", "fa", "ms", "gu", "kk", "hi", "km_KH", "lo", "nl", "pa_IN", "hy", "en_AU", "vi", "fr_CA", "ky", "sr", "da", "si_LK", "gl_ES", "ne", "ro", "am", "ka_GE", "pl", "no", "zh_CN", "my", "ka", "ur", "lo_LA", "ky_KG", "iw", "en_IN", "mk_MK", "be_BY", "nb", "te_IN", "ta", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"16200\" android:versionName=\"1.6.2\" package=\"com.heinrichreimersoftware.materialintro.demo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />\n\t<permission android:name=\"com.heinrichreimersoftware.materialintro.demo.permission.C2D_MESSAGE\" android:protectionLevel=\"0x2\" />\n\t<uses-permission android:name=\"com.heinrichreimersoftware.materialintro.demo.permission.C2D_MESSAGE\" />\n\t<application android:theme=\"resourceId:0x7f0a00a7\" android:label=\"material-intro\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\">\n\t\t<activity android:name=\"com.heinrichreimersoftware.materialintro.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0a0091\" android:name=\"com.heinrichreimersoftware.materialintro.demo.MainIntroActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0091\" android:name=\"com.heinrichreimersoftware.materialintro.demo.CanteenIntroActivity\" />\n\t\t<activity android:name=\"com.heinrichreimersoftware.materialintro.demo.SplashActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0a0091\" android:name=\"com.heinrichreimersoftware.materialintro.demo.SplashIntroActivity\" />\n\t\t<activity android:name=\"com.heinrichreimersoftware.materialintro.demo.FinishActivity\" />\n\t\t<receiver android:name=\"com.google.android.gms.measurement.AppMeasurementReceiver\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver\" android:permission=\"android.permission.INSTALL_PACKAGES\" android:enabled=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.android.vending.INSTALL_REFERRER\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"com.google.android.gms.measurement.AppMeasurementService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.RECEIVE\" />\n\t\t\t\t<action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" />\n\t\t\t\t<category android:name=\"com.heinrichreimersoftware.materialintro.demo\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"com.google.firebase.iid.FirebaseInstanceIdInternalReceiver\" android:exported=\"false\" />\n\t\t<service android:name=\"com.google.firebase.iid.FirebaseInstanceIdService\" android:exported=\"true\">\n\t\t\t<intent-filter android:priority=\"-500\">\n\t\t\t\t<action android:name=\"com.google.firebase.INSTANCE_ID_EVENT\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<provider android:name=\"com.google.firebase.provider.FirebaseInitProvider\" android:exported=\"false\" android:authorities=\"com.heinrichreimersoftware.materialintro.demo.firebaseinitprovider\" android:initOrder=\"100\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"10298000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3135747,
+  "crc32" : 208364708,
+  "sha256" : "b064e7bccebd7a7b7c3004493a7eed04e894c7550bb2ba5729be1dc6eb0734ba",
+  "buildTime" : 1547903278000
+}

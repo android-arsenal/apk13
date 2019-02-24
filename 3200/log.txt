@@ -1,0 +1,40 @@
+2019-01-12 20:02:14,788 INFO  DownloadService - Downloading "https://github.com/alexfu/androidautoversion/archive/master.zip", attempt 3
+2019-01-12 20:02:15,260 INFO  DownloadService - Downloaded https://github.com/alexfu/androidautoversion/archive/master.zip, attempt 3
+2019-01-12 20:02:15,260 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/master.zip": 60 KB
+2019-01-12 20:02:15,260 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 20:02:15,261 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/master.zip: true
+2019-01-12 20:02:15,261 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src'.
+2019-01-12 20:02:15,268 INFO  FullProcessService - Size of directory with sources: 75 KB
+2019-01-12 20:02:15,268 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src]
+2019-01-12 20:02:15,288 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/.git/
+
+2019-01-12 20:02:15,290 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/gradlew
+2019-01-12 20:02:15,291 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/build.gradle
+2019-01-12 20:02:15,293 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/build.gradle
+2019-01-12 20:02:15,293 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 20:02:15,293 INFO  ProjectFixService - Fixing project...
+2019-01-12 20:02:15,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/local.properties
+2019-01-12 20:02:15,296 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-01-12 20:02:15,297 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-01-12 20:02:15,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 20:02:15,297 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 20:02:15,298 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 20:02:15,298 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 20:02:15,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 20:02:25,919 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-01-12 20:02:25,919 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-12 20:02:25,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298134786-0/src/androidautoversion-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-12 20:02:41,336 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJava NO-SOURCE
+:compileGroovy
+:processResources
+:classes
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL in 15s
+3 actionable tasks: 3 executed
+
+2019-01-12 20:02:41,340 ERROR FullProcessService - Project build has not produced APK file
+2019-01-12 20:02:41,343 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,11 @@
+2019-01-13 01:01:52,310 INFO  DownloadService - Downloading "https://github.com/danylovolokh/VideoPlayerManager/archive/master.zip", attempt 3
+2019-01-13 01:02:25,423 INFO  DownloadService - Downloaded https://github.com/danylovolokh/VideoPlayerManager/archive/master.zip, attempt 3
+2019-01-13 01:02:25,424 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316112302-0/master.zip": 69 MB
+2019-01-13 01:02:25,424 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 01:02:25,432 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316112302-0/master.zip: true
+2019-01-13 01:02:25,432 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316112302-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316112302-0/src'.
+2019-01-13 01:02:25,738 INFO  FullProcessService - Size of directory with sources: 71 MB
+2019-01-13 01:02:25,738 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-01-13 01:02:25,738 ERROR FullProcessService - Project will not be processed
+2019-01-13 01:02:25,738 ERROR FullProcessService - Project build has not produced APK file
+2019-01-13 01:02:25,744 ERROR FullProcessService - Could not find generated or existed APK file

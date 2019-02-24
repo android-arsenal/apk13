@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.javiersantos.materialstyleddialogs.demo",
+    "label" : "MaterialStyledDialogs Library (Sample)",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.4.1",
+    "versionCode" : 8,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2193,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"8\" android:versionName=\"1.4.1\" package=\"com.github.javiersantos.materialstyleddialogs.demo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090097\" android:label=\"MaterialStyledDialogs Library (Sample)\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f09003b\" android:label=\"MaterialStyledDialogs Library (Sample)\" android:name=\"com.github.javiersantos.materialstyleddialogs.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.javiersantos.materialstyleddialogs.demo.AboutActivity\" />\n\t\t<activity android:name=\"com.mikepenz.aboutlibraries.ui.LibsActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2585237,
+  "crc32" : 838352164,
+  "sha256" : "ae603ca1876fcd36c3816a0c9727d878429c919f8e53e73765ceadb0d34d1358",
+  "buildTime" : 1547306500000
+}

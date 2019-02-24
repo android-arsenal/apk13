@@ -1,0 +1,241 @@
+2019-01-13 04:02:24,130 INFO  DownloadService - Downloading "https://github.com/freefair/android-util/archive/master.zip", attempt 3
+2019-01-13 04:02:24,768 INFO  DownloadService - Downloaded https://github.com/freefair/android-util/archive/master.zip, attempt 3
+2019-01-13 04:02:24,768 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/master.zip": 79 KB
+2019-01-13 04:02:24,768 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 04:02:24,773 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/master.zip: true
+2019-01-13 04:02:24,774 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src'.
+2019-01-13 04:02:24,788 INFO  FullProcessService - Size of directory with sources: 116 KB
+2019-01-13 04:02:24,789 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src]
+2019-01-13 04:02:24,809 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/.git/
+
+2019-01-13 04:02:24,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/gradlew
+2019-01-13 04:02:24,814 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/function/build.gradle
+2019-01-13 04:02:24,816 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/function/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/settings.gradle
+2019-01-13 04:02:24,817 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 04:02:24,817 INFO  ProjectFixService - Fixing project...
+2019-01-13 04:02:24,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/local.properties
+2019-01-13 04:02:24,822 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-13 04:02:24,822 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-13 04:02:24,823 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/local.properties
+2019-01-13 04:02:24,823 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-13 04:02:24,824 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-13 04:02:24,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-13 04:02:24,825 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-13 04:02:24,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/function/local.properties
+2019-01-13 04:02:24,827 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/function/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-13 04:02:24,827 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/function/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2019-01-13 04:02:24,828 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 04:02:24,828 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 04:02:24,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 04:02:38,425 INFO  ProjectTaskService - Detected possible tasks: 86
+2019-01-13 04:02:38,425 INFO  ProjectTaskService - Excluded tasks (21): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest pmdRelease connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar pmdDebug test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-13 04:02:38,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, pmdRelease, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, pmdDebug, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-13 04:02:59,429 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preference:preBuild UP-TO-DATE
+:preference:preDebugBuild UP-TO-DATE
+:preference:compileDebugAidl
+:preference:compileDebugRenderscript
+:preference:checkDebugManifest
+:preference:generateDebugBuildConfig
+:preference:generateDebugResValues
+:preference:generateDebugResources
+:preference:packageDebugResources
+:preference:platformAttrExtractor
+:preference:processDebugManifest
+:preference:prepareLintJar
+:preference:javaPreCompileDebug
+:preference:mergeDebugConsumerProguardFiles
+:preference:mergeDebugShaders
+:preference:compileDebugShaders
+:preference:generateDebugAssets
+:preference:packageDebugAssets
+:preference:packageDebugRenderscript NO-SOURCE
+:preference:processDebugJavaRes NO-SOURCE
+:preference:compileDebugNdk NO-SOURCE
+:preference:mergeDebugJniLibFolders
+:preference:transformNativeLibsWithMergeJniLibsForDebug
+:preference:transformNativeLibsWithStripDebugSymbolForDebug
+:preference:transformNativeLibsWithSyncJniLibsForDebug
+:preference:preReleaseBuild UP-TO-DATE
+:preference:compileReleaseAidl
+:preference:compileReleaseRenderscript
+:preference:checkReleaseManifest
+:preference:generateReleaseBuildConfig
+:preference:generateReleaseResValues
+:preference:generateReleaseResources
+:preference:packageReleaseResources
+:preference:processReleaseManifest
+:preference:javaPreCompileRelease
+:preference:mergeReleaseConsumerProguardFiles
+:preference:mergeReleaseShaders
+:preference:compileReleaseShaders
+:preference:generateDebugRFile
+:preference:generateDebugSources
+:preference:compileDebugJavaWithJavac
+:preference:extractDebugAnnotations
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0/lint-api-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0/lint-checks-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0/uast-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0/intellij-core-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0/kotlin-compiler-26.1.0.jar
+:preference:transformResourcesWithMergeJavaResForDebug
+:preference:transformClassesAndResourcesWithSyncLibJarsForDebug
+:preference:bundleDebug
+:preference:compileDebugSources
+:preference:assembleDebug
+:preference:generateReleaseRFile
+:preference:generateReleaseSources
+:preference:compileReleaseJavaWithJavac
+:preference:extractReleaseAnnotations
+:preference:generateReleaseAssets
+:preference:packageReleaseAssets
+:preference:packageReleaseRenderscript NO-SOURCE
+:preference:processReleaseJavaRes NO-SOURCE
+:preference:transformResourcesWithMergeJavaResForRelease
+:preference:transformClassesAndResourcesWithSyncLibJarsForRelease
+:preference:compileReleaseNdk NO-SOURCE
+:preference:mergeReleaseJniLibFolders
+:preference:transformNativeLibsWithMergeJniLibsForRelease
+:preference:transformNativeLibsWithStripDebugSymbolForRelease
+:preference:transformNativeLibsWithSyncJniLibsForRelease
+:preference:bundleRelease
+:preference:compileReleaseSources
+:preference:mergeReleaseResources
+:preference:verifyReleaseResources
+:preference:assembleRelease
+:preference:javadocReleasejavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/src/main/java/io/freefair/android/preference/AppCompatPreferenceActivity.java:186: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/src/main/java/io/freefair/android/preference/AppCompatPreferenceActivity.java:235: warning: no @param for visible
+    public void setSupportProgressBarVisibility(boolean visible) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/src/main/java/io/freefair/android/preference/AppCompatPreferenceActivity.java:242: warning: no @param for visible
+    public void setSupportProgressBarIndeterminateVisibility(boolean visible) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/src/main/java/io/freefair/android/preference/AppCompatPreferenceActivity.java:249: warning: no @param for indeterminate
+    public void setSupportProgressBarIndeterminate(boolean indeterminate) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/preference/src/main/java/io/freefair/android/preference/AppCompatPreferenceActivity.java:256: warning: no @param for progress
+    public void setSupportProgress(int progress) {
+                ^
+
+1 error
+5 warnings
+:preference:javadocReleaseJar
+:preference:sourcesReleaseJar
+:preference:assemble
+:preference:build
+
+BUILD SUCCESSFUL in 20s
+51 actionable tasks: 51 executed
+
+2019-01-13 04:02:59,476 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 04:02:59,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 04:03:06,205 INFO  ProjectTaskService - Detected possible tasks: 88
+2019-01-13 04:03:06,205 INFO  ProjectTaskService - Excluded tasks (21): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest pmdRelease connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar pmdDebug test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-13 04:03:06,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, pmdRelease, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, pmdDebug, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-13 04:03:16,414 INFO  SysUtils - Configuration on demand is an incubating feature.
+:function:compileJava
+Download https://jcenter.bintray.com/org/projectlombok/lombok/1.16.20/lombok-1.16.20.pom
+Download https://jcenter.bintray.com/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+:function:processResources NO-SOURCE
+:function:classes
+:function:jar
+:function:assemble
+:function:build
+:preference:preBuild UP-TO-DATE
+:preference:preDebugBuild UP-TO-DATE
+:preference:compileDebugAidl UP-TO-DATE
+:preference:compileDebugRenderscript UP-TO-DATE
+:preference:checkDebugManifest UP-TO-DATE
+:preference:generateDebugBuildConfig UP-TO-DATE
+:preference:generateDebugResValues UP-TO-DATE
+:preference:generateDebugResources UP-TO-DATE
+:preference:packageDebugResources UP-TO-DATE
+:preference:platformAttrExtractor UP-TO-DATE
+:preference:processDebugManifest UP-TO-DATE
+:preference:generateDebugRFile UP-TO-DATE
+:preference:prepareLintJar UP-TO-DATE
+:preference:generateDebugSources UP-TO-DATE
+:preference:javaPreCompileDebug UP-TO-DATE
+:preference:compileDebugJavaWithJavac UP-TO-DATE
+:preference:extractDebugAnnotations UP-TO-DATE
+:preference:mergeDebugConsumerProguardFiles UP-TO-DATE
+:preference:mergeDebugShaders UP-TO-DATE
+:preference:compileDebugShaders UP-TO-DATE
+:preference:generateDebugAssets UP-TO-DATE
+:preference:packageDebugAssets UP-TO-DATE
+:preference:packageDebugRenderscript NO-SOURCE
+:preference:processDebugJavaRes NO-SOURCE
+:preference:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:preference:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:preference:compileDebugNdk NO-SOURCE
+:preference:mergeDebugJniLibFolders UP-TO-DATE
+:preference:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:preference:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:preference:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:preference:bundleDebug UP-TO-DATE
+:preference:compileDebugSources UP-TO-DATE
+:preference:assembleDebug UP-TO-DATE
+:preference:preReleaseBuild UP-TO-DATE
+:preference:compileReleaseAidl UP-TO-DATE
+:preference:compileReleaseRenderscript UP-TO-DATE
+:preference:checkReleaseManifest UP-TO-DATE
+:preference:generateReleaseBuildConfig UP-TO-DATE
+:preference:generateReleaseResValues UP-TO-DATE
+:preference:generateReleaseResources UP-TO-DATE
+:preference:packageReleaseResources UP-TO-DATE
+:preference:processReleaseManifest UP-TO-DATE
+:preference:generateReleaseRFile UP-TO-DATE
+:preference:generateReleaseSources UP-TO-DATE
+:preference:javaPreCompileRelease UP-TO-DATE
+:preference:compileReleaseJavaWithJavac UP-TO-DATE
+:preference:extractReleaseAnnotations UP-TO-DATE
+:preference:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:preference:mergeReleaseShaders UP-TO-DATE
+:preference:compileReleaseShaders UP-TO-DATE
+:preference:generateReleaseAssets UP-TO-DATE
+:preference:packageReleaseAssets UP-TO-DATE
+:preference:packageReleaseRenderscript NO-SOURCE
+:preference:processReleaseJavaRes NO-SOURCE
+:preference:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:preference:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:preference:compileReleaseNdk NO-SOURCE
+:preference:mergeReleaseJniLibFolders UP-TO-DATE
+:preference:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:preference:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:preference:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:preference:bundleRelease UP-TO-DATE
+:preference:compileReleaseSources UP-TO-DATE
+:preference:mergeReleaseResources UP-TO-DATE
+:preference:verifyReleaseResources UP-TO-DATE
+:preference:assembleRelease UP-TO-DATE
+:preference:javadocRelease UP-TO-DATE
+:preference:javadocReleaseJar UP-TO-DATE
+:preference:sourcesReleaseJar UP-TO-DATE
+:preference:assemble UP-TO-DATE
+:preference:build
+
+BUILD SUCCESSFUL in 9s
+53 actionable tasks: 2 executed, 51 up-to-date
+
+2019-01-13 04:03:16,461 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 04:03:16,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/function/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 04:03:20,174 INFO  ProjectTaskService - Detected possible tasks: 41
+2019-01-13 04:03:20,174 INFO  ProjectTaskService - Excluded tasks (5): sourcesJar test javadocJar check javadoc
+2019-01-13 04:03:20,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547326944127-0/src/android-util-master/function/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, test, -x, javadocJar, -x, check, -x, javadoc, build]
+2019-01-13 04:03:24,009 INFO  SysUtils - Configuration on demand is an incubating feature.
+:function:compileJava UP-TO-DATE
+:function:processResources NO-SOURCE
+:function:classes UP-TO-DATE
+:function:jar UP-TO-DATE
+:function:assemble
+:function:build
+
+BUILD SUCCESSFUL in 3s
+2 actionable tasks: 2 up-to-date
+
+2019-01-13 04:03:24,057 ERROR FullProcessService - Project build has not produced APK file
+2019-01-13 04:03:24,101 ERROR FullProcessService - Could not find generated or existed APK file

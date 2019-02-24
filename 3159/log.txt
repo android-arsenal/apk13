@@ -1,0 +1,420 @@
+2019-01-19 18:36:55,488 INFO  DownloadService - Downloading "https://github.com/square/sqldelight/archive/master.zip", attempt 3
+2019-01-19 18:36:57,846 INFO  DownloadService - Downloaded https://github.com/square/sqldelight/archive/master.zip, attempt 3
+2019-01-19 18:36:57,847 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/master.zip": 544 KB
+2019-01-19 18:36:57,847 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:36:57,849 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/master.zip: true
+2019-01-19 18:36:57,850 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src'.
+2019-01-19 18:36:58,020 INFO  FullProcessService - Size of directory with sources: 842 KB
+2019-01-19 18:36:58,020 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src]
+2019-01-19 18:36:58,038 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/.git/
+
+2019-01-19 18:36:58,064 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradlew
+2019-01-19 18:36:58,094 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/android-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/fulfilled-table-variant/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/library-project/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/variants/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/working-variants/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/driver-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/ios-driver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/sqlite-driver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/rxjava2-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/integration-tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/kotlin-mpp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-failure/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-success/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-syntax-failure/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/properties-file/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-sqm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-idea-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqlite-migrations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/test-util/build.gradle
+2019-01-19 18:36:58,125 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/integration-tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/driver-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/ios-driver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/sqlite-driver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-idea-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqlite-migrations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/android-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/rxjava2-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradle/updateDependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradle/gradle-mvn-mpp-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/test-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-multiplatform/android-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-multiplatform/ios-build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-multiplatform/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/library-project/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-sqm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/variants/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-failure/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/working-variants/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-success/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/fulfilled-table-variant/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-syntax-failure/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/properties-file/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/kotlin-mpp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/kotlin-mpp/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android-library/build.gradle
+2019-01-19 18:36:58,128 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:36:58,128 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:36:58,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/local.properties
+2019-01-19 18:36:58,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,223 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/android-paging/local.properties
+2019-01-19 18:36:58,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/android-paging/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,241 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/android-paging/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/local.properties
+2019-01-19 18:36:58,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/fulfilled-table-variant/local.properties
+2019-01-19 18:36:58,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/fulfilled-table-variant/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,273 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/fulfilled-table-variant/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android-library/local.properties
+2019-01-19 18:36:58,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,293 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android/local.properties
+2019-01-19 18:36:58,308 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,309 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/library-project/local.properties
+2019-01-19 18:36:58,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/library-project/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,327 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/library-project/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin-android/local.properties
+2019-01-19 18:36:58,344 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,345 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-android/local.properties
+2019-01-19 18:36:58,363 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,363 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,364 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/variants/local.properties
+2019-01-19 18:36:58,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/variants/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/variants/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/working-variants/local.properties
+2019-01-19 18:36:58,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/working-variants/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,396 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/working-variants/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/local.properties
+2019-01-19 18:36:58,398 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-19 18:36:58,398 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-19 18:36:58,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,413 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,414 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/driver-test/local.properties
+2019-01-19 18:36:58,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/driver-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,429 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/driver-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/ios-driver/local.properties
+2019-01-19 18:36:58,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/ios-driver/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,445 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/ios-driver/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/sqlite-driver/local.properties
+2019-01-19 18:36:58,460 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/sqlite-driver/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,460 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/sqlite-driver/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,461 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/rxjava2-extensions/local.properties
+2019-01-19 18:36:58,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/rxjava2-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,479 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/rxjava2-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/common/local.properties
+2019-01-19 18:36:58,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/local.properties
+2019-01-19 18:36:58,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,516 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,517 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/integration-tests/local.properties
+2019-01-19 18:36:58,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/integration-tests/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,531 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-compiler/integration-tests/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,532 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/local.properties
+2019-01-19 18:36:58,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,547 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration/local.properties
+2019-01-19 18:36:58,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,564 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/integration/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/kotlin-mpp/local.properties
+2019-01-19 18:36:58,581 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/kotlin-mpp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,581 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/kotlin-mpp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-failure/local.properties
+2019-01-19 18:36:58,597 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-failure/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,598 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-failure/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-success/local.properties
+2019-01-19 18:36:58,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-success/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-success/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,616 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-syntax-failure/local.properties
+2019-01-19 18:36:58,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-syntax-failure/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,631 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/migration-syntax-failure/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin/local.properties
+2019-01-19 18:36:58,647 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,647 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/no-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,648 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/properties-file/local.properties
+2019-01-19 18:36:58,663 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/properties-file/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,663 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/properties-file/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,664 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-sqm/local.properties
+2019-01-19 18:36:58,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-sqm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,682 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file-sqm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file/local.properties
+2019-01-19 18:36:58,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,698 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-gradle-plugin/src/test/schema-file/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,698 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-idea-plugin/local.properties
+2019-01-19 18:36:58,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-idea-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,713 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-idea-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-runtime/local.properties
+2019-01-19 18:36:58,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-runtime/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,729 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqldelight-runtime/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqlite-migrations/local.properties
+2019-01-19 18:36:58,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqlite-migrations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sqlite-migrations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/test-util/local.properties
+2019-01-19 18:36:58,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/test-util/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-01-19 18:36:58,764 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/test-util/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 18:36:58,764 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:36:58,764 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:36:58,764 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:37:07,149 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-19 18:37:07,150 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 18:37:07,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 18:37:26,690 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :sqldelight-runtime
+Kotlin Multiplatform Projects are an experimental feature.
+This build is set up to publish Kotlin multiplatform libraries with experimental Gradle metadata. Future Gradle versions may fail to resolve dependencies on these publications. You can disable Gradle metadata usage during publishing and dependencies resolution by removing `enableFeaturePreview('GRADLE_METADATA')` from the settings.gradle file.
+
+> Task :drivers:android-driver:androidJavadocsJar
+> Task :drivers:android-driver:androidSourcesJar
+> Task :drivers:android-driver:preBuild UP-TO-DATE
+> Task :drivers:android-driver:preDebugBuild UP-TO-DATE
+> Task :drivers:android-driver:compileDebugAidl NO-SOURCE
+> Task :sqldelight-runtime:compileKotlinJvm
+> Task :sqldelight-runtime:jvmProcessResources NO-SOURCE
+> Task :sqldelight-runtime:jvmMainClasses
+> Task :sqldelight-runtime:jvmJar
+> Transform sqldelight-runtime-jvm.jar (project :sqldelight-runtime) with IdentityTransform
+> Task :drivers:android-driver:compileDebugRenderscript
+> Transform sqldelight-runtime-jvm.jar (project :sqldelight-runtime) with IdentityTransform
+> Task :drivers:android-driver:checkDebugManifest
+> Task :drivers:android-driver:generateDebugBuildConfig SKIPPED
+> Task :drivers:android-driver:generateDebugResValues
+> Task :drivers:android-driver:generateDebugResources
+> Task :drivers:android-driver:packageDebugResources
+> Task :drivers:android-driver:processDebugManifest
+> Task :drivers:android-driver:generateDebugRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (166, 38): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (170, 37): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (174, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (178, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (200, 38): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (204, 37): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (208, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (212, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+> Task :drivers:android-driver:compileDebugKotlin
+> Task :drivers:android-driver:prepareLintJar
+> Task :drivers:android-driver:generateDebugSources
+> Task :drivers:android-driver:javaPreCompileDebug
+> Task :drivers:android-driver:compileDebugJavaWithJavac
+> Task :drivers:android-driver:extractDebugAnnotations
+> Task :drivers:android-driver:mergeDebugConsumerProguardFiles
+> Task :drivers:android-driver:mergeDebugShaders
+> Task :drivers:android-driver:compileDebugShaders
+> Task :drivers:android-driver:generateDebugAssets
+> Task :drivers:android-driver:packageDebugAssets
+> Task :drivers:android-driver:packageDebugRenderscript NO-SOURCE
+> Task :drivers:android-driver:processDebugJavaRes NO-SOURCE
+> Task :drivers:android-driver:transformResourcesWithMergeJavaResForDebug
+> Task :drivers:android-driver:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :drivers:android-driver:compileDebugNdk NO-SOURCE
+> Task :drivers:android-driver:mergeDebugJniLibFolders
+> Task :drivers:android-driver:transformNativeLibsWithMergeJniLibsForDebug
+> Task :drivers:android-driver:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :drivers:android-driver:transformNativeLibsWithSyncJniLibsForDebug
+> Task :drivers:android-driver:bundleDebugAar
+> Task :drivers:android-driver:compileDebugSources
+> Task :drivers:android-driver:assembleDebug
+> Task :drivers:android-driver:preReleaseBuild UP-TO-DATE
+> Task :drivers:android-driver:compileReleaseAidl NO-SOURCE
+> Task :drivers:android-driver:compileReleaseRenderscript
+> Task :drivers:android-driver:checkReleaseManifest
+> Task :drivers:android-driver:generateReleaseBuildConfig SKIPPED
+> Task :drivers:android-driver:generateReleaseResValues
+> Task :drivers:android-driver:generateReleaseResources
+> Task :drivers:android-driver:packageReleaseResources
+> Task :drivers:android-driver:processReleaseManifest
+> Task :drivers:android-driver:generateReleaseRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (166, 38): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (170, 37): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (174, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (178, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (200, 38): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (204, 37): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (208, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/drivers/android-driver/src/main/java/com/squareup/sqldelight/android/AndroidSqliteDriver.kt: (212, 39): The corresponding parameter in the supertype 'AndroidStatement' is named 'value'. This may cause problems when calling this function with named arguments.
+> Task :drivers:android-driver:compileReleaseKotlin
+> Task :drivers:android-driver:generateReleaseSources
+> Task :drivers:android-driver:javaPreCompileRelease
+> Task :drivers:android-driver:compileReleaseJavaWithJavac
+> Task :drivers:android-driver:extractReleaseAnnotations
+> Task :drivers:android-driver:mergeReleaseConsumerProguardFiles
+> Task :drivers:android-driver:mergeReleaseShaders
+> Task :drivers:android-driver:compileReleaseShaders
+> Task :drivers:android-driver:generateReleaseAssets
+> Task :drivers:android-driver:packageReleaseAssets
+> Task :drivers:android-driver:packageReleaseRenderscript NO-SOURCE
+> Task :drivers:android-driver:processReleaseJavaRes NO-SOURCE
+> Task :drivers:android-driver:transformResourcesWithMergeJavaResForRelease
+> Task :drivers:android-driver:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :drivers:android-driver:compileReleaseNdk NO-SOURCE
+> Task :drivers:android-driver:mergeReleaseJniLibFolders
+> Task :drivers:android-driver:transformNativeLibsWithMergeJniLibsForRelease
+> Task :drivers:android-driver:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :drivers:android-driver:transformNativeLibsWithSyncJniLibsForRelease
+> Task :drivers:android-driver:bundleReleaseAar
+> Task :drivers:android-driver:compileReleaseSources
+> Task :drivers:android-driver:mergeReleaseResources
+> Task :drivers:android-driver:verifyReleaseResources
+> Task :drivers:android-driver:assembleRelease
+> Task :drivers:android-driver:signArchives SKIPPED
+> Task :drivers:android-driver:assemble
+> Task :drivers:android-driver:build
+
+BUILD SUCCESSFUL in 18s
+49 actionable tasks: 49 executed
+
+2019-01-19 18:37:26,734 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:37:26,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/android-paging/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:37:33,223 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-19 18:37:33,223 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-19 18:37:33,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/extensions/android-paging/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-19 18:37:46,790 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :sqldelight-runtime
+Kotlin Multiplatform Projects are an experimental feature.
+This build is set up to publish Kotlin multiplatform libraries with experimental Gradle metadata. Future Gradle versions may fail to resolve dependencies on these publications. You can disable Gradle metadata usage during publishing and dependencies resolution by removing `enableFeaturePreview('GRADLE_METADATA')` from the settings.gradle file.
+
+> Task :extensions:android-paging:androidJavadocsJar
+> Task :extensions:android-paging:androidSourcesJar
+> Task :extensions:android-paging:preBuild UP-TO-DATE
+> Task :extensions:android-paging:preDebugBuild UP-TO-DATE
+> Task :extensions:android-paging:compileDebugAidl NO-SOURCE
+> Task :sqldelight-runtime:compileKotlinJvm UP-TO-DATE
+> Task :sqldelight-runtime:jvmProcessResources NO-SOURCE
+> Task :sqldelight-runtime:jvmMainClasses UP-TO-DATE
+> Task :sqldelight-runtime:jvmJar UP-TO-DATE
+> Transform sqldelight-runtime-jvm.jar (project :sqldelight-runtime) with IdentityTransform
+> Task :extensions:android-paging:compileDebugRenderscript
+> Transform sqldelight-runtime-jvm.jar (project :sqldelight-runtime) with IdentityTransform
+> Task :extensions:android-paging:checkDebugManifest
+> Task :extensions:android-paging:generateDebugBuildConfig SKIPPED
+> Task :extensions:android-paging:generateDebugResValues
+> Task :extensions:android-paging:generateDebugResources
+> Task :extensions:android-paging:packageDebugResources
+> Task :extensions:android-paging:processDebugManifest
+> Task :extensions:android-paging:generateDebugRFile
+> Task :extensions:android-paging:compileDebugKotlin
+> Task :extensions:android-paging:prepareLintJar
+> Task :extensions:android-paging:generateDebugSources
+> Task :extensions:android-paging:javaPreCompileDebug
+> Task :extensions:android-paging:compileDebugJavaWithJavac
+> Task :extensions:android-paging:extractDebugAnnotations
+> Task :extensions:android-paging:mergeDebugConsumerProguardFiles
+> Task :extensions:android-paging:mergeDebugShaders
+> Task :extensions:android-paging:compileDebugShaders
+> Task :extensions:android-paging:generateDebugAssets
+> Task :extensions:android-paging:packageDebugAssets
+> Task :extensions:android-paging:packageDebugRenderscript NO-SOURCE
+> Task :extensions:android-paging:processDebugJavaRes NO-SOURCE
+> Task :extensions:android-paging:transformResourcesWithMergeJavaResForDebug
+> Task :extensions:android-paging:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :extensions:android-paging:compileDebugNdk NO-SOURCE
+> Task :extensions:android-paging:mergeDebugJniLibFolders
+> Task :extensions:android-paging:transformNativeLibsWithMergeJniLibsForDebug
+> Task :extensions:android-paging:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :extensions:android-paging:transformNativeLibsWithSyncJniLibsForDebug
+> Task :extensions:android-paging:bundleDebugAar
+> Task :extensions:android-paging:compileDebugSources
+> Task :extensions:android-paging:assembleDebug
+> Task :extensions:android-paging:preReleaseBuild UP-TO-DATE
+> Task :extensions:android-paging:compileReleaseAidl NO-SOURCE
+> Task :extensions:android-paging:compileReleaseRenderscript
+> Task :extensions:android-paging:checkReleaseManifest
+> Task :extensions:android-paging:generateReleaseBuildConfig SKIPPED
+> Task :extensions:android-paging:generateReleaseResValues
+> Task :extensions:android-paging:generateReleaseResources
+> Task :extensions:android-paging:packageReleaseResources
+> Task :extensions:android-paging:processReleaseManifest
+> Task :extensions:android-paging:generateReleaseRFile
+> Task :extensions:android-paging:compileReleaseKotlin
+> Task :extensions:android-paging:generateReleaseSources
+> Task :extensions:android-paging:javaPreCompileRelease
+> Task :extensions:android-paging:compileReleaseJavaWithJavac
+> Task :extensions:android-paging:extractReleaseAnnotations
+> Task :extensions:android-paging:mergeReleaseConsumerProguardFiles
+> Task :extensions:android-paging:mergeReleaseShaders
+> Task :extensions:android-paging:compileReleaseShaders
+> Task :extensions:android-paging:generateReleaseAssets
+> Task :extensions:android-paging:packageReleaseAssets
+> Task :extensions:android-paging:packageReleaseRenderscript NO-SOURCE
+> Task :extensions:android-paging:processReleaseJavaRes NO-SOURCE
+> Task :extensions:android-paging:transformResourcesWithMergeJavaResForRelease
+> Task :extensions:android-paging:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :extensions:android-paging:compileReleaseNdk NO-SOURCE
+> Task :extensions:android-paging:mergeReleaseJniLibFolders
+> Task :extensions:android-paging:transformNativeLibsWithMergeJniLibsForRelease
+> Task :extensions:android-paging:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :extensions:android-paging:transformNativeLibsWithSyncJniLibsForRelease
+> Task :extensions:android-paging:bundleReleaseAar
+> Task :extensions:android-paging:compileReleaseSources
+> Task :extensions:android-paging:mergeReleaseResources
+> Task :extensions:android-paging:verifyReleaseResources
+> Task :extensions:android-paging:assembleRelease
+> Task :extensions:android-paging:signArchives SKIPPED
+> Task :extensions:android-paging:assemble
+> Task :extensions:android-paging:build
+
+BUILD SUCCESSFUL in 12s
+49 actionable tasks: 47 executed, 2 up-to-date
+
+2019-01-19 18:37:46,850 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:37:46,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:37:52,921 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-19 18:37:52,921 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 18:37:52,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 18:38:24,155 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :sample:common
+Kotlin Multiplatform Projects are an experimental feature.
+
+> Task :sample:common:generateSqlDelightInterface
+> Task :sample:common:compileKotlinJvm
+> Task :sample:common:jvmProcessResources NO-SOURCE
+> Task :sample:common:jvmMainClasses
+> Task :sample:common:jvmJar
+> Transform sample-common-jvm.jar (project :sample:common) with IdentityTransform
+> Task :sample:android:checkDebugClasspath
+> Task :sample:android:preBuild UP-TO-DATE
+> Transform sample-common-jvm.jar (project :sample:common) with IdentityTransform
+> Task :sample:android:preDebugBuild
+> Task :sample:android:compileDebugAidl NO-SOURCE
+> Task :sample:android:compileDebugRenderscript
+> Task :sample:android:checkDebugManifest
+> Task :sample:android:generateDebugBuildConfig
+> Task :sample:android:mainApkListPersistenceDebug
+> Task :sample:android:generateDebugResValues
+> Task :sample:android:generateDebugResources
+> Task :sample:android:mergeDebugResources
+> Task :sample:android:createDebugCompatibleScreenManifests
+> Task :sample:android:processDebugManifest
+> Task :sample:android:splitsDiscoveryTaskDebug
+> Task :sample:android:processDebugResources
+> Task :sample:android:compileDebugKotlin
+> Task :sample:android:prepareLintJar
+> Task :sample:android:generateDebugSources
+> Task :sample:android:javaPreCompileDebug
+> Task :sample:android:compileDebugJavaWithJavac
+> Task :sample:android:compileDebugNdk NO-SOURCE
+> Task :sample:android:compileDebugSources
+> Task :sample:android:mergeDebugShaders
+> Task :sample:android:compileDebugShaders
+> Task :sample:android:generateDebugAssets
+> Task :sample:android:mergeDebugAssets
+> Task :sample:android:transformClassesWithDexBuilderForDebug
+> Task :sample:android:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:android:transformDexArchiveWithDexMergerForDebug
+> Transform sample-common-jvm.jar (project :sample:common) with IdentityTransform
+> Task :sample:android:mergeDebugJniLibFolders
+> Task :sample:android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:android:checkDebugLibraries
+> Task :sample:android:processDebugJavaRes NO-SOURCE
+> Task :sample:android:transformResourcesWithMergeJavaResForDebug
+> Task :sample:android:validateSigningDebug
+> Task :sample:android:packageDebug
+> Task :sample:android:assembleDebug
+> Task :sample:android:checkReleaseClasspath
+> Task :sample:android:preReleaseBuild
+> Task :sample:android:compileReleaseAidl NO-SOURCE
+> Task :sample:android:compileReleaseRenderscript
+> Task :sample:android:checkReleaseManifest
+> Task :sample:android:generateReleaseBuildConfig
+> Task :sample:android:mainApkListPersistenceRelease
+> Task :sample:android:generateReleaseResValues
+> Task :sample:android:generateReleaseResources
+> Task :sample:android:mergeReleaseResources
+> Task :sample:android:createReleaseCompatibleScreenManifests
+> Task :sample:android:processReleaseManifest
+> Task :sample:android:splitsDiscoveryTaskRelease
+> Task :sample:android:processReleaseResources
+> Task :sample:android:compileReleaseKotlin
+> Task :sample:android:generateReleaseSources
+> Task :sample:android:javaPreCompileRelease
+> Task :sample:android:compileReleaseJavaWithJavac
+> Task :sample:android:compileReleaseNdk NO-SOURCE
+> Task :sample:android:compileReleaseSources
+> Task :sample:android:lintVitalRelease
+> Task :sample:android:mergeReleaseShaders
+> Task :sample:android:compileReleaseShaders
+> Task :sample:android:generateReleaseAssets
+> Task :sample:android:mergeReleaseAssets
+> Task :sample:android:transformClassesWithDexBuilderForRelease
+> Task :sample:android:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:android:transformDexArchiveWithDexMergerForRelease
+> Task :sample:android:mergeReleaseJniLibFolders
+> Task :sample:android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:android:checkReleaseLibraries
+> Task :sample:android:processReleaseJavaRes NO-SOURCE
+> Task :sample:android:transformResourcesWithMergeJavaResForRelease
+> Task :sample:android:packageRelease
+> Task :sample:android:assembleRelease
+> Task :sample:android:assemble
+> Task :sample:android:build
+
+BUILD SUCCESSFUL in 30s
+60 actionable tasks: 60 executed
+
+2019-01-19 18:38:24,278 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897815485-0/src/sqldelight-master/sample/android/build/outputs/apk/release/android-release-unsigned.apk

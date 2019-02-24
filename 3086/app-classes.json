@@ -1,0 +1,18 @@
+{
+  "org.aspectj.internal.lang.annotation" : [ "ajcDeclareAnnotation", "ajcDeclareEoW", "ajcDeclareParents", "ajcDeclarePrecedence", "ajcDeclareSoft", "ajcITD", "ajcPrivileged" ],
+  "org.aspectj.internal.lang.reflect" : [ "AdviceImpl", "AdviceImpl$1", "AjTypeImpl", "DeclareAnnotationImpl", "DeclareAnnotationImpl$1", "DeclareErrorOrWarningImpl", "DeclareParentsImpl", "DeclarePrecedenceImpl", "DeclareSoftImpl", "InterTypeConstructorDeclarationImpl", "InterTypeDeclarationImpl", "InterTypeFieldDeclarationImpl", "InterTypeMethodDeclarationImpl", "PerClauseImpl", "PointcutBasedPerClauseImpl", "PointcutBasedPerClauseImpl$1", "PointcutExpressionImpl", "PointcutImpl", "SignaturePatternImpl", "StringToType", "StringToType$1", "TypePatternBasedPerClauseImpl", "TypePatternImpl" ],
+  "org.aspectj.lang" : [ "Aspects", "Aspects14", "JoinPoint", "JoinPoint$EnclosingStaticPart", "JoinPoint$StaticPart", "NoAspectBoundException", "ProceedingJoinPoint", "Signature", "SoftException" ],
+  "org.aspectj.lang.annotation" : [ "AdviceName", "After", "AfterReturning", "AfterThrowing", "Around", "Aspect", "Before", "DeclareAnnotation", "DeclareError", "DeclareMixin", "DeclareParents", "DeclarePrecedence", "DeclareWarning", "Pointcut", "RequiredTypes", "SuppressAjWarnings" ],
+  "org.aspectj.lang.annotation.control" : [ "CodeGenerationHint" ],
+  "org.aspectj.lang.internal.lang" : [ "PlaceHolder" ],
+  "org.aspectj.lang.reflect" : [ "Advice", "AdviceKind", "AdviceSignature", "AjType", "AjTypeSystem", "CatchClauseSignature", "CodeSignature", "ConstructorSignature", "DeclareAnnotation", "DeclareAnnotation$Kind", "DeclareErrorOrWarning", "DeclareParents", "DeclarePrecedence", "DeclareSoft", "FieldSignature", "InitializerSignature", "InterTypeConstructorDeclaration", "InterTypeDeclaration", "InterTypeFieldDeclaration", "InterTypeMethodDeclaration", "LockSignature", "MemberSignature", "MethodSignature", "NoSuchAdviceException", "NoSuchPointcutException", "PerClause", "PerClauseKind", "Pointcut", "PointcutBasedPerClause", "PointcutExpression", "SignaturePattern", "SourceLocation", "TypePattern", "TypePatternBasedPerClause", "UnlockSignature" ],
+  "org.aspectj.runtime" : [ "CFlow" ],
+  "org.aspectj.runtime.internal" : [ "AroundClosure", "CFlowCounter", "CFlowPlusState", "CFlowStack", "Conversions", "PerObjectMap" ],
+  "org.aspectj.runtime.internal.cflowstack" : [ "ThreadCounter", "ThreadCounterImpl11", "ThreadCounterImpl11$Counter", "ThreadStack", "ThreadStackFactory", "ThreadStackFactoryImpl", "ThreadStackFactoryImpl$1", "ThreadStackFactoryImpl$ThreadCounterImpl", "ThreadStackFactoryImpl$ThreadCounterImpl$Counter", "ThreadStackFactoryImpl$ThreadStackImpl", "ThreadStackFactoryImpl11", "ThreadStackImpl11" ],
+  "org.aspectj.runtime.reflect" : [ "AdviceSignatureImpl", "CatchClauseSignatureImpl", "CodeSignatureImpl", "ConstructorSignatureImpl", "Factory", "FieldSignatureImpl", "InitializerSignatureImpl", "JoinPointImpl", "JoinPointImpl$EnclosingStaticPartImpl", "JoinPointImpl$StaticPartImpl", "LockSignatureImpl", "MemberSignatureImpl", "MethodSignatureImpl", "SignatureImpl", "SignatureImpl$Cache", "SignatureImpl$CacheImpl", "SourceLocationImpl", "StringMaker", "UnlockSignatureImpl" ],
+  "se.tv4.chronometro" : [ "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$2", "MainActivity$3", "MainActivity$AjcClosure1", "MainActivity$AjcClosure3", "MainActivity$AjcClosure5", "MainActivity$AjcClosure7" ],
+  "se.tv4.chronometro.annotation" : [ "Chronometro" ],
+  "se.tv4.chronometro.aspect" : [ "ChronometroAspect" ],
+  "se.tv4.chronometro.example" : [ "BuildConfig", "R", "R$attr", "R$color", "R$dimen", "R$id", "R$layout", "R$menu", "R$mipmap", "R$string" ],
+  "se.tv4.chronometro.internal" : [ "DebugLog", "StopWatch" ]
+}

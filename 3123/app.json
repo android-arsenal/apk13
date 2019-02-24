@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.blackcat.currencyedittexttester",
+    "label" : "CurrencyEditTextTester",
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 811,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" package=\"com.blackcat.currencyedittexttester\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"26\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:theme=\"resourceId:0x7f070000\" android:label=\"CurrencyEditTextTester\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"CurrencyEditTextTester\" android:name=\"com.blackcat.currencyedittexttester.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 247108,
+  "crc32" : 2156294897,
+  "sha256" : "2c57c6e1cffe9bd69e3655f10ee9ac744c9e147594e53756fbe523a460ea1e43",
+  "buildTime" : 1522320733000
+}

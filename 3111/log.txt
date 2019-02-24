@@ -1,0 +1,158 @@
+2019-01-12 23:40:43,245 INFO  DownloadService - Downloading "https://github.com/Marchuck/PokeAPI-AndroidSDK/archive/master.zip", attempt 3
+2019-01-12 23:40:43,749 INFO  DownloadService - Downloaded https://github.com/Marchuck/PokeAPI-AndroidSDK/archive/master.zip, attempt 3
+2019-01-12 23:40:43,750 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/master.zip": 74 KB
+2019-01-12 23:40:43,750 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 23:40:43,755 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/master.zip: true
+2019-01-12 23:40:43,755 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src'.
+2019-01-12 23:40:43,773 INFO  FullProcessService - Size of directory with sources: 98 KB
+2019-01-12 23:40:43,773 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src]
+2019-01-12 23:40:43,791 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/.git/
+
+2019-01-12 23:40:43,793 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/gradlew
+2019-01-12 23:40:43,795 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/build.gradle
+2019-01-12 23:40:43,797 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/settings.gradle
+2019-01-12 23:40:43,797 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 23:40:43,797 INFO  ProjectFixService - Fixing project...
+2019-01-12 23:40:43,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/app/local.properties
+2019-01-12 23:40:43,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-12 23:40:43,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/local.properties
+2019-01-12 23:40:43,804 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-12 23:40:43,804 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-12 23:40:43,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-12 23:40:43,805 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 23:40:43,805 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:40:43,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:41:01,521 INFO  ProjectTaskService - Detected possible tasks: 62
+2019-01-12 23:41:01,521 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 23:41:01,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 23:41:07,994 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:mergeDebugProguardFiles
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:packageDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac
+:app:packageDebugJar
+:app:compileDebugNdk UP-TO-DATE
+:app:packageDebugJniLibs UP-TO-DATE
+:app:packageDebugLocalJar UP-TO-DATE
+:app:packageDebugRenderscript UP-TO-DATE
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:copyReleaseLint UP-TO-DATE
+:app:mergeReleaseProguardFiles
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:packageReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac
+:app:packageReleaseJar
+:app:compileReleaseNdk UP-TO-DATE
+:app:packageReleaseJniLibs UP-TO-DATE
+:app:packageReleaseLocalJar UP-TO-DATE
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.963 secs
+
+2019-01-12 23:41:08,002 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:41:08,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:41:12,789 INFO  ProjectTaskService - Detected possible tasks: 61
+2019-01-12 23:41:12,789 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 23:41:12,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311243241-0/src/PokeAPI-AndroidSDK-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 23:41:17,805 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:mergeDebugProguardFiles UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:packageDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:packageDebugJar UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:packageDebugJniLibs UP-TO-DATE
+:app:packageDebugLocalJar UP-TO-DATE
+:app:packageDebugRenderscript UP-TO-DATE
+:app:bundleDebug UP-TO-DATE
+:app:compileDebugSources UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:mergeReleaseProguardFiles UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:packageReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:packageReleaseJar UP-TO-DATE
+:app:compileReleaseNdk UP-TO-DATE
+:app:packageReleaseJniLibs UP-TO-DATE
+:app:packageReleaseLocalJar UP-TO-DATE
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:bundleRelease UP-TO-DATE
+:app:compileReleaseSources UP-TO-DATE
+:app:assembleRelease UP-TO-DATE
+:app:assemble UP-TO-DATE
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.517 secs
+
+2019-01-12 23:41:17,814 ERROR FullProcessService - Project build has not produced APK file
+2019-01-12 23:41:17,822 ERROR FullProcessService - Could not find generated or existed APK file

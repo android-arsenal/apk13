@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.commit451.adapterlayout.sample",
+    "label" : "AdapterLayoutSample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACXklEQVR42u1YPWgUQRh9+IeIiZVKCrVQDBoLrYIoNlYiKNpapIiaJogiKSSFVwhik5+9XXO5oAERi0PQpBBSHcopSXbmNMgVNhEEkQhGFIuoSc43xwY3y/3kIHtM8T147O4M7L03O3Pz5gMEAkFZDCvsqNZ/L4cmqw0k8+j0prGngrltrsItqw0kCtiSVHiS1EiTLx2NGVfjNa+PaC4zqLDXWvH9Ci0U/YosViLNfORXaLdO/GgWWynwfUmkwmUKHY8IV/wC53j/l/zu5rHPKgOOwrWQ4DsUm1s1+gofaOI675eCtmFnEs1pjUtxM5XHqZoGzDyvNnXK8OuIxiEu7GID+Kz2v4/GDfJ2PeSLW8ibcTPl47xscAKBQNAYuO/QVq3f4+ZltQFGirPMOceD+LzZxAWTUEviGbOZSrutNjA0g13cZd+QBXIhiA1/mIVmTdhzfByz9zDj4wRFzpGLFfKPaf/N3HTVOvEDk9jNBPrNCDWjzKniRsS/cPLYaQwYIyvTzKaj5N2Q2AnyU8TAPPk09Dw2QtNcJ/djp4+u2ouXR8c64/Sv9DTarInTnsJJTovT9fBBDk18eXvcTE/hoGxwAoFA0KA0qnExUcSGav1WG2DeP0CRVwZ8tJpSoqvQYUR7b3GUz2cM7T7QaFwIEmm5+LBAMz2JLDbZGac1eslljvKUKR1Gsw/bs6W0qvA8k8FGu0aemWOlcMvYfJjXvoiBMa+A7UGcLlWwbZs6j1eN9v8qdLjE/jNcbmfQ2k9+iZsphdG1xukfdXB+yMcR/sDn2OnjoewPAoFAsK74BxBRmQvvr3QRAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2064,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.commit451.adapterlayout.sample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"AdapterLayoutSample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.commit451.adapterlayout.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.commit451.adapterlayout.sample.AdapterFlowLayoutActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3285413,
+  "crc32" : 313142949,
+  "sha256" : "7660e8c4311a5b0f696d33b64fbb59ecf7f70a2f961421c2c129701c8e5f4f72",
+  "buildTime" : 1547311141000
+}

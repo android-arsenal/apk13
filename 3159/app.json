@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.example.sqldelight.hockey",
+    "label" : "Hockey Players",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1953,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.example.sqldelight.hockey\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:label=\"Hockey Players\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.example.sqldelight.hockey.ui.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.example.sqldelight.hockey.ui.PlayersActivity\" />\n\t\t<activity android:name=\"com.example.sqldelight.hockey.ui.TeamsActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1191010,
+  "crc32" : 2597296212,
+  "sha256" : "6fbe7c1270be8cb0025b1218e95135aa4ce7d322316bcdc389cb75618a8cbc45",
+  "buildTime" : 1547897903000
+}

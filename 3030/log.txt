@@ -1,0 +1,209 @@
+2019-01-13 03:06:16,320 INFO  DownloadService - Downloading "https://github.com/workarounds/typography/archive/master.zip", attempt 3
+2019-01-13 03:07:16,961 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-13 03:07:17,939 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-13 03:07:17,939 INFO  DownloadService - Downloading "https://github.com/workarounds/typography/archive/master.zip", attempt 3
+2019-01-13 03:08:19,433 DEBUG FullProcessService - Repository https://github.com/workarounds/typography available: true
+2019-01-13 03:08:19,433 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-13 03:08:19,433 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/workarounds/typography, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src]
+2019-01-13 03:08:21,387 INFO  SysUtils - 
+2019-01-13 03:08:21,395 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/.git": true
+2019-01-13 03:08:21,399 INFO  FullProcessService - Size of directory with sources: 173 KB
+2019-01-13 03:08:21,399 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src]
+2019-01-13 03:08:21,416 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/.git/
+
+2019-01-13 03:08:21,419 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/gradlew
+2019-01-13 03:08:21,423 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-compiler/build.gradle
+2019-01-13 03:08:21,427 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/settings.gradle
+2019-01-13 03:08:21,427 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/madki/6fb1b85f8be3d2bba733/raw/33bbbd3fbc103276cbb48d4a6e3c5e4d12e5f555/installv1.gradle", attempt 3
+2019-01-13 03:09:21,429 ERROR RemoteScriptService - Could not download content from "https://gist.githubusercontent.com/madki/6fb1b85f8be3d2bba733/raw/33bbbd3fbc103276cbb48d4a6e3c5e4d12e5f555/installv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 03:09:21,429 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/madki/e85785036b9ef3b85c63/raw/1fd9bc500586ddd2780fe045aeea05c3bb72e0d8/bintrayv1.gradle", attempt 3
+2019-01-13 03:10:21,434 ERROR RemoteScriptService - Could not download content from "https://gist.githubusercontent.com/madki/e85785036b9ef3b85c63/raw/1fd9bc500586ddd2780fe045aeea05c3bb72e0d8/bintrayv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 03:10:21,434 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 03:10:21,434 INFO  ProjectFixService - Fixing project...
+2019-01-13 03:10:21,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/app/local.properties
+2019-01-13 03:10:21,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:10:21,448 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography/local.properties
+2019-01-13 03:10:21,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:10:21,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/local.properties
+2019-01-13 03:10:21,451 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-13 03:10:21,451 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-13 03:10:21,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:10:21,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-annotations/local.properties
+2019-01-13 03:10:21,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-annotations/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:10:21,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-compiler/local.properties
+2019-01-13 03:10:21,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/typography-compiler/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:10:21,455 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 03:10:21,455 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 03:10:21,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 03:10:31,422 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-13 03:10:31,422 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-13 03:10:31,422 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-13 03:10:53,309 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:typography:preBuild UP-TO-DATE
+:typography:preReleaseBuild UP-TO-DATE
+:typography:compileReleaseNdk UP-TO-DATE
+:typography:compileLint
+:typography:copyReleaseLint UP-TO-DATE
+:typography:checkReleaseManifest
+:typography:preDebugAndroidTestBuild UP-TO-DATE
+:typography:preDebugBuild UP-TO-DATE
+:typography:preDebugUnitTestBuild UP-TO-DATE
+:typography:preReleaseUnitTestBuild UP-TO-DATE
+:typography:prepareComAndroidSupportAnimatedVectorDrawable2320Library
+:typography:prepareComAndroidSupportAppcompatV72320Library
+:typography:prepareComAndroidSupportSupportV42320Library
+:typography:prepareComAndroidSupportSupportVectorDrawable2320Library
+:typography:prepareReleaseDependencies
+:typography:compileReleaseAidl
+:typography:compileReleaseRenderscript
+:typography:generateReleaseBuildConfig
+:typography:generateReleaseAssets UP-TO-DATE
+:typography:mergeReleaseAssets
+:typography:generateReleaseResValues
+:typography:generateReleaseResources
+:typography:mergeReleaseResources
+:typography:processReleaseManifest
+:typography:processReleaseResources
+:typography:generateReleaseSources
+:typography:compileReleaseJavaWithJavac
+:typography:extractReleaseAnnotations
+:typography:mergeReleaseProguardFiles
+:typography:packageReleaseRenderscript UP-TO-DATE
+:typography:packageReleaseResources
+:typography:processReleaseJavaRes UP-TO-DATE
+:typography:transformResourcesWithMergeJavaResForRelease
+:typography:transformClassesAndResourcesWithSyncLibJarsForRelease
+:typography:mergeReleaseJniLibFolders
+:typography:transformNative_libsWithMergeJniLibsForRelease
+:typography:transformNative_libsWithSyncJniLibsForRelease
+:typography:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2320Library
+:app:prepareComAndroidSupportAppcompatV72320Library
+:app:prepareComAndroidSupportSupportV42320Library
+:app:prepareComAndroidSupportSupportVectorDrawable2320Library
+:app:prepareInWorkaroundsTypographyTypography008Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.352 secs
+
+2019-01-13 03:10:53,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323576317-0/src/app/build/outputs/apk/app-debug.apk

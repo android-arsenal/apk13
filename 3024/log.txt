@@ -1,0 +1,22 @@
+2019-01-13 03:24:03,836 INFO  DownloadService - Downloading "https://github.com/maxyou/gesturebutton/archive/master.zip", attempt 3
+2019-01-13 03:25:04,519 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-13 03:25:05,361 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-13 03:25:05,361 INFO  DownloadService - Downloading "https://github.com/maxyou/gesturebutton/archive/master.zip", attempt 3
+2019-01-13 03:26:06,646 DEBUG FullProcessService - Repository https://github.com/maxyou/gesturebutton available: true
+2019-01-13 03:26:06,646 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-13 03:26:06,646 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/maxyou/gesturebutton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547324643833-0/src]
+2019-01-13 03:26:09,392 INFO  SysUtils - 
+2019-01-13 03:26:09,417 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547324643833-0/src/.git": true
+2019-01-13 03:26:09,419 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-13 03:26:09,419 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547324643833-0/src]
+2019-01-13 03:26:09,437 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547324643833-0/src/.git/
+
+2019-01-13 03:26:09,439 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-01-13 03:26:09,439 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-01-13 03:26:09,441 INFO  ProjectBuildService - Build script(s): none
+2019-01-13 03:26:09,443 INFO  ProjectBuildService - All script(s): none
+2019-01-13 03:26:09,443 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 03:26:09,443 ERROR FullProcessService - Project is not correct Gradle project
+2019-01-13 03:26:09,443 ERROR FullProcessService - Project build has not produced APK file
+2019-01-13 03:26:09,445 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547324643833-0/src/bin/GestureButton.apk
+2019-01-13 03:26:09,445 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547324643833-0/src/bin/GestureButton.apk

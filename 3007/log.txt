@@ -1,0 +1,115 @@
+2019-01-13 04:05:43,739 INFO  DownloadService - Downloading "https://github.com/lusfold/SpinnerLoading/archive/master.zip", attempt 3
+2019-01-13 04:05:45,716 INFO  DownloadService - Downloaded https://github.com/lusfold/SpinnerLoading/archive/master.zip, attempt 3
+2019-01-13 04:05:45,717 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/master.zip": 166 KB
+2019-01-13 04:05:45,717 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 04:05:45,722 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/master.zip: true
+2019-01-13 04:05:45,722 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src'.
+2019-01-13 04:05:45,745 INFO  FullProcessService - Size of directory with sources: 200 KB
+2019-01-13 04:05:45,745 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src]
+2019-01-13 04:05:45,765 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/.git/
+
+2019-01-13 04:05:45,769 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/gradlew
+2019-01-13 04:05:45,778 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/build.gradle
+2019-01-13 04:05:45,782 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/settings.gradle
+2019-01-13 04:05:45,783 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 04:05:45,783 INFO  ProjectFixService - Fixing project...
+2019-01-13 04:05:45,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/app/local.properties
+2019-01-13 04:05:45,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/app/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-13 04:05:45,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/library/local.properties
+2019-01-13 04:05:45,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/library/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-13 04:05:45,795 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/local.properties
+2019-01-13 04:05:45,795 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-13 04:05:45,796 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-13 04:05:45,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-01-13 04:05:45,797 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 04:05:45,797 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 04:05:45,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 04:05:53,818 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-13 04:05:53,819 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2019-01-13 04:05:53,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2019-01-13 04:06:13,308 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJava
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:app:prepareComAndroidSupportAppcompatV72221Library
+:app:prepareComAndroidSupportSupportV42221Library
+:app:prepareComLusfoldSpinnerloadingLibrary100Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJava
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJava
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.977 secs
+
+2019-01-13 04:06:13,357 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547327143735-0/src/SpinnerLoading-master/app/build/outputs/apk/app-debug.apk

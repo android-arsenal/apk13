@@ -1,0 +1,784 @@
+2019-01-12 18:21:13,073 INFO  DownloadService - Downloading "https://github.com/SudarAbisheck/ZXing-Orient/archive/master.zip", attempt 3
+2019-01-12 18:21:16,664 INFO  DownloadService - Downloaded https://github.com/SudarAbisheck/ZXing-Orient/archive/master.zip, attempt 3
+2019-01-12 18:21:16,664 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/master.zip": 3 MB
+2019-01-12 18:21:16,664 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 18:21:16,670 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/master.zip: true
+2019-01-12 18:21:16,671 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src'.
+2019-01-12 18:21:16,810 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-01-12 18:21:16,810 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src]
+2019-01-12 18:21:16,835 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/.git/
+
+2019-01-12 18:21:16,849 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/gradlew
+2019-01-12 18:21:16,862 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/build.gradle
+2019-01-12 18:21:16,875 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/settings.gradle
+2019-01-12 18:21:16,875 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 18:21:16,875 INFO  ProjectFixService - Fixing project...
+2019-01-12 18:21:16,899 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/app/local.properties
+2019-01-12 18:21:16,900 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-12 18:21:16,901 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/local.properties
+2019-01-12 18:21:16,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-12 18:21:16,902 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/local.properties
+2019-01-12 18:21:16,903 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-01-12 18:21:16,904 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-01-12 18:21:16,905 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-01-12 18:21:16,905 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 18:21:16,905 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:21:16,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:21:24,325 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:21:24,325 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:21:24,325 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:21:24,326 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:21:30,152 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:21:30,152 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> Could not resolve all dependencies for configuration ':app:_debugCompile'.
+   > Could not resolve com.mikepenz:iconics-core:2.5.3.
+     Required by:
+         ZXing-Orient-master:app:unspecified
+      > Could not resolve com.mikepenz:iconics-core:2.5.3.
+         > Could not get resource 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+            > Could not GET 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+               > proxy.ssn.net: nodename nor servname provided, or not known
+   > Could not resolve com.mikepenz:devicon-typeface:2.0.0.1.
+     Required by:
+         ZXing-Orient-master:app:unspecified
+      > Could not resolve com.mikepenz:devicon-typeface:2.0.0.1.
+         > Could not get resource 'https://jcenter.bintray.com/com/mikepenz/devicon-typeface/2.0.0.1/devicon-typeface-2.0.0.1.pom'.
+            > Could not GET 'https://jcenter.bintray.com/com/mikepenz/devicon-typeface/2.0.0.1/devicon-typeface-2.0.0.1.pom'.
+               > proxy.ssn.net
+   > Could not resolve com.mikepenz:aboutlibraries:5.5.7.
+     Required by:
+         ZXing-Orient-master:app:unspecified
+      > Could not resolve com.mikepenz:aboutlibraries:5.5.7.
+         > Could not get resource 'https://jcenter.bintray.com/com/mikepenz/aboutlibraries/5.5.7/aboutlibraries-5.5.7.pom'.
+            > Could not GET 'https://jcenter.bintray.com/com/mikepenz/aboutlibraries/5.5.7/aboutlibraries-5.5.7.pom'.
+               > proxy.ssn.net
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:42)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all dependencies for configuration ':app:_debugCompile'.
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.rethrowFailure(DefaultLenientConfiguration.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.rethrowFailure(DefaultResolvedConfiguration.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.getResolvedArtifacts(DefaultResolvedConfiguration.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver$FilesAggregatingResolvedConfiguration.getResolvedArtifacts(SelfResolvingDependencyConfigurationResolver.java:92)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver$ErrorHandlingResolvedConfiguration.getResolvedArtifacts(ErrorHandlingConfigurationResolver.java:221)
+	at com.android.build.gradle.internal.DependencyManager.collectArtifacts(DependencyManager.java:747)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:255)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:348)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:651)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:648)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:647)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:566)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:563)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:562)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:559)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.mikepenz:iconics-core:2.5.3.
+Required by:
+    ZXing-Orient-master:app:unspecified
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:83)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:44)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.resolve(DependencyGraphBuilder.java:560)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.getMetaData(DependencyGraphBuilder.java:570)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.calculateTargetConfigurations(DependencyGraphBuilder.java:256)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.attachToTargetConfigurations(DependencyGraphBuilder.java:230)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:88)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolve(DefaultConfigurationResolver.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver.resolve(SelfResolvingDependencyConfigurationResolver.java:40)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolve(ShortCircuitEmptyConfigurationResolver.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolve(ErrorHandlingConfigurationResolver.java:43)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:367)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveNow(DefaultConfiguration.java:342)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:335)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	... 93 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.mikepenz:iconics-core:2.5.3.
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.process(ComponentMetaDataResolveState.java:66)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.resolve(ComponentMetaDataResolveState.java:58)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:99)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:72)
+	... 124 more
+Caused by: org.gradle.internal.resource.ResourceException: Could not get resource 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+	at org.gradle.internal.resource.ResourceException.failure(ResourceException.java:61)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:99)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.resolveArtifact(DefaultExternalResourceArtifactResolver.java:58)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.parseMetaDataFromArtifact(ExternalResourceResolver.java:164)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveStaticDependency(ExternalResourceResolver.java:143)
+	at org.gradle.api.internal.artifacts.repositories.resolver.MavenResolver.doResolveComponentMetaData(MavenResolver.java:93)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveComponentMetaData(ExternalResourceResolver.java:409)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess$2.run(CacheLockReleasingModuleComponentsRepository.java:71)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:242)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:313)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:114)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.longRunningOperation(DefaultCacheFactory.java:179)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.longRunningOperation(DefaultCacheLockingManager.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess.resolveComponentMetaData(CacheLockReleasingModuleComponentsRepository.java:69)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveComponentMetaData(CachingModuleComponentRepository.java:297)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveComponentMetaData(BaseModuleComponentRepositoryAccess.java:42)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveComponentMetaData(InMemoryCachedModuleComponentRepository.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:89)
+	... 129 more
+Caused by: org.gradle.internal.resource.transport.http.HttpRequestException: Could not GET 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRequest(HttpClientHelper.java:83)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRawGet(HttpClientHelper.java:69)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performGet(HttpClientHelper.java:73)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:51)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:34)
+	at org.gradle.internal.resource.transfer.DefaultExternalResourceConnector.openResource(DefaultExternalResourceConnector.java:41)
+	at org.gradle.internal.resource.transfer.ProgressLoggingExternalResourceAccessor.openResource(ProgressLoggingExternalResourceAccessor.java:36)
+	at org.gradle.internal.resource.transport.DefaultExternalResourceRepository.getResource(DefaultExternalResourceRepository.java:63)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.getResource(DefaultCacheAwareExternalResourceAccessor.java:75)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:90)
+	... 146 more
+Caused by: java.net.UnknownHostException: proxy.ssn.net: nodename nor servname provided, or not known
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:137)
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:118)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performHttpRequest(HttpClientHelper.java:113)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.executeGetOrHead(HttpClientHelper.java:90)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRequest(HttpClientHelper.java:81)
+	... 155 more
+
+
+BUILD FAILED
+
+Total time: 5.327 secs
+
+2019-01-12 18:21:30,164 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:21:30,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:21:36,501 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:21:36,502 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:21:36,502 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:21:36,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:21:52,788 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:21:52,789 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:zxing-orient:preBuild UP-TO-DATE
+:zxing-orient:preDebugBuild UP-TO-DATE
+:zxing-orient:compileDebugNdk UP-TO-DATE
+:zxing-orient:compileLint
+:zxing-orient:copyDebugLint UP-TO-DATE
+:zxing-orient:checkDebugManifest
+:zxing-orient:preDebugAndroidTestBuild UP-TO-DATE
+:zxing-orient:preDebugUnitTestBuild UP-TO-DATE
+:zxing-orient:preReleaseBuild UP-TO-DATE
+:zxing-orient:preReleaseUnitTestBuild UP-TO-DATE
+:zxing-orient:prepareComAndroidSupportAnimatedVectorDrawable2320Library
+:zxing-orient:prepareComAndroidSupportAppcompatV72320Library
+:zxing-orient:prepareComAndroidSupportSupportV42320Library
+:zxing-orient:prepareComAndroidSupportSupportVectorDrawable2320Library
+:zxing-orient:prepareDebugDependencies
+:zxing-orient:compileDebugAidl
+:zxing-orient:compileDebugRenderscript
+:zxing-orient:generateDebugBuildConfig
+:zxing-orient:generateDebugAssets UP-TO-DATE
+:zxing-orient:mergeDebugAssets
+:zxing-orient:generateDebugResValues
+:zxing-orient:generateDebugResources
+:zxing-orient:mergeDebugResources
+:zxing-orient:processDebugManifest
+:zxing-orient:processDebugResources
+:zxing-orient:generateDebugSources
+:zxing-orient:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:zxing-orient:extractDebugAnnotations
+:zxing-orient:mergeDebugProguardFiles
+:zxing-orient:packageDebugRenderscript UP-TO-DATE
+:zxing-orient:packageDebugResources
+:zxing-orient:processDebugJavaRes UP-TO-DATE
+:zxing-orient:transformResourcesWithMergeJavaResForDebug
+:zxing-orient:transformClassesAndResourcesWithSyncLibJarsForDebug
+ImmutableJarInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build/intermediates/transforms/mergeJavaRes/debug/jars/2/3/main.jar, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, status=NOTCHANGED}
+ImmutableDirectoryInput{name=febd75202acde17c328bc857e864262993b6eb36, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build/intermediates/classes/debug, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+:zxing-orient:mergeDebugJniLibFolders
+:zxing-orient:transformNative_libsWithMergeJniLibsForDebug
+:zxing-orient:transformNative_libsWithSyncJniLibsForDebug
+:zxing-orient:bundleDebug
+:zxing-orient:compileDebugSources
+:zxing-orient:assembleDebug
+:zxing-orient:compileReleaseNdk UP-TO-DATE
+:zxing-orient:copyReleaseLint UP-TO-DATE
+:zxing-orient:checkReleaseManifest
+:zxing-orient:prepareReleaseDependencies
+:zxing-orient:compileReleaseAidl
+:zxing-orient:compileReleaseRenderscript
+:zxing-orient:generateReleaseBuildConfig
+:zxing-orient:generateReleaseAssets UP-TO-DATE
+:zxing-orient:mergeReleaseAssets
+:zxing-orient:generateReleaseResValues
+:zxing-orient:generateReleaseResources
+:zxing-orient:mergeReleaseResources
+:zxing-orient:processReleaseManifest
+:zxing-orient:processReleaseResources
+:zxing-orient:generateReleaseSources
+:zxing-orient:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:zxing-orient:extractReleaseAnnotations
+:zxing-orient:mergeReleaseProguardFiles
+:zxing-orient:packageReleaseRenderscript UP-TO-DATE
+:zxing-orient:packageReleaseResources
+:zxing-orient:processReleaseJavaRes UP-TO-DATE
+:zxing-orient:transformResourcesWithMergeJavaResForRelease
+:zxing-orient:transformClassesAndResourcesWithSyncLibJarsForRelease
+ImmutableJarInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build/intermediates/transforms/mergeJavaRes/release/jars/2/3/main.jar, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, status=NOTCHANGED}
+ImmutableDirectoryInput{name=10fa9e19ccd73501b6993f4f8ac1590eae9fbfe4, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/zxing-orient/build/intermediates/classes/release, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+:zxing-orient:mergeReleaseJniLibFolders
+:zxing-orient:transformNative_libsWithMergeJniLibsForRelease
+:zxing-orient:transformNative_libsWithSyncJniLibsForRelease
+:zxing-orient:bundleRelease
+:zxing-orient:compileReleaseSources
+:zxing-orient:assembleRelease
+:zxing-orient:generateSourcesJar
+:zxing-orient:assemble
+:zxing-orient:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':zxing-orient:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':zxing-orient:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:333)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:411)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 15.774 secs
+
+2019-01-12 18:21:52,862 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:21:52,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:21:59,747 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:21:59,747 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:21:59,747 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:21:59,748 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292073069-0/src/ZXing-Orient-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:22:05,652 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:22:05,652 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> Could not resolve all dependencies for configuration ':app:_debugCompile'.
+   > Could not resolve com.mikepenz:iconics-core:2.5.3.
+     Required by:
+         ZXing-Orient-master:app:unspecified
+      > Could not resolve com.mikepenz:iconics-core:2.5.3.
+         > Could not get resource 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+            > Could not GET 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+               > proxy.ssn.net: nodename nor servname provided, or not known
+   > Could not resolve com.mikepenz:devicon-typeface:2.0.0.1.
+     Required by:
+         ZXing-Orient-master:app:unspecified
+      > Could not resolve com.mikepenz:devicon-typeface:2.0.0.1.
+         > Could not get resource 'https://jcenter.bintray.com/com/mikepenz/devicon-typeface/2.0.0.1/devicon-typeface-2.0.0.1.pom'.
+            > Could not GET 'https://jcenter.bintray.com/com/mikepenz/devicon-typeface/2.0.0.1/devicon-typeface-2.0.0.1.pom'.
+               > proxy.ssn.net
+   > Could not resolve com.mikepenz:aboutlibraries:5.5.7.
+     Required by:
+         ZXing-Orient-master:app:unspecified
+      > Could not resolve com.mikepenz:aboutlibraries:5.5.7.
+         > Could not get resource 'https://jcenter.bintray.com/com/mikepenz/aboutlibraries/5.5.7/aboutlibraries-5.5.7.pom'.
+            > Could not GET 'https://jcenter.bintray.com/com/mikepenz/aboutlibraries/5.5.7/aboutlibraries-5.5.7.pom'.
+               > proxy.ssn.net
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:79)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:74)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:510)
+	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:90)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:84)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:75)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.artifacts.ResolveException: Could not resolve all dependencies for configuration ':app:_debugCompile'.
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration.rethrowFailure(DefaultLenientConfiguration.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.rethrowFailure(DefaultResolvedConfiguration.java:36)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultResolvedConfiguration.getResolvedArtifacts(DefaultResolvedConfiguration.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver$FilesAggregatingResolvedConfiguration.getResolvedArtifacts(SelfResolvingDependencyConfigurationResolver.java:92)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver$ErrorHandlingResolvedConfiguration.getResolvedArtifacts(ErrorHandlingConfigurationResolver.java:221)
+	at com.android.build.gradle.internal.DependencyManager.collectArtifacts(DependencyManager.java:747)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencyForConfig(DependencyManager.java:255)
+	at com.android.build.gradle.internal.DependencyManager.resolveDependencies(DependencyManager.java:139)
+	at com.android.build.gradle.internal.TaskManager.resolveDependencies(TaskManager.java:348)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:597)
+	at com.android.build.gradle.internal.VariantManager$9.call(VariantManager.java:594)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.profile.SpanRecorders.record(SpanRecorders.java:51)
+	at com.android.build.gradle.internal.VariantManager.createVariantData(VariantManager.java:593)
+	at com.android.build.gradle.internal.VariantManager.createVariantDataForProductFlavors(VariantManager.java:750)
+	at com.android.build.gradle.internal.VariantManager.populateVariantDataList(VariantManager.java:459)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:263)
+	at com.android.build.gradle.internal.VariantManager$1.call(VariantManager.java:260)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:259)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:651)
+	at com.android.build.gradle.BasePlugin$12.call(BasePlugin.java:648)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:647)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:566)
+	at com.android.build.gradle.BasePlugin$10$1.call(BasePlugin.java:563)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:55)
+	at com.android.builder.profile.ThreadRecorder$1.record(ThreadRecorder.java:47)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:562)
+	at com.android.build.gradle.BasePlugin$10.execute(BasePlugin.java:559)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:93)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:82)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:44)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
+	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
+	... 57 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.mikepenz:iconics-core:2.5.3.
+Required by:
+    ZXing-Orient-master:app:unspecified
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:83)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:59)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:80)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:44)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.resolve(DependencyGraphBuilder.java:560)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ModuleVersionResolveState.getMetaData(DependencyGraphBuilder.java:570)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.calculateTargetConfigurations(DependencyGraphBuilder.java:256)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$DependencyEdge.attachToTargetConfigurations(DependencyGraphBuilder.java:230)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:88)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver$1.execute(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:137)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:61)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultIvyContextManager.withIvy(DefaultIvyContextManager.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver$1.run(CacheLockingArtifactDependencyResolver.java:41)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:192)
+	at org.gradle.cache.internal.DefaultCacheAccess.useCache(DefaultCacheAccess.java:175)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.useCache(DefaultPersistentDirectoryStore.java:106)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.useCache(DefaultCacheFactory.java:187)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.useCache(DefaultCacheLockingManager.java:64)
+	at org.gradle.api.internal.artifacts.ivyservice.CacheLockingArtifactDependencyResolver.resolve(CacheLockingArtifactDependencyResolver.java:39)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolve(DefaultConfigurationResolver.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.SelfResolvingDependencyConfigurationResolver.resolve(SelfResolvingDependencyConfigurationResolver.java:40)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolve(ShortCircuitEmptyConfigurationResolver.java:52)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolve(ErrorHandlingConfigurationResolver.java:43)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:367)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveNow(DefaultConfiguration.java:342)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getResolvedConfiguration(DefaultConfiguration.java:335)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
+	... 93 more
+Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.mikepenz:iconics-core:2.5.3.
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:91)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.process(ComponentMetaDataResolveState.java:66)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.resolve(ComponentMetaDataResolveState.java:58)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:116)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:99)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:72)
+	... 124 more
+Caused by: org.gradle.internal.resource.ResourceException: Could not get resource 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+	at org.gradle.internal.resource.ResourceException.failure(ResourceException.java:61)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:99)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.resolveArtifact(DefaultExternalResourceArtifactResolver.java:58)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.parseMetaDataFromArtifact(ExternalResourceResolver.java:164)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver.resolveStaticDependency(ExternalResourceResolver.java:143)
+	at org.gradle.api.internal.artifacts.repositories.resolver.MavenResolver.doResolveComponentMetaData(MavenResolver.java:93)
+	at org.gradle.api.internal.artifacts.repositories.resolver.ExternalResourceResolver$RemoteRepositoryAccess.resolveComponentMetaData(ExternalResourceResolver.java:409)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess$2.run(CacheLockReleasingModuleComponentsRepository.java:71)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:242)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:313)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:114)
+	at org.gradle.cache.internal.DefaultCacheFactory$ReferenceTrackingCache.longRunningOperation(DefaultCacheFactory.java:179)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultCacheLockingManager.longRunningOperation(DefaultCacheLockingManager.java:56)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CacheLockReleasingModuleComponentsRepository$LockReleasingRepositoryAccess.resolveComponentMetaData(CacheLockReleasingModuleComponentsRepository.java:69)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$ResolveAndCacheRepositoryAccess.resolveComponentMetaData(CachingModuleComponentRepository.java:297)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveComponentMetaData(BaseModuleComponentRepositoryAccess.java:42)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveComponentMetaData(InMemoryCachedModuleComponentRepository.java:75)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:89)
+	... 129 more
+Caused by: org.gradle.internal.resource.transport.http.HttpRequestException: Could not GET 'https://jcenter.bintray.com/com/mikepenz/iconics-core/2.5.3/iconics-core-2.5.3.pom'.
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRequest(HttpClientHelper.java:83)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRawGet(HttpClientHelper.java:69)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performGet(HttpClientHelper.java:73)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:51)
+	at org.gradle.internal.resource.transport.http.HttpResourceAccessor.openResource(HttpResourceAccessor.java:34)
+	at org.gradle.internal.resource.transfer.DefaultExternalResourceConnector.openResource(DefaultExternalResourceConnector.java:41)
+	at org.gradle.internal.resource.transfer.ProgressLoggingExternalResourceAccessor.openResource(ProgressLoggingExternalResourceAccessor.java:36)
+	at org.gradle.internal.resource.transport.DefaultExternalResourceRepository.getResource(DefaultExternalResourceRepository.java:63)
+	at org.gradle.internal.resource.transfer.DefaultCacheAwareExternalResourceAccessor.getResource(DefaultCacheAwareExternalResourceAccessor.java:75)
+	at org.gradle.api.internal.artifacts.repositories.resolver.DefaultExternalResourceArtifactResolver.downloadStaticResource(DefaultExternalResourceArtifactResolver.java:90)
+	... 146 more
+Caused by: java.net.UnknownHostException: proxy.ssn.net: nodename nor servname provided, or not known
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:278)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:137)
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:118)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performHttpRequest(HttpClientHelper.java:113)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.executeGetOrHead(HttpClientHelper.java:90)
+	at org.gradle.internal.resource.transport.http.HttpClientHelper.performRequest(HttpClientHelper.java:81)
+	... 155 more
+
+
+BUILD FAILED
+
+Total time: 5.405 secs
+
+2019-01-12 18:22:05,726 ERROR FullProcessService - Project build has not produced APK file
+2019-01-12 18:22:05,793 ERROR FullProcessService - Could not find generated or existed APK file

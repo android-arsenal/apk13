@@ -1,0 +1,180 @@
+2019-01-12 22:07:04,880 INFO  DownloadService - Downloading "https://github.com/yayaa/Rotatable/archive/master.zip", attempt 3
+2019-01-12 22:07:06,879 INFO  DownloadService - Downloaded https://github.com/yayaa/Rotatable/archive/master.zip, attempt 3
+2019-01-12 22:07:06,879 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/master.zip": 2 MB
+2019-01-12 22:07:06,879 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 22:07:06,885 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/master.zip: true
+2019-01-12 22:07:06,885 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src'.
+2019-01-12 22:07:06,930 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-12 22:07:06,930 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src]
+2019-01-12 22:07:06,950 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/.git/
+
+2019-01-12 22:07:06,953 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/gradlew
+2019-01-12 22:07:06,957 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/build.gradle
+2019-01-12 22:07:06,961 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/settings.gradle
+2019-01-12 22:07:06,962 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 22:07:06,962 INFO  ProjectFixService - Fixing project...
+2019-01-12 22:07:06,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/local.properties
+2019-01-12 22:07:06,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 22:07:06,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/app/local.properties
+2019-01-12 22:07:06,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 22:07:06,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/local.properties
+2019-01-12 22:07:06,975 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-12 22:07:06,976 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-12 22:07:06,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 22:07:06,977 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/local.properties
+2019-01-12 22:07:06,978 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-12 22:07:06,979 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-12 22:07:06,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 22:07:06,980 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 22:07:06,980 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 22:07:06,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 22:07:16,913 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-12 22:07:16,914 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 22:07:16,914 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 22:07:26,445 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:androidSourcesJar
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/src/main/java/com/yayandroid/rotatable/Rotatable.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:extractDebugAnnotations
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/src/main/java/com/yayandroid/rotatable/Rotatable.java: The typedef annotation com.yayandroid.rotatable.Rotatable.Direction should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/src/main/java/com/yayandroid/rotatable/Rotatable.java: The typedef annotation com.yayandroid.rotatable.Rotatable.Side should have @Retention(RetentionPolicy.SOURCE)
+:app:mergeDebugProguardFiles
+:app:packageDebugJar
+:app:compileDebugNdk UP-TO-DATE
+:app:packageDebugJniLibs UP-TO-DATE
+:app:packageDebugLocalJar UP-TO-DATE
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:copyReleaseLint UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/src/main/java/com/yayandroid/rotatable/Rotatable.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:extractReleaseAnnotations
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/src/main/java/com/yayandroid/rotatable/Rotatable.java: The typedef annotation com.yayandroid.rotatable.Rotatable.Direction should have @Retention(RetentionPolicy.SOURCE)
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Library/app/src/main/java/com/yayandroid/rotatable/Rotatable.java: The typedef annotation com.yayandroid.rotatable.Rotatable.Side should have @Retention(RetentionPolicy.SOURCE)
+:app:mergeReleaseProguardFiles
+:app:packageReleaseJar
+:app:compileReleaseNdk UP-TO-DATE
+:app:packageReleaseJniLibs UP-TO-DATE
+:app:packageReleaseLocalJar UP-TO-DATE
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:signArchives SKIPPED
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.03 secs
+
+2019-01-12 22:07:26,492 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 22:07:26,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 22:07:36,234 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-12 22:07:36,234 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 22:07:36,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 22:07:55,023 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportDesign2311Library
+:app:prepareComAndroidSupportRecyclerviewV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareComYayandroidRotatable111Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.28 secs
+
+2019-01-12 22:07:55,114 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305624876-0/src/Rotatable-master/Sample/app/build/outputs/apk/app-debug.apk

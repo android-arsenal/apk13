@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.badoualy.morphytoolbar.sample",
+    "label" : "Morphy Toolbar Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.6",
+    "versionCode" : 106,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1896,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"106\" android:versionName=\"1.0.6\" package=\"com.github.badoualy.morphytoolbar.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008c\" android:label=\"Morphy Toolbar Sample\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.github.badoualy.morphytoolbar.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1628227,
+  "crc32" : 311246211,
+  "sha256" : "41e04e29dc8494722586952968484ddf10d74846bc055f9b12732beabc5ea92e",
+  "buildTime" : 1547306617000
+}

@@ -1,0 +1,49 @@
+{
+  "meta" : {
+    "packageName" : "com.github.nitrico.mvp",
+    "label" : "MapViewPager",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2438415",
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "com.google.android.providers.gsf.permission.READ_GSERVICES", "es.esnmurcia.app.permission.MAPS_RECEIVE", "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ {
+      "name" : "com.github.nitrico.mvp.permission.MAPS_RECEIVE",
+      "label" : null,
+      "icon" : null,
+      "description" : null,
+      "group" : null,
+      "protectionLevel" : null
+    } ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAC3FBMVEUAAAD/VQD/QED/gAD/USj/VSL/WCP/TRr/VyL+ViH+ViD9VSD8ViL+ViH9ViHwUR8AAAD8VSH8ViH9ViH9ViHyUiDINxbWTBz7VSDyUx+wNxLIRRz7VSCqNxL9flb9pov9rZP9mHn9YzH9flX9zr/9bD79VyL9tp/99vT9/f399PL2uaX9fFP9spr9+/rsb0foTx7qWSv97ej88/DyiWjyoIbpUyT4z8L9+vryhWT9dkv9/Pz77ejpVijzpIv88OzvYjb92Mz0sp3rXC788/H76uT629H9+Pf2rJXuUR/vhmbpTx7xjnDzmn/sUyLsUB/vaD362tD75t/vUR/tbUT1sJv4x7jrUB/wb0XxYzb9i2jsYzj3vqz0oIXtUR/87urycEfwUh/tbEPqUB72taD3uKXvYDP9+vnxZzvxUh/9WSX87+zxiGjzmX399/XweFLuVSX4wbDxVCL3w7PubUP9+fj4xbT3taD74tr5xLPyUiDyUiD9sZj87ejsVSX518z1iWj0UyD9XSv75+Dyj3HzkHH85+DxViXzUyDqUB7zl3v64NftUyLtVCT749z2mHvzUyCkNxL9Xyz74dnzk3bzjm/yVyb1UyDyhGL87ObvXC7uUiH608f1hWP0UyD4w7L3t6Pxb0b5w7LrUB79ckb87OfzgV72oofzYjT2UyDyhWP9/Pv86ePwYTPwVST60sX1hmT1UyD3r5n5zL3wVCLxZDj4sJnsUR760MP2p470gV3yViX3VCDxYjT85t/2m3/3noL2VCDyYTPyUyD2VCD4VCD3VCDtUR7LSBr5VCCmNRKtNxv6VCD3VCD3VCD6VSHpTx6HJg+qAAAAAADbSh3/VyL2VCH3VCH4VSH5VSHKRBsAAAA3DADLRBrrUB/vUh/uUR/oTx7pTx7qUB7qTx7rUB7mTR7EQho0DAAAAAAAAABGEwhgIQpcHwpbHgpdIQpmMwAAAAAAAAC/AADnYRUlAAAA9HRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8/////////////////O//////////Kv////////////////z/////7//////////////////8///////v/////////////P/////87yf/Kxzs/fn/7CIDCKn//////60DKrDt8O/w8PDv8O2xLAkgQk1LTE0FCw4EHcuoGwAAArhJREFUSMdjYKAXYGQiABhRlDMzEzYSWQ2QycLKhhewsoCVwdSzc3ByEQCc3OxwHcwMPLx8hAG/AFQDIwOLIJ+QsAheICzEKyrGAPE5E4O4BJ8IIfNFeCWlgEohGqRliNIgi9AgMRAa5OQVFJWI0qCsosqnpq6hCQRa2jqENejq6RsYGmlCgbEJIQ0KmqYGZuaacGBhiV+DlbWNrYGdJhKwd8CrwVHTycDZBazS1c0dTHt44tNgoenl7QNSZu3r5x8QCGIFeQbj1mClqRniHQpSFhbu7+8fYQ1iRgYH49QQpakZ7R0DUhULVB8XFw9iJgQnJuLSoKypmZScAlKVClKflg5iZiQmJmbi0JCVrZmTnAtSlZcfF1dQCGJlFwHVZ2bi8HSxZkpyCThwSsvKK8CMSrD6qmrsGmo0a+vC65HjQbMBrL6quhGrhqZmzZbwVmT1be1g9VUdjZ1Yk0aXZndPbx+Shn6I+glADROxaZg0WXOK/1SE+snTIOondEzHroFvhubMWbPnwDXMhaqfMA+XBr75mgviFmpA1S+CqW+cN30xDg1Lllov81wOUb90BUx947yVuDTwrVq9Zu269SD1qzfA1TduxK2Bb5Pm5i1bs4EatiHUT9+4cjtODU07NHcm7krX3LEboX76xj24NfDt3bc/MfHAvhVI6qcfxKeB7xAw/RxGUX8Evwa+xMzMTBT1Rw4exauBD139kWMoGrAUxmjq9xw7ehyh4QS2shVV/Z5jJ4+fgmpgZDh9hhdLhdLRMW/evI0bNx48ePDYsbPnzl+4yHAJWmVdvnL+Ku9VDHDt2rXr16/fuHHj5s2bJ8833roMr+Nu37l77/6D+xjg4aNHjx6DwZOnz56/uI2oRl++ev3m7du373AAoNT7169eIlfUHz5+IgA+fkCt/C99JgAu0a0VAwBICOaYDbdFEQAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2366,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.nitrico.mvp\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2438415\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<permission android:name=\"com.github.nitrico.mvp.permission.MAPS_RECEIVE\" android:protectionLevel=\"0x2\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<uses-permission android:name=\"com.google.android.providers.gsf.permission.READ_GSERVICES\" />\n\t<uses-permission android:name=\"es.esnmurcia.app.permission.MAPS_RECEIVE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0900b0\" android:label=\"MapViewPager\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.github.nitrico.mvp.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.nitrico.mvp.sample1.Sample1Activity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0900b1\" android:name=\"com.github.nitrico.mvp.sample2.Sample2Activity\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"8487000\" />\n\t\t<meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyAUCF_V_7wAZp1HVsP9gE-pbl3HqsGwF_E\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2064505,
+  "crc32" : 869071595,
+  "sha256" : "7e68e38afbd264ffdf4bd9e8a925115a1dca8a815b65a41828f86281f688788e",
+  "buildTime" : 1547313770000
+}

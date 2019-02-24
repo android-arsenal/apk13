@@ -1,0 +1,214 @@
+2019-01-12 18:29:16,225 INFO  DownloadService - Downloading "https://github.com/julianfalcionelli/SimpleRESTClientHandler/archive/master.zip", attempt 3
+2019-01-12 18:29:17,888 INFO  DownloadService - Downloaded https://github.com/julianfalcionelli/SimpleRESTClientHandler/archive/master.zip, attempt 3
+2019-01-12 18:29:17,888 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/master.zip": 81 KB
+2019-01-12 18:29:17,888 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 18:29:17,893 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/master.zip: true
+2019-01-12 18:29:17,894 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src'.
+2019-01-12 18:29:17,908 INFO  FullProcessService - Size of directory with sources: 128 KB
+2019-01-12 18:29:17,908 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src]
+2019-01-12 18:29:17,927 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/.git/
+
+2019-01-12 18:29:17,929 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/gradlew
+2019-01-12 18:29:17,932 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/build.gradle
+2019-01-12 18:29:17,933 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/settings.gradle
+2019-01-12 18:29:17,934 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-01-12 18:29:18,027 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-01-12 18:29:18,027 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-01-12 18:29:18,027 INFO  ProjectFixService - Fixing project...
+2019-01-12 18:29:18,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/app/local.properties
+2019-01-12 18:29:18,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-01-12 18:29:18,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/local.properties
+2019-01-12 18:29:18,034 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-01-12 18:29:18,035 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-01-12 18:29:18,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-01-12 18:29:18,036 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 18:29:18,036 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:29:18,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:29:29,149 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-01-12 18:29:29,149 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 18:29:29,149 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 18:29:41,743 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareComAndroidVolleyVolley100Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:app:extractDebugAnnotations
+:app:mergeDebugProguardFiles
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:transformNative_libsWithSyncJniLibsForDebug
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:app:extractReleaseAnnotations
+:app:mergeReleaseProguardFiles
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:transformNative_libsWithSyncJniLibsForRelease
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.084 secs
+
+2019-01-12 18:29:41,799 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:29:41,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:29:48,962 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-01-12 18:29:48,963 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 18:29:48,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292556217-0/src/SimpleRESTClientHandler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 18:29:56,596 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:app:prepareComAndroidVolleyVolley100Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:extractDebugAnnotations UP-TO-DATE
+:app:mergeDebugProguardFiles UP-TO-DATE
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:app:bundleDebug UP-TO-DATE
+:app:compileDebugSources UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:mergeReleaseShaders UP-TO-DATE
+:app:compileReleaseShaders UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:extractReleaseAnnotations UP-TO-DATE
+:app:mergeReleaseProguardFiles UP-TO-DATE
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources UP-TO-DATE
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:app:mergeReleaseJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:app:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:app:bundleRelease UP-TO-DATE
+:app:compileReleaseSources UP-TO-DATE
+:app:assembleRelease UP-TO-DATE
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.123 secs
+
+2019-01-12 18:29:56,653 ERROR FullProcessService - Project build has not produced APK file
+2019-01-12 18:29:56,704 ERROR FullProcessService - Could not find generated or existed APK file

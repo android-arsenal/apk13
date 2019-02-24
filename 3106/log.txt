@@ -1,0 +1,953 @@
+2019-01-18 15:05:15,488 INFO  DownloadService - Downloading "https://github.com/eneim/Toro/archive/master.zip", attempt 3
+2019-01-18 15:06:16,184 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-18 15:06:17,304 INFO  GithubDownloadService - Default branch of this repository: dev-v3
+2019-01-18 15:06:17,304 INFO  DownloadService - Downloading "https://github.com/eneim/Toro/archive/dev-v3.zip", attempt 3
+2019-01-18 15:07:18,868 DEBUG FullProcessService - Repository https://github.com/eneim/Toro available: true
+2019-01-18 15:07:18,868 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-18 15:07:18,868 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/eneim/Toro, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src]
+2019-01-18 15:08:14,006 INFO  SysUtils - 
+2019-01-18 15:08:14,028 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/.git": true
+2019-01-18 15:08:14,049 INFO  FullProcessService - Size of directory with sources: 41 MB
+2019-01-18 15:08:14,049 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src]
+2019-01-18 15:08:14,069 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/.git/
+
+2019-01-18 15:08:14,083 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/gradlew
+2019-01-18 15:08:14,098 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-ads/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-exoplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-mopub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-exoplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-mopub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/build.gradle
+2019-01-18 15:08:14,112 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-mopub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-exoplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-mopub/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-exoplayer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/gradle/script/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-ads/build.gradle
+2019-01-18 15:08:14,113 INFO  ProjectBuildService - Remote scripts: none
+2019-01-18 15:08:14,113 INFO  ProjectFixService - Fixing project...
+2019-01-18 15:08:14,146 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/local.properties
+2019-01-18 15:08:14,155 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,155 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app/local.properties
+2019-01-18 15:08:14,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,167 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-ads/local.properties
+2019-01-18 15:08:14,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-ads/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,177 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-ads/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-exoplayer/local.properties
+2019-01-18 15:08:14,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-exoplayer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,186 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-exoplayer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-mopub/local.properties
+2019-01-18 15:08:14,195 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-mopub/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,195 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/demo-mopub/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,196 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/local.properties
+2019-01-18 15:08:14,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,204 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-exoplayer/local.properties
+2019-01-18 15:08:14,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-exoplayer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,212 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-exoplayer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-mopub/local.properties
+2019-01-18 15:08:14,221 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-mopub/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,221 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-mopub/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/local.properties
+2019-01-18 15:08:14,223 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-01-18 15:08:14,223 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-01-18 15:08:14,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-18 15:08:14,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-18 15:08:14,231 INFO  ProjectFixService - Project was maybe fixed
+2019-01-18 15:08:14,231 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 15:08:14,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 15:08:23,026 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-01-18 15:08:23,026 INFO  ProjectTaskService - Excluded tasks (21): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test countDebugDexMethods check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug countReleaseDexMethods
+2019-01-18 15:08:23,026 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, countDebugDexMethods, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, -x, countReleaseDexMethods, build]
+2019-01-18 15:10:17,577 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app-youtube
+WARNING: API 'variantOutput.getPackageApplication()' is obsolete and has been replaced with 'variant.getPackageApplicationProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageApplication(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :app-youtube:preBuild UP-TO-DATE
+> Task :toro-core:preBuild UP-TO-DATE
+> Task :toro-core:preDebugBuild UP-TO-DATE
+> Task :toro-core:checkDebugManifest
+> Task :toro-core:processDebugManifest
+> Task :app-youtube:preDebugBuild
+> Task :toro-core:compileDebugAidl NO-SOURCE
+> Task :app-youtube:compileDebugAidl NO-SOURCE
+> Task :toro-core:packageDebugRenderscript NO-SOURCE
+> Task :app-youtube:compileDebugRenderscript
+> Task :app-youtube:checkDebugManifest
+> Task :app-youtube:generateDebugBuildConfig
+> Task :app-youtube:prepareLintJar
+> Task :app-youtube:generateDebugSources
+> Task :toro-core:compileDebugRenderscript
+> Task :toro-core:generateDebugBuildConfig
+> Task :toro-core:generateDebugResValues
+> Task :toro-core:generateDebugResources
+> Task :toro-core:packageDebugResources
+> Task :toro-core:generateDebugRFile
+> Task :toro-core:prepareLintJar
+> Task :toro-core:generateDebugSources
+> Task :toro-core:javaPreCompileDebug
+
+> Task :toro-core:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/src/main/java/im/ene/toro/widget/Container.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/src/main/java/im/ene/toro/widget/Container.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :toro-core:processDebugJavaRes NO-SOURCE
+> Task :toro-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app-youtube:javaPreCompileDebug
+> Task :app-youtube:mainApkListPersistenceDebug
+> Task :app-youtube:generateDebugResValues
+> Task :app-youtube:generateDebugResources
+> Task :app-youtube:mergeDebugResources
+> Task :app-youtube:createDebugCompatibleScreenManifests
+> Task :app-youtube:processDebugManifest
+> Task :app-youtube:processDebugResources
+
+> Task :app-youtube:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/src/main/java/im/ene/toro/youtube/YouTubePlayerHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app-youtube:compileDebugNdk NO-SOURCE
+> Task :app-youtube:compileDebugSources
+> Task :app-youtube:mergeDebugShaders
+> Task :app-youtube:compileDebugShaders
+> Task :app-youtube:generateDebugAssets
+> Task :toro-core:mergeDebugShaders
+> Task :toro-core:compileDebugShaders
+> Task :toro-core:generateDebugAssets
+> Task :toro-core:packageDebugAssets
+> Task :app-youtube:mergeDebugAssets
+> Task :app-youtube:validateSigningDebug
+> Task :app-youtube:signingConfigWriterDebug
+> Task :app-youtube:transformClassesWithDexBuilderForDebug
+> Task :app-youtube:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app-youtube:transformDexArchiveWithDexMergerForDebug
+> Task :app-youtube:mergeDebugJniLibFolders
+> Task :toro-core:compileDebugNdk NO-SOURCE
+> Task :toro-core:mergeDebugJniLibFolders
+> Task :toro-core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :toro-core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :toro-core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app-youtube:transformNativeLibsWithMergeJniLibsForDebug
+
+> Task :app-youtube:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libcrashlytics.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :app-youtube:processDebugJavaRes NO-SOURCE
+> Task :app-youtube:transformResourcesWithMergeJavaResForDebug
+> Task :app-youtube:packageDebug
+> Task :app-youtube:assembleDebug
+> Task :app-youtube:extractProguardFiles
+> Task :toro-core:preReleaseBuild UP-TO-DATE
+> Task :toro-core:checkReleaseManifest
+> Task :toro-core:processReleaseManifest
+> Task :app-youtube:preReleaseBuild
+> Task :toro-core:compileReleaseAidl NO-SOURCE
+> Task :app-youtube:compileReleaseAidl NO-SOURCE
+> Task :toro-core:packageReleaseRenderscript NO-SOURCE
+> Task :app-youtube:compileReleaseRenderscript
+> Task :app-youtube:checkReleaseManifest
+> Task :app-youtube:generateReleaseBuildConfig
+> Task :app-youtube:generateReleaseSources
+> Task :toro-core:compileReleaseRenderscript
+> Task :toro-core:generateReleaseBuildConfig
+> Task :toro-core:generateReleaseResValues
+> Task :toro-core:generateReleaseResources
+> Task :toro-core:packageReleaseResources
+> Task :toro-core:generateReleaseRFile
+> Task :toro-core:generateReleaseSources
+> Task :toro-core:javaPreCompileRelease
+
+> Task :toro-core:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/src/main/java/im/ene/toro/widget/Container.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/src/main/java/im/ene/toro/widget/Container.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :toro-core:processReleaseJavaRes NO-SOURCE
+> Task :toro-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app-youtube:javaPreCompileRelease
+> Task :app-youtube:mainApkListPersistenceRelease
+> Task :app-youtube:generateReleaseResValues
+> Task :app-youtube:generateReleaseResources
+> Task :app-youtube:mergeReleaseResources
+> Task :app-youtube:createReleaseCompatibleScreenManifests
+> Task :app-youtube:processReleaseManifest
+> Task :app-youtube:processReleaseResources
+
+> Task :app-youtube:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/src/main/java/im/ene/toro/youtube/YouTubePlayerHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app-youtube:compileReleaseNdk NO-SOURCE
+> Task :app-youtube:compileReleaseSources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle: Error: commons-logging defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+> Task :app-youtube:lintVitalRelease
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build.gradle: Error: httpclient defines classes that conflict with classes now provided by Android. Solutions include finding newer versions or alternative libraries that don't have the same problem (for example, for httpclient use HttpUrlConnection or okhttp instead), or repackaging the library using something like jarjar. [DuplicatePlatformClasses]
+
+   Explanation for issues of type "DuplicatePlatformClasses":
+   There are a number of libraries that duplicate not just functionality of
+   the Android platform but using the exact same class names as the ones
+   provided in Android -- for example the apache http classes. This can lead
+   to unexpected crashes.
+
+   To solve this, you need to either find a newer version of the library which
+   no longer has this problem, or to repackage the library (and all of its
+   dependencies) using something like the jarjar tool, or finally, rewriting
+   the code to use different APIs (for example, for http code, consider using
+   HttpUrlConnection or a library like okhttp).
+
+2 errors, 0 warnings
+
+> Task :app-youtube:mergeReleaseShaders
+> Task :app-youtube:compileReleaseShaders
+> Task :app-youtube:generateReleaseAssets
+> Task :toro-core:mergeReleaseShaders
+> Task :toro-core:compileReleaseShaders
+> Task :toro-core:generateReleaseAssets
+> Task :toro-core:packageReleaseAssets
+> Task :app-youtube:mergeReleaseAssets
+> Task :app-youtube:validateSigningRelease
+> Task :app-youtube:signingConfigWriterRelease
+> Task :app-youtube:processReleaseJavaRes NO-SOURCE
+> Task :app-youtube:transformResourcesWithMergeJavaResForRelease
+> Task :toro-core:mergeReleaseConsumerProguardFiles
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/libs/YouTubeAndroidPlayerApi.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/914b71ff4a6889889583d38aa5983ede/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b737ec844fee5a9372d7eb344b3a14d8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7fce273227ad19ebe9ea9691609b7ae5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-youtube/v3-rev205-1.25.0/c226341a2ca08952421158537f87afe53374744/google-api-services-youtube-v3-rev205-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.25.0/dfd2c70b386dc05abc3e8953def2188ec0669f5b/google-api-client-android-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.25.0/cf407b7190e978fb811bc76c9297e78a2c564a38/google-http-client-android-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.25.0/57c2625fcd249024b931f31f7719826f4b46a538/google-api-client-gson-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/439998d5da5415997c4411573eb27494/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/9ee2081a3aef76f9b2785ea49cc9d4e4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/b257c99ba7dab12d8e5cc0e5fb098aa9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.4/16ae5ef44181829f8f52caf61f131af9dfa3064a/rxjava-2.2.4.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.7.aar/63bf21ea051ab5083408ba7efafa30f2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.5.aar/1520811b389ca24ff7e095e5bf05267e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.2.aar/86c08c91b1bc67f3b4cf866b061c0eea/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2dfd42f5fb08d38e01fc0590d79438e0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/daf17d6375d94817507086dc7b892e3d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d902707339fb4975812913b46b365fb7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f71e6c0a921c538227a3cad47575d445/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0602aab7826af24fe2a3a332c2e3247b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/42c856e1446e69b151aab30c56849a72/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d89afbee817e75d07fd407fc28d107dc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6d30fe3c29c9cb215ef64e5d1a4fafaa/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/cef2d62550ea9507dd98098d78508408/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dc5f2df972ad0e0c61eea37439a62a07/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/74c1e0d3dfb4994776588fdd34592bd3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6d08e73d78eec24927bbe747f7935941/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/64fa1da96815bbc7d4c7256a770c908d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0563ba55248b48a2205b99ffd830c57f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b3fb7da11bf9926b6eefadbd19056c6b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ec49093b7da43a02d709cded2b5ab890/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e82e866cfdbc5122c4b9cf8f7afb7248/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/00abee163bbfef7dbeeaf2225cfbe778/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29b9f861065115a3f2d512765223272b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/057d510050cc4a3336d2c38ce6d56976/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7536e9a5ee5f12a584f5d43dca774d92/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/047b09d3bfdb699fb542b6cd881b30f6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/068d5573219d62c33a6646790b3b47a0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/4c0015627da17429e4577053c0b4b801/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6d91fca4380f736a2a4bf1b4ed273e37/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/119b253d2e3e9d48e7519d8d47779d2a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e5fa9011825e9e073cf7ecbda3fd1e15/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f91e67a02280f69ec83aebc7409c5496/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.25.0/e7ff725e89ff5dcbed107be1a24e8102ae2441ee/google-api-client-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.25.0/b73df76fb315b1cc8be1a26240954bde40c26109/google-http-client-gson-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.25.0/c9ee14e8b095b4b301b28d57755cc482b8d6f39f/google-oauth-client-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.25.0/7c5c89bd4d0d34d9f1cb3396e8da6233e5074b5c/google-http-client-jackson2-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.25.0/5fb16523c393bfe0210c29db44742bd308311841/google-http-client-1.25.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/e95a18cf82698ab38a255fc43e6eb721/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.6.aar/5dc4445297342527dcb08e9c20122db8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/answers-1.4.5.aar/88607146b532f156d587ee282a18bc9b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fabric-1.4.6.aar/acbc50d6702c5d15007dfde1a92a6d5f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.5/1603dfd56ebcd583ccdf337b6c3984ac55d89e58/httpclient-4.5.5.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.6/4e393793c37c77e042ccc7be5a914ae39251b365/jackson-core-2.9.6.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.9/a86ce739e5a7175b4b234c290a00a5fdb80957a0/httpcore-4.4.9.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.commons.codec.BinaryDecoder]
+Note: duplicate definition of library class [org.apache.commons.codec.BinaryEncoder]
+Note: duplicate definition of library class [org.apache.commons.codec.Decoder]
+Note: duplicate definition of library class [org.apache.commons.codec.DecoderException]
+Note: duplicate definition of library class [org.apache.commons.codec.Encoder]
+Note: duplicate definition of library class [org.apache.commons.codec.EncoderException]
+Note: duplicate definition of library class [org.apache.commons.codec.StringDecoder]
+Note: duplicate definition of library class [org.apache.commons.codec.StringEncoder]
+Note: duplicate definition of library class [org.apache.commons.codec.StringEncoderComparator]
+Note: duplicate definition of library class [org.apache.commons.codec.binary.Base64]
+Note: duplicate definition of library class [org.apache.commons.codec.binary.BinaryCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.binary.Hex]
+Note: duplicate definition of library class [org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult]
+Note: duplicate definition of library class [org.apache.commons.codec.language.DoubleMetaphone]
+Note: duplicate definition of library class [org.apache.commons.codec.language.Metaphone]
+Note: duplicate definition of library class [org.apache.commons.codec.language.RefinedSoundex]
+Note: duplicate definition of library class [org.apache.commons.codec.language.Soundex]
+Note: duplicate definition of library class [org.apache.commons.codec.net.BCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.QCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.QuotedPrintableCodec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.RFC1522Codec]
+Note: duplicate definition of library class [org.apache.commons.codec.net.URLCodec]
+Note: duplicate definition of library class [org.apache.commons.logging.Log]
+Note: duplicate definition of library class [org.apache.commons.logging.LogConfigurationException]
+Note: duplicate definition of library class [org.apache.commons.logging.LogFactory]
+Note: duplicate definition of library class [org.apache.commons.logging.LogSource]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.Jdk14Logger]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.LogFactoryImpl]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.NoOpLog]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.SimpleLog]
+Note: duplicate definition of library class [org.apache.commons.logging.impl.WeakHashtable]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Note: there were 31 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'Object'
+      Maybe you meant the fully qualified name 'java.lang.Object'?
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.internal.safeparcel.SafeParcelable'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.annotation.KeepName'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.annotation.KeepName'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.annotation.KeepName'
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.GooglePlayServicesUtil'
+Note: the configuration refers to the unknown class 'com.google.android.gms.ads.identifier.AdvertisingIdClient'
+Note: the configuration refers to the unknown class 'com.google.android.gms.ads.identifier.AdvertisingIdClient$Info'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement$OnEventListener'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement$OnEventListener'
+Note: the configuration refers to the unknown class 'com.google.firebase.FirebaseApp'
+      Maybe you meant the fully qualified name 'io.fabric.sdk.android.services.common.FirebaseApp'?
+Note: the configuration refers to the unknown class 'com.google.firebase.FirebaseApp'
+      Maybe you meant the fully qualified name 'io.fabric.sdk.android.services.common.FirebaseApp'?
+
+> Task :app-youtube:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Note: com.crashlytics.android.core.CrashlyticsController: can't find dynamically referenced class com.google.firebase.crash.FirebaseCrash
+Note: com.google.android.youtube.player.internal.aa: can't find dynamically referenced class com.google.android.youtube.api.locallylinked.LocallyLinkedFactory
+Note: com.google.common.util.concurrent.MoreExecutors: can't find dynamically referenced class com.google.appengine.api.ThreadManager
+Note: com.google.common.util.concurrent.MoreExecutors: can't find dynamically referenced class com.google.apphosting.api.ApiProxy
+Note: org.apache.commons.logging.LogSource: can't find dynamically referenced class org.apache.log4j.Logger
+Note: org.apache.commons.logging.impl.Log4JLogger: can't find dynamically referenced class org.apache.log4j.Priority
+Note: org.apache.commons.logging.impl.Log4JLogger: can't find dynamically referenced class org.apache.log4j.Level
+Note: org.apache.commons.logging.impl.Log4JLogger: can't find dynamically referenced class org.apache.log4j.Level
+Note: com.google.api.client.googleapis.auth.oauth2.DefaultCredentialProvider accesses a field 'environment' dynamically
+Note: com.google.common.cache.Striped64 accesses a declared field 'base' dynamically
+      Maybe this is program field 'com.google.common.cache.Striped64 { long base; }'
+Note: com.google.common.cache.Striped64 accesses a declared field 'busy' dynamically
+      Maybe this is program field 'com.google.common.cache.Striped64 { int busy; }'
+Note: com.google.common.cache.Striped64$Cell accesses a declared field 'value' dynamically
+      Maybe this is program field 'com.bumptech.glide.load.model.LazyHeaders$StringHeaderFactory { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.client.repackaged.com.google.common.base.MoreObjects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.api.client.repackaged.com.google.common.base.Objects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.api.client.util.DateTime { long value; }'
+      Maybe this is program field 'com.google.api.client.util.Objects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.LanguageTag { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.LocalizedString { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.NonprofitId { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.PropertyValue { java.lang.String value; }'
+      Maybe this is program field 'com.google.common.base.Functions$ConstantFunction { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.MoreObjects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Objects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$ExpiringMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$MemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.LocalCache$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.collect.Count { int value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.LinkedListMultimap$Node { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$StrongKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Ordering$IncomparableValueException { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Tables$ImmutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeMultiset$Reference { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeRangeMap$RangeMapEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.graph.MapRetrievalCache$CacheEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedInteger { int value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedLong { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AtomicDouble { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulCheckedFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.gson.JsonPrimitive { java.lang.Object value; }'
+      Maybe this is program field 'com.google.gson.internal.LazilyParsedNumber { java.lang.String value; }'
+      Maybe this is program field 'com.google.gson.stream.JsonReader { java.lang.String value; }'
+      Maybe this is program field 'io.fabric.sdk.android.services.cache.MemoryValueCache { java.lang.Object value; }'
+      Maybe this is program field 'io.fabric.sdk.android.services.concurrency.internal.AbstractFuture$Sync { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.Notification { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.functions.Functions$EqualsPredicate { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.functions.Functions$JustValue { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.BlockingBaseObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.BlockingMultiObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.DeferredScalarDisposable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.FutureObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.FutureSingleObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.BlockingFlowableLatest$LatestSubscriberIterator { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.BlockingFlowableMostRecent$MostRecentSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableConcatMap$WeakScalarSubscription { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableDebounce$DebounceSubscriber$DebounceInnerSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableDebounceTimed$DebounceEmitter { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableReduceMaybe$ReduceSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableReduceSeedSingle$ReduceSeedObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableReplay$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableScalarXMap$ScalarXMapFlowable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableScan$ScanSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableScanSeed$ScanSeedSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableSingleMaybe$SingleElementSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableSingleSingle$SingleElementSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableToListSingle$ToListSubscriber { java.util.Collection value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeCache { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeContains { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeContains$ContainsMaybeObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeDelay$DelayMaybeObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeDelayOtherPublisher$OtherSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeEqualSingle$EqualObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeFlatMapBiSelector$FlatMapBiMainObserver$InnerObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeObserveOn$ObserveOnMaybeObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.BlockingObservableLatest$BlockingObservableLatestIterator { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.BlockingObservableMostRecent$MostRecentObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableDebounce$DebounceObserver$DebounceInnerObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableDebounceTimed$DebounceEmitter { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableReduceMaybe$ReduceObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableReduceSeedSingle$ReduceSeedObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableReplay$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarDisposable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarXMapObservable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScan$ScanObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScanSeed$ScanSeedObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableSingleMaybe$SingleElementObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableSingleSingle$SingleElementObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableTakeLastOne$TakeLastOneObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.parallel.ParallelReduceFull$ParallelReduceFullInnerSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleCache { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleContains { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleDelay$Delay$OnSuccess { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleFromPublisher$ToSingleObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleObserveOn$ObserveOnSingleObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleOnErrorReturn { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.queue.MpscLinkedQueue$LinkedQueueNode { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscribers.BlockingBaseSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscribers.FutureSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscribers.SinglePostCompleteSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscriptions.DeferredScalarSubscription { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscriptions.ScalarSubscription { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.processors.AsyncProcessor { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.processors.BehaviorProcessor { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.processors.ReplayProcessor$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.processors.ReplayProcessor$TimedNode { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.schedulers.Timed { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.AsyncSubject { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.BehaviorSubject { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.subjects.MaybeSubject { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.ReplaySubject$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.ReplaySubject$TimedNode { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.SingleSubject { java.lang.Object value; }'
+      Maybe this is program field 'org.apache.commons.logging.impl.WeakHashtable$Entry { java.lang.Object value; }'
+      Maybe this is library field 'android.R$attr { int value; }'
+      Maybe this is library field 'android.icu.util.Output { java.lang.Object value; }'
+      Maybe this is library field 'android.icu.util.RangeValueIterator$Element { int value; }'
+      Maybe this is library field 'android.icu.util.ValueIterator$Element { java.lang.Object value; }'
+      Maybe this is library field 'android.system.Int64Ref { long value; }'
+      Maybe this is library field 'android.util.MutableBoolean { boolean value; }'
+      Maybe this is library field 'android.util.MutableByte { byte value; }'
+      Maybe this is library field 'android.util.MutableChar { char value; }'
+      Maybe this is library field 'android.util.MutableDouble { double value; }'
+      Maybe this is library field 'android.util.MutableFloat { float value; }'
+      Maybe this is library field 'android.util.MutableInt { int value; }'
+      Maybe this is library field 'android.util.MutableLong { long value; }'
+      Maybe this is library field 'android.util.MutableShort { short value; }'
+      Maybe this is library field 'android.view.animation.Animation$Description { float value; }'
+      Maybe this is library field 'java.sql.DriverPropertyInfo { java.lang.String value; }'
+Note: com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper accesses a declared field 'waiters' dynamically
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { com.google.common.util.concurrent.AbstractFuture$Waiter waiters; }'
+Note: com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper accesses a declared field 'listeners' dynamically
+      Maybe this is program field 'com.crashlytics.android.answers.BackgroundManager { java.util.List listeners; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { com.google.common.util.concurrent.AbstractFuture$Listener listeners; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractService { java.util.List listeners; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ServiceManager$ServiceManagerState { java.util.List listeners; }'
+Note: com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper accesses a declared field 'value' dynamically
+      Maybe this is program field 'com.bumptech.glide.load.model.LazyHeaders$StringHeaderFactory { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.client.repackaged.com.google.common.base.MoreObjects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.api.client.repackaged.com.google.common.base.Objects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.api.client.util.DateTime { long value; }'
+      Maybe this is program field 'com.google.api.client.util.Objects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.LanguageTag { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.LocalizedString { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.NonprofitId { java.lang.String value; }'
+      Maybe this is program field 'com.google.api.services.youtube.model.PropertyValue { java.lang.String value; }'
+      Maybe this is program field 'com.google.common.base.Functions$ConstantFunction { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.MoreObjects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Objects$ToStringHelper$ValueHolder { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$ExpiringMemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.base.Suppliers$MemoizingSupplier { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.LocalCache$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.cache.Striped64$Cell { long value; }'
+      Maybe this is program field 'com.google.common.collect.Count { int value; }'
+      Maybe this is program field 'com.google.common.collect.ImmutableEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.LinkedListMultimap$Node { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$StrongKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WeakKeyStrongValueEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.MapMakerInternalMap$WriteThroughEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Ordering$IncomparableValueException { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.Tables$ImmutableCell { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeMultiset$Reference { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.collect.TreeRangeMap$RangeMapEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.graph.MapRetrievalCache$CacheEntry { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedInteger { int value; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedLong { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AbstractFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.AtomicDouble { long value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulCheckedFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.common.util.concurrent.ImmediateFuture$ImmediateSuccessfulFuture { java.lang.Object value; }'
+      Maybe this is program field 'com.google.gson.JsonPrimitive { java.lang.Object value; }'
+      Maybe this is program field 'com.google.gson.internal.LazilyParsedNumber { java.lang.String value; }'
+      Maybe this is program field 'com.google.gson.stream.JsonReader { java.lang.String value; }'
+      Maybe this is program field 'io.fabric.sdk.android.services.cache.MemoryValueCache { java.lang.Object value; }'
+      Maybe this is program field 'io.fabric.sdk.android.services.concurrency.internal.AbstractFuture$Sync { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.Notification { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.functions.Functions$EqualsPredicate { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.functions.Functions$JustValue { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.BlockingBaseObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.BlockingMultiObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.DeferredScalarDisposable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.FutureObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.observers.FutureSingleObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.BlockingFlowableLatest$LatestSubscriberIterator { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.BlockingFlowableMostRecent$MostRecentSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableConcatMap$WeakScalarSubscription { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableDebounce$DebounceSubscriber$DebounceInnerSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableDebounceTimed$DebounceEmitter { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableReduceMaybe$ReduceSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableReduceSeedSingle$ReduceSeedObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableReplay$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableScalarXMap$ScalarXMapFlowable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableScan$ScanSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableScanSeed$ScanSeedSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableSingleMaybe$SingleElementSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableSingleSingle$SingleElementSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.flowable.FlowableToListSingle$ToListSubscriber { java.util.Collection value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeCache { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeContains { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeContains$ContainsMaybeObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeDelay$DelayMaybeObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeDelayOtherPublisher$OtherSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeEqualSingle$EqualObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeFlatMapBiSelector$FlatMapBiMainObserver$InnerObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.maybe.MaybeObserveOn$ObserveOnMaybeObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.BlockingObservableLatest$BlockingObservableLatestIterator { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.BlockingObservableMostRecent$MostRecentObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableDebounce$DebounceObserver$DebounceInnerObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableDebounceTimed$DebounceEmitter { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableReduceMaybe$ReduceObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableReduceSeedSingle$ReduceSeedObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableReplay$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarDisposable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScalarXMap$ScalarXMapObservable { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScan$ScanObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableScanSeed$ScanSeedObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableSingleMaybe$SingleElementObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableSingleSingle$SingleElementObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.observable.ObservableTakeLastOne$TakeLastOneObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.parallel.ParallelReduceFull$ParallelReduceFullInnerSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleCache { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleContains { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleDelay$Delay$OnSuccess { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleFromPublisher$ToSingleObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleJust { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleObserveOn$ObserveOnSingleObserver { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.operators.single.SingleOnErrorReturn { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.queue.MpscLinkedQueue$LinkedQueueNode { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscribers.BlockingBaseSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscribers.FutureSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscribers.SinglePostCompleteSubscriber { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscriptions.DeferredScalarSubscription { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.internal.subscriptions.ScalarSubscription { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.processors.AsyncProcessor { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.processors.BehaviorProcessor { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.processors.ReplayProcessor$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.processors.ReplayProcessor$TimedNode { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.schedulers.Timed { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.AsyncSubject { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.BehaviorSubject { java.util.concurrent.atomic.AtomicReference value; }'
+      Maybe this is program field 'io.reactivex.subjects.MaybeSubject { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.ReplaySubject$Node { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.ReplaySubject$TimedNode { java.lang.Object value; }'
+      Maybe this is program field 'io.reactivex.subjects.SingleSubject { java.lang.Object value; }'
+      Maybe this is program field 'org.apache.commons.logging.impl.WeakHashtable$Entry { java.lang.Object value; }'
+      Maybe this is library field 'android.R$attr { int value; }'
+      Maybe this is library field 'android.icu.util.Output { java.lang.Object value; }'
+      Maybe this is library field 'android.icu.util.RangeValueIterator$Element { int value; }'
+      Maybe this is library field 'android.icu.util.ValueIterator$Element { java.lang.Object value; }'
+      Maybe this is library field 'android.system.Int64Ref { long value; }'
+      Maybe this is library field 'android.util.MutableBoolean { boolean value; }'
+      Maybe this is library field 'android.util.MutableByte { byte value; }'
+      Maybe this is library field 'android.util.MutableChar { char value; }'
+      Maybe this is library field 'android.util.MutableDouble { double value; }'
+      Maybe this is library field 'android.util.MutableFloat { float value; }'
+      Maybe this is library field 'android.util.MutableInt { int value; }'
+      Maybe this is library field 'android.util.MutableLong { long value; }'
+      Maybe this is library field 'android.util.MutableShort { short value; }'
+      Maybe this is library field 'android.view.animation.Animation$Description { float value; }'
+      Maybe this is library field 'java.sql.DriverPropertyInfo { java.lang.String value; }'
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+      Maybe this is program field 'com.google.common.hash.LittleEndianByteArray$UnsafeByteArray { sun.misc.Unsafe theUnsafe; }'
+      Maybe this is program field 'com.google.common.primitives.UnsignedBytes$LexicographicalComparatorHolder$UnsafeComparator { sun.misc.Unsafe theUnsafe; }'
+Note: org.apache.commons.logging.impl.Log4JLogger accesses a declared field 'TRACE' dynamically
+      Maybe this is program field 'com.google.api.client.http.HttpMethods { java.lang.String TRACE; }'
+Note: the configuration keeps the entry point 'im.ene.toro.widget.Container { void setPlayerSelector(im.ene.toro.PlayerSelector); }', but not the descriptor class 'im.ene.toro.PlayerSelector'
+Note: the configuration keeps the entry point 'im.ene.toro.widget.Container { void setPlayerDispatcher(im.ene.toro.PlayerDispatcher); }', but not the descriptor class 'im.ene.toro.PlayerDispatcher'
+Note: the configuration keeps the entry point 'im.ene.toro.widget.Container { void setBehaviorCallback(im.ene.toro.widget.Container$BehaviorCallback); }', but not the descriptor class 'im.ene.toro.widget.Container$BehaviorCallback'
+Note: the configuration keeps the entry point 'im.ene.toro.widget.Container { void setPlayerInitializer(im.ene.toro.widget.Container$Initializer); }', but not the descriptor class 'im.ene.toro.widget.Container$Initializer'
+Note: the configuration keeps the entry point 'im.ene.toro.widget.Container { void setCacheManager(im.ene.toro.CacheManager); }', but not the descriptor class 'im.ene.toro.CacheManager'
+Note: there were 14 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 5 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 8 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 9 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4408
+  Final number of library classes:    1548
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 8560
+  Final number of program classes:    2776
+Optimizing (pass 1/5)...
+  Number of finalized classes:                   1280
+  Number of unboxed enum classes:                10
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  1453
+  Number of staticized methods:                  595
+  Number of finalized methods:                   8183
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        481
+  Number of removed method parameters:           570
+  Number of inlined constant parameters:         215
+  Number of inlined constant return values:      105
+  Number of inlined short method calls:          2590
+  Number of inlined unique method calls:         2341
+  Number of inlined tail recursion calls:        35
+  Number of merged code blocks:                  69
+  Number of variable peephole optimizations:     11383
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        72
+  Number of branch peephole optimizations:       2599
+  Number of object peephole optimizations:       43
+  Number of string peephole optimizations:       1101
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             1102
+  Number of removed instructions:                5400
+  Number of removed local variables:             408
+  Number of removed exception blocks:            183
+  Number of optimized local variable frames:     3610
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2776
+  Final number of program classes:    2729
+Optimizing (pass 2/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  4
+  Number of staticized methods:                  32
+  Number of finalized methods:                   114
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        263
+  Number of removed method parameters:           330
+  Number of inlined constant parameters:         236
+  Number of inlined constant return values:      33
+  Number of inlined short method calls:          38
+  Number of inlined unique method calls:         118
+  Number of inlined tail recursion calls:        7
+  Number of merged code blocks:                  9
+  Number of variable peephole optimizations:     948
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       84
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       243
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             348
+  Number of removed instructions:                9410
+  Number of removed local variables:             330
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     309
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2729
+  Final number of program classes:    2723
+Optimizing (pass 3/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  2
+  Number of staticized methods:                  10
+  Number of finalized methods:                   13
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        92
+  Number of removed method parameters:           117
+  Number of inlined constant parameters:         91
+  Number of inlined constant return values:      32
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         11
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     173
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       14
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       4
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             40
+  Number of removed instructions:                1295
+  Number of removed local variables:             34
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     57
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2723
+  Final number of program classes:    2723
+Optimizing (pass 4/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  3
+  Number of finalized methods:                   1
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        18
+  Number of removed method parameters:           23
+  Number of inlined constant parameters:         24
+  Number of inlined constant return values:      32
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         1
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     44
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       2
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             8
+  Number of removed instructions:                215
+  Number of removed local variables:             12
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     3
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2723
+  Final number of program classes:    2723
+Optimizing (pass 5/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        7
+  Number of removed method parameters:           7
+  Number of inlined constant parameters:         12
+  Number of inlined constant return values:      32
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     10
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             5
+  Number of removed instructions:                72
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     0
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2723
+  Final number of program classes:    2723
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/libs/YouTubeAndroidPlayerApi.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/914b71ff4a6889889583d38aa5983ede/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b737ec844fee5a9372d7eb344b3a14d8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/7fce273227ad19ebe9ea9691609b7ae5/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-youtube/v3-rev205-1.25.0/c226341a2ca08952421158537f87afe53374744/google-api-services-youtube-v3-rev205-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.25.0/dfd2c70b386dc05abc3e8953def2188ec0669f5b/google-api-client-android-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.25.0/cf407b7190e978fb811bc76c9297e78a2c564a38/google-http-client-android-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.25.0/57c2625fcd249024b931f31f7719826f4b46a538/google-api-client-gson-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/439998d5da5415997c4411573eb27494/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/glide-4.8.0.aar/9ee2081a3aef76f9b2785ea49cc9d4e4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/b257c99ba7dab12d8e5cc0e5fb098aa9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.4/16ae5ef44181829f8f52caf61f131af9dfa3064a/rxjava-2.2.4.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.7.aar/63bf21ea051ab5083408ba7efafa30f2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-ndk-2.0.5.aar/1520811b389ca24ff7e095e5bf05267e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/leakcanary-android-no-op-1.6.2.aar/86c08c91b1bc67f3b4cf866b061c0eea/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2dfd42f5fb08d38e01fc0590d79438e0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/daf17d6375d94817507086dc7b892e3d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/d902707339fb4975812913b46b365fb7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f71e6c0a921c538227a3cad47575d445/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/0602aab7826af24fe2a3a332c2e3247b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/42c856e1446e69b151aab30c56849a72/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d89afbee817e75d07fd407fc28d107dc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/6d30fe3c29c9cb215ef64e5d1a4fafaa/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/cef2d62550ea9507dd98098d78508408/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dc5f2df972ad0e0c61eea37439a62a07/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/74c1e0d3dfb4994776588fdd34592bd3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6d08e73d78eec24927bbe747f7935941/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/64fa1da96815bbc7d4c7256a770c908d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0563ba55248b48a2205b99ffd830c57f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b3fb7da11bf9926b6eefadbd19056c6b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ec49093b7da43a02d709cded2b5ab890/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e82e866cfdbc5122c4b9cf8f7afb7248/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/00abee163bbfef7dbeeaf2225cfbe778/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/29b9f861065115a3f2d512765223272b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/057d510050cc4a3336d2c38ce6d56976/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7536e9a5ee5f12a584f5d43dca774d92/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/047b09d3bfdb699fb542b6cd881b30f6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/068d5573219d62c33a6646790b3b47a0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.8.0.aar/4c0015627da17429e4577053c0b4b801/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6d91fca4380f736a2a4bf1b4ed273e37/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/119b253d2e3e9d48e7519d8d47779d2a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/e5fa9011825e9e073cf7ecbda3fd1e15/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f91e67a02280f69ec83aebc7409c5496/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.25.0/e7ff725e89ff5dcbed107be1a24e8102ae2441ee/google-api-client-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.25.0/b73df76fb315b1cc8be1a26240954bde40c26109/google-http-client-gson-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.25.0/c9ee14e8b095b4b301b28d57755cc482b8d6f39f/google-oauth-client-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.25.0/7c5c89bd4d0d34d9f1cb3396e8da6233e5074b5c/google-http-client-jackson2-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.25.0/5fb16523c393bfe0210c29db44742bd308311841/google-http-client-1.25.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.8.0/a7448551cb3edd61bcf3d1b1136b670e630441cf/disklrucache-4.8.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.8.0/c4c9e79eb2bfeb9059fce55020c6b237402285f6/annotations-4.8.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/e95a18cf82698ab38a255fc43e6eb721/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.6.aar/5dc4445297342527dcb08e9c20122db8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/answers-1.4.5.aar/88607146b532f156d587ee282a18bc9b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fabric-1.4.6.aar/acbc50d6702c5d15007dfde1a92a6d5f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.5/1603dfd56ebcd583ccdf337b6c3984ac55d89e58/httpclient-4.5.5.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.1/2e66da15851f9f5b5079228f856c2f090ba98c38/gson-2.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.6/4e393793c37c77e042ccc7be5a914ae39251b365/jackson-core-2.9.6.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.9/a86ce739e5a7175b4b234c290a00a5fdb80957a0/httpcore-4.4.9.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/toro-core/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.ietf.jgss.GSSManager` was not found, it is required for default or static interface methods desugaring of `byte[] wow.awt.a(byte[], org.ietf.jgss.Oid, java.lang.String, wow.ard)`
+
+> Task :app-youtube:transformClassesWithDexBuilderForRelease
+> Task :app-youtube:transformDexArchiveWithDexMergerForRelease
+> Task :app-youtube:mergeReleaseJniLibFolders
+> Task :toro-core:compileReleaseNdk NO-SOURCE
+> Task :toro-core:mergeReleaseJniLibFolders
+> Task :toro-core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :toro-core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :toro-core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app-youtube:transformNativeLibsWithMergeJniLibsForRelease
+
+> Task :app-youtube:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libcrashlytics.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :app-youtube:packageRelease
+> Task :app-youtube:assembleRelease
+> Task :app-youtube:assemble
+> Task :app-youtube:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 54s
+89 actionable tasks: 89 executed
+
+2019-01-18 15:10:17,693 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798715485-0/src/app-youtube/build/outputs/apk/release/app-youtube-release.apk

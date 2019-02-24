@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.javiersantos.whatsappbetaupdater.debug",
+    "label" : "Beta Updater for WhatsApp",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "4.0.1",
+    "versionCode" : 25,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2520,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "fr", "ka", "sq", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"25\" android:versionName=\"4.0.1\" package=\"com.javiersantos.whatsappbetaupdater.debug\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0f000b\" android:label=\"Beta Updater for WhatsApp\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"Beta Updater for WhatsApp\" android:name=\"com.javiersantos.whatsappbetaupdater.activities.MainActivity\" android:configChanges=\"0x480\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Settings\" android:name=\"com.javiersantos.whatsappbetaupdater.activities.SettingsActivity\" />\n\t\t<receiver android:name=\"com.javiersantos.whatsappbetaupdater.receivers.NotificationReceiver\" />\n\t\t<activity android:name=\"com.mikepenz.aboutlibraries.ui.LibsActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3487517,
+  "crc32" : 2010999408,
+  "sha256" : "ea7b304e75dbe3749ddbccfa2bf0d6f8e5987818706b76dd39cd2bc1ae651379",
+  "buildTime" : 1522512936000
+}

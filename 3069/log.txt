@@ -1,0 +1,702 @@
+2019-01-13 01:04:57,872 INFO  DownloadService - Downloading "https://github.com/blipinsk/RxAnimationBinding/archive/master.zip", attempt 3
+2019-01-13 01:04:59,500 INFO  DownloadService - Downloaded https://github.com/blipinsk/RxAnimationBinding/archive/master.zip, attempt 3
+2019-01-13 01:04:59,501 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/master.zip": 129 KB
+2019-01-13 01:04:59,501 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 01:04:59,506 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/master.zip: true
+2019-01-13 01:04:59,506 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src'.
+2019-01-13 01:04:59,530 INFO  FullProcessService - Size of directory with sources: 185 KB
+2019-01-13 01:04:59,530 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src]
+2019-01-13 01:04:59,548 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/.git/
+
+2019-01-13 01:04:59,552 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/gradlew
+2019-01-13 01:04:59,556 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/testing-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/build.gradle
+2019-01-13 01:04:59,560 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/testing-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/settings.gradle
+2019-01-13 01:04:59,560 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 01:04:59,560 INFO  ProjectFixService - Fixing project...
+2019-01-13 01:04:59,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding-support-v4/local.properties
+2019-01-13 01:04:59,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding-support-v4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-13 01:04:59,572 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding-support-v4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 01:04:59,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding/local.properties
+2019-01-13 01:04:59,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-13 01:04:59,577 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 01:04:59,578 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/local.properties
+2019-01-13 01:04:59,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-13 01:04:59,580 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 01:04:59,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/testing-utils/local.properties
+2019-01-13 01:04:59,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/testing-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-13 01:04:59,584 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/testing-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 01:04:59,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/local.properties
+2019-01-13 01:04:59,586 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-13 01:04:59,586 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-13 01:04:59,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-13 01:04:59,589 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 01:04:59,590 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 01:04:59,591 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 01:04:59,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 01:05:15,785 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-13 01:05:15,785 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-13 01:05:15,785 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-13 01:05:15,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-13 01:05:24,754 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 01:05:24,754 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxanimationbinding-support-v4:preBuild UP-TO-DATE
+:rxanimationbinding-support-v4:preDebugBuild UP-TO-DATE
+:rxanimationbinding-support-v4:compileDebugNdk UP-TO-DATE
+:rxanimationbinding-support-v4:compileLint
+:rxanimationbinding-support-v4:copyDebugLint UP-TO-DATE
+:rxanimationbinding:preBuild UP-TO-DATE
+:rxanimationbinding:preReleaseBuild UP-TO-DATE
+:rxanimationbinding:compileReleaseNdk UP-TO-DATE
+:rxanimationbinding:compileLint
+:rxanimationbinding:copyReleaseLint UP-TO-DATE
+:rxanimationbinding:checkReleaseManifest
+:rxanimationbinding:preDebugAndroidTestBuild UP-TO-DATE
+:rxanimationbinding:preDebugBuild UP-TO-DATE
+:rxanimationbinding:preDebugUnitTestBuild UP-TO-DATE
+:rxanimationbinding:preReleaseUnitTestBuild UP-TO-DATE
+:testing-utils:preBuild UP-TO-DATE
+:testing-utils:preReleaseBuild UP-TO-DATE
+:testing-utils:compileReleaseNdk UP-TO-DATE
+:testing-utils:compileLint
+:testing-utils:copyReleaseLint UP-TO-DATE
+:testing-utils:checkReleaseManifest
+:testing-utils:preDebugAndroidTestBuild UP-TO-DATE
+:testing-utils:preDebugBuild UP-TO-DATE
+:testing-utils:preDebugUnitTestBuild UP-TO-DATE
+:testing-utils:preReleaseUnitTestBuild UP-TO-DATE
+:testing-utils:prepareComAndroidSupportTestEspressoEspressoCore221Library
+:testing-utils:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library
+:testing-utils:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library
+:testing-utils:prepareComAndroidSupportTestRules041Library
+:testing-utils:prepareComAndroidSupportTestRunner041Library
+:testing-utils:prepareIoReactivexRxandroid110Library
+:testing-utils:prepareReleaseDependencies
+:testing-utils:compileReleaseAidl
+:testing-utils:compileReleaseRenderscript
+:testing-utils:generateReleaseBuildConfig
+:testing-utils:generateReleaseAssets UP-TO-DATE
+:testing-utils:mergeReleaseAssets
+:testing-utils:generateReleaseResValues
+:testing-utils:generateReleaseResources
+:testing-utils:mergeReleaseResources
+:testing-utils:processReleaseManifest
+:testing-utils:processReleaseResources
+:testing-utils:generateReleaseSources
+:testing-utils:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/testing-utils/src/main/java/com/bartoszlipinski/rxanimationbinding/RxAnimationBindingTestRunner.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/testing-utils/src/main/java/com/bartoszlipinski/rxanimationbinding/RecordingObserver.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:testing-utils:extractReleaseAnnotations
+:testing-utils:mergeReleaseProguardFiles
+:testing-utils:packageReleaseRenderscript UP-TO-DATE
+:testing-utils:packageReleaseResources
+:testing-utils:processReleaseJavaRes UP-TO-DATE
+:testing-utils:transformResourcesWithMergeJavaResForRelease
+:testing-utils:transformClassesAndResourcesWithSyncLibJarsForRelease
+:testing-utils:mergeReleaseJniLibFolders
+:testing-utils:transformNative_libsWithMergeJniLibsForRelease
+:testing-utils:transformNative_libsWithSyncJniLibsForRelease
+:testing-utils:bundleRelease
+:rxanimationbinding:prepareIoReactivexRxandroid110Library
+:rxanimationbinding:prepareReleaseDependencies
+:rxanimationbinding:compileReleaseAidl
+:rxanimationbinding:compileReleaseRenderscript
+:rxanimationbinding:generateReleaseBuildConfig
+:rxanimationbinding:generateReleaseAssets UP-TO-DATE
+:rxanimationbinding:mergeReleaseAssets
+:rxanimationbinding:generateReleaseResValues
+:rxanimationbinding:generateReleaseResources
+:rxanimationbinding:mergeReleaseResources
+:rxanimationbinding:processReleaseManifest
+:rxanimationbinding:processReleaseResources
+:rxanimationbinding:generateReleaseSources
+:rxanimationbinding:compileReleaseJavaWithJavac
+:rxanimationbinding:extractReleaseAnnotations
+:rxanimationbinding:mergeReleaseProguardFiles
+:rxanimationbinding:packageReleaseRenderscript UP-TO-DATE
+:rxanimationbinding:packageReleaseResources
+:rxanimationbinding:processReleaseJavaRes UP-TO-DATE
+:rxanimationbinding:transformResourcesWithMergeJavaResForRelease
+:rxanimationbinding:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxanimationbinding:mergeReleaseJniLibFolders
+:rxanimationbinding:transformNative_libsWithMergeJniLibsForRelease
+:rxanimationbinding:transformNative_libsWithSyncJniLibsForRelease
+:rxanimationbinding:bundleRelease
+:rxanimationbinding-support-v4:checkDebugManifest
+:rxanimationbinding-support-v4:preDebugAndroidTestBuild UP-TO-DATE
+:rxanimationbinding-support-v4:preDebugUnitTestBuild UP-TO-DATE
+:rxanimationbinding-support-v4:preReleaseBuild UP-TO-DATE
+:rxanimationbinding-support-v4:preReleaseUnitTestBuild UP-TO-DATE
+:rxanimationbinding-support-v4:prepareComAndroidSupportSupportV42311Library
+:rxanimationbinding-support-v4:prepareComBartoszlipinskiRxanimationbindingRxanimationbinding110Library
+:rxanimationbinding-support-v4:prepareIoReactivexRxandroid110Library
+:rxanimationbinding-support-v4:prepareDebugDependencies
+:rxanimationbinding-support-v4:compileDebugAidl
+:rxanimationbinding-support-v4:compileDebugRenderscript
+:rxanimationbinding-support-v4:generateDebugBuildConfig
+:rxanimationbinding-support-v4:generateDebugAssets UP-TO-DATE
+:rxanimationbinding-support-v4:mergeDebugAssets
+:rxanimationbinding-support-v4:generateDebugResValues
+:rxanimationbinding-support-v4:generateDebugResources
+:rxanimationbinding-support-v4:mergeDebugResources
+:rxanimationbinding-support-v4:processDebugManifest
+:rxanimationbinding-support-v4:processDebugResources
+:rxanimationbinding-support-v4:generateDebugSources
+:rxanimationbinding-support-v4:compileDebugJavaWithJavac
+:rxanimationbinding-support-v4:extractDebugAnnotations
+:rxanimationbinding-support-v4:mergeDebugProguardFiles
+:rxanimationbinding-support-v4:packageDebugRenderscript UP-TO-DATE
+:rxanimationbinding-support-v4:packageDebugResources
+:rxanimationbinding-support-v4:processDebugJavaRes UP-TO-DATE
+:rxanimationbinding-support-v4:transformResourcesWithMergeJavaResForDebug
+:rxanimationbinding-support-v4:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxanimationbinding-support-v4:mergeDebugJniLibFolders
+:rxanimationbinding-support-v4:transformNative_libsWithMergeJniLibsForDebug
+:rxanimationbinding-support-v4:transformNative_libsWithSyncJniLibsForDebug
+:rxanimationbinding-support-v4:bundleDebug
+:rxanimationbinding-support-v4:compileDebugSources
+:rxanimationbinding-support-v4:assembleDebug
+:rxanimationbinding-support-v4:compileReleaseNdk UP-TO-DATE
+:rxanimationbinding-support-v4:copyReleaseLint UP-TO-DATE
+:rxanimationbinding-support-v4:checkReleaseManifest
+:rxanimationbinding-support-v4:prepareReleaseDependencies
+:rxanimationbinding-support-v4:compileReleaseAidl
+:rxanimationbinding-support-v4:compileReleaseRenderscript
+:rxanimationbinding-support-v4:generateReleaseBuildConfig
+:rxanimationbinding-support-v4:generateReleaseAssets UP-TO-DATE
+:rxanimationbinding-support-v4:mergeReleaseAssets
+:rxanimationbinding-support-v4:generateReleaseResValues
+:rxanimationbinding-support-v4:generateReleaseResources
+:rxanimationbinding-support-v4:mergeReleaseResources
+:rxanimationbinding-support-v4:processReleaseManifest
+:rxanimationbinding-support-v4:processReleaseResources
+:rxanimationbinding-support-v4:generateReleaseSources
+:rxanimationbinding-support-v4:compileReleaseJavaWithJavac
+:rxanimationbinding-support-v4:extractReleaseAnnotations
+:rxanimationbinding-support-v4:mergeReleaseProguardFiles
+:rxanimationbinding-support-v4:packageReleaseRenderscript UP-TO-DATE
+:rxanimationbinding-support-v4:packageReleaseResources
+:rxanimationbinding-support-v4:processReleaseJavaRes UP-TO-DATE
+:rxanimationbinding-support-v4:transformResourcesWithMergeJavaResForRelease
+:rxanimationbinding-support-v4:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxanimationbinding-support-v4:mergeReleaseJniLibFolders
+:rxanimationbinding-support-v4:transformNative_libsWithMergeJniLibsForRelease
+:rxanimationbinding-support-v4:transformNative_libsWithSyncJniLibsForRelease
+:rxanimationbinding-support-v4:bundleRelease
+:rxanimationbinding-support-v4:compileReleaseSources
+:rxanimationbinding-support-v4:assembleRelease
+:rxanimationbinding-support-v4:assemble
+:rxanimationbinding-support-v4:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':rxanimationbinding-support-v4:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':rxanimationbinding-support-v4:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:340)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:418)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:229)
+	at com.android.build.gradle.tasks.Lint.this$6$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint$this$6$createAndroidProject$2.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:71)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 8.462 secs
+
+2019-01-13 01:05:24,780 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 01:05:24,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 01:05:31,070 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-13 01:05:31,070 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-13 01:05:31,070 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-13 01:05:31,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/rxanimationbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-13 01:05:38,608 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 01:05:38,608 INFO  SysUtils - Configuration on demand is an incubating feature.
+:rxanimationbinding:preBuild UP-TO-DATE
+:rxanimationbinding:preDebugBuild UP-TO-DATE
+:rxanimationbinding:compileDebugNdk UP-TO-DATE
+:rxanimationbinding:compileLint
+:rxanimationbinding:copyDebugLint UP-TO-DATE
+:rxanimationbinding:checkDebugManifest
+:rxanimationbinding:preDebugAndroidTestBuild UP-TO-DATE
+:rxanimationbinding:preDebugUnitTestBuild UP-TO-DATE
+:rxanimationbinding:preReleaseBuild UP-TO-DATE
+:rxanimationbinding:preReleaseUnitTestBuild UP-TO-DATE
+:testing-utils:preBuild UP-TO-DATE
+:testing-utils:preReleaseBuild UP-TO-DATE
+:testing-utils:compileReleaseNdk UP-TO-DATE
+:testing-utils:compileLint
+:testing-utils:copyReleaseLint UP-TO-DATE
+:testing-utils:checkReleaseManifest
+:testing-utils:preDebugAndroidTestBuild UP-TO-DATE
+:testing-utils:preDebugBuild UP-TO-DATE
+:testing-utils:preDebugUnitTestBuild UP-TO-DATE
+:testing-utils:preReleaseUnitTestBuild UP-TO-DATE
+:testing-utils:prepareComAndroidSupportTestEspressoEspressoCore221Library UP-TO-DATE
+:testing-utils:prepareComAndroidSupportTestEspressoEspressoIdlingResource221Library UP-TO-DATE
+:testing-utils:prepareComAndroidSupportTestExposedInstrumentationApiPublish041Library UP-TO-DATE
+:testing-utils:prepareComAndroidSupportTestRules041Library UP-TO-DATE
+:testing-utils:prepareComAndroidSupportTestRunner041Library UP-TO-DATE
+:testing-utils:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:testing-utils:prepareReleaseDependencies
+:testing-utils:compileReleaseAidl UP-TO-DATE
+:testing-utils:compileReleaseRenderscript UP-TO-DATE
+:testing-utils:generateReleaseBuildConfig UP-TO-DATE
+:testing-utils:generateReleaseAssets UP-TO-DATE
+:testing-utils:mergeReleaseAssets UP-TO-DATE
+:testing-utils:generateReleaseResValues UP-TO-DATE
+:testing-utils:generateReleaseResources UP-TO-DATE
+:testing-utils:mergeReleaseResources UP-TO-DATE
+:testing-utils:processReleaseManifest UP-TO-DATE
+:testing-utils:processReleaseResources UP-TO-DATE
+:testing-utils:generateReleaseSources UP-TO-DATE
+:testing-utils:compileReleaseJavaWithJavac UP-TO-DATE
+:testing-utils:extractReleaseAnnotations UP-TO-DATE
+:testing-utils:mergeReleaseProguardFiles UP-TO-DATE
+:testing-utils:packageReleaseRenderscript UP-TO-DATE
+:testing-utils:packageReleaseResources UP-TO-DATE
+:testing-utils:processReleaseJavaRes UP-TO-DATE
+:testing-utils:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:testing-utils:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:testing-utils:mergeReleaseJniLibFolders UP-TO-DATE
+:testing-utils:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:testing-utils:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:testing-utils:bundleRelease UP-TO-DATE
+:rxanimationbinding:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:rxanimationbinding:prepareDebugDependencies
+:rxanimationbinding:compileDebugAidl
+:rxanimationbinding:compileDebugRenderscript
+:rxanimationbinding:generateDebugBuildConfig
+:rxanimationbinding:generateDebugAssets UP-TO-DATE
+:rxanimationbinding:mergeDebugAssets
+:rxanimationbinding:generateDebugResValues
+:rxanimationbinding:generateDebugResources
+:rxanimationbinding:mergeDebugResources
+:rxanimationbinding:processDebugManifest
+:rxanimationbinding:processDebugResources
+:rxanimationbinding:generateDebugSources
+:rxanimationbinding:compileDebugJavaWithJavac
+:rxanimationbinding:extractDebugAnnotations
+:rxanimationbinding:mergeDebugProguardFiles
+:rxanimationbinding:packageDebugRenderscript UP-TO-DATE
+:rxanimationbinding:packageDebugResources
+:rxanimationbinding:processDebugJavaRes UP-TO-DATE
+:rxanimationbinding:transformResourcesWithMergeJavaResForDebug
+:rxanimationbinding:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxanimationbinding:mergeDebugJniLibFolders
+:rxanimationbinding:transformNative_libsWithMergeJniLibsForDebug
+:rxanimationbinding:transformNative_libsWithSyncJniLibsForDebug
+:rxanimationbinding:bundleDebug
+:rxanimationbinding:compileDebugSources
+:rxanimationbinding:assembleDebug
+:rxanimationbinding:compileReleaseNdk UP-TO-DATE
+:rxanimationbinding:copyReleaseLint UP-TO-DATE
+:rxanimationbinding:checkReleaseManifest
+:rxanimationbinding:prepareReleaseDependencies
+:rxanimationbinding:compileReleaseAidl UP-TO-DATE
+:rxanimationbinding:compileReleaseRenderscript UP-TO-DATE
+:rxanimationbinding:generateReleaseBuildConfig UP-TO-DATE
+:rxanimationbinding:generateReleaseAssets UP-TO-DATE
+:rxanimationbinding:mergeReleaseAssets UP-TO-DATE
+:rxanimationbinding:generateReleaseResValues UP-TO-DATE
+:rxanimationbinding:generateReleaseResources UP-TO-DATE
+:rxanimationbinding:mergeReleaseResources UP-TO-DATE
+:rxanimationbinding:processReleaseManifest UP-TO-DATE
+:rxanimationbinding:processReleaseResources UP-TO-DATE
+:rxanimationbinding:generateReleaseSources UP-TO-DATE
+:rxanimationbinding:compileReleaseJavaWithJavac UP-TO-DATE
+:rxanimationbinding:extractReleaseAnnotations UP-TO-DATE
+:rxanimationbinding:mergeReleaseProguardFiles UP-TO-DATE
+:rxanimationbinding:packageReleaseRenderscript UP-TO-DATE
+:rxanimationbinding:packageReleaseResources UP-TO-DATE
+:rxanimationbinding:processReleaseJavaRes UP-TO-DATE
+:rxanimationbinding:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rxanimationbinding:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rxanimationbinding:mergeReleaseJniLibFolders UP-TO-DATE
+:rxanimationbinding:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:rxanimationbinding:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:rxanimationbinding:bundleRelease UP-TO-DATE
+:rxanimationbinding:compileReleaseSources UP-TO-DATE
+:rxanimationbinding:assembleRelease UP-TO-DATE
+:rxanimationbinding:assemble
+:rxanimationbinding:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':rxanimationbinding:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':rxanimationbinding:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:340)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:418)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:229)
+	at com.android.build.gradle.tasks.Lint.this$6$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint$this$6$createAndroidProject$2.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:71)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 7.022 secs
+
+2019-01-13 01:05:38,638 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 01:05:38,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 01:05:44,871 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-13 01:05:44,871 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-13 01:05:44,871 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-13 01:05:44,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-13 01:06:05,386 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 01:06:05,387 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72311Library
+:sample:prepareComAndroidSupportSupportV42311Library
+:sample:prepareComBartoszlipinskiRxanimationbinding100Library
+:sample:prepareComBartoszlipinskiViewpropertyobjectanimator144Library
+:sample:prepareComJakewhartonRxbindingRxbinding030Library
+:sample:prepareIoReactivexRxandroid110Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNative_libsWithMergeJniLibsForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:340)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:418)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:229)
+	at com.android.build.gradle.tasks.Lint.this$6$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint$this$6$createAndroidProject$2.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:71)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+
+
+BUILD FAILED
+
+Total time: 19.98 secs
+
+2019-01-13 01:06:05,463 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316297870-0/src/RxAnimationBinding-master/sample/build/outputs/apk/sample-debug-unaligned.apk

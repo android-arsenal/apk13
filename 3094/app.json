@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.javiersantos.appupdater.demo",
+    "label" : "AppUpdater Library (Demo)",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.5.2",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAA2FBMVEUAAAAAAABicL1YaLtWaLxSX7kzRHdCU7Y1RI8sOoosOoOKiqi9vb2ysrIuLi729vYAAAC2trbw8PAAAAA7OzuIiIiJiYlBU7Y/UbU9Tq86SqY4SKI7S6g0Q5YyQJA+ULM2RZs1RJg3Rp48Taw8TasyQJE0QpQ0QpU8Ta04SKE7S6k2RZwzQZI9Tq43R583Rp0/ULQ1RJk2Rp07TKo9T7A6S6g5SaS4vtz////+//7H5sia0pzC5MPb79z+/v6c056/4sHD5MWY0Zue1KC94b7B48K64Lz7+/v83diDAAAAF3RSTlMAAUmAgoMP+CIjIyMjIQvmA1DtBRo+QRDExncAAAFESURBVEjHzZZnb4MwEIYzmr1XcwmOHTLJaJrd0r2S/v9/VAROA27xGamqeD5heB/pzpwFkUh4icbiF77EY9Ef+UQTJDQTopFMgZRUUhDSgJAWhIznaautae2W51ZGIpAOtekQJYF16TddhgtMpy50hgo96qGHCX0npxGiOVd9ROANDAAGvA25wIaiMGRSwaloNDYAjPHIXZOPQOzMxFlM7AWRClN6Npw8nSqUZO0SAN8lpKRT01Q75ZGmYUYFZsh7MKzM/IoztxYGNhoLq4prjlXfAp2l5cpd0GqpMN7rc37NlA7Qhk+4vlE8cQDb3X6/2yof0V/5fyFrIGQFIXeDkBOE/C1CPgSCeRdMMO8fAgiPT+bzS5CSXt/eP4L1cDj++S4VMKEgCMWSPF8qCkK5Uv2UUK2UxQ91rd649KVRr4X4n+QLss6/SpBeEjAAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2603,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "zh", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"2.5.2\" package=\"com.github.javiersantos.appupdater.demo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0a00a8\" android:label=\"AppUpdater Library (Demo)\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0a0040\" android:name=\"com.github.javiersantos.appupdater.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Settings\" android:name=\"com.github.javiersantos.appupdater.demo.SettingsActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2028038,
+  "crc32" : 421433596,
+  "sha256" : "448a578fc825d940eb82f73c805317efd1ef14bb0fb23a6a84875daa42ec9778",
+  "buildTime" : 1547313546000
+}

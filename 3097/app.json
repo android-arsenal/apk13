@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.pixplicity.sharp.imageviewdemo",
+    "label" : "Sharp sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.2",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "18",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1719,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.0.2\" package=\"com.pixplicity.sharp.imageviewdemo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0900a3\" android:label=\"Sharp sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\">\n\t\t<activity android:label=\"Sharp sample\" android:name=\"com.pixplicity.sharp.imageviewdemo.SvgDemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1360599,
+  "crc32" : 1504676395,
+  "sha256" : "6c0fb1521ef0416b57ae7a5aa8e76c02bed486f4fd1045248127a252a803bac5",
+  "buildTime" : 1522326290000
+}

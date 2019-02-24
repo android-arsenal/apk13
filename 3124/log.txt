@@ -1,0 +1,169 @@
+2019-01-12 23:28:21,551 INFO  DownloadService - Downloading "https://github.com/jaredrummler/Material-Spinner/archive/master.zip", attempt 3
+2019-01-12 23:28:22,979 INFO  DownloadService - Downloaded https://github.com/jaredrummler/Material-Spinner/archive/master.zip, attempt 3
+2019-01-12 23:28:22,979 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/master.zip": 601 KB
+2019-01-12 23:28:22,979 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 23:28:22,981 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/master.zip: true
+2019-01-12 23:28:22,982 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src'.
+2019-01-12 23:28:23,014 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-12 23:28:23,014 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src]
+2019-01-12 23:28:23,034 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/.git/
+
+2019-01-12 23:28:23,038 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/gradlew
+2019-01-12 23:28:23,041 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/build.gradle
+2019-01-12 23:28:23,045 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/gradle/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/settings.gradle
+2019-01-12 23:28:23,045 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 23:28:23,045 INFO  ProjectFixService - Fixing project...
+2019-01-12 23:28:23,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/demo/local.properties
+2019-01-12 23:28:23,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-12 23:28:23,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/local.properties
+2019-01-12 23:28:23,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-12 23:28:23,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/local.properties
+2019-01-12 23:28:23,061 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-12 23:28:23,062 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-12 23:28:23,063 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-12 23:28:23,063 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 23:28:23,063 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:28:23,063 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:28:31,070 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-12 23:28:31,070 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 23:28:31,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 23:28:57,117 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:checkDebugClasspath
+:demo:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:demo:preDebugBuild
+:library:compileDebugAidl NO-SOURCE
+:demo:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:library:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/src/main/java/com/jaredrummler/materialspinner/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/src/main/java/com/jaredrummler/materialspinner/MaterialSpinner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:checkDebugLibraries
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:demo:checkReleaseClasspath
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:demo:preReleaseBuild
+:library:compileReleaseAidl NO-SOURCE
+:demo:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/src/main/java/com/jaredrummler/materialspinner/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/library/src/main/java/com/jaredrummler/materialspinner/MaterialSpinner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:demo:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:checkReleaseLibraries
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 25s
+90 actionable tasks: 90 executed
+
+2019-01-12 23:28:57,207 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310501548-0/src/MaterialSpinner-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

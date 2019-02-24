@@ -1,0 +1,408 @@
+2019-01-13 01:12:08,118 INFO  DownloadService - Downloading "https://github.com/jimmy0251/effective-recycler-adapter/archive/master.zip", attempt 3
+2019-01-13 01:12:08,610 INFO  DownloadService - Downloaded https://github.com/jimmy0251/effective-recycler-adapter/archive/master.zip, attempt 3
+2019-01-13 01:12:08,610 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/master.zip": 97 KB
+2019-01-13 01:12:08,610 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 01:12:08,616 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/master.zip: true
+2019-01-13 01:12:08,616 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src'.
+2019-01-13 01:12:08,636 INFO  FullProcessService - Size of directory with sources: 120 KB
+2019-01-13 01:12:08,636 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src]
+2019-01-13 01:12:08,662 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/.git/
+
+2019-01-13 01:12:08,665 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/gradlew
+2019-01-13 01:12:08,672 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/build.gradle
+2019-01-13 01:12:08,675 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/settings.gradle
+2019-01-13 01:12:08,675 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/jimmy0251/gradle-bintray-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-01-13 01:13:08,677 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/jimmy0251/gradle-bintray-mvn-push/master/gradle-mvn-push.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 01:13:08,677 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 01:13:08,677 INFO  ProjectFixService - Fixing project...
+2019-01-13 01:13:08,687 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/local.properties
+2019-01-13 01:13:08,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 01:13:08,688 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/sample/local.properties
+2019-01-13 01:13:08,689 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 01:13:08,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/local.properties
+2019-01-13 01:13:08,690 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-13 01:13:08,690 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-13 01:13:08,691 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 01:13:08,691 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 01:13:08,691 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 01:13:08,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 01:13:17,253 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-13 01:13:17,253 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-13 01:13:17,253 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-13 01:13:17,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-13 01:13:28,324 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 01:13:28,324 INFO  SysUtils - Configuration on demand is an incubating feature.
+:effective-recycler-adapter:compileLint
+:effective-recycler-adapter:copyDebugLint UP-TO-DATE
+:effective-recycler-adapter:preBuild UP-TO-DATE
+:effective-recycler-adapter:preDebugBuild UP-TO-DATE
+:effective-recycler-adapter:checkDebugManifest
+:effective-recycler-adapter:preDebugAndroidTestBuild UP-TO-DATE
+:effective-recycler-adapter:preDebugUnitTestBuild UP-TO-DATE
+:effective-recycler-adapter:preReleaseBuild UP-TO-DATE
+:effective-recycler-adapter:preReleaseUnitTestBuild UP-TO-DATE
+:effective-recycler-adapter:prepareComAndroidSupportAppcompatV72301Library
+:effective-recycler-adapter:prepareComAndroidSupportRecyclerviewV72301Library
+:effective-recycler-adapter:prepareComAndroidSupportSupportV42301Library
+:effective-recycler-adapter:prepareDebugDependencies
+:effective-recycler-adapter:compileDebugAidl
+:effective-recycler-adapter:compileDebugRenderscript
+:effective-recycler-adapter:generateDebugBuildConfig
+:effective-recycler-adapter:generateDebugAssets UP-TO-DATE
+:effective-recycler-adapter:mergeDebugAssets
+:effective-recycler-adapter:generateDebugResValues
+:effective-recycler-adapter:generateDebugResources
+:effective-recycler-adapter:mergeDebugResources
+:effective-recycler-adapter:processDebugManifest
+:effective-recycler-adapter:processDebugResources
+:effective-recycler-adapter:generateDebugSources
+:effective-recycler-adapter:processDebugJavaRes UP-TO-DATE
+:effective-recycler-adapter:compileDebugJavaWithJavac
+:effective-recycler-adapter:extractDebugAnnotations
+:effective-recycler-adapter:mergeDebugProguardFiles
+:effective-recycler-adapter:packageDebugJar
+:effective-recycler-adapter:compileDebugNdk UP-TO-DATE
+:effective-recycler-adapter:packageDebugJniLibs UP-TO-DATE
+:effective-recycler-adapter:packageDebugLocalJar UP-TO-DATE
+:effective-recycler-adapter:packageDebugRenderscript UP-TO-DATE
+:effective-recycler-adapter:packageDebugResources
+:effective-recycler-adapter:bundleDebug
+:effective-recycler-adapter:compileDebugSources
+:effective-recycler-adapter:assembleDebug
+:effective-recycler-adapter:copyReleaseLint UP-TO-DATE
+:effective-recycler-adapter:checkReleaseManifest
+:effective-recycler-adapter:prepareReleaseDependencies
+:effective-recycler-adapter:compileReleaseAidl
+:effective-recycler-adapter:compileReleaseRenderscript
+:effective-recycler-adapter:generateReleaseBuildConfig
+:effective-recycler-adapter:generateReleaseAssets UP-TO-DATE
+:effective-recycler-adapter:mergeReleaseAssets
+:effective-recycler-adapter:generateReleaseResValues
+:effective-recycler-adapter:generateReleaseResources
+:effective-recycler-adapter:mergeReleaseResources
+:effective-recycler-adapter:processReleaseManifest
+:effective-recycler-adapter:processReleaseResources
+:effective-recycler-adapter:generateReleaseSources
+:effective-recycler-adapter:processReleaseJavaRes UP-TO-DATE
+:effective-recycler-adapter:compileReleaseJavaWithJavac
+:effective-recycler-adapter:extractReleaseAnnotations
+:effective-recycler-adapter:mergeReleaseProguardFiles
+:effective-recycler-adapter:packageReleaseJar
+:effective-recycler-adapter:compileReleaseNdk UP-TO-DATE
+:effective-recycler-adapter:packageReleaseJniLibs UP-TO-DATE
+:effective-recycler-adapter:packageReleaseLocalJar UP-TO-DATE
+:effective-recycler-adapter:packageReleaseRenderscript UP-TO-DATE
+:effective-recycler-adapter:packageReleaseResources
+:effective-recycler-adapter:bundleRelease
+:effective-recycler-adapter:compileReleaseSources
+:effective-recycler-adapter:assembleRelease
+:effective-recycler-adapter:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/MultiChoiceModeListener.java:3: error: package android.support.v7.view does not exist
+import android.support.v7.view.ActionMode;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/MultiChoiceModeListener.java:34: error: cannot find symbol
+    void onItemSelectionChanged(ActionMode mode, int position, boolean selected);
+                                ^
+  symbol:   class ActionMode
+  location: interface MultiChoiceModeListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/MultiChoiceModeListener.java:36: error: cannot find symbol
+    boolean onCreateActionMode(ActionMode mode, MenuInflater inflater, Menu menu);
+                               ^
+  symbol:   class ActionMode
+  location: interface MultiChoiceModeListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/MultiChoiceModeListener.java:40: error: cannot find symbol
+    boolean onActionItemClicked(ActionMode mode, MenuItem item);
+                                ^
+  symbol:   class ActionMode
+  location: interface MultiChoiceModeListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:6: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:7: error: package android.support.v7.view does not exist
+import android.support.v7.view.ActionMode;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:8: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:17: error: package RecyclerView does not exist
+        extends RecyclerView.Adapter<VH> {
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:16: error: package RecyclerView does not exist
+public abstract class EffectiveRecyclerAdapter<VH extends RecyclerView.ViewHolder>
+                                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:21: error: cannot find symbol
+    private ActionMode actionMode;
+            ^
+  symbol:   class ActionMode
+  location: class EffectiveRecyclerAdapter<VH>
+  where VH is a type-variable:
+    VH declared in class EffectiveRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:23: error: cannot find symbol
+    private AppCompatActivity activity;
+            ^
+  symbol:   class AppCompatActivity
+  location: class EffectiveRecyclerAdapter<VH>
+  where VH is a type-variable:
+    VH declared in class EffectiveRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:29: error: package ActionMode does not exist
+    private ActionMode.Callback callback = new ActionMode.Callback() {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/effective-recycler-adapter/src/main/java/com/jimmy/effectiverecycleradapter/EffectiveRecyclerAdapter.java:61: error: cannot find symbol
+    public void setMultiChoiceModeListener(AppCompatActivity activity,
+                                           ^
+  symbol:   class AppCompatActivity
+  location: class EffectiveRecyclerAdapter<VH>
+  where VH is a type-variable:
+    VH declared in class EffectiveRecyclerAdapter
+
+13 warnings
+:effective-recycler-adapter:javadocJar
+:effective-recycler-adapter:sourcesJar
+:effective-recycler-adapter:assemble
+:effective-recycler-adapter:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':effective-recycler-adapter:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':effective-recycler-adapter:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:310)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:90)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:169)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:339)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:231)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:417)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:221)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:162)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:236)
+	at com.android.build.gradle.tasks.Lint.this$5$createAndroidProject(Lint.groovy)
+	at com.android.build.gradle.tasks.Lint$this$5$createAndroidProject$3.callCurrent(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:78)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:226)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:589)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:572)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 49 more
+
+
+BUILD FAILED
+
+Total time: 10.566 secs
+
+2019-01-13 01:13:28,371 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 01:13:28,371 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 01:13:34,682 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-13 01:13:34,683 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-13 01:13:34,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-13 01:13:52,936 INFO  SysUtils - Configuration on demand is an incubating feature.
+:effective-recycler-adapter:compileLint
+:effective-recycler-adapter:copyReleaseLint UP-TO-DATE
+:effective-recycler-adapter:preBuild UP-TO-DATE
+:effective-recycler-adapter:preReleaseBuild UP-TO-DATE
+:effective-recycler-adapter:checkReleaseManifest
+:effective-recycler-adapter:preDebugAndroidTestBuild UP-TO-DATE
+:effective-recycler-adapter:preDebugBuild UP-TO-DATE
+:effective-recycler-adapter:preDebugUnitTestBuild UP-TO-DATE
+:effective-recycler-adapter:preReleaseUnitTestBuild UP-TO-DATE
+:effective-recycler-adapter:prepareComAndroidSupportAppcompatV72301Library UP-TO-DATE
+:effective-recycler-adapter:prepareComAndroidSupportRecyclerviewV72301Library UP-TO-DATE
+:effective-recycler-adapter:prepareComAndroidSupportSupportV42301Library UP-TO-DATE
+:effective-recycler-adapter:prepareReleaseDependencies
+:effective-recycler-adapter:compileReleaseAidl UP-TO-DATE
+:effective-recycler-adapter:compileReleaseRenderscript UP-TO-DATE
+:effective-recycler-adapter:generateReleaseBuildConfig UP-TO-DATE
+:effective-recycler-adapter:generateReleaseAssets UP-TO-DATE
+:effective-recycler-adapter:mergeReleaseAssets UP-TO-DATE
+:effective-recycler-adapter:generateReleaseResValues UP-TO-DATE
+:effective-recycler-adapter:generateReleaseResources UP-TO-DATE
+:effective-recycler-adapter:mergeReleaseResources UP-TO-DATE
+:effective-recycler-adapter:processReleaseManifest UP-TO-DATE
+:effective-recycler-adapter:processReleaseResources UP-TO-DATE
+:effective-recycler-adapter:generateReleaseSources UP-TO-DATE
+:effective-recycler-adapter:processReleaseJavaRes UP-TO-DATE
+:effective-recycler-adapter:compileReleaseJavaWithJavac UP-TO-DATE
+:effective-recycler-adapter:extractReleaseAnnotations UP-TO-DATE
+:effective-recycler-adapter:mergeReleaseProguardFiles UP-TO-DATE
+:effective-recycler-adapter:packageReleaseJar UP-TO-DATE
+:effective-recycler-adapter:compileReleaseNdk UP-TO-DATE
+:effective-recycler-adapter:packageReleaseJniLibs UP-TO-DATE
+:effective-recycler-adapter:packageReleaseLocalJar UP-TO-DATE
+:effective-recycler-adapter:packageReleaseRenderscript UP-TO-DATE
+:effective-recycler-adapter:packageReleaseResources UP-TO-DATE
+:effective-recycler-adapter:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72301Library
+:sample:prepareComAndroidSupportRecyclerviewV72301Library
+:sample:prepareComAndroidSupportSupportV42301Library
+:sample:prepareComJimmyEffectiveRecyclerAdapterEffectiveRecyclerAdapter101Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:preDexDebug
+:sample:dexDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:preDexRelease
+:sample:dexRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.739 secs
+
+2019-01-13 01:13:53,021 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547316728110-0/src/effective-recycler-adapter-master/sample/build/outputs/apk/sample-debug-unaligned.apk

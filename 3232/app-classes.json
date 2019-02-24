@@ -1,0 +1,9 @@
+{
+  "at.pardus.android.webview.gm" : [ "BuildConfig" ],
+  "at.pardus.android.webview.gm.demo" : [ "BuildConfig", "R", "R$attr", "R$id", "R$layout", "R$menu", "R$string", "WebViewGmImpl" ],
+  "at.pardus.android.webview.gm.model" : [ "Script", "ScriptCriteria", "ScriptId", "ScriptMetadata", "ScriptRequire", "ScriptResource" ],
+  "at.pardus.android.webview.gm.run" : [ "WebViewClientGm", "WebViewGm", "WebViewGmApi", "WebViewXmlHttpRequest", "WebViewXmlHttpRequest$1", "WebViewXmlHttpRequest$2", "WebViewXmlHttpResponse" ],
+  "at.pardus.android.webview.gm.store" : [ "ScriptStore", "ScriptStoreSQLite", "ScriptStoreSQLite$1", "ScriptStoreSQLite$ScriptCache", "ScriptStoreSQLite$ScriptCache$1", "ScriptStoreSQLite$ScriptDbHelper" ],
+  "at.pardus.android.webview.gm.store.ui" : [ "BuildConfig", "R", "R$id", "R$layout", "R$menu", "R$string", "ScriptBrowser", "ScriptBrowser$1", "ScriptBrowser$2", "ScriptBrowser$3", "ScriptBrowser$ScriptBrowserDownloadListener", "ScriptBrowser$ScriptBrowserWebChromeClient", "ScriptBrowser$ScriptBrowserWebViewClientGm", "ScriptEditor", "ScriptEditor$1", "ScriptEditor$2", "ScriptEditor$3", "ScriptEditor$4", "ScriptList", "ScriptList$1", "ScriptManagerActivity" ],
+  "at.pardus.android.webview.gm.util" : [ "CriterionMatcher", "DownloadHelper", "UnicodeReader" ]
+}

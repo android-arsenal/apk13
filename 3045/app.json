@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.mikhaellopez.saveinsta",
+    "label" : "SaveInsta",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2195,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.mikhaellopez.saveinsta\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f090030\" android:label=\"SaveInsta\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.mikhaellopez.saveinsta.activity.MainActivity\" android:screenOrientation=\"portrait\" android:windowSoftInputMode=\"0x10\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1670728,
+  "crc32" : 2320341027,
+  "sha256" : "ab2a3e7eee2e8a4d7ff3d4c3db588a12ac710800ca0a8051f1f311e4257fde43",
+  "buildTime" : 1547322178000
+}

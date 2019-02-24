@@ -1,0 +1,1687 @@
+2019-01-12 21:09:57,306 INFO  DownloadService - Downloading "https://github.com/chibatching/Kotpref/archive/master.zip", attempt 3
+2019-01-12 21:09:57,927 INFO  DownloadService - Downloaded https://github.com/chibatching/Kotpref/archive/master.zip, attempt 3
+2019-01-12 21:09:57,928 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/master.zip": 163 KB
+2019-01-12 21:09:57,928 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 21:09:57,933 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/master.zip: true
+2019-01-12 21:09:57,933 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src'.
+2019-01-12 21:09:57,977 INFO  FullProcessService - Size of directory with sources: 236 KB
+2019-01-12 21:09:57,978 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src]
+2019-01-12 21:09:57,996 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/.git/
+
+2019-01-12 21:09:58,004 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew
+2019-01-12 21:09:58,011 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/build.gradle
+2019-01-12 21:09:58,019 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradle/publish/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/settings.gradle
+2019-01-12 21:09:58,020 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 21:09:58,020 INFO  ProjectFixService - Fixing project...
+2019-01-12 21:09:58,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/local.properties
+2019-01-12 21:09:58,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 21:09:58,042 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 21:09:58,043 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/local.properties
+2019-01-12 21:09:58,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 21:09:58,048 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 21:09:58,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/local.properties
+2019-01-12 21:09:58,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 21:09:58,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 21:09:58,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/local.properties
+2019-01-12 21:09:58,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 21:09:58,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 21:09:58,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/local.properties
+2019-01-12 21:09:58,065 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 21:09:58,065 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 21:09:58,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/local.properties
+2019-01-12 21:09:58,070 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 21:09:58,070 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 21:09:58,071 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/local.properties
+2019-01-12 21:09:58,072 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-12 21:09:58,072 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-12 21:09:58,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 21:09:58,077 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 21:09:58,077 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 21:09:58,077 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:09:58,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:10:27,206 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-12 21:10:27,206 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 21:10:27,206 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 21:11:12,852 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :enum-support
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :kotpref
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Task :enum-support:preBuild UP-TO-DATE
+> Task :enum-support:preDebugBuild UP-TO-DATE
+> Task :kotpref:preBuild UP-TO-DATE
+> Task :kotpref:preDebugBuild UP-TO-DATE
+> Task :kotpref:compileDebugAidl NO-SOURCE
+> Task :enum-support:compileDebugAidl NO-SOURCE
+> Task :kotpref:packageDebugRenderscript NO-SOURCE
+> Task :enum-support:compileDebugRenderscript
+> Task :enum-support:checkDebugManifest
+> Task :enum-support:generateDebugBuildConfig
+> Task :enum-support:generateDebugResValues
+> Task :enum-support:generateDebugResources
+> Task :enum-support:packageDebugResources
+> Task :enum-support:processDebugManifest
+> Task :kotpref:compileDebugRenderscript
+> Task :kotpref:generateDebugResValues
+> Task :kotpref:generateDebugResources
+> Task :kotpref:packageDebugResources
+> Task :kotpref:checkDebugManifest
+> Task :kotpref:processDebugManifest
+> Task :kotpref:generateDebugRFile
+> Task :enum-support:generateDebugRFile
+> Task :kotpref:generateDebugBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/src/main/kotlin/com/chibatching/kotpref/pref/StringPref.kt: (16, 16): Type mismatch: inferred type is String? but String was expected
+> Task :kotpref:compileDebugKotlin
+> Task :kotpref:prepareLintJar
+> Task :kotpref:generateDebugSources
+> Task :kotpref:javaPreCompileDebug
+> Task :kotpref:compileDebugJavaWithJavac
+> Task :kotpref:processDebugJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :enum-support:compileDebugKotlin
+> Task :enum-support:prepareLintJar
+> Task :enum-support:generateDebugSources
+> Task :enum-support:javaPreCompileDebug
+> Task :enum-support:compileDebugJavaWithJavac
+> Task :enum-support:extractDebugAnnotations
+> Task :enum-support:mergeDebugConsumerProguardFiles
+> Task :enum-support:mergeDebugShaders
+> Task :enum-support:compileDebugShaders
+> Task :enum-support:generateDebugAssets
+> Task :enum-support:packageDebugAssets
+> Task :enum-support:packageDebugRenderscript NO-SOURCE
+> Task :enum-support:processDebugJavaRes NO-SOURCE
+> Task :enum-support:transformResourcesWithMergeJavaResForDebug
+> Task :enum-support:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :enum-support:compileDebugNdk NO-SOURCE
+> Task :enum-support:mergeDebugJniLibFolders
+> Task :enum-support:transformNativeLibsWithMergeJniLibsForDebug
+> Task :enum-support:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :enum-support:transformNativeLibsWithSyncJniLibsForDebug
+> Task :enum-support:bundleDebugAar
+> Task :enum-support:mergeDebugResources
+> Task :enum-support:compileDebugSources
+> Task :enum-support:assembleDebug
+> Task :enum-support:preReleaseBuild UP-TO-DATE
+> Task :kotpref:preReleaseBuild UP-TO-DATE
+> Task :kotpref:compileReleaseAidl NO-SOURCE
+> Task :enum-support:compileReleaseAidl NO-SOURCE
+> Task :kotpref:packageReleaseRenderscript NO-SOURCE
+> Task :enum-support:compileReleaseRenderscript
+> Task :enum-support:checkReleaseManifest
+> Task :enum-support:generateReleaseBuildConfig
+> Task :enum-support:generateReleaseResValues
+> Task :enum-support:generateReleaseResources
+> Task :enum-support:packageReleaseResources
+> Task :enum-support:processReleaseManifest
+> Task :kotpref:compileReleaseRenderscript
+> Task :kotpref:generateReleaseResValues
+> Task :kotpref:generateReleaseResources
+> Task :kotpref:packageReleaseResources
+> Task :kotpref:checkReleaseManifest
+> Task :kotpref:processReleaseManifest
+> Task :kotpref:generateReleaseRFile
+> Task :enum-support:generateReleaseRFile
+> Task :kotpref:generateReleaseBuildConfig
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/src/main/kotlin/com/chibatching/kotpref/pref/StringPref.kt: (16, 16): Type mismatch: inferred type is String? but String was expected
+> Task :kotpref:compileReleaseKotlin
+> Task :kotpref:generateReleaseSources
+> Task :kotpref:javaPreCompileRelease
+> Task :kotpref:compileReleaseJavaWithJavac
+> Task :kotpref:processReleaseJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :enum-support:compileReleaseKotlin
+> Task :enum-support:generateReleaseSources
+> Task :enum-support:javaPreCompileRelease
+> Task :enum-support:compileReleaseJavaWithJavac
+> Task :enum-support:extractReleaseAnnotations
+> Task :enum-support:mergeReleaseConsumerProguardFiles
+> Task :enum-support:mergeReleaseShaders
+> Task :enum-support:compileReleaseShaders
+> Task :enum-support:generateReleaseAssets
+> Task :enum-support:packageReleaseAssets
+> Task :enum-support:packageReleaseRenderscript NO-SOURCE
+> Task :enum-support:processReleaseJavaRes NO-SOURCE
+> Task :enum-support:transformResourcesWithMergeJavaResForRelease
+> Task :enum-support:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :enum-support:compileReleaseNdk NO-SOURCE
+> Task :enum-support:mergeReleaseJniLibFolders
+> Task :enum-support:transformNativeLibsWithMergeJniLibsForRelease
+> Task :enum-support:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :enum-support:transformNativeLibsWithSyncJniLibsForRelease
+> Task :enum-support:bundleReleaseAar
+> Task :enum-support:mergeReleaseResources
+> Task :enum-support:compileReleaseSources
+> Task :enum-support:verifyReleaseResources
+> Task :enum-support:assembleRelease
+
+> Task :enum-support:dokka
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref (EnumValuePref.kt:11)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$getFromPreference(kotlin.reflect.KProperty((kotlin.Any)), android.content.SharedPreferences) (EnumValuePref.kt:19)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$setToPreference(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.enumpref.EnumValuePref.T, android.content.SharedPreferences) (EnumValuePref.kt:24)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$setToEditor(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.enumpref.EnumValuePref.T, android.content.SharedPreferences.Editor) (EnumValuePref.kt:29)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$default (EnumValuePref.kt:13)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$key (EnumValuePref.kt:14)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$<init>(kotlin.reflect.KClass((com.chibatching.kotpref.enumpref.EnumValuePref.T)), com.chibatching.kotpref.enumpref.EnumValuePref.T, kotlin.String, kotlin.Boolean) (EnumValuePref.kt:11)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$default (EnumValuePref.kt:13)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$key (EnumValuePref.kt:14)
+No documentation for com.chibatching.kotpref.enumpref.EnumValuePref$commitByDefault (EnumValuePref.kt:15)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref (EnumNullableValuePref.kt:11)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$getFromPreference(kotlin.reflect.KProperty((kotlin.Any)), android.content.SharedPreferences) (EnumNullableValuePref.kt:19)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$setToPreference(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.enumpref.EnumNullableValuePref.T, android.content.SharedPreferences) (EnumNullableValuePref.kt:24)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$setToEditor(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.enumpref.EnumNullableValuePref.T, android.content.SharedPreferences.Editor) (EnumNullableValuePref.kt:29)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$key (EnumNullableValuePref.kt:14)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$<init>(kotlin.reflect.KClass((com.chibatching.kotpref.enumpref.EnumNullableValuePref.T)), com.chibatching.kotpref.enumpref.EnumNullableValuePref.T, kotlin.String, kotlin.Boolean) (EnumNullableValuePref.kt:11)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$default (EnumNullableValuePref.kt:13)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$key (EnumNullableValuePref.kt:14)
+No documentation for com.chibatching.kotpref.enumpref.EnumNullableValuePref$commitByDefault (EnumNullableValuePref.kt:15)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref (EnumOrdinalPref.kt:11)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$getFromPreference(kotlin.reflect.KProperty((kotlin.Any)), android.content.SharedPreferences) (EnumOrdinalPref.kt:19)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$setToPreference(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.enumpref.EnumOrdinalPref.T, android.content.SharedPreferences) (EnumOrdinalPref.kt:24)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$setToEditor(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.enumpref.EnumOrdinalPref.T, android.content.SharedPreferences.Editor) (EnumOrdinalPref.kt:29)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$key (EnumOrdinalPref.kt:14)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$<init>(kotlin.reflect.KClass((com.chibatching.kotpref.enumpref.EnumOrdinalPref.T)), com.chibatching.kotpref.enumpref.EnumOrdinalPref.T, kotlin.String, kotlin.Boolean) (EnumOrdinalPref.kt:11)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$default (EnumOrdinalPref.kt:13)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$key (EnumOrdinalPref.kt:14)
+No documentation for com.chibatching.kotpref.enumpref.EnumOrdinalPref$commitByDefault (EnumOrdinalPref.kt:15)
+
+> Task :enum-support:javadocJar
+> Task :enum-support:sourcesJar
+> Task :enum-support:assemble
+> Task :enum-support:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 44s
+74 actionable tasks: 74 executed
+
+2019-01-12 21:11:12,896 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:11:12,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:11:22,674 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-12 21:11:22,675 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 21:11:22,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 21:11:48,617 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :gson-support
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :kotpref
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Task :gson-support:preBuild UP-TO-DATE
+> Task :gson-support:preDebugBuild UP-TO-DATE
+> Task :kotpref:preBuild UP-TO-DATE
+> Task :kotpref:preDebugBuild UP-TO-DATE
+> Task :kotpref:compileDebugAidl NO-SOURCE
+> Task :gson-support:compileDebugAidl NO-SOURCE
+> Task :kotpref:packageDebugRenderscript NO-SOURCE
+> Task :gson-support:compileDebugRenderscript
+> Task :gson-support:checkDebugManifest
+> Task :gson-support:generateDebugBuildConfig
+> Task :gson-support:generateDebugResValues
+> Task :gson-support:generateDebugResources
+> Task :gson-support:packageDebugResources
+> Task :gson-support:processDebugManifest
+> Task :kotpref:compileDebugRenderscript UP-TO-DATE
+> Task :kotpref:generateDebugResValues UP-TO-DATE
+> Task :kotpref:generateDebugResources UP-TO-DATE
+> Task :kotpref:packageDebugResources UP-TO-DATE
+> Task :kotpref:checkDebugManifest UP-TO-DATE
+> Task :kotpref:processDebugManifest UP-TO-DATE
+> Task :kotpref:generateDebugRFile UP-TO-DATE
+> Task :gson-support:generateDebugRFile
+> Task :kotpref:generateDebugBuildConfig UP-TO-DATE
+> Task :kotpref:compileDebugKotlin UP-TO-DATE
+> Task :kotpref:prepareLintJar UP-TO-DATE
+> Task :kotpref:generateDebugSources UP-TO-DATE
+> Task :kotpref:javaPreCompileDebug UP-TO-DATE
+> Task :kotpref:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kotpref:processDebugJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :gson-support:compileDebugKotlin
+> Task :gson-support:prepareLintJar
+> Task :gson-support:generateDebugSources
+> Task :gson-support:javaPreCompileDebug
+> Task :gson-support:compileDebugJavaWithJavac
+> Task :gson-support:extractDebugAnnotations
+> Task :gson-support:mergeDebugConsumerProguardFiles
+> Task :gson-support:mergeDebugShaders
+> Task :gson-support:compileDebugShaders
+> Task :gson-support:generateDebugAssets
+> Task :gson-support:packageDebugAssets
+> Task :gson-support:packageDebugRenderscript NO-SOURCE
+> Task :gson-support:processDebugJavaRes NO-SOURCE
+> Task :gson-support:transformResourcesWithMergeJavaResForDebug
+> Task :gson-support:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :gson-support:compileDebugNdk NO-SOURCE
+> Task :gson-support:mergeDebugJniLibFolders
+> Task :gson-support:transformNativeLibsWithMergeJniLibsForDebug
+> Task :gson-support:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :gson-support:transformNativeLibsWithSyncJniLibsForDebug
+> Task :gson-support:bundleDebugAar
+> Task :gson-support:mergeDebugResources
+> Task :gson-support:compileDebugSources
+> Task :gson-support:assembleDebug
+> Task :gson-support:preReleaseBuild UP-TO-DATE
+> Task :kotpref:preReleaseBuild UP-TO-DATE
+> Task :kotpref:compileReleaseAidl NO-SOURCE
+> Task :gson-support:compileReleaseAidl NO-SOURCE
+> Task :kotpref:packageReleaseRenderscript NO-SOURCE
+> Task :gson-support:compileReleaseRenderscript
+> Task :gson-support:checkReleaseManifest
+> Task :gson-support:generateReleaseBuildConfig
+> Task :gson-support:generateReleaseResValues
+> Task :gson-support:generateReleaseResources
+> Task :gson-support:packageReleaseResources
+> Task :gson-support:processReleaseManifest
+> Task :kotpref:compileReleaseRenderscript UP-TO-DATE
+> Task :kotpref:generateReleaseResValues UP-TO-DATE
+> Task :kotpref:generateReleaseResources UP-TO-DATE
+> Task :kotpref:packageReleaseResources UP-TO-DATE
+> Task :kotpref:checkReleaseManifest UP-TO-DATE
+> Task :kotpref:processReleaseManifest UP-TO-DATE
+> Task :kotpref:generateReleaseRFile UP-TO-DATE
+> Task :gson-support:generateReleaseRFile
+> Task :kotpref:generateReleaseBuildConfig UP-TO-DATE
+> Task :kotpref:compileReleaseKotlin UP-TO-DATE
+> Task :kotpref:generateReleaseSources UP-TO-DATE
+> Task :kotpref:javaPreCompileRelease UP-TO-DATE
+> Task :kotpref:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :kotpref:processReleaseJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :gson-support:compileReleaseKotlin
+> Task :gson-support:generateReleaseSources
+> Task :gson-support:javaPreCompileRelease
+> Task :gson-support:compileReleaseJavaWithJavac
+> Task :gson-support:extractReleaseAnnotations
+> Task :gson-support:mergeReleaseConsumerProguardFiles
+> Task :gson-support:mergeReleaseShaders
+> Task :gson-support:compileReleaseShaders
+> Task :gson-support:generateReleaseAssets
+> Task :gson-support:packageReleaseAssets
+> Task :gson-support:packageReleaseRenderscript NO-SOURCE
+> Task :gson-support:processReleaseJavaRes NO-SOURCE
+> Task :gson-support:transformResourcesWithMergeJavaResForRelease
+> Task :gson-support:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :gson-support:compileReleaseNdk NO-SOURCE
+> Task :gson-support:mergeReleaseJniLibFolders
+> Task :gson-support:transformNativeLibsWithMergeJniLibsForRelease
+> Task :gson-support:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :gson-support:transformNativeLibsWithSyncJniLibsForRelease
+> Task :gson-support:bundleReleaseAar
+> Task :gson-support:mergeReleaseResources
+> Task :gson-support:compileReleaseSources
+> Task :gson-support:verifyReleaseResources
+> Task :gson-support:assembleRelease
+
+> Task :gson-support:dokka
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref (GsonPref.kt:12)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$getFromPreference(kotlin.reflect.KProperty((kotlin.Any)), android.content.SharedPreferences) (GsonPref.kt:19)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$setToPreference(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.gsonpref.GsonPref.T, android.content.SharedPreferences) (GsonPref.kt:25)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$setToEditor(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.gsonpref.GsonPref.T, android.content.SharedPreferences.Editor) (GsonPref.kt:32)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$key (GsonPref.kt:15)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$<init>(java.lang.reflect.Type, com.chibatching.kotpref.gsonpref.GsonPref.T, kotlin.String, kotlin.Boolean) (GsonPref.kt:12)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$targetType (GsonPref.kt:13)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$default (GsonPref.kt:14)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$key (GsonPref.kt:15)
+No documentation for com.chibatching.kotpref.gsonpref.GsonPref$commitByDefault (GsonPref.kt:16)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref (GsonNullablePref.kt:12)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$getFromPreference(kotlin.reflect.KProperty((kotlin.Any)), android.content.SharedPreferences) (GsonNullablePref.kt:19)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$setToPreference(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.gsonpref.GsonNullablePref.T, android.content.SharedPreferences) (GsonNullablePref.kt:25)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$setToEditor(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.gsonpref.GsonNullablePref.T, android.content.SharedPreferences.Editor) (GsonNullablePref.kt:32)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$key (GsonNullablePref.kt:15)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$<init>(java.lang.reflect.Type, com.chibatching.kotpref.gsonpref.GsonNullablePref.T, kotlin.String, kotlin.Boolean) (GsonNullablePref.kt:12)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$targetType (GsonNullablePref.kt:13)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$default (GsonNullablePref.kt:14)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$key (GsonNullablePref.kt:15)
+No documentation for com.chibatching.kotpref.gsonpref.GsonNullablePref$commitByDefault (GsonNullablePref.kt:16)
+
+> Task :gson-support:javadocJar
+> Task :gson-support:sourcesJar
+> Task :gson-support:assemble
+> Task :gson-support:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 25s
+74 actionable tasks: 51 executed, 23 up-to-date
+
+2019-01-12 21:11:48,665 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:11:48,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:11:58,125 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-12 21:11:58,125 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 21:11:58,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 21:12:21,586 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :initializer
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :kotpref
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Task :initializer:preBuild UP-TO-DATE
+> Task :initializer:preDebugBuild UP-TO-DATE
+> Task :kotpref:preBuild UP-TO-DATE
+> Task :kotpref:preDebugBuild UP-TO-DATE
+> Task :kotpref:compileDebugAidl NO-SOURCE
+> Task :initializer:compileDebugAidl NO-SOURCE
+> Task :kotpref:packageDebugRenderscript NO-SOURCE
+> Task :initializer:compileDebugRenderscript
+> Task :initializer:checkDebugManifest
+> Task :initializer:generateDebugBuildConfig
+> Task :initializer:generateDebugResValues
+> Task :initializer:generateDebugResources
+> Task :initializer:packageDebugResources
+> Task :initializer:processDebugManifest
+> Task :kotpref:compileDebugRenderscript UP-TO-DATE
+> Task :kotpref:generateDebugResValues UP-TO-DATE
+> Task :kotpref:generateDebugResources UP-TO-DATE
+> Task :kotpref:packageDebugResources UP-TO-DATE
+> Task :kotpref:checkDebugManifest UP-TO-DATE
+> Task :kotpref:processDebugManifest UP-TO-DATE
+> Task :kotpref:generateDebugRFile UP-TO-DATE
+> Task :initializer:generateDebugRFile
+> Task :kotpref:generateDebugBuildConfig UP-TO-DATE
+> Task :kotpref:compileDebugKotlin UP-TO-DATE
+> Task :kotpref:prepareLintJar UP-TO-DATE
+> Task :kotpref:generateDebugSources UP-TO-DATE
+> Task :kotpref:javaPreCompileDebug UP-TO-DATE
+> Task :kotpref:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kotpref:processDebugJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/src/main/kotlin/com/chibatching/kotpref/initializer/KotprefInitProvider.kt: (26, 22): Type mismatch: inferred type is Context? but Context was expected
+> Task :initializer:compileDebugKotlin
+> Task :initializer:prepareLintJar
+> Task :initializer:generateDebugSources
+> Task :initializer:javaPreCompileDebug
+> Task :initializer:compileDebugJavaWithJavac
+> Task :initializer:extractDebugAnnotations
+> Task :initializer:mergeDebugConsumerProguardFiles
+> Task :initializer:mergeDebugShaders
+> Task :initializer:compileDebugShaders
+> Task :initializer:generateDebugAssets
+> Task :initializer:packageDebugAssets
+> Task :initializer:packageDebugRenderscript NO-SOURCE
+> Task :initializer:processDebugJavaRes NO-SOURCE
+> Task :initializer:transformResourcesWithMergeJavaResForDebug
+> Task :initializer:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :initializer:compileDebugNdk NO-SOURCE
+> Task :initializer:mergeDebugJniLibFolders
+> Task :initializer:transformNativeLibsWithMergeJniLibsForDebug
+> Task :initializer:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :initializer:transformNativeLibsWithSyncJniLibsForDebug
+> Task :initializer:bundleDebugAar
+> Task :initializer:compileDebugSources
+> Task :initializer:assembleDebug
+> Task :initializer:preReleaseBuild UP-TO-DATE
+> Task :kotpref:preReleaseBuild UP-TO-DATE
+> Task :kotpref:compileReleaseAidl NO-SOURCE
+> Task :initializer:compileReleaseAidl NO-SOURCE
+> Task :kotpref:packageReleaseRenderscript NO-SOURCE
+> Task :initializer:compileReleaseRenderscript
+> Task :initializer:checkReleaseManifest
+> Task :initializer:generateReleaseBuildConfig
+> Task :initializer:generateReleaseResValues
+> Task :initializer:generateReleaseResources
+> Task :initializer:packageReleaseResources
+> Task :initializer:processReleaseManifest
+> Task :kotpref:compileReleaseRenderscript UP-TO-DATE
+> Task :kotpref:generateReleaseResValues UP-TO-DATE
+> Task :kotpref:generateReleaseResources UP-TO-DATE
+> Task :kotpref:packageReleaseResources UP-TO-DATE
+> Task :kotpref:checkReleaseManifest UP-TO-DATE
+> Task :kotpref:processReleaseManifest UP-TO-DATE
+> Task :kotpref:generateReleaseRFile UP-TO-DATE
+> Task :initializer:generateReleaseRFile
+> Task :kotpref:generateReleaseBuildConfig UP-TO-DATE
+> Task :kotpref:compileReleaseKotlin UP-TO-DATE
+> Task :kotpref:generateReleaseSources UP-TO-DATE
+> Task :kotpref:javaPreCompileRelease UP-TO-DATE
+> Task :kotpref:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :kotpref:processReleaseJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/src/main/kotlin/com/chibatching/kotpref/initializer/KotprefInitProvider.kt: (26, 22): Type mismatch: inferred type is Context? but Context was expected
+> Task :initializer:compileReleaseKotlin
+> Task :initializer:generateReleaseSources
+> Task :initializer:javaPreCompileRelease
+> Task :initializer:compileReleaseJavaWithJavac
+> Task :initializer:extractReleaseAnnotations
+> Task :initializer:mergeReleaseConsumerProguardFiles
+> Task :initializer:mergeReleaseShaders
+> Task :initializer:compileReleaseShaders
+> Task :initializer:generateReleaseAssets
+> Task :initializer:packageReleaseAssets
+> Task :initializer:packageReleaseRenderscript NO-SOURCE
+> Task :initializer:processReleaseJavaRes NO-SOURCE
+> Task :initializer:transformResourcesWithMergeJavaResForRelease
+> Task :initializer:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :initializer:compileReleaseNdk NO-SOURCE
+> Task :initializer:mergeReleaseJniLibFolders
+> Task :initializer:transformNativeLibsWithMergeJniLibsForRelease
+> Task :initializer:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :initializer:transformNativeLibsWithSyncJniLibsForRelease
+> Task :initializer:bundleReleaseAar
+> Task :initializer:compileReleaseSources
+> Task :initializer:mergeReleaseResources
+> Task :initializer:verifyReleaseResources
+> Task :initializer:assembleRelease
+
+> Task :initializer:dokka
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider (KotprefInitProvider.kt:10)
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider$insert(android.net.Uri, android.content.ContentValues) (KotprefInitProvider.kt:11)
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider$query(android.net.Uri, kotlin.Array((kotlin.String)), kotlin.String, kotlin.Array((kotlin.String)), kotlin.String) (KotprefInitProvider.kt:15)
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider$onCreate() (KotprefInitProvider.kt:25)
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider$update(android.net.Uri, android.content.ContentValues, kotlin.String, kotlin.Array((kotlin.String))) (KotprefInitProvider.kt:30)
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider$delete(android.net.Uri, kotlin.String, kotlin.Array((kotlin.String))) (KotprefInitProvider.kt:39)
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider$getType(android.net.Uri) (KotprefInitProvider.kt:43)
+No documentation for com.chibatching.kotpref.initializer.KotprefInitProvider (KotprefInitProvider.kt:10)
+
+> Task :initializer:javadocJar
+> Task :initializer:sourcesJar
+> Task :initializer:assemble
+> Task :initializer:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 22s
+73 actionable tasks: 50 executed, 23 up-to-date
+
+2019-01-12 21:12:21,653 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:12:21,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:12:31,229 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-12 21:12:31,229 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 21:12:31,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 21:12:49,943 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :kotpref
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Task :kotpref:preBuild UP-TO-DATE
+> Task :kotpref:preDebugBuild UP-TO-DATE
+> Task :kotpref:compileDebugAidl NO-SOURCE
+> Task :kotpref:compileDebugRenderscript UP-TO-DATE
+> Task :kotpref:checkDebugManifest UP-TO-DATE
+> Task :kotpref:generateDebugBuildConfig UP-TO-DATE
+> Task :kotpref:generateDebugResValues UP-TO-DATE
+> Task :kotpref:generateDebugResources UP-TO-DATE
+> Task :kotpref:packageDebugResources UP-TO-DATE
+> Task :kotpref:processDebugManifest UP-TO-DATE
+> Task :kotpref:generateDebugRFile UP-TO-DATE
+> Task :kotpref:compileDebugKotlin UP-TO-DATE
+> Task :kotpref:prepareLintJar UP-TO-DATE
+> Task :kotpref:generateDebugSources UP-TO-DATE
+> Task :kotpref:javaPreCompileDebug UP-TO-DATE
+> Task :kotpref:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kotpref:extractDebugAnnotations
+> Task :kotpref:mergeDebugConsumerProguardFiles
+> Task :kotpref:mergeDebugShaders
+> Task :kotpref:compileDebugShaders
+> Task :kotpref:generateDebugAssets
+> Task :kotpref:packageDebugAssets
+> Task :kotpref:packageDebugRenderscript NO-SOURCE
+> Task :kotpref:processDebugJavaRes NO-SOURCE
+> Task :kotpref:transformResourcesWithMergeJavaResForDebug
+> Task :kotpref:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :kotpref:compileDebugNdk NO-SOURCE
+> Task :kotpref:mergeDebugJniLibFolders
+> Task :kotpref:transformNativeLibsWithMergeJniLibsForDebug
+> Task :kotpref:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :kotpref:transformNativeLibsWithSyncJniLibsForDebug
+> Task :kotpref:bundleDebugAar
+> Task :kotpref:mergeDebugResources
+> Task :kotpref:compileDebugSources
+> Task :kotpref:assembleDebug
+> Task :kotpref:preReleaseBuild UP-TO-DATE
+> Task :kotpref:compileReleaseAidl NO-SOURCE
+> Task :kotpref:compileReleaseRenderscript UP-TO-DATE
+> Task :kotpref:checkReleaseManifest UP-TO-DATE
+> Task :kotpref:generateReleaseBuildConfig UP-TO-DATE
+> Task :kotpref:generateReleaseResValues UP-TO-DATE
+> Task :kotpref:generateReleaseResources UP-TO-DATE
+> Task :kotpref:packageReleaseResources UP-TO-DATE
+> Task :kotpref:processReleaseManifest UP-TO-DATE
+> Task :kotpref:generateReleaseRFile UP-TO-DATE
+> Task :kotpref:compileReleaseKotlin UP-TO-DATE
+> Task :kotpref:generateReleaseSources UP-TO-DATE
+> Task :kotpref:javaPreCompileRelease UP-TO-DATE
+> Task :kotpref:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :kotpref:extractReleaseAnnotations
+> Task :kotpref:mergeReleaseConsumerProguardFiles
+> Task :kotpref:mergeReleaseShaders
+> Task :kotpref:compileReleaseShaders
+> Task :kotpref:generateReleaseAssets
+> Task :kotpref:packageReleaseAssets
+> Task :kotpref:packageReleaseRenderscript NO-SOURCE
+> Task :kotpref:processReleaseJavaRes NO-SOURCE
+> Task :kotpref:transformResourcesWithMergeJavaResForRelease
+> Task :kotpref:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :kotpref:compileReleaseNdk NO-SOURCE
+> Task :kotpref:mergeReleaseJniLibFolders
+> Task :kotpref:transformNativeLibsWithMergeJniLibsForRelease
+> Task :kotpref:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :kotpref:transformNativeLibsWithSyncJniLibsForRelease
+> Task :kotpref:bundleReleaseAar
+> Task :kotpref:mergeReleaseResources
+> Task :kotpref:compileReleaseSources
+> Task :kotpref:verifyReleaseResources
+> Task :kotpref:assembleRelease
+
+> Task :kotpref:dokka
+No documentation for com.chibatching.kotpref$bulk(com.chibatching.kotpref.bulk.T, kotlin.Function1((com.chibatching.kotpref.bulk.T, kotlin.Unit))) (BulkEdit.kt:4)
+No documentation for com.chibatching.kotpref$blockingBulk(com.chibatching.kotpref.blockingBulk.T, kotlin.Function1((com.chibatching.kotpref.blockingBulk.T, kotlin.Unit))) (BulkEdit.kt:15)
+No documentation for com.chibatching.kotpref.ContextProvider (ContextProvider.kt:5)
+No documentation for com.chibatching.kotpref.ContextProvider$getApplicationContext() (ContextProvider.kt:6)
+No documentation for com.chibatching.kotpref.KotprefModel (KotprefModel.kt:15)
+No documentation for com.chibatching.kotpref.KotprefModel$<init>(com.chibatching.kotpref.ContextProvider) (KotprefModel.kt:15)
+No documentation for com.chibatching.kotpref.KotprefModel$contextProvider (KotprefModel.kt:16)
+No documentation for com.chibatching.kotpref.KotprefModel$<init>(com.chibatching.kotpref.ContextProvider) (KotprefModel.kt:15)
+No documentation for com.chibatching.kotpref.KotprefModel$<init>(android.content.Context) (KotprefModel.kt:19)
+No documentation for com.chibatching.kotpref.pref.PreferenceKey (PreferenceKey.kt:4)
+No documentation for com.chibatching.kotpref.pref.PreferenceKey$key (PreferenceKey.kt:5)
+No documentation for com.chibatching.kotpref.pref.AbstractPref (AbstractPref.kt:10)
+No documentation for com.chibatching.kotpref.pref.AbstractPref$key (AbstractPref.kt:15)
+No documentation for com.chibatching.kotpref.pref.AbstractPref$getValue(com.chibatching.kotpref.KotprefModel, kotlin.reflect.KProperty((kotlin.Any))) (AbstractPref.kt:17)
+No documentation for com.chibatching.kotpref.pref.AbstractPref$setValue(com.chibatching.kotpref.KotprefModel, kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.pref.AbstractPref.T) (AbstractPref.kt:29)
+No documentation for com.chibatching.kotpref.pref.AbstractPref$getFromPreference(kotlin.reflect.KProperty((kotlin.Any)), android.content.SharedPreferences) (AbstractPref.kt:39)
+No documentation for com.chibatching.kotpref.pref.AbstractPref$setToPreference(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.pref.AbstractPref.T, android.content.SharedPreferences) (AbstractPref.kt:40)
+No documentation for com.chibatching.kotpref.pref.AbstractPref$setToEditor(kotlin.reflect.KProperty((kotlin.Any)), com.chibatching.kotpref.pref.AbstractPref.T, android.content.SharedPreferences.Editor) (AbstractPref.kt:41)
+No documentation for com.chibatching.kotpref.pref.AbstractPref (AbstractPref.kt:10)
+
+> Task :kotpref:javadocJar
+> Task :kotpref:sourcesJar
+> Task :kotpref:assemble
+> Task :kotpref:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 18s
+51 actionable tasks: 30 executed, 21 up-to-date
+
+2019-01-12 21:12:50,028 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:12:50,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:13:01,789 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-12 21:13:01,789 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 21:13:01,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 21:13:28,879 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :livedata-support
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :kotpref
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Task :kotpref:preBuild UP-TO-DATE
+> Task :kotpref:preDebugBuild UP-TO-DATE
+> Task :kotpref:compileDebugAidl NO-SOURCE
+> Task :livedata-support:preBuild UP-TO-DATE
+> Task :livedata-support:preDebugBuild UP-TO-DATE
+> Task :livedata-support:compileDebugAidl NO-SOURCE
+> Task :kotpref:compileDebugRenderscript UP-TO-DATE
+> Task :kotpref:checkDebugManifest UP-TO-DATE
+> Task :kotpref:generateDebugBuildConfig UP-TO-DATE
+> Task :kotpref:generateDebugResValues UP-TO-DATE
+> Task :kotpref:generateDebugResources UP-TO-DATE
+> Task :kotpref:packageDebugResources UP-TO-DATE
+> Task :kotpref:processDebugManifest UP-TO-DATE
+> Task :kotpref:generateDebugRFile UP-TO-DATE
+> Task :kotpref:compileDebugKotlin UP-TO-DATE
+> Task :kotpref:prepareLintJar UP-TO-DATE
+> Task :kotpref:generateDebugSources UP-TO-DATE
+> Task :kotpref:javaPreCompileDebug UP-TO-DATE
+> Task :kotpref:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kotpref:processDebugJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :kotpref:packageDebugRenderscript NO-SOURCE
+> Task :livedata-support:compileDebugRenderscript
+> Task :livedata-support:checkDebugManifest
+> Task :livedata-support:generateDebugBuildConfig
+> Task :livedata-support:generateDebugResValues
+> Task :livedata-support:generateDebugResources
+> Task :livedata-support:packageDebugResources
+> Task :livedata-support:processDebugManifest
+> Task :livedata-support:generateDebugRFile
+> Task :livedata-support:compileDebugKotlin
+> Task :livedata-support:prepareLintJar
+> Task :livedata-support:generateDebugSources
+> Task :livedata-support:javaPreCompileDebug
+> Task :livedata-support:compileDebugJavaWithJavac
+> Task :livedata-support:extractDebugAnnotations
+> Task :livedata-support:mergeDebugConsumerProguardFiles
+> Task :livedata-support:mergeDebugShaders
+> Task :livedata-support:compileDebugShaders
+> Task :livedata-support:generateDebugAssets
+> Task :livedata-support:packageDebugAssets
+> Task :livedata-support:packageDebugRenderscript NO-SOURCE
+> Task :livedata-support:processDebugJavaRes NO-SOURCE
+> Task :livedata-support:transformResourcesWithMergeJavaResForDebug
+> Task :livedata-support:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :livedata-support:compileDebugNdk NO-SOURCE
+> Task :livedata-support:mergeDebugJniLibFolders
+> Task :livedata-support:transformNativeLibsWithMergeJniLibsForDebug
+> Task :livedata-support:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :livedata-support:transformNativeLibsWithSyncJniLibsForDebug
+> Task :livedata-support:bundleDebugAar
+> Task :livedata-support:mergeDebugResources
+> Task :livedata-support:compileDebugSources
+> Task :livedata-support:assembleDebug
+> Task :kotpref:preReleaseBuild UP-TO-DATE
+> Task :kotpref:compileReleaseAidl NO-SOURCE
+> Task :livedata-support:preReleaseBuild UP-TO-DATE
+> Task :livedata-support:compileReleaseAidl NO-SOURCE
+> Task :kotpref:compileReleaseRenderscript UP-TO-DATE
+> Task :kotpref:checkReleaseManifest UP-TO-DATE
+> Task :kotpref:generateReleaseBuildConfig UP-TO-DATE
+> Task :kotpref:generateReleaseResValues UP-TO-DATE
+> Task :kotpref:generateReleaseResources UP-TO-DATE
+> Task :kotpref:packageReleaseResources UP-TO-DATE
+> Task :kotpref:processReleaseManifest UP-TO-DATE
+> Task :kotpref:generateReleaseRFile UP-TO-DATE
+> Task :kotpref:compileReleaseKotlin UP-TO-DATE
+> Task :kotpref:generateReleaseSources UP-TO-DATE
+> Task :kotpref:javaPreCompileRelease UP-TO-DATE
+> Task :kotpref:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :kotpref:processReleaseJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :kotpref:packageReleaseRenderscript NO-SOURCE
+> Task :livedata-support:compileReleaseRenderscript
+> Task :livedata-support:checkReleaseManifest
+> Task :livedata-support:generateReleaseBuildConfig
+> Task :livedata-support:generateReleaseResValues
+> Task :livedata-support:generateReleaseResources
+> Task :livedata-support:packageReleaseResources
+> Task :livedata-support:processReleaseManifest
+> Task :livedata-support:generateReleaseRFile
+> Task :livedata-support:compileReleaseKotlin
+> Task :livedata-support:generateReleaseSources
+> Task :livedata-support:javaPreCompileRelease
+> Task :livedata-support:compileReleaseJavaWithJavac
+> Task :livedata-support:extractReleaseAnnotations
+> Task :livedata-support:mergeReleaseConsumerProguardFiles
+> Task :livedata-support:mergeReleaseShaders
+> Task :livedata-support:compileReleaseShaders
+> Task :livedata-support:generateReleaseAssets
+> Task :livedata-support:packageReleaseAssets
+> Task :livedata-support:packageReleaseRenderscript NO-SOURCE
+> Task :livedata-support:processReleaseJavaRes NO-SOURCE
+> Task :livedata-support:transformResourcesWithMergeJavaResForRelease
+> Task :livedata-support:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :livedata-support:compileReleaseNdk NO-SOURCE
+> Task :livedata-support:mergeReleaseJniLibFolders
+> Task :livedata-support:transformNativeLibsWithMergeJniLibsForRelease
+> Task :livedata-support:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :livedata-support:transformNativeLibsWithSyncJniLibsForRelease
+> Task :livedata-support:bundleReleaseAar
+> Task :livedata-support:mergeReleaseResources
+> Task :livedata-support:compileReleaseSources
+> Task :livedata-support:verifyReleaseResources
+> Task :livedata-support:assembleRelease
+
+> Task :livedata-support:dokka
+No documentation for com.chibatching.kotpref.livedata$asLiveData(com.chibatching.kotpref.KotprefModel, kotlin.reflect.KProperty0((com.chibatching.kotpref.livedata.asLiveData.T))) (KotprefLiveDataExtensions.kt:10)
+
+> Task :livedata-support:javadocJar
+> Task :livedata-support:sourcesJar
+> Task :livedata-support:assemble
+> Task :livedata-support:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 26s
+74 actionable tasks: 51 executed, 23 up-to-date
+
+2019-01-12 21:13:28,956 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:13:28,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:13:37,771 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-12 21:13:37,771 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 21:13:37,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 21:15:10,019 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Configure project :sample
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :kotpref
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :initializer
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :enum-support
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :gson-support
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Configure project :livedata-support
+WARNING: The option setting 'android.enableUnitTestBinaryResources=true' is experimental and unsupported.
+The current default is 'false'.
+
+
+> Task :enum-support:preBuild UP-TO-DATE
+> Task :enum-support:preDebugBuild UP-TO-DATE
+> Task :kotpref:preBuild UP-TO-DATE
+> Task :kotpref:preDebugBuild UP-TO-DATE
+> Task :kotpref:compileDebugAidl NO-SOURCE
+> Task :enum-support:compileDebugAidl NO-SOURCE
+> Task :kotpref:packageDebugRenderscript NO-SOURCE
+> Task :enum-support:compileDebugRenderscript UP-TO-DATE
+> Task :enum-support:checkDebugManifest UP-TO-DATE
+> Task :enum-support:generateDebugBuildConfig UP-TO-DATE
+> Task :enum-support:generateDebugResValues UP-TO-DATE
+> Task :enum-support:generateDebugResources UP-TO-DATE
+> Task :enum-support:packageDebugResources UP-TO-DATE
+> Task :enum-support:processDebugManifest UP-TO-DATE
+> Task :kotpref:compileDebugRenderscript UP-TO-DATE
+> Task :kotpref:generateDebugResValues UP-TO-DATE
+> Task :kotpref:generateDebugResources UP-TO-DATE
+> Task :kotpref:packageDebugResources UP-TO-DATE
+> Task :kotpref:checkDebugManifest UP-TO-DATE
+> Task :kotpref:processDebugManifest UP-TO-DATE
+> Task :kotpref:generateDebugRFile UP-TO-DATE
+> Task :enum-support:generateDebugRFile UP-TO-DATE
+> Task :kotpref:generateDebugBuildConfig UP-TO-DATE
+> Task :kotpref:compileDebugKotlin UP-TO-DATE
+> Task :kotpref:prepareLintJar UP-TO-DATE
+> Task :kotpref:generateDebugSources UP-TO-DATE
+> Task :kotpref:javaPreCompileDebug UP-TO-DATE
+> Task :kotpref:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kotpref:processDebugJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :enum-support:compileDebugKotlin UP-TO-DATE
+> Task :enum-support:prepareLintJar UP-TO-DATE
+> Task :enum-support:generateDebugSources UP-TO-DATE
+> Task :enum-support:javaPreCompileDebug UP-TO-DATE
+> Task :enum-support:compileDebugJavaWithJavac UP-TO-DATE
+> Task :enum-support:processDebugJavaRes NO-SOURCE
+> Task :enum-support:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :gson-support:preBuild UP-TO-DATE
+> Task :gson-support:preDebugBuild UP-TO-DATE
+> Task :gson-support:compileDebugAidl NO-SOURCE
+> Task :gson-support:compileDebugRenderscript UP-TO-DATE
+> Task :gson-support:checkDebugManifest UP-TO-DATE
+> Task :gson-support:generateDebugBuildConfig UP-TO-DATE
+> Task :gson-support:generateDebugResValues UP-TO-DATE
+> Task :gson-support:generateDebugResources UP-TO-DATE
+> Task :gson-support:packageDebugResources UP-TO-DATE
+> Task :gson-support:processDebugManifest UP-TO-DATE
+> Task :gson-support:generateDebugRFile UP-TO-DATE
+> Task :gson-support:compileDebugKotlin UP-TO-DATE
+> Task :gson-support:prepareLintJar UP-TO-DATE
+> Task :gson-support:generateDebugSources UP-TO-DATE
+> Task :gson-support:javaPreCompileDebug UP-TO-DATE
+> Task :gson-support:compileDebugJavaWithJavac UP-TO-DATE
+> Task :gson-support:processDebugJavaRes NO-SOURCE
+> Task :gson-support:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :initializer:preBuild UP-TO-DATE
+> Task :initializer:preDebugBuild UP-TO-DATE
+> Task :initializer:compileDebugAidl NO-SOURCE
+> Task :initializer:compileDebugRenderscript UP-TO-DATE
+> Task :initializer:checkDebugManifest UP-TO-DATE
+> Task :initializer:generateDebugBuildConfig UP-TO-DATE
+> Task :initializer:generateDebugResValues UP-TO-DATE
+> Task :initializer:generateDebugResources UP-TO-DATE
+> Task :initializer:packageDebugResources UP-TO-DATE
+> Task :initializer:processDebugManifest UP-TO-DATE
+> Task :initializer:generateDebugRFile UP-TO-DATE
+> Task :initializer:compileDebugKotlin UP-TO-DATE
+> Task :initializer:prepareLintJar UP-TO-DATE
+> Task :initializer:generateDebugSources UP-TO-DATE
+> Task :initializer:javaPreCompileDebug UP-TO-DATE
+> Task :initializer:compileDebugJavaWithJavac UP-TO-DATE
+> Task :initializer:processDebugJavaRes NO-SOURCE
+> Task :initializer:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :livedata-support:preBuild UP-TO-DATE
+> Task :livedata-support:preDebugBuild UP-TO-DATE
+> Task :livedata-support:compileDebugAidl NO-SOURCE
+> Task :livedata-support:compileDebugRenderscript UP-TO-DATE
+> Task :livedata-support:checkDebugManifest UP-TO-DATE
+> Task :livedata-support:generateDebugBuildConfig UP-TO-DATE
+> Task :livedata-support:generateDebugResValues UP-TO-DATE
+> Task :livedata-support:generateDebugResources UP-TO-DATE
+> Task :livedata-support:packageDebugResources UP-TO-DATE
+> Task :livedata-support:processDebugManifest UP-TO-DATE
+> Task :livedata-support:generateDebugRFile UP-TO-DATE
+> Task :livedata-support:compileDebugKotlin UP-TO-DATE
+> Task :livedata-support:prepareLintJar UP-TO-DATE
+> Task :livedata-support:generateDebugSources UP-TO-DATE
+> Task :livedata-support:javaPreCompileDebug UP-TO-DATE
+> Task :livedata-support:compileDebugJavaWithJavac UP-TO-DATE
+> Task :livedata-support:processDebugJavaRes NO-SOURCE
+> Task :livedata-support:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :enum-support:packageDebugRenderscript NO-SOURCE
+> Task :gson-support:packageDebugRenderscript NO-SOURCE
+> Task :initializer:packageDebugRenderscript NO-SOURCE
+> Task :livedata-support:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :enum-support:mergeDebugShaders UP-TO-DATE
+> Task :enum-support:compileDebugShaders UP-TO-DATE
+> Task :enum-support:generateDebugAssets UP-TO-DATE
+> Task :enum-support:packageDebugAssets UP-TO-DATE
+> Task :gson-support:mergeDebugShaders UP-TO-DATE
+> Task :gson-support:compileDebugShaders UP-TO-DATE
+> Task :gson-support:generateDebugAssets UP-TO-DATE
+> Task :gson-support:packageDebugAssets UP-TO-DATE
+> Task :initializer:mergeDebugShaders UP-TO-DATE
+> Task :initializer:compileDebugShaders UP-TO-DATE
+> Task :initializer:generateDebugAssets UP-TO-DATE
+> Task :initializer:packageDebugAssets UP-TO-DATE
+> Task :kotpref:mergeDebugShaders UP-TO-DATE
+> Task :kotpref:compileDebugShaders UP-TO-DATE
+> Task :kotpref:generateDebugAssets UP-TO-DATE
+> Task :kotpref:packageDebugAssets UP-TO-DATE
+> Task :livedata-support:mergeDebugShaders UP-TO-DATE
+> Task :livedata-support:compileDebugShaders UP-TO-DATE
+> Task :livedata-support:generateDebugAssets UP-TO-DATE
+> Task :livedata-support:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :kotpref:createFullJarDebug
+> Task :livedata-support:createFullJarDebug
+> Transform full.jar (project :kotpref) with IdentityTransform
+> Transform full.jar (project :livedata-support) with IdentityTransform
+> Task :gson-support:createFullJarDebug
+> Transform full.jar (project :gson-support) with IdentityTransform
+> Task :enum-support:createFullJarDebug
+> Transform full.jar (project :enum-support) with IdentityTransform
+> Task :initializer:createFullJarDebug
+> Transform full.jar (project :initializer) with IdentityTransform
+> Transform full.jar (project :gson-support) with DexingTransform
+> Transform full.jar (project :livedata-support) with DexingTransform
+> Transform full.jar (project :enum-support) with DexingTransform
+> Transform full.jar (project :kotpref) with DexingTransform
+> Task :sample:mergeExtDexDebug
+> Transform full.jar (project :initializer) with DexingTransform
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :enum-support:compileDebugNdk NO-SOURCE
+> Task :enum-support:mergeDebugJniLibFolders UP-TO-DATE
+> Task :enum-support:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :enum-support:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :enum-support:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :gson-support:compileDebugNdk NO-SOURCE
+> Task :gson-support:mergeDebugJniLibFolders UP-TO-DATE
+> Task :gson-support:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :gson-support:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :gson-support:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :initializer:compileDebugNdk NO-SOURCE
+> Task :initializer:mergeDebugJniLibFolders UP-TO-DATE
+> Task :initializer:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :initializer:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :initializer:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :kotpref:compileDebugNdk NO-SOURCE
+> Task :kotpref:mergeDebugJniLibFolders UP-TO-DATE
+> Task :kotpref:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :kotpref:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :kotpref:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :livedata-support:compileDebugNdk NO-SOURCE
+> Task :livedata-support:mergeDebugJniLibFolders UP-TO-DATE
+> Task :livedata-support:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :livedata-support:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :livedata-support:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :enum-support:preReleaseBuild UP-TO-DATE
+> Task :kotpref:preReleaseBuild UP-TO-DATE
+> Task :kotpref:compileReleaseAidl NO-SOURCE
+> Task :enum-support:compileReleaseAidl NO-SOURCE
+> Task :kotpref:packageReleaseRenderscript NO-SOURCE
+> Task :enum-support:compileReleaseRenderscript UP-TO-DATE
+> Task :enum-support:checkReleaseManifest UP-TO-DATE
+> Task :enum-support:generateReleaseBuildConfig UP-TO-DATE
+> Task :enum-support:generateReleaseResValues UP-TO-DATE
+> Task :enum-support:generateReleaseResources UP-TO-DATE
+> Task :enum-support:packageReleaseResources UP-TO-DATE
+> Task :enum-support:processReleaseManifest UP-TO-DATE
+> Task :kotpref:compileReleaseRenderscript UP-TO-DATE
+> Task :kotpref:generateReleaseResValues UP-TO-DATE
+> Task :kotpref:generateReleaseResources UP-TO-DATE
+> Task :kotpref:packageReleaseResources UP-TO-DATE
+> Task :kotpref:checkReleaseManifest UP-TO-DATE
+> Task :kotpref:processReleaseManifest UP-TO-DATE
+> Task :kotpref:generateReleaseRFile UP-TO-DATE
+> Task :enum-support:generateReleaseRFile UP-TO-DATE
+> Task :kotpref:generateReleaseBuildConfig UP-TO-DATE
+> Task :kotpref:compileReleaseKotlin UP-TO-DATE
+> Task :kotpref:generateReleaseSources UP-TO-DATE
+> Task :kotpref:javaPreCompileRelease UP-TO-DATE
+> Task :kotpref:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :kotpref:processReleaseJavaRes NO-SOURCE
+> Task :kotpref:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :enum-support:compileReleaseKotlin UP-TO-DATE
+> Task :enum-support:generateReleaseSources UP-TO-DATE
+> Task :enum-support:javaPreCompileRelease UP-TO-DATE
+> Task :enum-support:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :enum-support:processReleaseJavaRes NO-SOURCE
+> Task :enum-support:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :gson-support:preReleaseBuild UP-TO-DATE
+> Task :gson-support:compileReleaseAidl NO-SOURCE
+> Task :gson-support:compileReleaseRenderscript UP-TO-DATE
+> Task :gson-support:checkReleaseManifest UP-TO-DATE
+> Task :gson-support:generateReleaseBuildConfig UP-TO-DATE
+> Task :gson-support:generateReleaseResValues UP-TO-DATE
+> Task :gson-support:generateReleaseResources UP-TO-DATE
+> Task :gson-support:packageReleaseResources UP-TO-DATE
+> Task :gson-support:processReleaseManifest UP-TO-DATE
+> Task :gson-support:generateReleaseRFile UP-TO-DATE
+> Task :gson-support:compileReleaseKotlin UP-TO-DATE
+> Task :gson-support:generateReleaseSources UP-TO-DATE
+> Task :gson-support:javaPreCompileRelease UP-TO-DATE
+> Task :gson-support:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :gson-support:processReleaseJavaRes NO-SOURCE
+> Task :gson-support:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :initializer:preReleaseBuild UP-TO-DATE
+> Task :initializer:compileReleaseAidl NO-SOURCE
+> Task :initializer:compileReleaseRenderscript UP-TO-DATE
+> Task :initializer:checkReleaseManifest UP-TO-DATE
+> Task :initializer:generateReleaseBuildConfig UP-TO-DATE
+> Task :initializer:generateReleaseResValues UP-TO-DATE
+> Task :initializer:generateReleaseResources UP-TO-DATE
+> Task :initializer:packageReleaseResources UP-TO-DATE
+> Task :initializer:processReleaseManifest UP-TO-DATE
+> Task :initializer:generateReleaseRFile UP-TO-DATE
+> Task :initializer:compileReleaseKotlin UP-TO-DATE
+> Task :initializer:generateReleaseSources UP-TO-DATE
+> Task :initializer:javaPreCompileRelease UP-TO-DATE
+> Task :initializer:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :initializer:processReleaseJavaRes NO-SOURCE
+> Task :initializer:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :livedata-support:preReleaseBuild UP-TO-DATE
+> Task :livedata-support:compileReleaseAidl NO-SOURCE
+> Task :livedata-support:compileReleaseRenderscript UP-TO-DATE
+> Task :livedata-support:checkReleaseManifest UP-TO-DATE
+> Task :livedata-support:generateReleaseBuildConfig UP-TO-DATE
+> Task :livedata-support:generateReleaseResValues UP-TO-DATE
+> Task :livedata-support:generateReleaseResources UP-TO-DATE
+> Task :livedata-support:packageReleaseResources UP-TO-DATE
+> Task :livedata-support:processReleaseManifest UP-TO-DATE
+> Task :livedata-support:generateReleaseRFile UP-TO-DATE
+> Task :livedata-support:compileReleaseKotlin UP-TO-DATE
+> Task :livedata-support:generateReleaseSources UP-TO-DATE
+> Task :livedata-support:javaPreCompileRelease UP-TO-DATE
+> Task :livedata-support:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :livedata-support:processReleaseJavaRes NO-SOURCE
+> Task :livedata-support:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:extractProguardFiles
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :enum-support:packageReleaseRenderscript NO-SOURCE
+> Task :gson-support:packageReleaseRenderscript NO-SOURCE
+> Task :initializer:packageReleaseRenderscript NO-SOURCE
+> Task :livedata-support:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/5a21fd0fb71d871f82b21b15df732987/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :enum-support:mergeReleaseShaders UP-TO-DATE
+> Task :enum-support:compileReleaseShaders UP-TO-DATE
+> Task :enum-support:generateReleaseAssets UP-TO-DATE
+> Task :enum-support:packageReleaseAssets UP-TO-DATE
+> Task :gson-support:mergeReleaseShaders UP-TO-DATE
+> Task :gson-support:compileReleaseShaders UP-TO-DATE
+> Task :gson-support:generateReleaseAssets UP-TO-DATE
+> Task :gson-support:packageReleaseAssets UP-TO-DATE
+> Task :initializer:mergeReleaseShaders UP-TO-DATE
+> Task :initializer:compileReleaseShaders UP-TO-DATE
+> Task :initializer:generateReleaseAssets UP-TO-DATE
+> Task :initializer:packageReleaseAssets UP-TO-DATE
+> Task :kotpref:mergeReleaseShaders UP-TO-DATE
+> Task :kotpref:compileReleaseShaders UP-TO-DATE
+> Task :kotpref:generateReleaseAssets UP-TO-DATE
+> Task :kotpref:packageReleaseAssets UP-TO-DATE
+> Task :livedata-support:mergeReleaseShaders UP-TO-DATE
+> Task :livedata-support:compileReleaseShaders UP-TO-DATE
+> Task :livedata-support:generateReleaseAssets UP-TO-DATE
+> Task :livedata-support:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :enum-support:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :gson-support:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :initializer:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :kotpref:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :livedata-support:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-1.0.0.aar/8378a44b262590477e0a2dfa33b8c914/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/b1c783e59afcaa2d053f3d6cac5411c2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.10/dd02865be0351707554b16a896b766b2396cdafa/kotlin-reflect-1.3.10.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/405755633a8739eb4a524297baee352b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/cc4e5ab92ced6c902e15bd0222b187a9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/7f2113858435dd9ca5540bb6520917fa/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/a67aed7c6015b2fef9c559b8bc02ace1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/47d2d43d48e104b8e5e6789a96a80bd0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8468f81e147c29925bc9c6f74f6415f0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c33e00d595f57ef29c6d31a221ab0acf/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/aa77bfecd4a63ea402894dcc378d3120/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9cd618a99df5702a18c58b778d2a69b3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/3edc4236ea829549a0d4ffc3bafcde1e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/7668215b5cda5cdf9f74fe9c42494b7b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/84de8a330d32e39b0604f97ce1a56445/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/670b7038d93d568ad0008a82d4e105af/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/5b6bca69619e023f9c35ee9dd2f322c4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/73ca50d45951f5b5949ff05e73df2f7d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/a2b33247ac8fb22d3a27fa8e4d857fe0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/79e9abd850c0546ffe408d53b5a2eb18/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/7c7573e5a78ceb2e51136b539b682c48/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/cfa257403f205f7561946ce45f515f6d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/c5f575f866569e6451fa5ef587db7756/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/4a4f041af9c79e0bfa3963e3b8e5bea3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/16b28ba7d8ff5780e3e6f62311ed882a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4a472d5e29f4cac62192662fab6fbb09/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/bbbeedf706f7451e3481ee5d3f0b2801/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/67bbd91aa254dcb1baa08329acae6b79/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a9f73d7b9d30a1e7ec07f262eb4f565f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+
+> Task :sample:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: com.google.gson.internal.reflect.UnsafeReflectionAccessor: can't find dynamically referenced class sun.misc.Unsafe
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk7.JDK7PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
+      Maybe this is program field 'com.google.gson.internal.reflect.UnsafeReflectionAccessor { java.lang.Object theUnsafe; }'
+Note: com.google.gson.internal.reflect.UnsafeReflectionAccessor accesses a declared field 'theUnsafe' dynamically
+      Maybe this is program field 'com.google.gson.internal.reflect.UnsafeReflectionAccessor { java.lang.Object theUnsafe; }'
+Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field 'label' dynamically
+      Maybe this is program field 'kotlin.collections.SlidingWindowKt$windowedIterator$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.jvm.internal.CoroutineImpl { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3 { int label; }'
+      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4 { int label; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.Variance { java.lang.String label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1 { int label; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2 { int label; }'
+      Maybe this is library field 'android.R$attr { int label; }'
+      Maybe this is library field 'android.app.LauncherActivity$ListItem { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.appwidget.AppWidgetProviderInfo { java.lang.String label; }'
+      Maybe this is library field 'android.inputmethodservice.Keyboard$Key { java.lang.CharSequence label; }'
+      Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
+      Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
+Note: kotlin.reflect.jvm.internal.KClassImpl$Data$objectInstance$2 accesses a declared field 'INSTANCE' dynamically
+      Maybe this is program field 'com.chibatching.kotpref.Kotpref { com.chibatching.kotpref.Kotpref INSTANCE; }'
+      Maybe this is program field 'com.chibatching.kotpref.KotprefPreferences$KotprefEditor$prefStringSet$2 { com.chibatching.kotpref.KotprefPreferences$KotprefEditor$prefStringSet$2 INSTANCE; }'
+      Maybe this is program field 'com.chibatching.kotpref.StaticContextProvider { com.chibatching.kotpref.StaticContextProvider INSTANCE; }'
+      Maybe this is program field 'com.chibatching.kotpref.gsonpref.KotprefGsonHolder { com.chibatching.kotpref.gsonpref.KotprefGsonHolder INSTANCE; }'
+      Maybe this is program field 'com.chibatching.kotprefsample.UserInfo { com.chibatching.kotprefsample.UserInfo INSTANCE; }'
+      Maybe this is program field 'com.chibatching.kotprefsample.UserInfo$prizes$2 { com.chibatching.kotprefsample.UserInfo$prizes$2 INSTANCE; }'
+      Maybe this is program field 'com.chibatching.kotprefsample.livedata.EditTextData { com.chibatching.kotprefsample.livedata.EditTextData INSTANCE; }'
+      Maybe this is program field 'com.chibatching.kotprefsample.preferencefragment.AppSettings { com.chibatching.kotprefsample.preferencefragment.AppSettings INSTANCE; }'
+      Maybe this is program field 'com.google.gson.JsonNull { com.google.gson.JsonNull INSTANCE; }'
+      Maybe this is program field 'com.google.gson.internal.JsonReaderInternalAccess { com.google.gson.internal.JsonReaderInternalAccess INSTANCE; }'
+      Maybe this is program field 'kotlin.UNINITIALIZED_VALUE { kotlin.UNINITIALIZED_VALUE INSTANCE; }'
+      Maybe this is program field 'kotlin.Unit { kotlin.Unit INSTANCE; }'
+      Maybe this is program field 'kotlin._Assertions { kotlin._Assertions INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptyIterator { kotlin.collections.EmptyIterator INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptyList { kotlin.collections.EmptyList INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptyMap { kotlin.collections.EmptyMap INSTANCE; }'
+      Maybe this is program field 'kotlin.collections.EmptySet { kotlin.collections.EmptySet INSTANCE; }'
+      Maybe this is program field 'kotlin.comparisons.NaturalOrderComparator { kotlin.comparisons.NaturalOrderComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.comparisons.ReverseOrderComparator { kotlin.comparisons.ReverseOrderComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.CombinedContext$toString$1 { kotlin.coroutines.CombinedContext$toString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.CoroutineContext$plus$1 { kotlin.coroutines.CoroutineContext$plus$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.EmptyCoroutineContext { kotlin.coroutines.EmptyCoroutineContext INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.CombinedContext$toString$1 { kotlin.coroutines.experimental.CombinedContext$toString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.CoroutineContext$plus$1 { kotlin.coroutines.experimental.CoroutineContext$plus$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.experimental.EmptyCoroutineContext { kotlin.coroutines.experimental.EmptyCoroutineContext INSTANCE; }'
+      Maybe this is program field 'kotlin.coroutines.jvm.internal.CompletedContinuation { kotlin.coroutines.jvm.internal.CompletedContinuation INSTANCE; }'
+      Maybe this is program field 'kotlin.io.ConsoleKt$decoder$2 { kotlin.io.ConsoleKt$decoder$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.io.FilesKt__UtilsKt$copyRecursively$1 { kotlin.io.FilesKt__UtilsKt$copyRecursively$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.BooleanCompanionObject { kotlin.jvm.internal.BooleanCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.ByteCompanionObject { kotlin.jvm.internal.ByteCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.CallableReference$NoReceiver { kotlin.jvm.internal.CallableReference$NoReceiver INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.CharCompanionObject { kotlin.jvm.internal.CharCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.DoubleCompanionObject { kotlin.jvm.internal.DoubleCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.EnumCompanionObject { kotlin.jvm.internal.EnumCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.FloatCompanionObject { kotlin.jvm.internal.FloatCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.IntCompanionObject { kotlin.jvm.internal.IntCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.LongCompanionObject { kotlin.jvm.internal.LongCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.ShortCompanionObject { kotlin.jvm.internal.ShortCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.jvm.internal.StringCompanionObject { kotlin.jvm.internal.StringCompanionObject INSTANCE; }'
+      Maybe this is program field 'kotlin.math.Constants { kotlin.math.Constants INSTANCE; }'
+      Maybe this is program field 'kotlin.properties.Delegates { kotlin.properties.Delegates INSTANCE; }'
+      Maybe this is program field 'kotlin.random.Random$Companion { kotlin.random.Random$Companion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.KParameter$Kind { kotlin.reflect.KParameter$Kind INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.full.KClasses$allSupertypes$1 { kotlin.reflect.full.KClasses$allSupertypes$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.full.KClasses$allSupertypes$1$1$1$1 { kotlin.reflect.full.KClasses$allSupertypes$1$1$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.full.KClasses$isSubclassOf$1 { kotlin.reflect.KProperty1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.ReflectLambdaKt$reflect$descriptor$1 { kotlin.reflect.jvm.ReflectLambdaKt$reflect$descriptor$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.EmptyContainerForLocal { kotlin.reflect.jvm.internal.EmptyContainerForLocal INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.JvmFunctionSignature$FakeJavaAnnotationConstructor$asString$1 { kotlin.reflect.jvm.internal.JvmFunctionSignature$FakeJavaAnnotationConstructor$asString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.JvmFunctionSignature$JavaConstructor$asString$1 { kotlin.reflect.jvm.internal.JvmFunctionSignature$JavaConstructor$asString$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KClassImpl$Data$supertypes$2$3 { kotlin.reflect.jvm.internal.KClassImpl$Data$supertypes$2$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KClassImpl$getLocalProperty$2$1$1 { kotlin.reflect.jvm.internal.KClassImpl$getLocalProperty$2$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findFunctionDescriptor$allMembers$1 { kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findFunctionDescriptor$allMembers$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$allMembers$1 { kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$allMembers$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$mostVisibleProperties$2 { kotlin.reflect.jvm.internal.KDeclarationContainerImpl$findPropertyDescriptor$mostVisibleProperties$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.KPackageImpl$getLocalProperty$1$1$1 { kotlin.reflect.jvm.internal.KPackageImpl$getLocalProperty$1$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.ReflectionObjectRenderer { kotlin.reflect.jvm.internal.ReflectionObjectRenderer INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderFunction$1$1 { kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderFunction$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderLambda$1$1 { kotlin.reflect.jvm.internal.ReflectionObjectRenderer$renderLambda$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.RuntimeTypeMapper { kotlin.reflect.jvm.internal.RuntimeTypeMapper INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.RuntimeTypeMapperKt$signature$1 { kotlin.reflect.jvm.internal.RuntimeTypeMapperKt$signature$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.calls.AnnotationConstructorCallerKt$createAnnotationInstance$toString$2$1$1 { kotlin.reflect.jvm.internal.calls.AnnotationConstructorCallerKt$createAnnotationInstance$toString$2$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.calls.ThrowingCaller { kotlin.reflect.jvm.internal.calls.ThrowingCaller INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.ReflectClassStructure { kotlin.reflect.jvm.internal.components.ReflectClassStructure INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimeErrorReporter { kotlin.reflect.jvm.internal.components.RuntimeErrorReporter INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$EmptyEnumeration { kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$EmptyEnumeration INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$registerModule$1$mapping$1 { kotlin.reflect.jvm.internal.components.RuntimePackagePartProvider$registerModule$1$mapping$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.RuntimeSourceElementFactory { kotlin.reflect.jvm.internal.components.RuntimeSourceElementFactory INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.components.SignatureSerializer { kotlin.reflect.jvm.internal.components.SignatureSerializer INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.BuiltInsLoader$Companion$Instance$2 { kotlin.reflect.jvm.internal.impl.builtins.BuiltInsLoader$Companion$Instance$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.CompanionObjectMapping { kotlin.reflect.jvm.internal.impl.builtins.CompanionObjectMapping INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.DefaultBuiltIns$Companion$initializer$1 { kotlin.reflect.jvm.internal.impl.builtins.DefaultBuiltIns$Companion$initializer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.UnsignedTypes { kotlin.reflect.jvm.internal.impl.builtins.UnsignedTypes INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.FallbackBuiltIns$Companion$initializer$1 { kotlin.reflect.jvm.internal.impl.builtins.jvm.FallbackBuiltIns$Companion$initializer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.JavaToKotlinClassMap { kotlin.reflect.jvm.internal.impl.builtins.jvm.JavaToKotlinClassMap INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInClassDescriptorFactory$1 { kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInClassDescriptorFactory$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInsSettings$isMutabilityViolation$1 { kotlin.reflect.jvm.internal.impl.builtins.jvm.JvmBuiltInsSettings$isMutabilityViolation$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.ConstUtil { kotlin.reflect.jvm.internal.impl.descriptors.ConstUtil INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$1 { kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$2 { kotlin.reflect.jvm.internal.impl.descriptors.FindClassInModuleKt$findNonGenericClassAcrossDependencies$typeParametersCount$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.PackageFragmentProviderImpl$getSubPackagesOf$1 { kotlin.reflect.jvm.internal.impl.descriptors.PackageFragmentProviderImpl$getSubPackagesOf$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.SupertypeLoopChecker$EMPTY { kotlin.reflect.jvm.internal.impl.descriptors.SupertypeLoopChecker$EMPTY INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$1 { kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$2 { kotlin.reflect.jvm.internal.impl.descriptors.TypeParameterUtilsKt$computeConstructorTypeParameters$parametersFromContainingFunctions$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.annotations.CompositeAnnotations$iterator$1 { kotlin.reflect.jvm.internal.impl.descriptors.annotations.CompositeAnnotations$iterator$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.deserialization.AdditionalClassPartsProvider$None { kotlin.reflect.jvm.internal.impl.descriptors.deserialization.AdditionalClassPartsProvider$None INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$All { kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$All INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$NoPlatformDependent { kotlin.reflect.jvm.internal.impl.descriptors.deserialization.PlatformDependentDeclarationFilter$NoPlatformDependent INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.incremental.components.LookupTracker$DO_NOTHING { kotlin.reflect.jvm.internal.impl.incremental.components.LookupTracker$DO_NOTHING INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithDifferentJvmName { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithDifferentJvmName INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getOverriddenBuiltinFunctionWithErasedValueParametersInJava$1 { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getOverriddenBuiltinFunctionWithErasedValueParametersInJava$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getSpecialSignatureInfo$builtinSignature$1 { kotlin.reflect.jvm.internal.impl.load.java.BuiltinMethodsWithSpecialGenericSignature$getSpecialSignatureInfo$builtinSignature$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties { kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties$getBuiltinSpecialPropertyGetterName$descriptor$1 { kotlin.reflect.jvm.internal.impl.load.java.BuiltinSpecialProperties$getBuiltinSpecialPropertyGetterName$descriptor$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.ErasedOverridabilityCondition$isOverridable$signatureTypes$1 { kotlin.reflect.jvm.internal.impl.load.java.ErasedOverridabilityCondition$isOverridable$signatureTypes$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.FakePureImplementationsProvider { kotlin.reflect.jvm.internal.impl.load.java.FakePureImplementationsProvider INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.JavaClassesTracker$Default { kotlin.reflect.jvm.internal.impl.load.java.JavaClassesTracker$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$1 { kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$2 { kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenBuiltinWithDifferentJvmName$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenSpecialBuiltin$2 { kotlin.reflect.jvm.internal.impl.load.java.SpecialBuiltinMembers$getOverriddenSpecialBuiltin$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationMapper { kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationMapper INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper { kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper$mapJavaTargetArguments$1 { kotlin.reflect.jvm.internal.impl.load.java.components.JavaAnnotationTargetMapper$mapJavaTargetArguments$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaDeprecatedAnnotationDescriptor$allValueArguments$2 { kotlin.reflect.jvm.internal.impl.load.java.components.JavaDeprecatedAnnotationDescriptor$allValueArguments$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.JavaPropertyInitializerEvaluator$DoNothing { kotlin.reflect.jvm.internal.impl.load.java.components.JavaPropertyInitializerEvaluator$DoNothing INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.components.SamConversionResolver$Empty { kotlin.reflect.jvm.internal.impl.load.java.components.SamConversionResolver$Empty INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.descriptors.NullDefaultValue { kotlin.reflect.jvm.internal.impl.load.java.descriptors.NullDefaultValue INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.JavaResolverSettings$Default { kotlin.reflect.jvm.internal.impl.load.java.lazy.JavaResolverSettings$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.TypeParameterResolver$EMPTY { kotlin.reflect.jvm.internal.impl.load.java.lazy.TypeParameterResolver$EMPTY INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.DeclaredMemberIndex$Empty { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.DeclaredMemberIndex$Empty INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaClassMemberScope$computeMemberIndex$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaClassMemberScope$computeMemberIndex$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$NotFound { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$NotFound INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$SyntheticClass { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaPackageScope$KotlinClassLookupResult$SyntheticClass INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computeMemberIndex$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computeMemberIndex$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computePropertyNames$1$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$computePropertyNames$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.descriptors.LazyJavaStaticClassScope$flatMapJavaStaticSupertypesScopes$1$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.JavaTypeResolver$argumentsMakeSenseOnlyForMutableContainer$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.JavaTypeResolver$argumentsMakeSenseOnlyForMutableContainer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawSubstitution { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawSubstitution INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$3 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$newArgs$1 { kotlin.reflect.jvm.internal.impl.load.java.lazy.types.RawTypeImpl$render$newArgs$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.EnhancedTypeAnnotationDescriptor { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.EnhancedTypeAnnotationDescriptor INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$enhance$containsFunctionN$1 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$enhance$containsFunctionN$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$extractQualifiersFromAnnotations$2 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$SignatureParts$extractQualifiersFromAnnotations$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$receiverTypeEnhancement$1 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$receiverTypeEnhancement$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$returnTypeEnhancement$1 { kotlin.reflect.jvm.internal.impl.load.java.typeEnhancement.SignatureEnhancement$enhanceSignature$returnTypeEnhancement$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.DeserializedDescriptorResolver$createKotlinPackagePartScope$2 { kotlin.reflect.jvm.internal.impl.load.kotlin.DeserializedDescriptorResolver$createKotlinPackagePartScope$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.JavaFlexibleTypeDeserializer { kotlin.reflect.jvm.internal.impl.load.kotlin.JavaFlexibleTypeDeserializer INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.JvmTypeFactoryImpl { kotlin.reflect.jvm.internal.impl.load.kotlin.JvmTypeFactoryImpl INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents { kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents$jvmDescriptor$1 { kotlin.reflect.jvm.internal.impl.load.kotlin.SignatureBuildingComponents$jvmDescriptor$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.load.kotlin.TypeMappingConfigurationImpl { kotlin.reflect.jvm.internal.impl.load.kotlin.TypeMappingConfigurationImpl INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.builtins.BuiltInsBinaryVersion { kotlin.reflect.jvm.internal.impl.metadata.builtins.BuiltInsBinaryVersion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.ClassMapperLite { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.ClassMapperLite INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmBytecodeBinaryVersion { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmBytecodeBinaryVersion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmFlags { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmFlags INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmMetadataVersion { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmMetadataVersion INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmProtoBufUtil { kotlin.reflect.jvm.internal.impl.metadata.jvm.deserialization.JvmProtoBufUtil INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.name.NameUtils { kotlin.reflect.jvm.internal.impl.name.NameUtils INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$FULLY_QUALIFIED { kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$FULLY_QUALIFIED INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SHORT { kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SHORT INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SOURCE_CODE_QUALIFIED { kotlin.reflect.jvm.internal.impl.renderer.ClassifierNamePolicy$SOURCE_CODE_QUALIFIED INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITHOUT_SUPERTYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITHOUT_SUPERTYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_MODIFIERS$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_MODIFIERS$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_SHORT_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$COMPACT_WITH_SHORT_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$DEBUG_TEXT$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$DEBUG_TEXT$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$FQ_NAMES_IN_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$FQ_NAMES_IN_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$HTML$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$HTML$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$ONLY_NAMES_WITH_SHORT_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$ONLY_NAMES_WITH_SHORT_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$SHORT_NAMES_IN_TYPES$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$Companion$SHORT_NAMES_IN_TYPES$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$ValueParametersHandler$DEFAULT { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRenderer$ValueParametersHandler$DEFAULT INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeAnnotationsRenderer$2$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeAnnotationsRenderer$2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeParameterTypesRenderer$2$1 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererImpl$functionTypeParameterTypesRenderer$2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$defaultParameterValueRenderer$2 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$defaultParameterValueRenderer$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$typeNormalizer$2 { kotlin.reflect.jvm.internal.impl.renderer.DescriptorRendererOptionsImpl$typeNormalizer$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.renderer.ExcludedTypeAnnotations { kotlin.reflect.jvm.internal.impl.renderer.ExcludedTypeAnnotations INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides { kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areCallableDescriptorsEquivalent$1 { kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areCallableDescriptorsEquivalent$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areTypeParametersEquivalent$1 { kotlin.reflect.jvm.internal.impl.resolve.DescriptorEquivalenceForOverrides$areTypeParametersEquivalent$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.MemberComparator { kotlin.reflect.jvm.internal.impl.resolve.MemberComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.MemberComparator$NameAndTypeMemberComparator { kotlin.reflect.jvm.internal.impl.resolve.MemberComparator$NameAndTypeMemberComparator INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.OverridingUtilsKt$retainMostSpecificInEachOverridableGroup$newResult$1 { kotlin.reflect.jvm.internal.impl.resolve.OverridingUtilsKt$retainMostSpecificInEachOverridableGroup$newResult$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.constants.ConstantValueFactory { kotlin.reflect.jvm.internal.impl.resolve.constants.ConstantValueFactory INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$1 { kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$2 { kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$declaresOrInheritsDefaultValue$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$parentsWithSelf$1 { kotlin.reflect.jvm.internal.impl.resolve.descriptorUtil.DescriptorUtilsKt$parentsWithSelf$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$NonExtensions { kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$NonExtensions INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$TopLevelPackages { kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindExclude$TopLevelPackages INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Companion$ALL_NAME_FILTER$1 { kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Companion$ALL_NAME_FILTER$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Empty { kotlin.reflect.jvm.internal.impl.resolve.scopes.MemberScope$Empty INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedDescriptors$2 { kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedDescriptors$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedFunctions$1 { kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedFunctions$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedVariables$1 { kotlin.reflect.jvm.internal.impl.resolve.scopes.TypeIntersectionScope$getContributedVariables$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.DeserializationConfiguration$Default { kotlin.reflect.jvm.internal.impl.serialization.deserialization.DeserializationConfiguration$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.FlexibleTypeDeserializer$ThrowException { kotlin.reflect.jvm.internal.impl.serialization.deserialization.FlexibleTypeDeserializer$ThrowException INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.LocalClassifierTypeSettings$Default { kotlin.reflect.jvm.internal.impl.serialization.deserialization.LocalClassifierTypeSettings$Default INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.MemberDeserializer$containsSuspendFunctionType$1 { kotlin.reflect.KProperty1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.ProtoEnumFlags { kotlin.reflect.jvm.internal.impl.serialization.deserialization.ProtoEnumFlags INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$classNestingLevel$1 { kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$classNestingLevel$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$typeParametersCount$2 { kotlin.reflect.jvm.internal.impl.serialization.deserialization.TypeDeserializer$typeConstructor$1$typeParametersCount$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.serialization.deserialization.builtins.BuiltInSerializerProtocol { kotlin.reflect.jvm.internal.impl.serialization.deserialization.builtins.BuiltInSerializerProtocol INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.storage.NoLock { java.util.concurrent.locks.Lock INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.AbstractTypeConstructor$supertypes$2 { kotlin.reflect.jvm.internal.impl.types.AbstractTypeConstructor$supertypes$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.KotlinTypeFactory { kotlin.reflect.jvm.internal.impl.types.KotlinTypeFactory INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.NewKotlinTypeChecker { kotlin.reflect.jvm.internal.impl.types.checker.NewKotlinTypeChecker INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.NullabilityChecker { kotlin.reflect.jvm.internal.impl.types.checker.NullabilityChecker INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.StrictEqualityTypeChecker { kotlin.reflect.jvm.internal.impl.types.checker.StrictEqualityTypeChecker INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$LowerIfFlexible { kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$LowerIfFlexible INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$None { kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$None INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$UpperIfFlexible { kotlin.reflect.jvm.internal.impl.types.checker.TypeCheckerContext$SupertypesPolicy$UpperIfFlexible INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.checker.TypeIntersector { kotlin.reflect.jvm.internal.impl.types.checker.TypeIntersector INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$approximateCapturedTypesIfNecessary$1 { kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$approximateCapturedTypesIfNecessary$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$toTypeProjection$1$descriptorRenderer$1 { kotlin.reflect.jvm.internal.impl.types.typesApproximation.CapturedTypeApproximationKt$toTypeProjection$1$descriptorRenderer$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.CheckResult$IllegalFunctionName { kotlin.reflect.jvm.internal.impl.util.CheckResult$IllegalFunctionName INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.CheckResult$SuccessCheck { kotlin.reflect.jvm.internal.impl.util.CheckResult$SuccessCheck INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.Checks$2 { kotlin.reflect.jvm.internal.impl.util.Checks$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.Checks$3 { kotlin.reflect.jvm.internal.impl.util.Checks$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.Checks$4 { kotlin.reflect.jvm.internal.impl.util.Checks$4 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.IsKPropertyCheck { kotlin.reflect.jvm.internal.impl.util.IsKPropertyCheck INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$Member { kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$Member INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$MemberOrExtension { kotlin.reflect.jvm.internal.impl.util.MemberKindCheck$MemberOrExtension INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ModuleVisibilityHelper$EMPTY { kotlin.reflect.jvm.internal.impl.util.ModuleVisibilityHelper$EMPTY INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.NoDefaultAndVarargsCheck { kotlin.reflect.jvm.internal.impl.util.NoDefaultAndVarargsCheck INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks { kotlin.reflect.jvm.internal.impl.util.OperatorChecks INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$1 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2$1 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$3 { kotlin.reflect.jvm.internal.impl.util.OperatorChecks$checks$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.OperatorNameConventions { kotlin.reflect.jvm.internal.impl.util.OperatorNameConventions INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean$1 { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsBoolean$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt$1 { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsInt$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit$1 { kotlin.reflect.jvm.internal.impl.util.ReturnsCheck$ReturnsUnit$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$NoValueParameters { kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$NoValueParameters INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$SingleValueParameter { kotlin.reflect.jvm.internal.impl.util.ValueParameterCountCheck$SingleValueParameter INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_NULL$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_NULL$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_TRUE$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$ALWAYS_TRUE$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_2$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_2$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_3$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$DO_NOTHING_3$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$IDENTITY$1 { kotlin.reflect.jvm.internal.impl.utils.FunctionsKt$IDENTITY$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.impl.utils.SmartList$EmptyIterator { kotlin.reflect.jvm.internal.impl.utils.SmartList$EmptyIterator INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.Java8ParameterNamesLoader { kotlin.reflect.jvm.internal.structure.Java8ParameterNamesLoader INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$1 { kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$2 { kotlin.reflect.jvm.internal.structure.ReflectClassUtilKt$parameterizedTypeArguments$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$1 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$constructors$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$1 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$fields$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$1 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$innerClassNames$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.reflect.jvm.internal.structure.ReflectJavaClass$methods$2 { kotlin.reflect.jvm.internal.structure.ReflectJavaClass$methods$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.EmptySequence { kotlin.sequences.EmptySequence INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$flatten$1 { kotlin.sequences.SequencesKt__SequencesKt$flatten$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$flatten$2 { kotlin.sequences.SequencesKt__SequencesKt$flatten$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$flatten$3 { kotlin.sequences.SequencesKt__SequencesKt$flatten$3 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$distinct$1 { kotlin.sequences.SequencesKt___SequencesKt$distinct$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$filterIndexed$2 { kotlin.sequences.SequencesKt___SequencesKt$filterIndexed$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$filterIsInstance$1 { kotlin.sequences.SequencesKt___SequencesKt$filterIsInstance$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$filterNotNull$1 { kotlin.sequences.SequencesKt___SequencesKt$filterNotNull$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$flatMap$1 { kotlin.sequences.SequencesKt___SequencesKt$flatMap$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zip$1 { kotlin.sequences.SequencesKt___SequencesKt$zip$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$1 { kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.CharCategory$Companion$categoryMap$2 { kotlin.text.CharCategory$Companion$categoryMap$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.CharDirectionality$Companion$directionalityMap$2 { kotlin.text.CharDirectionality$Companion$directionalityMap$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.Charsets { kotlin.text.Charsets INSTANCE; }'
+      Maybe this is program field 'kotlin.text.Regex$findAll$2 { kotlin.text.Regex$findAll$2 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.ScreenFloatValueRegEx { kotlin.text.ScreenFloatValueRegEx INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt__IndentKt$getIndentFunction$1 { kotlin.text.StringsKt__IndentKt$getIndentFunction$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt___StringsKt$chunkedSequence$1 { kotlin.text.StringsKt___StringsKt$chunkedSequence$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt___StringsKt$windowed$1 { kotlin.text.StringsKt___StringsKt$windowed$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.StringsKt___StringsKt$windowedSequence$1 { kotlin.text.StringsKt___StringsKt$windowedSequence$1 INSTANCE; }'
+      Maybe this is program field 'kotlin.text.SystemProperties { kotlin.text.SystemProperties INSTANCE; }'
+      Maybe this is program field 'kotlin.text.Typography { kotlin.text.Typography INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.HijrahChronology { java.time.chrono.HijrahChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.IsoChronology { java.time.chrono.IsoChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.JapaneseChronology { java.time.chrono.JapaneseChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.MinguoChronology { java.time.chrono.MinguoChronology INSTANCE; }'
+      Maybe this is library field 'java.time.chrono.ThaiBuddhistChronology { java.time.chrono.ThaiBuddhistChronology INSTANCE; }'
+Note: there were 6 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Note: there were 4 accesses to class members by means of introspection.
+      You should consider explicitly keeping the mentioned class members
+      (using '-keep' or '-keepclassmembers').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1313
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 4346
+  Final number of program classes:    2905
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-1.0.0.aar/8378a44b262590477e0a2dfa33b8c914/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/b1c783e59afcaa2d053f3d6cac5411c2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.10/dd02865be0351707554b16a896b766b2396cdafa/kotlin-reflect-1.3.10.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/405755633a8739eb4a524297baee352b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/cc4e5ab92ced6c902e15bd0222b187a9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/7f2113858435dd9ca5540bb6520917fa/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/a67aed7c6015b2fef9c559b8bc02ace1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/47d2d43d48e104b8e5e6789a96a80bd0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8468f81e147c29925bc9c6f74f6415f0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/c33e00d595f57ef29c6d31a221ab0acf/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/aa77bfecd4a63ea402894dcc378d3120/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9cd618a99df5702a18c58b778d2a69b3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/3edc4236ea829549a0d4ffc3bafcde1e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/7668215b5cda5cdf9f74fe9c42494b7b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/84de8a330d32e39b0604f97ce1a56445/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/670b7038d93d568ad0008a82d4e105af/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/5b6bca69619e023f9c35ee9dd2f322c4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/73ca50d45951f5b5949ff05e73df2f7d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/a2b33247ac8fb22d3a27fa8e4d857fe0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/79e9abd850c0546ffe408d53b5a2eb18/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/7c7573e5a78ceb2e51136b539b682c48/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/cfa257403f205f7561946ce45f515f6d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/c5f575f866569e6451fa5ef587db7756/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/4a4f041af9c79e0bfa3963e3b8e5bea3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/16b28ba7d8ff5780e3e6f62311ed882a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/4a472d5e29f4cac62192662fab6fbb09/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/bbbeedf706f7451e3481ee5d3f0b2801/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/67bbd91aa254dcb1baa08329acae6b79/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/a9f73d7b9d30a1e7ec07f262eb4f565f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/initializer/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/enum-support/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/gson-support/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/livedata-support/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/kotpref/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :enum-support:compileReleaseNdk NO-SOURCE
+> Task :enum-support:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :enum-support:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :enum-support:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :enum-support:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :gson-support:compileReleaseNdk NO-SOURCE
+> Task :gson-support:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :gson-support:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :gson-support:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :gson-support:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :initializer:compileReleaseNdk NO-SOURCE
+> Task :initializer:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :initializer:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :initializer:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :initializer:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :kotpref:compileReleaseNdk NO-SOURCE
+> Task :kotpref:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :kotpref:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :kotpref:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :kotpref:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :livedata-support:compileReleaseNdk NO-SOURCE
+> Task :livedata-support:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :livedata-support:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :livedata-support:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :livedata-support:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 31s
+247 actionable tasks: 75 executed, 172 up-to-date
+
+2019-01-12 21:15:10,186 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302197303-0/src/Kotpref-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

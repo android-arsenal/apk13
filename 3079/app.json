@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "link.fls.swipestacksample",
+    "label" : "SwipeStack Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAC01BMVEUAAAD////////////////////////////////+/v7+/v79/f38/Pz+/v79/f3w8PAAAAD8/Pz8/Pz9/f39/f3y8vLIyMjW1tb7+/vy8vKwsLDIyMj7+/uqqqr92+b9aJv9q8f9QYD9P3/7U4zuv8/9+fv9d6T9Pn/9RILzm7n94Or9UIr3daHt3uP9utD9QoL7WI/vytb9hq/9SYXzqsP97fP9XJL3gqr9xNb9RYT6YJTx0tz9kLb9QH/8S4b0ssn99ff9ZZj3jbH9lrr9Q4H1uM3w8PDuusz7UIr8Uov0wdLx8fHr1t34a5v6b57y3+Xq5uf0i6/9QID3kLPx7e7y8vLy8vLq6urwtMj8S4f0uc309PT97/Pu0Nr6YZX7Y5by1d/y6u3z8/Pq6ur9pcL9QYH1jbDr6+vs4+b3hKv4hazw6Ovx6+34i7D1wtPz8/OkpKT5aZnu19/s7Ozzq8T1rsbv7+/y2OH7aJn2uc719fX1iq78UYvxwNDt7e3wzNj7WpDyz9v0v9H8Ton5jrLz7/D09PTyr8b8Sob9Q4L0nLr9+/vw4eb5eKPx4ufx7/D3mrr9QoH9S4f2s8rr6+vvz9r6X5P4daHv3+Xu7u7v7u7zwtLw7+/y4Ob6c6H7YJT01N/29vbt5Of3gan7V47yyNb0x9b8Vo75g6vz6u319fX0q8T9RYP1o7/w7/Dx8PD2oL33rsfs7Ozxy9j4fqfy3OT5e6X8WZD1z9z39/f5dqL6d6Pz5On29vbw7u/2nbv3nrzz8fL0xNT8VIz4+Pjz4Of4kbT39/ft7e3Ly8v5+fmmpqatra36+vr39/f39/f6+vrp6emHh4eqqqoAAADb29v////KysoAAAA3NzfLy8vr6+vv7+/u7u7n5+fo6Ojp6enq6urr6+vm5ubExMQ0NDQAAAAAAABGRkZgYGBcXFxbW1tdXV1mZmYAAAAAAAC/v7+EksFQAAAA8XRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir///////////////////////////////////////////////////////////////////////////z///////////////zv////////////////Kv////////////////////////////z/////////////////7/////////////////////////////z/////////7//////////////8/////////////O8n/ysc7P35/+wiAwip/60DKrDt8O/w8PDw8O2xLAkgQk1LTE0FCw4EJIw6QwAAAtNJREFUSMdjYKAXYGQiABhRlDMzEzYSWQ2QycLKhhewsoCVwdSzc3ByEQCc3OxwHcwMPLx8hAG/AFQDIwOLIJ+QsAheICzEKyrGAPE5E4O4BJ8IIfNFeCWlgEohGqRliNIgi9CAYYOcvBxJGhQUlZRViNegqqaupKSkoalKpAYtbSUI0NElSoOevhIMGBgSocFICQkYmxDSYGqmhArMTfFqsLBUQgdW1ng02NgqYQI7e1waHByVsAJbJwfsGpxdsGtQcnF1w+4kdw+s6j293Ny8sfvBxxeLej9/oHpvb+yhFBAYhKY8KDgErD40DHs8hEfYoaiPjHKDqA8Ni8aiIQaoIzYOSX18AlB9Ikh9aFJ0MoaGlNQ0B770jExYbNhmZbu55eR65gHV5wM1FKAHK1BNYRFfcXGJMSQhlZa5uZVXAIO1MjQ/P6kKQ4NDNdDomlq+4rr6BqD6hkag+qZmoEUtrfn5+W2YGvjC2zuUlDq7uuvqenqVevvK3PonTFRSmjQZaH5+dFvVFAwNfOlTpwGNnj5j5sxZs+eUuc2dB+TNXwBWH922EIsGvuJFi4FqliydWVZW5rZsOZC9YiVEffQqrBqA7l8N9PGatevK1m/QAPp7YyhUfdWqhZuwaeCrq9tsADR4y9ZtQHL7Drj6qlU7sWvgmzmzZxeozADi3XsQ6qv24tLAN7Ns3/5OoPLOAweR1C/ErYEP6N9Dh5UOHwpFVr9w7xGcGviA6efosaOo6hceR9GAVhhD0ieK+p3Hj5xAaDiJXrZiqt95/NSJ01ANjAxnzvKiVShhYWFJSUltbW2rVq3au3fv8ePnzl+4eInhMrTKunL1wjXeaygAbvLOI0eOnAKCC9HXr8DruBs3b92+c/cOCrh37/79+w8ePHgIBsmPHj95egNRjT57/uLlq1evXuMAQKk3L54/Q66o3757TwC8e4ta+V/+QABcplsrBgBJ9siDyOPMEQAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1819,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"link.fls.swipestacksample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090082\" android:label=\"SwipeStack Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"link.fls.swipestacksample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1434201,
+  "crc32" : 1361048726,
+  "sha256" : "53c7ea587cfb71c990d792749e8bd37f69909f49aef320b9b2cabcd699b988c9",
+  "buildTime" : 1547314260000
+}

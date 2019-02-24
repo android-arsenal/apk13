@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.thefinestartist.realm.instagram",
+    "label" : "InstagRealm",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAA21BMVEUAAAA+cZs+cZpAcZo/cps/cptBcZs/cptDb5s8b5lBdJw/cptAdJs/cps/cps+cJs/cps+cpo/cZw+cps/cptAcZxAc5w/cptAc5s/cptBc5o/cps+dJszZplAcZpAcptAcptBcpw/cpo/cptAcJ8/cptAcptEd5k/cps/c5w+cptAc5w/c5o/cptAdJw/c5xBcZo/c5s/cpw/cps9cJk/cps/cps/cZszZpk/c5s/cZw+c5sAgIBAgJ8/cps5cZw/cptDa6FAc5k/cpo+cps+c5pGdKI+cps/cZtlQlXrAAAASXRSTlMAc7Ro/f9P+hceS/RAzf4p8pO2uKZsUPmM8Ef4QgVEcIRD1esQ95QP5ZVXZDWbLKc/irH7Msf8vwp62pcCCKMS4RMUubBvC8CtNnnJgwAAAVNJREFUSMftldlywjAMRcViSFlCWMwOgQCFskMhhB0KBf7/i+qUBtddIj91+sB9yEjKPTOOLcUAd/2NPN6bPDJ+n5/c5Pfh/kCQfFIw8LtTebAVChNB4dB7Wflmj0RV4iI1GhH9MY0g0mICECeo4gKQwIGEACRxIOkCaCmaTtOUJglksh+bqGQzMkAuz8v5HA4UiiwtlXW9XGJBsYACFZZVDTsyqiysYECtzhbSuMYNtrh6DQEeAZotJ2k1AZ4QoA3Q4R/aAWgjQBegx4EeQBcB+gADDgwA+ggwBBhxYAQwRADK9p4D7EwoAtjlsZOMv775AXiesB6aXuMp66mJiZ30jHWENV+o6mJusR6Z4c23XNmF9dp+rpYy7b3ZOtXtRm6AdnRv117oTnbiiGkcDoYpP6ISM33EgaMA6DjwKgCnM+Y/n8R/paVfvC666Nb94vxXegPSmCie7AgxAwAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2824,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.thefinestartist.realm.instagram\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f080078\" android:label=\"InstagRealm\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.thefinestartist.realm.instagram.App\" android:debuggable=\"true\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:largeHeap=\"true\">\n\t\t<activity android:label=\"InstagRealm\" android:name=\"com.thefinestartist.realm.instagram.activities.MainActivity\" />\n\t\t<activity android:name=\"com.thefinestartist.realm.instagram.activities.InstagramAuthActivity\" android:noHistory=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 7296988,
+  "crc32" : 59915394,
+  "sha256" : "591dea38da009b82c7f60eb7369e0ac534d6420f27b34676e915cb8408bd7821",
+  "buildTime" : 1496784534000
+}

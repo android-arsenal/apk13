@@ -1,0 +1,46 @@
+2019-01-13 00:31:42,422 INFO  DownloadService - Downloading "https://github.com/equinox-one/fritterfactory/archive/master.zip", attempt 3
+2019-01-13 00:31:42,892 INFO  DownloadService - Downloaded https://github.com/equinox-one/fritterfactory/archive/master.zip, attempt 3
+2019-01-13 00:31:42,892 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/master.zip": 86 KB
+2019-01-13 00:31:42,892 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 00:31:42,898 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/master.zip: true
+2019-01-13 00:31:42,898 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src'.
+2019-01-13 00:31:42,920 INFO  FullProcessService - Size of directory with sources: 118 KB
+2019-01-13 00:31:42,920 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src]
+2019-01-13 00:31:42,939 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/.git/
+
+2019-01-13 00:31:42,942 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/gradlew
+2019-01-13 00:31:42,945 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/build.gradle
+2019-01-13 00:31:42,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/settings.gradle
+2019-01-13 00:31:42,948 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 00:31:42,948 INFO  ProjectFixService - Fixing project...
+2019-01-13 00:31:42,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/local.properties
+2019-01-13 00:31:42,954 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.5-all.zip
+2019-01-13 00:31:42,955 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.5-bin.zip)
+2019-01-13 00:31:42,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-13 00:31:42,956 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-13 00:31:42,956 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 00:31:42,956 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 00:31:42,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 00:32:13,605 INFO  ProjectTaskService - Detected possible tasks: 58
+2019-01-13 00:32:13,605 INFO  ProjectTaskService - Excluded tasks (5): coveralls javadoc cobertura test check
+2019-01-13 00:32:13,606 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547314302414-0/src/fritterfactory-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, coveralls, -x, javadoc, -x, cobertura, -x, test, -x, check, build]
+2019-01-13 00:32:19,778 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJava
+Download https://jcenter.bintray.com/com/thedeanda/lorem/2.0/lorem-2.0.pom
+Download https://jcenter.bintray.com/com/thedeanda/lorem/2.0/lorem-2.0.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+:processResources UP-TO-DATE
+:classes
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.699 secs
+
+2019-01-13 00:32:19,783 ERROR FullProcessService - Project build has not produced APK file
+2019-01-13 00:32:19,787 ERROR FullProcessService - Could not find generated or existed APK file

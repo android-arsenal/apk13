@@ -1,0 +1,45 @@
+2019-01-12 20:01:08,872 INFO  DownloadService - Downloading "https://github.com/alexfu/SQLiteQueryBuilder/archive/master.zip", attempt 3
+2019-01-12 20:01:09,356 INFO  DownloadService - Downloaded https://github.com/alexfu/SQLiteQueryBuilder/archive/master.zip, attempt 3
+2019-01-12 20:01:09,356 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/master.zip": 81 KB
+2019-01-12 20:01:09,356 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 20:01:09,361 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/master.zip: true
+2019-01-12 20:01:09,362 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src'.
+2019-01-12 20:01:09,378 INFO  FullProcessService - Size of directory with sources: 107 KB
+2019-01-12 20:01:09,379 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src]
+2019-01-12 20:01:09,395 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/.git/
+
+2019-01-12 20:01:09,398 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/gradlew
+2019-01-12 20:01:09,401 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/build.gradle
+2019-01-12 20:01:09,403 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/settings.gradle
+2019-01-12 20:01:09,403 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 20:01:09,404 INFO  ProjectFixService - Fixing project...
+2019-01-12 20:01:09,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/local.properties
+2019-01-12 20:01:09,409 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.1-all.zip
+2019-01-12 20:01:09,409 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.1-bin.zip)
+2019-01-12 20:01:09,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-12 20:01:09,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-12 20:01:09,410 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 20:01:09,410 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 20:01:09,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 20:01:34,244 INFO  ProjectTaskService - Detected possible tasks: 47
+2019-01-12 20:01:34,244 INFO  ProjectTaskService - Excluded tasks (4): coveralls javadoc test check
+2019-01-12 20:01:34,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547298068868-0/src/SQLiteQueryBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, coveralls, -x, javadoc, -x, test, -x, check, build]
+2019-01-12 20:01:38,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+4 warnings
+
+:processResources UP-TO-DATE
+:classes
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 3.437 secs
+
+2019-01-12 20:01:38,159 ERROR FullProcessService - Project build has not produced APK file
+2019-01-12 20:01:38,164 ERROR FullProcessService - Could not find generated or existed APK file

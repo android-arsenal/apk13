@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.appeaser.sublimenavigationview",
+    "label" : "SublimeNavigationView",
+    "icon" : "res/mipmap-mdpi-v4/app_launcher.png",
+    "versionName" : "1.1",
+    "versionCode" : 2,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/app_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACIlBMVEUAAAD1pkv3tWr4vXv4vnz4vXv3tGn1pUr0liz1pUn0lSryiA/xhAnyhQnyhQr0lSn1pEj0livkfQjzkyXyhgv0lCflfgnScwjyhw7TdAjPcgicWhBvZFdvZVmZWRKeWw9YU0xFRUVERERXU0+bWhHOcQidWg9WUEo9PT0kJCQjIyM7OztUUEufWxAiIiIhISFTT0pVT0k8PDyfWw+dWxGfXBCcWxEgICA6OjpSTkkfHh07Lh4aGhoeHh7Aey2kbzMZGRkfHx+nYBB+VSccHBwdHR2MVBZ9VSicWxJRPCRkSi1jSi1iSSxkSSm7eS19ViqBViSMXCYjHxujXQ9UTkjIcA04LyShXRFANSo5OTmyZQ7fegm9aQu+agy5ZwvbeQlhUT8/Pz87NCswJhuzZg+SWxtgXFdrZ2NgXViOWR7XdwtiU0NCQkIpKSkpIxzwhAnWijMkHxqzZQ+VWBInJyeMUxPWdgphU0NBQUEgHRnRhjLVijeeXBKsZBFeTz8oKCjQhzfUije7ag6jXhA2NTWLWiNzWDnPiDfVizgjHhkxMTGZXBeOWR0wMDA0NDM+Pj4rKyvQiDc3NzdaUkltZVtrYllWT0c0NDTUizgsLCzOhzbUijbPhzfTijfPiDjTijYbGxsfHBjWjjw2Kh40KR3PijzLcAjsggntggm5ZgfQcgi4ZQeMTQWMTQXugwmNTgWNTgWDSAV5QgR5QgR5QgSFSQUdFrilAAAAtnRSTlMABpHt/+6RBpD//////////4jt////7f//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7f/tkP///4kGke7/BklpeDUAAANBSURBVEjHzVbnXxNBEMVe2F0bisaCJScmgUsIgQMFTTSx996xYAcVxRIbYgUbYBcbNsRe0P/Pmdm9uz3kQz4y/CC3O/PezrybnZCV1SetX/8BAzOwQYOHKMDQYcOzGeMCjAkyzvCBc8a5WnKRPWLkKAUYPUbgPvzmcBmBIQiBv0ikvGPHKUDueOHycXUWrPUlerMnKIAPFiqYqIF84qTJUwSdxrnr9dkACoJN9clY3tRp02f4VaTrNZwTOBHRNnLOzJ8VCIYK/JQVd732CYZOD95CiDfDwVDEzxwechpaSk5ljBcWRQMmmIZQXqcGoVsx8IfBTDMQisQ8LiclR0SwkvwoxaNBHaWcuV6fKyujbODoQhlvmi7C9faQFfftfNAsywqbZeUx1+ukxIVkYcVFyC/ZzdlzKirxDL/t5YYDUIb6U7gJOZmVc+fFE2YgGolJ7/+ylpCeUiH4CM7nC+KJcLAs4u9dVtQfQq3KpLTUQsEWVQAiWrBYdrCbEi7zpD6J+JKly5bjz4qVQLoqjnVESikHB4ALyCeI2SRXq/YGRnxYs9aCrMpjosd7WLde6ZnYwGXPYdL4xjZiOaHyTXoNUPTmLapea6tg27bvANtZBcpU7dqNRIGyPVq3+oBtbwqlAYxVzdi+/QfADh7i4vCRmlqSLHX0mNbekO3xuqRU0zrBxclwPZh1ip0+c7aedlPpc4zrF4jx84gAjFUtxAWLoBfZpZoGKiyVvuwtGleNhDCtK5xdtTDq2vUbwC/jb3rbm9HdaWpGxK3bjN25i2H3WlpaKT6ZbsPLzbUTqFM4nXH/wcNHj5+YdsuGMf82zrztTbcQGJ7CGYHaZ60NTotTPu3SK7T2JgTsNlJWqv3ke5H85NVVUjOOoVamZhTveN1eogFKo+S51Eo1OerDXK/htjd3pndTXVLPv82Z3sLtVp/Qp7eGSKVf6NM7x6ffB3d6v7QrT6Vfeaa3Lqtnest3rvLJaHqTuhCf8fRmr5s7Ot60s0ynt2D87bv3H+Syt+nd+dEzvelB2N9w2vTu6lSAT7n6iOZYOkXkSEEd+/xFAb5+M7470xuJPV8K9vTuMn78VIBfv7v/ZGDdv//2zX9M/gEoBQOJs/meugAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1874,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1\" package=\"com.appeaser.sublimenavigationview\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090030\" android:label=\"SublimeNavigationView\" android:icon=\"res/mipmap-xxxhdpi-v4/app_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SublimeNavigationView\" android:name=\"com.appeaser.sublimenavigationview.Sampler\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2040557,
+  "crc32" : 2379715351,
+  "sha256" : "f32e212a98bd740d83cac215c3ca0097e43328e74c24ffa32ea6f1dbe9f75892",
+  "buildTime" : 1547322230000
+}

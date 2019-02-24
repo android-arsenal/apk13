@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "link.fls.boundlayoutsample",
+    "label" : "BoundLayout Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABg1BMVEUAAAD////////////////////////////////+/v7+/v79/f38/Pz+/v79/f3w8PAAAAD8/Pz8/Pz9/f39/f3y8vLIyMjW1tb7+/vy8vKwsLDIyMj7+/uqqqqUntVndsN3hMpbar0+ULNaabzn5+fo6Ojp6elCU7ShqdOAi8hhb8Gvtt92gcVDVLXFyeBJWreHkctDVbWJk83u7u5/isfq6urr6+vs7Ozt7e2Cjcrv7+/w8PDx8fHy8vLy8vLz8/P09PTz8/Pq6uqKlM54g8emrtj19fWkpKT09PTr6+tca76hqtf29vaSnNH19fWDjstKW7haab2Ej8y4vt/s7Oz39/f29vb4+Pj39/ft7e3Ly8v5+fmmpqatra36+vr39/f39/f6+vrp6emHh4eqqqoAAADb29v////KysoAAAA3NzfLy8vr6+vv7+/u7u7o6Ojp6enq6urr6+vm5ubExMQ0NDQAAAAAAABGRkZgYGBcXFxbW1tdXV1mZmYAAAAAAAC/v7/XMnsqAAAAgXRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir///////////////////////////////////////////z8///v/////yr87//////8///////v//z//O8n/ysc7P35/+wiAwip/60DKrDt8O/w8PDw7bEsCSBCTUtMTQULDgTT+XT8AAACO0lEQVRIx72W+1eTUACAmZuZFWS63qVyB9Q0LV3bkm1yt5JIkZU2wOy1mpmVbb3UVpp/epcLAntccL/4/cQ5+77LfZzDHUWdFJG+ECItejQaPqTfQY+x/lOB9MewduQPnB48E8Lg2QG3iFLnaCac80NOEKFiF5jhkXggI8P0xUuUvfI+6vIVJh42fpy+eg2pdnD9xrGCm17gvWF0bLy3gAUJrueA6zXg+d4CnueFYwWjLOKWFdxOJlmbicmAYAxgErxwB7hMTZOD8QTiLkgIwj30YL9hBsymyGvgOI6/bwXpdDqTyWSz2QcsmEulyItG+2MFno8DUSTvEs8nQcLnW4Eoijnytgo4cP0UDnK5HPkcrMDzcYD8fD7o4Hy+FWA/XyAHrM8XcWD5hfmAwPNxgP2CBImBz7cC2y9KsEQOXD/38NGC7RclufSYFHi+M3/kFxVy0NWHivykazABZliPRYclCBW1ezA5BbqwDKFGCJjp2bkjyuXyU/BsBbEKZU193j1gWua/CFbQ/CGUZa1CChj/eq0A+7JODhjf/qDA9tWggPH2EweWr+pGQMC4+7+0vGr7qtkSdHyM3fNyxlcrprHmBS86P/ftfsVcX3vpBBHq1Wu640KZlyRJURRN03RdN803b6vv3lM158ra+FDdpDfbcEauGIaxjqjCjxvuHbf16fOX7a/bbdTr9Uaj8Q1T+v7j568t7xrd2d373Ww2/xBAP/3d293xX9T7B/9CONhvvfxrhyHUTuxfzH/TUBnutfP+3AAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1483,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"link.fls.boundlayoutsample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090081\" android:label=\"BoundLayout Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"link.fls.boundlayoutsample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1175963,
+  "crc32" : 44772177,
+  "sha256" : "dd66ef6ff8914d2413893531c12ddbe6b1e9996d7425e216e4f096807eed95b2",
+  "buildTime" : 1547310866000
+}

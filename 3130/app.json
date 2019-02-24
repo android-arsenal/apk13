@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "devkhan.loaders.app",
+    "label" : "Loaders Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_all_inclusive_black_24dp.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_all_inclusive_black_24dp.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAABCUlEQVR4Ae3BA4wQAAAF0Hc2Z9WMOGTbGLKt2WrMrpnZnJVtY1a2rd9sdDPuPc2aoNFoMw1QBgCgwiAzjdIAQInVvouIV+YAgEXeiohvViiGAkfEH8dscVPERoWg0CYR12xxwl9xQAEzxWudANP88Fl7lDsovpsI6OatmMwlMQUAfXVEgzPind4AmCXO8E1UAwBaeiAeaQ0AGsRHvokaANDeE/FACwBAo/jARTENAAN9FKc1opf+AJgrTjJNvNUNMNtPsUcZOvvupxmA3t6LsRQ4IP46a6d7IlYrAAU2iLhrp/MidgLFlvoqIl6YDgBmeSEiPlqsCIBaQ03RWykAgBI9TTBAlf/W7B8VpmuCXtEFWgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2205,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"devkhan.loaders.app\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Loaders Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_all_inclusive_black_24dp.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"devkhan.loaders.app.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1963182,
+  "crc32" : 2752382231,
+  "sha256" : "8ae42f6e763a6e7622785438a51f781ed96bdce74ebbda96dbef942c15f91510",
+  "buildTime" : 1522319185000
+}

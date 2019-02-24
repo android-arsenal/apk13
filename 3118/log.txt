@@ -1,0 +1,162 @@
+2019-01-12 23:34:34,633 INFO  DownloadService - Downloading "https://github.com/rtugeek/ColorSeekBar/archive/master.zip", attempt 3
+2019-01-12 23:34:36,488 INFO  DownloadService - Downloaded https://github.com/rtugeek/ColorSeekBar/archive/master.zip, attempt 3
+2019-01-12 23:34:36,488 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/master.zip": 1 MB
+2019-01-12 23:34:36,488 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 23:34:36,489 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/master.zip: true
+2019-01-12 23:34:36,489 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src'.
+2019-01-12 23:34:36,520 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-12 23:34:36,520 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src]
+2019-01-12 23:34:36,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/.git/
+
+2019-01-12 23:34:36,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/gradlew
+2019-01-12 23:34:36,544 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/colorseekbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/build.gradle
+2019-01-12 23:34:36,547 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/colorseekbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/settings.gradle
+2019-01-12 23:34:36,548 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 23:34:36,548 INFO  ProjectFixService - Fixing project...
+2019-01-12 23:34:36,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/app/local.properties
+2019-01-12 23:34:36,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-12 23:34:36,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/colorseekbar/local.properties
+2019-01-12 23:34:36,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/colorseekbar/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-12 23:34:36,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/local.properties
+2019-01-12 23:34:36,558 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-12 23:34:36,559 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-12 23:34:36,559 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-12 23:34:36,560 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 23:34:36,560 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:34:36,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:34:43,365 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-12 23:34:43,365 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 23:34:43,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 23:35:10,070 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:colorseekbar:preBuild UP-TO-DATE
+:colorseekbar:preDebugBuild UP-TO-DATE
+:colorseekbar:checkDebugManifest
+:colorseekbar:processDebugManifest
+:app:preDebugBuild
+:colorseekbar:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:colorseekbar:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:colorseekbar:compileDebugRenderscript
+:colorseekbar:generateDebugResValues
+:colorseekbar:generateDebugResources
+:colorseekbar:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:colorseekbar:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:colorseekbar:generateDebugBuildConfig
+:colorseekbar:prepareLintJar
+:colorseekbar:generateDebugSources
+:colorseekbar:javaPreCompileDebug
+:colorseekbar:compileDebugJavaWithJavac
+:colorseekbar:processDebugJavaRes NO-SOURCE
+:colorseekbar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:colorseekbar:mergeDebugShaders
+:colorseekbar:compileDebugShaders
+:colorseekbar:generateDebugAssets
+:colorseekbar:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:colorseekbar:compileDebugNdk NO-SOURCE
+:colorseekbar:mergeDebugJniLibFolders
+:colorseekbar:transformNativeLibsWithMergeJniLibsForDebug
+:colorseekbar:transformNativeLibsWithStripDebugSymbolForDebug
+:colorseekbar:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:colorseekbar:preReleaseBuild UP-TO-DATE
+:colorseekbar:checkReleaseManifest
+:colorseekbar:processReleaseManifest
+:app:preReleaseBuild
+:colorseekbar:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:colorseekbar:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:colorseekbar:compileReleaseRenderscript
+:colorseekbar:generateReleaseResValues
+:colorseekbar:generateReleaseResources
+:colorseekbar:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:colorseekbar:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:colorseekbar:generateReleaseBuildConfig
+:colorseekbar:generateReleaseSources
+:colorseekbar:javaPreCompileRelease
+:colorseekbar:compileReleaseJavaWithJavac
+:colorseekbar:processReleaseJavaRes NO-SOURCE
+:colorseekbar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/35109cbd08327bc3329c428286471136/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:colorseekbar:mergeReleaseShaders
+:colorseekbar:compileReleaseShaders
+:colorseekbar:generateReleaseAssets
+:colorseekbar:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:colorseekbar:compileReleaseNdk NO-SOURCE
+:colorseekbar:mergeReleaseJniLibFolders
+:colorseekbar:transformNativeLibsWithMergeJniLibsForRelease
+:colorseekbar:transformNativeLibsWithStripDebugSymbolForRelease
+:colorseekbar:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 26s
+90 actionable tasks: 90 executed
+
+2019-01-12 23:35:10,152 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310874625-0/src/ColorSeekBar-master/app/build/outputs/apk/debug/app-debug.apk

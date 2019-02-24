@@ -1,0 +1,9 @@
+2019-01-10 14:57:12,788 INFO  DownloadService - Downloading "https://github.com/vinaysshenoy/poirot/archive/master.zip", attempt 3
+2019-01-10 14:57:12,788 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-10 14:57:13,446 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-10 14:57:13,446 INFO  DownloadService - Downloading "https://github.com/vinaysshenoy/poirot/archive/master.zip", attempt 3
+2019-01-10 14:57:13,446 DEBUG FullProcessService - Repository https://github.com/vinaysshenoy/poirot available: false
+2019-01-10 14:57:13,446 ERROR FullProcessService - Could not find directory with sources
+2019-01-10 14:57:13,446 ERROR FullProcessService - Project will not be processed
+2019-01-10 14:57:13,446 ERROR FullProcessService - Project build has not produced APK file
+2019-01-10 14:57:13,447 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,596 @@
+2019-01-11 10:49:01,514 INFO  DownloadService - Downloading "https://github.com/Microsoft/thrifty/archive/master.zip", attempt 3
+2019-01-11 10:49:02,370 INFO  DownloadService - Downloaded https://github.com/Microsoft/thrifty/archive/master.zip, attempt 3
+2019-01-11 10:49:02,370 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/master.zip": 547 KB
+2019-01-11 10:49:02,370 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-11 10:49:02,376 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/master.zip: true
+2019-01-11 10:49:02,377 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src'.
+2019-01-11 10:49:02,450 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-01-11 10:49:02,450 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src]
+2019-01-11 10:49:02,467 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/.git/
+
+2019-01-11 10:49:02,476 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew
+2019-01-11 10:49:02,486 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler-plugins/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-integration-tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-schema/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-test-server/build.gradle
+2019-01-11 10:49:02,494 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler-plugins/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-test-server/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-schema/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-integration-tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/build.gradle
+2019-01-11 10:49:02,494 INFO  ProjectBuildService - Remote scripts: none
+2019-01-11 10:49:02,494 INFO  ProjectFixService - Fixing project...
+2019-01-11 10:49:02,517 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/local.properties
+2019-01-11 10:49:02,517 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-11 10:49:02,517 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-11 10:49:02,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,524 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,526 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler-plugins/local.properties
+2019-01-11 10:49:02,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler-plugins/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,533 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler-plugins/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler/local.properties
+2019-01-11 10:49:02,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,541 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/local.properties
+2019-01-11 10:49:02,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,549 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-integration-tests/local.properties
+2019-01-11 10:49:02,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-integration-tests/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,557 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-integration-tests/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/local.properties
+2019-01-11 10:49:02,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,565 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,566 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/local.properties
+2019-01-11 10:49:02,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,573 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/local.properties
+2019-01-11 10:49:02,581 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,581 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime/local.properties
+2019-01-11 10:49:02,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,589 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-schema/local.properties
+2019-01-11 10:49:02,598 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-schema/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,598 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-schema/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-test-server/local.properties
+2019-01-11 10:49:02,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-test-server/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-11 10:49:02,606 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-test-server/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-11 10:49:02,606 INFO  ProjectFixService - Project was maybe fixed
+2019-01-11 10:49:02,606 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:49:02,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:49:15,097 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-11 10:49:15,097 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:49:15,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:50:50,135 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-compiler-plugins:compileJava
+> Task :thrifty-runtime:compileJava
+> Task :thrifty-schema:generateGrammarSource
+> Task :thrifty-schema:compileKotlin
+> Task :thrifty-schema:compileJava
+> Task :thrifty-java-codegen:compileKotlin
+> Task :thrifty-java-codegen:compileJava NO-SOURCE
+> Task :thrifty-runtime-ktx:compileKotlin
+> Task :thrifty-runtime-ktx:compileJava NO-SOURCE
+> Task :thrifty-kotlin-codegen:compileKotlin
+> Task :thrifty-kotlin-codegen:compileJava NO-SOURCE
+> Task :thrifty-compiler:compileKotlin
+> Task :thrifty-compiler:deleteTestCaseJava UP-TO-DATE
+> Task :thrifty-compiler:compileJava NO-SOURCE
+> Task :thrifty-compiler:processResources NO-SOURCE
+> Task :thrifty-compiler:classes UP-TO-DATE
+> Task :thrifty-compiler:inspectClassesForKotlinIC
+> Task :thrifty-compiler:jar
+
+> Task :thrifty-compiler:dokka
+warning: classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/build/classes/java/main
+warning: classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/build/classes/java/main
+No documentation for com.microsoft.thrifty.compiler.ThriftyCompiler.Language (ThriftyCompiler.kt:123)
+No documentation for com.microsoft.thrifty.compiler.ThriftyCompiler.Language.JAVA (ThriftyCompiler.kt:124)
+No documentation for com.microsoft.thrifty.compiler.ThriftyCompiler.Language.KOTLIN (ThriftyCompiler.kt:125)
+No documentation for com.microsoft.thrifty.compiler.ThriftyCompiler$compile(kotlin.Array((kotlin.String))) (ThriftyCompiler.kt:335)
+No documentation for com.microsoft.thrifty.compiler.ThriftyCompiler.Companion$main(kotlin.Array((kotlin.String))) (ThriftyCompiler.kt:338)
+
+> Task :thrifty-compiler:javadocJar
+> Task :thrifty-compiler-plugins:processResources NO-SOURCE
+> Task :thrifty-compiler-plugins:classes
+> Task :thrifty-compiler-plugins:jar
+> Task :thrifty-java-codegen:processResources NO-SOURCE
+> Task :thrifty-java-codegen:classes UP-TO-DATE
+> Task :thrifty-java-codegen:inspectClassesForKotlinIC
+> Task :thrifty-java-codegen:jar
+> Task :thrifty-kotlin-codegen:processResources NO-SOURCE
+> Task :thrifty-kotlin-codegen:classes UP-TO-DATE
+> Task :thrifty-kotlin-codegen:inspectClassesForKotlinIC
+> Task :thrifty-kotlin-codegen:jar
+> Task :thrifty-runtime:processResources NO-SOURCE
+> Task :thrifty-runtime:classes
+> Task :thrifty-runtime:jar
+> Task :thrifty-runtime-ktx:processResources NO-SOURCE
+> Task :thrifty-runtime-ktx:classes UP-TO-DATE
+> Task :thrifty-runtime-ktx:inspectClassesForKotlinIC
+> Task :thrifty-runtime-ktx:jar
+> Task :thrifty-schema:processResources NO-SOURCE
+> Task :thrifty-schema:classes
+> Task :thrifty-schema:inspectClassesForKotlinIC
+> Task :thrifty-schema:jar
+> Task :thrifty-compiler:shadowJar
+> Task :thrifty-compiler:sourcesJar
+> Task :thrifty-compiler:signArchives SKIPPED
+> Task :thrifty-compiler:assemble
+> Task :thrifty-compiler:build
+> Task :thrifty-compiler-plugins:javadocJar
+> Task :thrifty-compiler-plugins:sourcesJar
+> Task :thrifty-compiler-plugins:signArchives SKIPPED
+> Task :thrifty-compiler-plugins:assemble
+> Task :thrifty-compiler-plugins:build
+> Task :thrifty-example-postprocessor:compileKotlin
+> Task :thrifty-example-postprocessor:compileJava
+> Task :thrifty-example-postprocessor:processResources
+> Task :thrifty-example-postprocessor:classes
+> Task :thrifty-example-postprocessor:inspectClassesForKotlinIC
+> Task :thrifty-example-postprocessor:jar
+
+> Task :thrifty-example-postprocessor:dokka
+Include file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/Module.md was not found.
+No documentation for com.microsoft.thrifty.compiler.SerializableKotlinProcessor$process(com.squareup.kotlinpoet.TypeSpec) (SerializableKotlinProcessor.kt:34)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor (SerializableKotlinProcessor.kt:29)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor (SerializableKotlinProcessor.kt:29)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor$<init>() (SerializableKotlinProcessor.kt:29)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor$<init>() (SerializableKotlinProcessor.kt:29)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor (SerializableKotlinProcessor.kt:29)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor (SerializableKotlinProcessor.kt:29)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor$<init>() (SerializableKotlinProcessor.kt:29)
+Can't find node by signature com.microsoft.thrifty.compiler.spi.KotlinTypeProcessor, referenced at com.microsoft.thrifty.compiler.SerializableKotlinProcessor$<init>() (SerializableKotlinProcessor.kt:29)
+
+> Task :thrifty-example-postprocessor:javadocJar
+> Task :thrifty-example-postprocessor:sourcesJar
+> Task :thrifty-example-postprocessor:signArchives SKIPPED
+> Task :thrifty-example-postprocessor:assemble
+> Task :thrifty-example-postprocessor:build
+> Task :thrifty-integration-tests:compileKotlin NO-SOURCE
+> Task :thrifty-integration-tests:compileJava NO-SOURCE
+> Task :thrifty-integration-tests:processResources NO-SOURCE
+> Task :thrifty-integration-tests:classes UP-TO-DATE
+> Task :thrifty-integration-tests:inspectClassesForKotlinIC
+> Task :thrifty-integration-tests:jar
+> Task :thrifty-integration-tests:startScripts
+> Task :thrifty-integration-tests:distTar
+> Task :thrifty-integration-tests:distZip
+
+> Task :thrifty-integration-tests:dokka
+No source directories found: skipping dokka generation
+
+> Task :thrifty-integration-tests:javadocJar
+> Task :thrifty-integration-tests:shadowJar
+> Task :thrifty-integration-tests:startShadowScripts
+> Task :thrifty-integration-tests:shadowDistTar
+> Task :thrifty-integration-tests:shadowDistZip
+> Task :thrifty-integration-tests:sourcesJar
+> Task :thrifty-integration-tests:signArchives SKIPPED
+> Task :thrifty-integration-tests:assemble
+> Task :thrifty-integration-tests:build
+
+> Task :thrifty-java-codegen:dokka
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator (ThriftyCodeGenerator.kt:63)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$<init>(com.microsoft.thrifty.schema.Schema, com.microsoft.thrifty.schema.FieldNamingPolicy) (ThriftyCodeGenerator.kt:78)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$withListType(kotlin.String) (ThriftyCodeGenerator.kt:91)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$withSetType(kotlin.String) (ThriftyCodeGenerator.kt:96)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$withMapType(kotlin.String) (ThriftyCodeGenerator.kt:101)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$emitAndroidAnnotations(kotlin.Boolean) (ThriftyCodeGenerator.kt:106)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$emitParcelable(kotlin.Boolean) (ThriftyCodeGenerator.kt:111)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$emitFileComment(kotlin.Boolean) (ThriftyCodeGenerator.kt:116)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$emitGeneratedAnnotations(kotlin.String) (ThriftyCodeGenerator.kt:121)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$usingTypeProcessor(com.microsoft.thrifty.compiler.spi.TypeProcessor) (ThriftyCodeGenerator.kt:125)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$generate(java.nio.file.Path) (ThriftyCodeGenerator.kt:130)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$generate(java.io.File) (ThriftyCodeGenerator.kt:136)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$generate(java.lang.Appendable) (ThriftyCodeGenerator.kt:142)
+No documentation for com.microsoft.thrifty.gen.ThriftyCodeGenerator$generateTypes() (ThriftyCodeGenerator.kt:148)
+
+> Task :thrifty-java-codegen:javadocJar
+> Task :thrifty-java-codegen:sourcesJar
+> Task :thrifty-java-codegen:signArchives SKIPPED
+> Task :thrifty-java-codegen:assemble
+> Task :thrifty-java-codegen:build
+
+> Task :thrifty-kotlin-codegen:dokka
+warning: classpath entry points to a non-existent location: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/build/classes/java/main
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator.OutputStyle (KotlinCodeGenerator.kt:111)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator.OutputStyle.FILE_PER_NAMESPACE (KotlinCodeGenerator.kt:112)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator.OutputStyle.FILE_PER_TYPE (KotlinCodeGenerator.kt:113)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$processor (KotlinCodeGenerator.kt:186)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$outputStyle (KotlinCodeGenerator.kt:187)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$generatedAnnotationType (KotlinCodeGenerator.kt:188)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$filePerNamespace() (KotlinCodeGenerator.kt:190)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$filePerType() (KotlinCodeGenerator.kt:191)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$parcelize() (KotlinCodeGenerator.kt:192)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$listClassName(kotlin.String) (KotlinCodeGenerator.kt:194)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$setClassName(kotlin.String) (KotlinCodeGenerator.kt:198)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$mapClassName(kotlin.String) (KotlinCodeGenerator.kt:202)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$builderlessDataClasses() (KotlinCodeGenerator.kt:206)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$coroutineServiceClients() (KotlinCodeGenerator.kt:210)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$emitGeneratedAnnotations(kotlin.String) (KotlinCodeGenerator.kt:214)
+No documentation for com.microsoft.thrifty.kgen.KotlinCodeGenerator$generate(com.microsoft.thrifty.schema.Schema) (KotlinCodeGenerator.kt:224)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+Can't find node by signature com.microsoft.thrifty.schema.Schema, referenced at com.microsoft.thrifty.kgen.KotlinCodeGenerator (KotlinCodeGenerator.kt:103)
+
+> Task :thrifty-kotlin-codegen:javadocJar
+> Task :thrifty-kotlin-codegen:sourcesJar
+> Task :thrifty-kotlin-codegen:signArchives SKIPPED
+> Task :thrifty-kotlin-codegen:assemble
+> Task :thrifty-kotlin-codegen:build
+> Task :thrifty-runtime:javadocJar
+> Task :thrifty-runtime:sourcesJar
+> Task :thrifty-runtime:signArchives SKIPPED
+> Task :thrifty-runtime:assemble
+> Task :thrifty-runtime:build
+
+> Task :thrifty-runtime-ktx:dokka
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter (Adapter.kt:25)
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter (Adapter.kt:25)
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter$read(com.microsoft.thrifty.protocol.Protocol) (Adapter.kt:32)
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter$write(com.microsoft.thrifty.protocol.Protocol, com.microsoft.thrifty.kotlin.Adapter.T) (Adapter.kt:39)
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter (Adapter.kt:25)
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter (Adapter.kt:25)
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter$read(com.microsoft.thrifty.protocol.Protocol) (Adapter.kt:32)
+Can't find node by signature com.microsoft.thrifty.protocol.Protocol, referenced at com.microsoft.thrifty.kotlin.Adapter$write(com.microsoft.thrifty.protocol.Protocol, com.microsoft.thrifty.kotlin.Adapter.T) (Adapter.kt:39)
+
+> Task :thrifty-runtime-ktx:javadocJar
+> Task :thrifty-runtime-ktx:sourcesJar
+> Task :thrifty-runtime-ktx:signArchives SKIPPED
+> Task :thrifty-runtime-ktx:assemble
+> Task :thrifty-runtime-ktx:build
+
+> Task :thrifty-schema:dokka
+Can't find node by signature com.microsoft.thrifty.schema.Field$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.Field, com.microsoft.thrifty.schema.Field, kotlin.String) (SchemaFunctionalEquality.kt:135)
+Can't find node by signature com.microsoft.thrifty.schema.Field$name, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.Field, com.microsoft.thrifty.schema.Field, kotlin.String) (SchemaFunctionalEquality.kt:135)
+Can't find node by signature com.microsoft.thrifty.schema.Field$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.Field, com.microsoft.thrifty.schema.Field, kotlin.String) (SchemaFunctionalEquality.kt:135)
+Can't find node by signature com.microsoft.thrifty.schema.ServiceMethod$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.ServiceMethod, com.microsoft.thrifty.schema.ServiceMethod) (SchemaFunctionalEquality.kt:171)
+Can't find node by signature com.microsoft.thrifty.schema.ServiceMethod$name, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.ServiceMethod, com.microsoft.thrifty.schema.ServiceMethod) (SchemaFunctionalEquality.kt:171)
+Can't find node by signature com.microsoft.thrifty.schema.ServiceMethod$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.ServiceMethod, com.microsoft.thrifty.schema.ServiceMethod) (SchemaFunctionalEquality.kt:171)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.StructType, com.microsoft.thrifty.schema.StructType) (SchemaFunctionalEquality.kt:207)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$namespaces, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.StructType, com.microsoft.thrifty.schema.StructType) (SchemaFunctionalEquality.kt:207)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.StructType, com.microsoft.thrifty.schema.StructType) (SchemaFunctionalEquality.kt:207)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.ServiceType, com.microsoft.thrifty.schema.ServiceType) (SchemaFunctionalEquality.kt:250)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$namespaces, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.ServiceType, com.microsoft.thrifty.schema.ServiceType) (SchemaFunctionalEquality.kt:250)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.ServiceType, com.microsoft.thrifty.schema.ServiceType) (SchemaFunctionalEquality.kt:250)
+Can't find node by signature com.microsoft.thrifty.schema.Constant$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.Constant, com.microsoft.thrifty.schema.Constant) (SchemaFunctionalEquality.kt:281)
+Can't find node by signature com.microsoft.thrifty.schema.Constant$name, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.Constant, com.microsoft.thrifty.schema.Constant) (SchemaFunctionalEquality.kt:281)
+Can't find node by signature com.microsoft.thrifty.schema.Constant$namespaces, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.Constant, com.microsoft.thrifty.schema.Constant) (SchemaFunctionalEquality.kt:281)
+Can't find node by signature com.microsoft.thrifty.schema.Constant$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.Constant, com.microsoft.thrifty.schema.Constant) (SchemaFunctionalEquality.kt:281)
+Can't find node by signature com.microsoft.thrifty.schema.EnumMember$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.EnumMember, com.microsoft.thrifty.schema.EnumMember) (SchemaFunctionalEquality.kt:311)
+Can't find node by signature com.microsoft.thrifty.schema.EnumMember$name, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.EnumMember, com.microsoft.thrifty.schema.EnumMember) (SchemaFunctionalEquality.kt:311)
+Can't find node by signature com.microsoft.thrifty.schema.EnumMember$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.EnumMember, com.microsoft.thrifty.schema.EnumMember) (SchemaFunctionalEquality.kt:311)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.EnumType, com.microsoft.thrifty.schema.EnumType) (SchemaFunctionalEquality.kt:337)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$namespaces, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.EnumType, com.microsoft.thrifty.schema.EnumType) (SchemaFunctionalEquality.kt:337)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.EnumType, com.microsoft.thrifty.schema.EnumType) (SchemaFunctionalEquality.kt:337)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$documentation, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.TypedefType, com.microsoft.thrifty.schema.TypedefType) (SchemaFunctionalEquality.kt:368)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$namespaces, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.TypedefType, com.microsoft.thrifty.schema.TypedefType) (SchemaFunctionalEquality.kt:368)
+Can't find node by signature com.microsoft.thrifty.schema.UserType$annotations, referenced at com.microsoft.thrifty.schema$checkFunctionallyEquals(com.microsoft.thrifty.schema.TypedefType, com.microsoft.thrifty.schema.TypedefType) (SchemaFunctionalEquality.kt:368)
+
+> Task :thrifty-schema:javadocJar
+> Task :thrifty-schema:sourcesJar
+> Task :thrifty-schema:signArchives SKIPPED
+> Task :thrifty-schema:assemble
+> Task :thrifty-schema:build
+> Task :thrifty-test-server:compileJava
+> Task :thrifty-test-server:processResources NO-SOURCE
+> Task :thrifty-test-server:classes
+> Task :thrifty-test-server:jar
+> Task :thrifty-test-server:javadocJar
+> Task :thrifty-test-server:sourcesJar
+> Task :thrifty-test-server:signArchives SKIPPED
+> Task :thrifty-test-server:assemble
+> Task :thrifty-test-server:build
+
+BUILD SUCCESSFUL in 1m 34s
+66 actionable tasks: 65 executed, 1 up-to-date
+
+2019-01-11 10:50:50,204 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:50:50,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler-plugins/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:50:54,408 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-01-11 10:50:54,408 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:50:54,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler-plugins/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:50:58,513 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-compiler-plugins:compileJava UP-TO-DATE
+> Task :thrifty-compiler-plugins:processResources NO-SOURCE
+> Task :thrifty-compiler-plugins:classes UP-TO-DATE
+> Task :thrifty-compiler-plugins:jar UP-TO-DATE
+> Task :thrifty-compiler-plugins:javadocJar UP-TO-DATE
+> Task :thrifty-compiler-plugins:sourcesJar UP-TO-DATE
+> Task :thrifty-compiler-plugins:signArchives SKIPPED
+> Task :thrifty-compiler-plugins:assemble UP-TO-DATE
+> Task :thrifty-compiler-plugins:build
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 up-to-date
+
+2019-01-11 10:50:58,581 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:50:58,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:51:03,033 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-01-11 10:51:03,033 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:51:03,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:51:09,206 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-compiler-plugins:compileJava UP-TO-DATE
+> Task :thrifty-runtime:compileJava UP-TO-DATE
+> Task :thrifty-schema:generateGrammarSource UP-TO-DATE
+> Task :thrifty-schema:compileKotlin UP-TO-DATE
+> Task :thrifty-schema:compileJava UP-TO-DATE
+> Task :thrifty-java-codegen:compileKotlin UP-TO-DATE
+> Task :thrifty-java-codegen:compileJava NO-SOURCE
+> Task :thrifty-runtime-ktx:compileKotlin UP-TO-DATE
+> Task :thrifty-runtime-ktx:compileJava NO-SOURCE
+> Task :thrifty-kotlin-codegen:compileKotlin UP-TO-DATE
+> Task :thrifty-kotlin-codegen:compileJava NO-SOURCE
+> Task :thrifty-compiler:compileKotlin UP-TO-DATE
+> Task :thrifty-compiler:deleteTestCaseJava UP-TO-DATE
+> Task :thrifty-compiler:compileJava NO-SOURCE
+> Task :thrifty-compiler:processResources NO-SOURCE
+> Task :thrifty-compiler:classes UP-TO-DATE
+> Task :thrifty-compiler:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-compiler:jar UP-TO-DATE
+> Task :thrifty-compiler:dokka UP-TO-DATE
+> Task :thrifty-compiler:javadocJar UP-TO-DATE
+> Task :thrifty-compiler-plugins:processResources NO-SOURCE
+> Task :thrifty-compiler-plugins:classes UP-TO-DATE
+> Task :thrifty-compiler-plugins:jar UP-TO-DATE
+> Task :thrifty-java-codegen:processResources NO-SOURCE
+> Task :thrifty-java-codegen:classes UP-TO-DATE
+> Task :thrifty-java-codegen:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-java-codegen:jar UP-TO-DATE
+> Task :thrifty-kotlin-codegen:processResources NO-SOURCE
+> Task :thrifty-kotlin-codegen:classes UP-TO-DATE
+> Task :thrifty-kotlin-codegen:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-kotlin-codegen:jar UP-TO-DATE
+> Task :thrifty-runtime:processResources NO-SOURCE
+> Task :thrifty-runtime:classes UP-TO-DATE
+> Task :thrifty-runtime:jar UP-TO-DATE
+> Task :thrifty-runtime-ktx:processResources NO-SOURCE
+> Task :thrifty-runtime-ktx:classes UP-TO-DATE
+> Task :thrifty-runtime-ktx:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-runtime-ktx:jar UP-TO-DATE
+> Task :thrifty-schema:processResources NO-SOURCE
+> Task :thrifty-schema:classes UP-TO-DATE
+> Task :thrifty-schema:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-schema:jar UP-TO-DATE
+> Task :thrifty-compiler:shadowJar UP-TO-DATE
+> Task :thrifty-compiler:sourcesJar UP-TO-DATE
+> Task :thrifty-compiler:signArchives SKIPPED
+> Task :thrifty-compiler:assemble UP-TO-DATE
+> Task :thrifty-compiler:build
+
+BUILD SUCCESSFUL in 5s
+26 actionable tasks: 26 up-to-date
+
+2019-01-11 10:51:09,268 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:51:09,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:51:13,548 INFO  ProjectTaskService - Detected possible tasks: 49
+2019-01-11 10:51:13,548 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:51:13,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-example-postprocessor/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:51:18,495 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-compiler-plugins:compileJava UP-TO-DATE
+> Task :thrifty-example-postprocessor:compileKotlin UP-TO-DATE
+> Task :thrifty-example-postprocessor:compileJava UP-TO-DATE
+> Task :thrifty-example-postprocessor:processResources UP-TO-DATE
+> Task :thrifty-example-postprocessor:classes UP-TO-DATE
+> Task :thrifty-example-postprocessor:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-example-postprocessor:jar UP-TO-DATE
+> Task :thrifty-example-postprocessor:dokka UP-TO-DATE
+> Task :thrifty-example-postprocessor:javadocJar UP-TO-DATE
+> Task :thrifty-example-postprocessor:sourcesJar UP-TO-DATE
+> Task :thrifty-example-postprocessor:signArchives SKIPPED
+> Task :thrifty-example-postprocessor:assemble UP-TO-DATE
+> Task :thrifty-example-postprocessor:build
+
+BUILD SUCCESSFUL in 4s
+9 actionable tasks: 9 up-to-date
+
+2019-01-11 10:51:18,563 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:51:18,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-integration-tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:51:23,334 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-11 10:51:23,335 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:51:23,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-integration-tests/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:51:29,788 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-compiler-plugins:compileJava UP-TO-DATE
+> Task :thrifty-runtime:compileJava UP-TO-DATE
+> Task :thrifty-schema:generateGrammarSource UP-TO-DATE
+> Task :thrifty-schema:compileKotlin UP-TO-DATE
+> Task :thrifty-schema:compileJava UP-TO-DATE
+> Task :thrifty-java-codegen:compileKotlin UP-TO-DATE
+> Task :thrifty-java-codegen:compileJava NO-SOURCE
+> Task :thrifty-runtime-ktx:compileKotlin UP-TO-DATE
+> Task :thrifty-runtime-ktx:compileJava NO-SOURCE
+> Task :thrifty-kotlin-codegen:compileKotlin UP-TO-DATE
+> Task :thrifty-kotlin-codegen:compileJava NO-SOURCE
+> Task :thrifty-compiler:compileKotlin UP-TO-DATE
+> Task :thrifty-compiler:deleteTestCaseJava UP-TO-DATE
+> Task :thrifty-compiler:compileJava NO-SOURCE
+> Task :thrifty-compiler:processResources NO-SOURCE
+> Task :thrifty-compiler:classes UP-TO-DATE
+> Task :thrifty-compiler:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-compiler:jar UP-TO-DATE
+> Task :thrifty-compiler-plugins:processResources NO-SOURCE
+> Task :thrifty-compiler-plugins:classes UP-TO-DATE
+> Task :thrifty-compiler-plugins:jar UP-TO-DATE
+> Task :thrifty-integration-tests:compileKotlin NO-SOURCE
+> Task :thrifty-integration-tests:compileJava NO-SOURCE
+> Task :thrifty-integration-tests:processResources NO-SOURCE
+> Task :thrifty-integration-tests:classes UP-TO-DATE
+> Task :thrifty-integration-tests:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-integration-tests:jar UP-TO-DATE
+> Task :thrifty-integration-tests:startScripts UP-TO-DATE
+> Task :thrifty-java-codegen:processResources NO-SOURCE
+> Task :thrifty-java-codegen:classes UP-TO-DATE
+> Task :thrifty-java-codegen:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-java-codegen:jar UP-TO-DATE
+> Task :thrifty-kotlin-codegen:processResources NO-SOURCE
+> Task :thrifty-kotlin-codegen:classes UP-TO-DATE
+> Task :thrifty-kotlin-codegen:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-kotlin-codegen:jar UP-TO-DATE
+> Task :thrifty-runtime:processResources NO-SOURCE
+> Task :thrifty-runtime:classes UP-TO-DATE
+> Task :thrifty-runtime:jar UP-TO-DATE
+> Task :thrifty-runtime-ktx:processResources NO-SOURCE
+> Task :thrifty-runtime-ktx:classes UP-TO-DATE
+> Task :thrifty-runtime-ktx:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-runtime-ktx:jar UP-TO-DATE
+> Task :thrifty-schema:processResources NO-SOURCE
+> Task :thrifty-schema:classes UP-TO-DATE
+> Task :thrifty-schema:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-schema:jar UP-TO-DATE
+> Task :thrifty-integration-tests:distTar UP-TO-DATE
+> Task :thrifty-integration-tests:distZip UP-TO-DATE
+> Task :thrifty-integration-tests:dokka UP-TO-DATE
+> Task :thrifty-integration-tests:javadocJar UP-TO-DATE
+> Task :thrifty-integration-tests:shadowJar UP-TO-DATE
+> Task :thrifty-integration-tests:startShadowScripts UP-TO-DATE
+> Task :thrifty-integration-tests:shadowDistTar UP-TO-DATE
+> Task :thrifty-integration-tests:shadowDistZip UP-TO-DATE
+> Task :thrifty-integration-tests:sourcesJar UP-TO-DATE
+> Task :thrifty-integration-tests:signArchives SKIPPED
+> Task :thrifty-integration-tests:assemble UP-TO-DATE
+> Task :thrifty-integration-tests:build
+
+BUILD SUCCESSFUL in 6s
+34 actionable tasks: 34 up-to-date
+
+2019-01-11 10:51:29,854 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:51:29,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:51:33,850 INFO  ProjectTaskService - Detected possible tasks: 49
+2019-01-11 10:51:33,850 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:51:33,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-java-codegen/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:51:39,215 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-compiler-plugins:compileJava UP-TO-DATE
+> Task :thrifty-runtime:compileJava UP-TO-DATE
+> Task :thrifty-schema:generateGrammarSource UP-TO-DATE
+> Task :thrifty-schema:compileKotlin UP-TO-DATE
+> Task :thrifty-schema:compileJava UP-TO-DATE
+> Task :thrifty-java-codegen:compileKotlin UP-TO-DATE
+> Task :thrifty-java-codegen:compileJava NO-SOURCE
+> Task :thrifty-java-codegen:processResources NO-SOURCE
+> Task :thrifty-java-codegen:classes UP-TO-DATE
+> Task :thrifty-java-codegen:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-java-codegen:jar UP-TO-DATE
+> Task :thrifty-java-codegen:dokka UP-TO-DATE
+> Task :thrifty-java-codegen:javadocJar UP-TO-DATE
+> Task :thrifty-java-codegen:sourcesJar UP-TO-DATE
+> Task :thrifty-java-codegen:signArchives SKIPPED
+> Task :thrifty-java-codegen:assemble UP-TO-DATE
+> Task :thrifty-java-codegen:build
+
+BUILD SUCCESSFUL in 5s
+11 actionable tasks: 11 up-to-date
+
+2019-01-11 10:51:39,277 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:51:39,277 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:51:43,188 INFO  ProjectTaskService - Detected possible tasks: 49
+2019-01-11 10:51:43,188 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:51:43,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-kotlin-codegen/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:51:48,790 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-compiler-plugins:compileJava UP-TO-DATE
+> Task :thrifty-runtime:compileJava UP-TO-DATE
+> Task :thrifty-runtime-ktx:compileKotlin UP-TO-DATE
+> Task :thrifty-runtime-ktx:compileJava NO-SOURCE
+> Task :thrifty-schema:generateGrammarSource UP-TO-DATE
+> Task :thrifty-schema:compileKotlin UP-TO-DATE
+> Task :thrifty-schema:compileJava UP-TO-DATE
+> Task :thrifty-kotlin-codegen:compileKotlin UP-TO-DATE
+> Task :thrifty-kotlin-codegen:compileJava NO-SOURCE
+> Task :thrifty-kotlin-codegen:processResources NO-SOURCE
+> Task :thrifty-kotlin-codegen:classes UP-TO-DATE
+> Task :thrifty-kotlin-codegen:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-kotlin-codegen:jar UP-TO-DATE
+> Task :thrifty-kotlin-codegen:dokka UP-TO-DATE
+> Task :thrifty-kotlin-codegen:javadocJar UP-TO-DATE
+> Task :thrifty-kotlin-codegen:sourcesJar UP-TO-DATE
+> Task :thrifty-kotlin-codegen:signArchives SKIPPED
+> Task :thrifty-kotlin-codegen:assemble UP-TO-DATE
+> Task :thrifty-kotlin-codegen:build
+
+BUILD SUCCESSFUL in 5s
+12 actionable tasks: 12 up-to-date
+
+2019-01-11 10:51:48,854 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:51:48,854 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:51:52,621 INFO  ProjectTaskService - Detected possible tasks: 49
+2019-01-11 10:51:52,621 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:51:52,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:51:57,961 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-runtime:compileJava UP-TO-DATE
+> Task :thrifty-runtime-ktx:compileKotlin UP-TO-DATE
+> Task :thrifty-runtime-ktx:compileJava NO-SOURCE
+> Task :thrifty-runtime-ktx:processResources NO-SOURCE
+> Task :thrifty-runtime-ktx:classes UP-TO-DATE
+> Task :thrifty-runtime-ktx:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-runtime-ktx:jar UP-TO-DATE
+> Task :thrifty-runtime-ktx:dokka UP-TO-DATE
+> Task :thrifty-runtime-ktx:javadocJar UP-TO-DATE
+> Task :thrifty-runtime-ktx:sourcesJar UP-TO-DATE
+> Task :thrifty-runtime-ktx:signArchives SKIPPED
+> Task :thrifty-runtime-ktx:assemble UP-TO-DATE
+> Task :thrifty-runtime-ktx:build
+
+BUILD SUCCESSFUL in 5s
+7 actionable tasks: 7 up-to-date
+
+2019-01-11 10:51:58,025 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:51:58,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:52:01,796 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-01-11 10:52:01,796 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:52:01,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-runtime/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:52:05,657 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-runtime:compileJava UP-TO-DATE
+> Task :thrifty-runtime:processResources NO-SOURCE
+> Task :thrifty-runtime:classes UP-TO-DATE
+> Task :thrifty-runtime:jar UP-TO-DATE
+> Task :thrifty-runtime:javadocJar UP-TO-DATE
+> Task :thrifty-runtime:sourcesJar UP-TO-DATE
+> Task :thrifty-runtime:signArchives SKIPPED
+> Task :thrifty-runtime:assemble UP-TO-DATE
+> Task :thrifty-runtime:build
+
+BUILD SUCCESSFUL in 3s
+4 actionable tasks: 4 up-to-date
+
+2019-01-11 10:52:05,719 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:52:05,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-schema/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:52:09,772 INFO  ProjectTaskService - Detected possible tasks: 49
+2019-01-11 10:52:09,772 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:52:09,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-schema/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:52:14,935 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-schema:generateGrammarSource UP-TO-DATE
+> Task :thrifty-schema:compileKotlin UP-TO-DATE
+> Task :thrifty-schema:compileJava UP-TO-DATE
+> Task :thrifty-schema:processResources NO-SOURCE
+> Task :thrifty-schema:classes UP-TO-DATE
+> Task :thrifty-schema:inspectClassesForKotlinIC UP-TO-DATE
+> Task :thrifty-schema:jar UP-TO-DATE
+> Task :thrifty-schema:dokka UP-TO-DATE
+> Task :thrifty-schema:javadocJar UP-TO-DATE
+> Task :thrifty-schema:sourcesJar UP-TO-DATE
+> Task :thrifty-schema:signArchives SKIPPED
+> Task :thrifty-schema:assemble UP-TO-DATE
+> Task :thrifty-schema:build
+
+BUILD SUCCESSFUL in 4s
+8 actionable tasks: 8 up-to-date
+
+2019-01-11 10:52:14,999 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:52:14,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-test-server/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:52:18,913 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-01-11 10:52:18,913 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-11 10:52:18,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178541504-0/src/thrifty-master/thrifty-test-server/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-11 10:52:23,145 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :thrifty-test-server:compileJava UP-TO-DATE
+> Task :thrifty-test-server:processResources NO-SOURCE
+> Task :thrifty-test-server:classes UP-TO-DATE
+> Task :thrifty-test-server:jar UP-TO-DATE
+> Task :thrifty-test-server:javadocJar UP-TO-DATE
+> Task :thrifty-test-server:sourcesJar UP-TO-DATE
+> Task :thrifty-test-server:signArchives SKIPPED
+> Task :thrifty-test-server:assemble UP-TO-DATE
+> Task :thrifty-test-server:build
+
+BUILD SUCCESSFUL in 4s
+4 actionable tasks: 4 up-to-date
+
+2019-01-11 10:52:23,206 ERROR FullProcessService - Project build has not produced APK file
+2019-01-11 10:52:23,266 ERROR FullProcessService - Could not find generated or existed APK file

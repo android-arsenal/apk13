@@ -1,0 +1,198 @@
+2019-01-11 10:41:23,230 INFO  DownloadService - Downloading "https://github.com/pwittchen/InfiniteScroll/archive/master.zip", attempt 3
+2019-01-11 10:41:28,372 INFO  DownloadService - Downloaded https://github.com/pwittchen/InfiniteScroll/archive/master.zip, attempt 3
+2019-01-11 10:41:28,372 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/master.zip": 1 MB
+2019-01-11 10:41:28,372 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-11 10:41:28,374 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/master.zip: true
+2019-01-11 10:41:28,375 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src'.
+2019-01-11 10:41:28,408 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-11 10:41:28,408 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src]
+2019-01-11 10:41:28,426 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/.git/
+
+2019-01-11 10:41:28,429 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/gradlew
+2019-01-11 10:41:28,433 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/build.gradle
+2019-01-11 10:41:28,436 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/settings.gradle
+2019-01-11 10:41:28,436 INFO  ProjectBuildService - Remote scripts: none
+2019-01-11 10:41:28,436 INFO  ProjectFixService - Fixing project...
+2019-01-11 10:41:28,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/local.properties
+2019-01-11 10:41:28,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-11 10:41:28,450 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-11 10:41:28,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/library/local.properties
+2019-01-11 10:41:28,454 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-11 10:41:28,454 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-11 10:41:28,455 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/local.properties
+2019-01-11 10:41:28,455 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-11 10:41:28,456 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-11 10:41:28,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=<null>]
+2019-01-11 10:41:28,457 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-11 10:41:28,458 INFO  ProjectFixService - Project was maybe fixed
+2019-01-11 10:41:28,458 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:41:28,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:41:37,747 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-11 10:41:37,747 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-11 10:41:37,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-11 10:42:09,517 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:app:preDebugBuild
+:library:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:library:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:app:preReleaseBuild
+:library:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/49f768db35bb5f7328deafa54a87b763/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/src/main/res/values-w820dp/dimens.xml:5: Error: The dimen "activity_horizontal_margin" in values-w820dp has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+  <dimen name="activity_horizontal_margin">64dp</dimen>
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MissingDefaultResource":
+   If a resource is only defined in folders with qualifiers like -land or -en,
+   and there is no default declaration in the base folder (layout or values
+   etc), then the app will crash if that resource is accessed on a device
+   where the device is in a configuration missing the given qualifier.
+
+   As a special case, drawables do not have to be specified in the base
+   folder; if there is a match in a density folder (such as drawable-mdpi)
+   that image will be used and scaled. Note however that if you  only specify
+   a drawable in a folder like drawable-en-hdpi, the app will crash in
+   non-English locales.
+
+   There may be scenarios where you have a resource, such as a -fr drawable,
+   which is only referenced from some other resource with the same qualifiers
+   (such as a -fr style), which itself has safe fallbacks. However, this still
+   makes it possible for somebody to accidentally reference the drawable and
+   crash, so it is safer to create a default dummy fallback in the base
+   folder. Alternatively, you can suppress the issue by adding
+   tools:ignore="MissingDefaultResource" on the element.
+
+   (This scenario frequently happens with string translations, where you might
+   delete code and the corresponding resources, but forget to delete a
+   translation. There is a dedicated issue id for that scenario, with the id
+   ExtraTranslation.)
+
+1 errors, 0 warnings
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 31s
+90 actionable tasks: 90 executed
+
+2019-01-11 10:42:09,621 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178083226-0/src/InfiniteScroll-master/app/build/outputs/apk/debug/app-debug.apk

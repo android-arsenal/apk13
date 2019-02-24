@@ -1,0 +1,263 @@
+2019-01-13 02:26:30,669 INFO  DownloadService - Downloading "https://github.com/SandroMachado/restaurant/archive/master.zip", attempt 3
+2019-01-13 02:26:31,194 INFO  DownloadService - Downloaded https://github.com/SandroMachado/restaurant/archive/master.zip, attempt 3
+2019-01-13 02:26:31,194 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/master.zip": 351 KB
+2019-01-13 02:26:31,194 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 02:26:31,200 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/master.zip: true
+2019-01-13 02:26:31,200 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src'.
+2019-01-13 02:26:31,225 INFO  FullProcessService - Size of directory with sources: 402 KB
+2019-01-13 02:26:31,226 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src]
+2019-01-13 02:26:31,243 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/.git/
+
+2019-01-13 02:26:31,246 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/gradlew
+2019-01-13 02:26:31,250 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/build.gradle
+2019-01-13 02:26:31,254 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/settings.gradle
+2019-01-13 02:26:31,254 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 02:26:31,254 INFO  ProjectFixService - Fixing project...
+2019-01-13 02:26:31,263 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/app/local.properties
+2019-01-13 02:26:31,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 02:26:31,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/app/local.properties
+2019-01-13 02:26:31,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 02:26:31,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/local.properties
+2019-01-13 02:26:31,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-01-13 02:26:31,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-01-13 02:26:31,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 02:26:31,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/local.properties
+2019-01-13 02:26:31,267 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-bin.zip
+2019-01-13 02:26:31,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 02:26:31,267 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 02:26:31,267 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 02:26:31,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 02:26:31,417 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-13 02:26:31,417 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-13 02:26:31,417 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-13 02:26:31,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-13 02:26:31,555 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 02:26:31,556 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+2019-01-13 02:26:31,559 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 02:26:31,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 02:26:39,148 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-13 02:26:39,149 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-13 02:26:39,149 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-13 02:26:48,613 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportDesign2311Library
+:app:prepareComAndroidSupportRecyclerviewV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJavaWithJavac
+:app:extractDebugAnnotations
+:app:mergeDebugProguardFiles
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:transformNative_libsWithSyncJniLibsForDebug
+:app:bundleDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJavaWithJavac
+:app:extractReleaseAnnotations
+:app:mergeReleaseProguardFiles
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:transformNative_libsWithSyncJniLibsForRelease
+:app:bundleRelease
+:app:compileReleaseSources
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.961 secs
+
+2019-01-13 02:26:48,667 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 02:26:48,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 02:26:48,788 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-13 02:26:48,788 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-13 02:26:48,788 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-13 02:26:48,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/Sample/RestaurantSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-13 02:26:48,911 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-13 02:26:48,912 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+
+2019-01-13 02:26:48,960 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 02:26:48,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 02:26:53,528 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-13 02:26:53,528 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-13 02:26:53,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547321190666-0/src/restaurant-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-13 02:26:58,560 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:compileLint
+:app:copyDebugLint UP-TO-DATE
+:app:checkDebugManifest
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:preReleaseBuild UP-TO-DATE
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:app:prepareComAndroidSupportDesign2311Library UP-TO-DATE
+:app:prepareComAndroidSupportRecyclerviewV72311Library UP-TO-DATE
+:app:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:app:prepareDebugDependencies
+:app:compileDebugAidl UP-TO-DATE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:extractDebugAnnotations UP-TO-DATE
+:app:mergeDebugProguardFiles UP-TO-DATE
+:app:packageDebugRenderscript UP-TO-DATE
+:app:packageDebugResources UP-TO-DATE
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:app:mergeDebugJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:app:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:app:bundleDebug UP-TO-DATE
+:app:compileDebugSources UP-TO-DATE
+:app:assembleDebug UP-TO-DATE
+:app:compileReleaseNdk UP-TO-DATE
+:app:copyReleaseLint UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl UP-TO-DATE
+:app:compileReleaseRenderscript UP-TO-DATE
+:app:generateReleaseBuildConfig UP-TO-DATE
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets UP-TO-DATE
+:app:generateReleaseResValues UP-TO-DATE
+:app:generateReleaseResources UP-TO-DATE
+:app:mergeReleaseResources UP-TO-DATE
+:app:processReleaseManifest UP-TO-DATE
+:app:processReleaseResources UP-TO-DATE
+:app:generateReleaseSources UP-TO-DATE
+:app:compileReleaseJavaWithJavac UP-TO-DATE
+:app:extractReleaseAnnotations UP-TO-DATE
+:app:mergeReleaseProguardFiles UP-TO-DATE
+:app:packageReleaseRenderscript UP-TO-DATE
+:app:packageReleaseResources UP-TO-DATE
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:app:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:app:mergeReleaseJniLibFolders UP-TO-DATE
+:app:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:app:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:app:bundleRelease UP-TO-DATE
+:app:compileReleaseSources UP-TO-DATE
+:app:assembleRelease UP-TO-DATE
+:app:assemble UP-TO-DATE
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.544 secs
+
+2019-01-13 02:26:58,617 ERROR FullProcessService - Project build has not produced APK file
+2019-01-13 02:26:58,667 ERROR FullProcessService - Could not find generated or existed APK file

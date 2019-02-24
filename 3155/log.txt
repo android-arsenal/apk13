@@ -1,0 +1,312 @@
+2019-01-18 14:58:47,690 INFO  DownloadService - Downloading "https://github.com/voghDev/PdfViewPager/archive/master.zip", attempt 3
+2019-01-18 14:59:48,313 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-18 14:59:49,330 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-18 14:59:49,330 INFO  DownloadService - Downloading "https://github.com/voghDev/PdfViewPager/archive/master.zip", attempt 3
+2019-01-18 15:00:51,154 DEBUG FullProcessService - Repository https://github.com/voghDev/PdfViewPager available: true
+2019-01-18 15:00:51,154 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-18 15:00:51,154 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/voghDev/PdfViewPager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src]
+2019-01-18 15:01:05,176 INFO  SysUtils - 
+2019-01-18 15:01:05,186 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/.git": true
+2019-01-18 15:01:05,189 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-01-18 15:01:05,189 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src]
+2019-01-18 15:01:05,207 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/.git/
+
+2019-01-18 15:01:05,210 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/gradlew
+2019-01-18 15:01:05,214 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/build.gradle
+2019-01-18 15:01:05,217 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/settings.gradle
+2019-01-18 15:01:05,218 INFO  ProjectBuildService - Remote scripts: none
+2019-01-18 15:01:05,218 INFO  ProjectFixService - Fixing project...
+2019-01-18 15:01:05,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/local.properties
+2019-01-18 15:01:05,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-01-18 15:01:05,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-01-18 15:01:05,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/local.properties
+2019-01-18 15:01:05,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-01-18 15:01:05,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-01-18 15:01:05,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/local.properties
+2019-01-18 15:01:05,231 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-18 15:01:05,231 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-18 15:01:05,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-01-18 15:01:05,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-01-18 15:01:05,233 INFO  ProjectFixService - Project was maybe fixed
+2019-01-18 15:01:05,233 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 15:01:05,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 15:01:12,957 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-18 15:01:12,957 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-18 15:01:12,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-18 15:01:27,890 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl NO-SOURCE
+:library:compileDebugRenderscript
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:generateDebugRFile
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:extractDebugAnnotations
+:library:mergeDebugConsumerProguardFiles
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebugAar
+:library:compileDebugSources
+:library:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl NO-SOURCE
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
+:library:mergeReleaseConsumerProguardFiles
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleReleaseAar
+:library:compileReleaseSources
+:library:mergeReleaseResources
+:library:verifyReleaseResources
+:library:assembleRelease
+:library:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/RemotePDFViewPager.java:21: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/RemotePDFViewPager.java:30: error: cannot find symbol
+public class RemotePDFViewPager extends ViewPager implements DownloadFile.Listener {
+                                        ^
+  symbol: class ViewPager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/PDFViewPager.java:20: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/PDFViewPager.java:26: error: cannot find symbol
+public class PDFViewPager extends ViewPager {
+                                  ^
+  symbol: class ViewPager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/PDFPagerAdapter.java:23: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/PDFPagerAdapter.java:25: error: package com.davemorrissey.labs.subscaleview does not exist
+import com.davemorrissey.labs.subscaleview.ImageSource;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/PDFPagerAdapter.java:26: error: package com.davemorrissey.labs.subscaleview does not exist
+import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/PDFPagerAdapter.java:28: error: cannot find symbol
+import es.voghdev.pdfviewpager.library.R;
+                                      ^
+  symbol:   class R
+  location: package es.voghdev.pdfviewpager.library
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/BasePDFPagerAdapter.java:24: error: package android.support.v4.view does not exist
+import android.support.v4.view.PagerAdapter;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/BasePDFPagerAdapter.java:25: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewPager;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/BasePDFPagerAdapter.java:35: error: cannot find symbol
+import es.voghdev.pdfviewpager.library.R;
+                                      ^
+  symbol:   class R
+  location: package es.voghdev.pdfviewpager.library
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/BasePDFPagerAdapter.java:37: error: cannot find symbol
+public class BasePDFPagerAdapter extends PagerAdapter {
+                                         ^
+  symbol: class PagerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/service/CopyAssetService.java:24: error: cannot find symbol
+import es.voghdev.pdfviewpager.library.BuildConfig;
+                                      ^
+  symbol:   class BuildConfig
+  location: package es.voghdev.pdfviewpager.library
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/PDFViewPager.java:77: warning: no @param for ev
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/PDFViewPager.java:77: warning: no @return
+    public boolean onInterceptTouchEvent(MotionEvent ev) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/BasePDFPagerAdapter.java:63: warning: no @param for context
+    public BasePDFPagerAdapter(Context context, String pdfPath, int offScreenSize) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/BasePDFPagerAdapter.java:63: warning: no @param for pdfPath
+    public BasePDFPagerAdapter(Context context, String pdfPath, int offScreenSize) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/library/src/main/java/es/voghdev/pdfviewpager/library/adapter/BasePDFPagerAdapter.java:63: warning: no @param for offScreenSize
+    public BasePDFPagerAdapter(Context context, String pdfPath, int offScreenSize) {
+           ^
+
+18 warnings
+:library:javadocJar
+:library:sourcesJar
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL in 14s
+48 actionable tasks: 48 executed
+
+2019-01-18 15:01:27,943 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-18 15:01:27,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-18 15:01:34,329 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-18 15:01:34,329 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-18 15:01:34,330 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-18 15:01:55,777 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl NO-SOURCE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:checkDebugManifest UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:generateDebugRFile UP-TO-DATE
+:library:prepareLintJar UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:javaPreCompileDebug UP-TO-DATE
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:library:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl NO-SOURCE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:checkReleaseManifest UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:generateReleaseRFile UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:javaPreCompileRelease UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:library:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 21s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2019-01-18 15:01:55,885 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547798327686-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

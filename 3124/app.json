@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.jaredrummler.materialspinner.example",
+    "label" : "Material Spinner",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2009,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.jaredrummler.materialspinner.example\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Material Spinner\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"Material Spinner\" android:name=\"com.jaredrummler.materialspinner.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1809015,
+  "crc32" : 1055800841,
+  "sha256" : "d220aa3b1be3202d44a90b9380dd3c4c1651cea0695afd4c8831274ff69db4f4",
+  "buildTime" : 1547310536000
+}

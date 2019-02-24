@@ -1,0 +1,369 @@
+2019-01-12 20:32:47,048 INFO  DownloadService - Downloading "https://github.com/Commit451/ForegroundViews/archive/master.zip", attempt 3
+2019-01-12 20:32:48,412 INFO  DownloadService - Downloaded https://github.com/Commit451/ForegroundViews/archive/master.zip, attempt 3
+2019-01-12 20:32:48,412 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/master.zip": 1 MB
+2019-01-12 20:32:48,412 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 20:32:48,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/master.zip: true
+2019-01-12 20:32:48,418 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src'.
+2019-01-12 20:32:48,447 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-12 20:32:48,447 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src]
+2019-01-12 20:32:48,466 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/.git/
+
+2019-01-12 20:32:48,469 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/gradlew
+2019-01-12 20:32:48,472 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews-constraintlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/build.gradle
+2019-01-12 20:32:48,475 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews-constraintlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/settings.gradle
+2019-01-12 20:32:48,476 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle", attempt 3
+2019-01-12 20:32:48,573 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle, attempt 3
+2019-01-12 20:32:48,573 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle
+2019-01-12 20:32:48,573 INFO  ProjectFixService - Fixing project...
+2019-01-12 20:32:48,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/local.properties
+2019-01-12 20:32:48,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,584 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews-constraintlayout/local.properties
+2019-01-12 20:32:48,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews-constraintlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,589 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews-constraintlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews/local.properties
+2019-01-12 20:32:48,591 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,591 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/foregroundviews/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,592 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/local.properties
+2019-01-12 20:32:48,592 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-12 20:32:48,593 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-12 20:32:48,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 20:32:48,595 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 20:32:48,595 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 20:32:48,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 20:32:55,123 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-01-12 20:32:55,124 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 20:32:55,124 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 20:33:01,080 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 20:33:01,080 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:190)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:145)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:124)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2019-01-12 20:33:01,080 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-01-12 20:33:01,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 20:33:40,498 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+
+> Task :app:checkDebugClasspath
+> Task :app:preBuild UP-TO-DATE
+> Task :foregroundviews:preBuild UP-TO-DATE
+> Task :foregroundviews:preDebugBuild UP-TO-DATE
+> Task :foregroundviews:checkDebugManifest
+> Task :foregroundviews:processDebugManifest
+> Task :foregroundviews-constraintlayout:preBuild UP-TO-DATE
+> Task :foregroundviews-constraintlayout:preDebugBuild UP-TO-DATE
+> Task :foregroundviews-constraintlayout:checkDebugManifest
+> Task :foregroundviews-constraintlayout:processDebugManifest
+> Task :app:preDebugBuild
+> Task :foregroundviews:compileDebugAidl NO-SOURCE
+> Task :foregroundviews-constraintlayout:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :foregroundviews:packageDebugRenderscript NO-SOURCE
+> Task :foregroundviews-constraintlayout:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :foregroundviews:compileDebugRenderscript
+> Task :foregroundviews:generateDebugResValues
+> Task :foregroundviews:generateDebugResources
+> Task :foregroundviews:packageDebugResources
+> Task :foregroundviews-constraintlayout:compileDebugRenderscript
+> Task :foregroundviews-constraintlayout:generateDebugResValues
+> Task :foregroundviews-constraintlayout:generateDebugResources
+> Task :foregroundviews-constraintlayout:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :foregroundviews:generateDebugRFile
+> Task :foregroundviews-constraintlayout:generateDebugRFile
+> Task :app:processDebugResources
+> Task :app:generateDebugSources
+> Task :foregroundviews:generateDebugBuildConfig SKIPPED
+> Task :foregroundviews:prepareLintJar
+> Task :foregroundviews:generateDebugSources
+> Task :foregroundviews:javaPreCompileDebug
+> Task :foregroundviews:compileDebugJavaWithJavac
+> Task :foregroundviews:processDebugJavaRes NO-SOURCE
+> Task :foregroundviews:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :foregroundviews-constraintlayout:generateDebugBuildConfig SKIPPED
+> Task :foregroundviews-constraintlayout:prepareLintJar
+> Task :foregroundviews-constraintlayout:generateDebugSources
+> Task :foregroundviews-constraintlayout:javaPreCompileDebug
+> Task :foregroundviews-constraintlayout:compileDebugJavaWithJavac
+> Task :foregroundviews-constraintlayout:processDebugJavaRes NO-SOURCE
+> Task :foregroundviews-constraintlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :foregroundviews:mergeDebugShaders
+> Task :foregroundviews:compileDebugShaders
+> Task :foregroundviews:generateDebugAssets
+> Task :foregroundviews:packageDebugAssets
+> Task :foregroundviews-constraintlayout:mergeDebugShaders
+> Task :foregroundviews-constraintlayout:compileDebugShaders
+> Task :foregroundviews-constraintlayout:generateDebugAssets
+> Task :foregroundviews-constraintlayout:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :foregroundviews:compileDebugNdk NO-SOURCE
+> Task :foregroundviews:mergeDebugJniLibFolders
+> Task :foregroundviews:transformNativeLibsWithMergeJniLibsForDebug
+> Task :foregroundviews:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :foregroundviews:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :foregroundviews-constraintlayout:compileDebugNdk NO-SOURCE
+> Task :foregroundviews-constraintlayout:mergeDebugJniLibFolders
+> Task :foregroundviews-constraintlayout:transformNativeLibsWithMergeJniLibsForDebug
+> Task :foregroundviews-constraintlayout:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :foregroundviews-constraintlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :foregroundviews:preReleaseBuild UP-TO-DATE
+> Task :foregroundviews:checkReleaseManifest
+> Task :foregroundviews:processReleaseManifest
+> Task :foregroundviews-constraintlayout:preReleaseBuild UP-TO-DATE
+> Task :foregroundviews-constraintlayout:checkReleaseManifest
+> Task :foregroundviews-constraintlayout:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :foregroundviews:compileReleaseAidl NO-SOURCE
+> Task :foregroundviews-constraintlayout:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :foregroundviews:packageReleaseRenderscript NO-SOURCE
+> Task :foregroundviews-constraintlayout:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :foregroundviews:compileReleaseRenderscript
+> Task :foregroundviews:generateReleaseResValues
+> Task :foregroundviews:generateReleaseResources
+> Task :foregroundviews:packageReleaseResources
+> Task :foregroundviews-constraintlayout:compileReleaseRenderscript
+> Task :foregroundviews-constraintlayout:generateReleaseResValues
+> Task :foregroundviews-constraintlayout:generateReleaseResources
+> Task :foregroundviews-constraintlayout:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :foregroundviews:generateReleaseRFile
+> Task :foregroundviews-constraintlayout:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :app:generateReleaseSources
+> Task :foregroundviews:generateReleaseBuildConfig SKIPPED
+> Task :foregroundviews:generateReleaseSources
+> Task :foregroundviews:javaPreCompileRelease
+> Task :foregroundviews:compileReleaseJavaWithJavac
+> Task :foregroundviews:processReleaseJavaRes NO-SOURCE
+> Task :foregroundviews:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :foregroundviews-constraintlayout:generateReleaseBuildConfig SKIPPED
+> Task :foregroundviews-constraintlayout:generateReleaseSources
+> Task :foregroundviews-constraintlayout:javaPreCompileRelease
+> Task :foregroundviews-constraintlayout:compileReleaseJavaWithJavac
+> Task :foregroundviews-constraintlayout:processReleaseJavaRes NO-SOURCE
+> Task :foregroundviews-constraintlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :foregroundviews:mergeReleaseShaders
+> Task :foregroundviews:compileReleaseShaders
+> Task :foregroundviews:generateReleaseAssets
+> Task :foregroundviews:packageReleaseAssets
+> Task :foregroundviews-constraintlayout:mergeReleaseShaders
+> Task :foregroundviews-constraintlayout:compileReleaseShaders
+> Task :foregroundviews-constraintlayout:generateReleaseAssets
+> Task :foregroundviews-constraintlayout:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :foregroundviews:compileReleaseNdk NO-SOURCE
+> Task :foregroundviews:mergeReleaseJniLibFolders
+> Task :foregroundviews:transformNativeLibsWithMergeJniLibsForRelease
+> Task :foregroundviews:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :foregroundviews:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :foregroundviews-constraintlayout:compileReleaseNdk NO-SOURCE
+> Task :foregroundviews-constraintlayout:mergeReleaseJniLibFolders
+> Task :foregroundviews-constraintlayout:transformNativeLibsWithMergeJniLibsForRelease
+> Task :foregroundviews-constraintlayout:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :foregroundviews-constraintlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+
+> Task :app:lint
+Ran lint on variant release: 24 issues found
+Ran lint on variant debug: 24 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build/reports/lint-results.xml
+
+> Task :app:generateDebugUnitTestSources
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:testDebugUnitTest NO-SOURCE
+> Task :app:generateReleaseUnitTestSources
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:testReleaseUnitTest NO-SOURCE
+> Task :app:test UP-TO-DATE
+> Task :app:check
+> Task :app:build
+
+BUILD SUCCESSFUL in 38s
+123 actionable tasks: 123 executed
+
+2019-01-12 20:33:40,616 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547299967044-0/src/ForegroundViews-master/app/build/outputs/apk/debug/app-debug.apk

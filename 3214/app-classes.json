@@ -1,0 +1,5 @@
+{
+  "com.danialgoodwin.sample.emailinputview" : [ "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$attr", "R$dimen", "R$id", "R$layout", "R$mipmap", "R$string", "R$style" ],
+  "com.danialgoodwin.ui" : [ "EmailInputView", "EmailInputView$1" ],
+  "com.danialgoodwin.ui.emailinputview" : [ "BuildConfig", "R", "R$string" ]
+}

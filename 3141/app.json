@@ -1,0 +1,40 @@
+{
+  "meta" : {
+    "packageName" : "io.github.droidkaigi.confsched.debug",
+    "label" : "DroidKaigi 2016 Debug",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.5-debug",
+    "versionCode" : 115,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_FINE_LOCATION", "android.permission.INTERNET", "android.permission.VIBRATE", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.location.gps",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 7551,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"115\" android:versionName=\"1.1.5-debug\" package=\"io.github.droidkaigi.confsched.debug\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<uses-feature android:name=\"android.hardware.location.gps\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0b0092\" android:label=\"DroidKaigi 2016 Debug\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"io.github.droidkaigi.confsched.MainApplication\" android:debuggable=\"true\" android:configChanges=\"0x4\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"UNDEFINED\" />\n\t\t<meta-data android:name=\"io.fabric.ApiKey\" android:value=\"eef593299f106222b116410ba972260f992134e5\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0038\" android:label=\"DroidKaigi 2016 Debug\" android:name=\"io.github.droidkaigi.confsched.activity.MainActivity\" android:configChanges=\"0x5b0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<category android:name=\"android.intent.category.NOTIFICATION_PREFERENCES\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0b0038\" android:label=\"Session Detail\" android:name=\"io.github.droidkaigi.confsched.activity.SessionDetailActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0037\" android:label=\"DroidKaigi 2016 Debug\" android:name=\"io.github.droidkaigi.confsched.activity.WebViewActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0037\" android:label=\"DroidKaigi 2016 Debug\" android:name=\"io.github.droidkaigi.confsched.activity.SearchActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0037\" android:label=\"DroidKaigi 2016 Debug\" android:name=\"io.github.droidkaigi.confsched.activity.SearchedSessionsActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0037\" android:label=\"DroidKaigi 2016 Debug\" android:name=\"io.github.droidkaigi.confsched.activity.SessionFeedbackActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0037\" android:label=\"DroidKaigi 2016 Debug\" android:name=\"io.github.droidkaigi.confsched.activity.ContributorsActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b00d7\" android:label=\"DroidKaigi 2016 Debug\" android:name=\"io.github.droidkaigi.confsched.activity.VideoPlayerActivity\" android:exported=\"false\" android:configChanges=\"0x5b0\" />\n\t\t<receiver android:name=\"io.github.droidkaigi.confsched.receiver.SessionScheduleReceiver\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"8487000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 5273061,
+  "crc32" : 3616416870,
+  "sha256" : "47995ff5391e8762abd908ad64df03e382a63eeddc3f5726ae468c01e225d26d",
+  "buildTime" : 1526845688000
+}

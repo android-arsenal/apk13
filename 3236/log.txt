@@ -1,0 +1,243 @@
+2019-01-19 20:04:35,728 INFO  DownloadService - Downloading "https://github.com/NeoTech-Software/Android-Retainable-Tasks/archive/master.zip", attempt 3
+2019-01-19 20:04:37,782 INFO  DownloadService - Downloaded https://github.com/NeoTech-Software/Android-Retainable-Tasks/archive/master.zip, attempt 3
+2019-01-19 20:04:37,783 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/master.zip": 215 KB
+2019-01-19 20:04:37,783 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 20:04:37,784 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/master.zip: true
+2019-01-19 20:04:37,784 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src'.
+2019-01-19 20:04:37,828 INFO  FullProcessService - Size of directory with sources: 337 KB
+2019-01-19 20:04:37,828 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src]
+2019-01-19 20:04:37,854 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/.git/
+
+2019-01-19 20:04:37,861 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/gradlew
+2019-01-19 20:04:37,868 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations/build.gradle
+2019-01-19 20:04:37,874 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/publish-library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/settings.gradle
+2019-01-19 20:04:37,875 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 20:04:37,875 INFO  ProjectFixService - Fixing project...
+2019-01-19 20:04:37,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/local.properties
+2019-01-19 20:04:37,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,894 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,894 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/library/local.properties
+2019-01-19 20:04:37,896 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,897 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/local.properties
+2019-01-19 20:04:37,897 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-01-19 20:04:37,897 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-01-19 20:04:37,899 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,899 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,900 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations-processor/local.properties
+2019-01-19 20:04:37,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,902 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,903 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations/local.properties
+2019-01-19 20:04:37,905 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,905 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-19 20:04:37,905 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 20:04:37,905 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 20:04:37,906 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 20:05:26,730 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-19 20:05:26,730 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 20:05:26,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 20:06:25,812 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :annotations:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+> Task :annotations:processResources NO-SOURCE
+> Task :annotations:classes
+> Task :annotations:jar
+
+> Task :annotations-processor:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/annotations-processor/src/main/java/org/neotech/library/retainabletasks/AnnotationsProcessor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :annotations-processor:processResources
+> Task :annotations-processor:classes
+> Task :annotations-processor:jar
+> Task :demo:preBuild UP-TO-DATE
+> Task :annotations:javadoc
+> Task :annotations:javadocJar
+> Task :annotations:sourcesJar
+> Task :annotations:assemble
+> Task :annotations:compileTestJava NO-SOURCE
+> Task :annotations:processTestResources NO-SOURCE
+> Task :annotations:testClasses UP-TO-DATE
+> Task :annotations:test NO-SOURCE
+> Task :annotations:check UP-TO-DATE
+> Task :annotations:build
+> Task :library:preBuild
+> Task :library:preDebugBuild
+> Task :library:checkDebugManifest
+> Task :library:processDebugManifest
+> Task :demo:preDebugBuild
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :demo:compileDebugRenderscript
+> Task :demo:checkDebugManifest
+> Task :demo:generateDebugBuildConfig
+> Task :demo:prepareLintJar
+> Task :demo:generateDebugSources
+> Task :library:compileDebugRenderscript
+> Task :library:generateDebugBuildConfig
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+> Task :library:prepareLintJar
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :demo:mainApkListPersistenceDebug
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:processDebugManifest
+> Task :library:packageDebugResources
+> Task :library:generateDebugRFile
+
+> Task :library:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :demo:javaPreCompileDebug
+> Task :demo:mergeDebugResources
+> Task :demo:processDebugResources
+
+> Task :demo:compileDebugJavaWithJavac
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+org.neotech.app.retainabletasksdemo.activity.Main
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+org.neotech.app.retainabletasksdemo.activity.Main
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/src/main/java/org/neotech/app/retainabletasksdemo/ExtendedHtml.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :demo:compileDebugNdk NO-SOURCE
+> Task :demo:compileDebugSources
+> Task :demo:mergeDebugShaders
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :demo:mergeDebugAssets
+> Task :library:createFullJarDebug
+> Task :demo:validateSigningDebug
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :demo:signingConfigWriterDebug
+> Task :demo:mergeDebugJniLibFolders
+> Task :library:compileDebugNdk NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo:processDebugJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForDebug
+> Task :library:preReleaseBuild
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:compileReleaseRenderscript
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:generateReleaseRFile
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+
+> Task :library:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :demo:preReleaseBuild
+> Task :demo:compileReleaseAidl NO-SOURCE
+> Task :demo:compileReleaseRenderscript
+> Task :demo:checkReleaseManifest
+> Task :demo:generateReleaseBuildConfig
+> Task :demo:generateReleaseSources
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :demo:javaPreCompileRelease
+> Task :demo:mainApkListPersistenceRelease
+> Task :demo:generateReleaseResValues
+> Task :demo:generateReleaseResources
+> Task :demo:mergeReleaseResources
+> Task :demo:mergeExtDexDebug
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
+> Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:processReleaseManifest
+> Task :demo:processReleaseResources
+
+> Task :demo:compileReleaseJavaWithJavac
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+org.neotech.app.retainabletasksdemo.activity.Main
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+org.neotech.app.retainabletasksdemo.activity.Main
+org.neotech.app.retainabletasksdemo.activity.DemoActivityLifeCycleLibrary
+org.neotech.app.retainabletasksdemo.activity.ProgressTaskHandler
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/src/main/java/org/neotech/app/retainabletasksdemo/ExtendedHtml.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :demo:compileReleaseNdk NO-SOURCE
+> Task :demo:compileReleaseSources
+> Task :library:createFullJarRelease
+
+> Task :demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f278c5c0d8d00bbb7c6f75691818c503/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :demo:mergeReleaseShaders
+> Task :demo:compileReleaseShaders
+> Task :demo:generateReleaseAssets
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :demo:mergeReleaseAssets
+> Task :demo:signingConfigWriterRelease
+> Task :demo:mergeReleaseJniLibFolders
+> Task :library:compileReleaseNdk NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Task :demo:mergeExtDexRelease
+> Task :demo:mergeDexRelease
+> Task :demo:packageRelease
+> Task :demo:assembleRelease
+> Task :demo:assemble
+> Task :demo:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 58s
+96 actionable tasks: 96 executed
+
+2019-01-19 20:06:25,908 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547903075719-0/src/Android-Retainable-Tasks-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

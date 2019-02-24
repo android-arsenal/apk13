@@ -1,0 +1,187 @@
+2019-01-13 00:23:47,127 INFO  DownloadService - Downloading "https://github.com/Tickaroo/tikxml/archive/master.zip", attempt 3
+2019-01-13 00:23:48,118 INFO  DownloadService - Downloaded https://github.com/Tickaroo/tikxml/archive/master.zip, attempt 3
+2019-01-13 00:23:48,119 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/master.zip": 825 KB
+2019-01-13 00:23:48,119 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 00:23:48,125 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/master.zip: true
+2019-01-13 00:23:48,126 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src'.
+2019-01-13 00:23:48,277 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-13 00:23:48,277 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src]
+2019-01-13 00:23:48,296 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/.git/
+
+2019-01-13 00:23:48,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/gradlew
+2019-01-13 00:23:48,336 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/build.gradle
+2019-01-13 00:23:48,354 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/maven-push-java-lib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/settings.gradle
+2019-01-13 00:23:48,354 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 00:23:48,354 INFO  ProjectFixService - Fixing project...
+2019-01-13 00:23:48,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/local.properties
+2019-01-13 00:23:48,406 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-13 00:23:48,406 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-13 00:23:48,407 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:23:48,407 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 00:23:48,408 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 00:23:48,408 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 00:23:48,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 00:24:27,022 INFO  ProjectTaskService - Detected possible tasks: 45
+2019-01-13 00:24:27,022 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-01-13 00:24:27,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-01-13 00:25:28,297 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+
+> Task :core:compileJava
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/core/src/main/java/com/tickaroo/tikxml/XmlReader.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :annotation:compileJava
+> Task :annotation:processResources NO-SOURCE
+> Task :annotation:classes
+> Task :annotation:jar
+> Task :annotation:javadocJar
+> Task :annotation:sourceJar
+> Task :annotation:signArchives SKIPPED
+> Task :annotation:assemble
+> Task :annotation:build
+> Task :processor-common:compileKotlin
+> Task :processor-common:compileJava NO-SOURCE
+> Task :processor-common:processResources NO-SOURCE
+> Task :processor-common:classes UP-TO-DATE
+> Task :processor-common:inspectClassesForKotlinIC
+> Task :processor-common:jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (30, 22): Variable 'parcelable' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (50, 43): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (50, 82): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (51, 36): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (51, 73): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (100, 62): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (101, 46): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (101, 77): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (101, 114): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (109, 64): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueScanner.kt: (109, 117): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/autovalue/src/main/java/com/tickaroo/tikxml/autovalue/AutoValueTypeAdapterCodeGenerator.kt: (25, 92): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+> Task :autovalue:compileKotlin
+> Task :autovalue:compileJava
+> Task :autovalue:processResources NO-SOURCE
+> Task :autovalue:classes
+> Task :autovalue:inspectClassesForKotlinIC
+> Task :autovalue:jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/processor/src/main/java/com/tickaroo/tikxml/processor/generator/CodeGeneratorHelper.kt: (36, 40): 'NestedChildElementBinder<T : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/processor/src/main/java/com/tickaroo/tikxml/processor/generator/CodeGeneratorHelper.kt: (189, 80): 'NestedChildElementBinder<T : Any!>' is deprecated. Deprecated in Java
+> Task :processor:compileKotlin
+> Task :processor:compileJava
+> Task :processor:processResources NO-SOURCE
+> Task :processor:classes
+> Task :processor:inspectClassesForKotlinIC
+> Task :processor:jar
+
+> Task :annotationprocessortesting:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :annotationprocessortesting:processResources NO-SOURCE
+> Task :annotationprocessortesting:classes
+> Task :annotationprocessortesting:jar
+> Task :annotationprocessortesting:assemble
+> Task :annotationprocessortesting:build
+> Task :annotationprocessortesting-kt:kaptGenerateStubsKotlin
+> Task :annotationprocessortesting-kt:kaptKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/annotationprocessortesting-kt/src/main/java/com/tickaroo/tikxml/annotationprocessing/attribute/constructor/ItemConstructor.kt: (25, 25): The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/annotationprocessortesting-kt/src/main/java/com/tickaroo/tikxml/annotationprocessing/textcontent/Week.kt: (15, 25): The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+> Task :annotationprocessortesting-kt:compileKotlin
+
+> Task :annotationprocessortesting-kt:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :annotationprocessortesting-kt:processResources NO-SOURCE
+> Task :annotationprocessortesting-kt:classes
+> Task :annotationprocessortesting-kt:inspectClassesForKotlinIC
+> Task :annotationprocessortesting-kt:jar
+> Task :annotationprocessortesting-kt:assemble
+> Task :annotationprocessortesting-kt:build
+> Task :autovalue:javadocJar
+> Task :autovalue:sourceJar
+> Task :autovalue:signArchives SKIPPED
+> Task :autovalue:assemble
+> Task :autovalue:build
+
+> Task :benchmark:compileJava
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547313827124-0/src/tikxml-master/benchmark/build/classes/java/main/com/tickaroo/tikxml/medium/Feed$$TypeAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :benchmark:processResources
+> Task :benchmark:classes
+> Task :benchmark:jar
+> Task :benchmark:assemble
+> Task :benchmark:build
+> Task :core:javadocJar
+> Task :core:sourceJar
+> Task :core:signArchives SKIPPED
+> Task :core:assemble
+> Task :core:build
+> Task :processor:javadocJar
+> Task :processor:sourceJar
+> Task :processor:signArchives SKIPPED
+> Task :processor:assemble
+> Task :processor:build
+> Task :processor-common:javadocJar
+> Task :processor-common:sourceJar
+> Task :processor-common:signArchives SKIPPED
+> Task :processor-common:assemble
+> Task :processor-common:build
+> Task :retrofit-converter:compileJava
+> Task :retrofit-converter:processResources NO-SOURCE
+> Task :retrofit-converter:classes
+> Task :retrofit-converter:jar
+> Task :retrofit-converter:javadocJar
+> Task :retrofit-converter:sourceJar
+> Task :retrofit-converter:signArchives SKIPPED
+> Task :retrofit-converter:assemble
+> Task :retrofit-converter:build
+> Task :converters:date-rfc3339:compileJava
+> Task :converters:date-rfc3339:processResources NO-SOURCE
+> Task :converters:date-rfc3339:classes
+> Task :converters:date-rfc3339:jar
+> Task :converters:date-rfc3339:javadocJar
+> Task :converters:date-rfc3339:sourceJar
+> Task :converters:date-rfc3339:signArchives SKIPPED
+> Task :converters:date-rfc3339:assemble
+> Task :converters:date-rfc3339:build
+> Task :converters:htmlescape:compileJava
+> Task :converters:htmlescape:processResources NO-SOURCE
+> Task :converters:htmlescape:classes
+> Task :converters:htmlescape:jar
+> Task :converters:htmlescape:javadocJar
+> Task :converters:htmlescape:sourceJar
+> Task :converters:htmlescape:signArchives SKIPPED
+> Task :converters:htmlescape:assemble
+> Task :converters:htmlescape:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 0s
+48 actionable tasks: 48 executed
+
+2019-01-13 00:25:28,379 ERROR FullProcessService - Project build has not produced APK file
+2019-01-13 00:25:28,451 ERROR FullProcessService - Could not find generated or existed APK file

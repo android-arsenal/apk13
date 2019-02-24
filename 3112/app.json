@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.stealthcotper.networktools",
+    "label" : "Network Tools Library",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.1.05",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2028,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"0.1.05\" package=\"com.stealthcotper.networktools\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f080092\" android:label=\"Network Tools Library\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f080039\" android:label=\"Network Tools Library\" android:name=\"com.stealthcotper.networktools.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1727490,
+  "crc32" : 60955920,
+  "sha256" : "7682bf6608337c05e916fba4ad9edb4beb4048410703268c741e7077080ddbe2",
+  "buildTime" : 1496784533000
+}

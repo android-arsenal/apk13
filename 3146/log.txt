@@ -1,0 +1,10 @@
+2017-07-06 22:24:10,364 INFO  DownloadService - Downloading "https://github.com/fastlane/screengrab/archive/master.zip", attempt 3
+2017-07-06 22:24:11,437 INFO  DownloadService - Downloaded https://github.com/fastlane/screengrab/archive/master.zip, attempt 3
+2017-07-06 22:24:11,438 INFO  DownloadService - Size of file "/tmp/rdisk/3146/master.zip": 873 bytes
+2017-07-06 22:24:11,438 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-07-06 22:24:11,438 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/3146/master.zip: false
+2017-07-06 22:24:11,438 INFO  FullProcessService - Archive with sources does not contain any build script
+2017-07-06 22:24:11,438 ERROR FullProcessService - Could not find directory with sources
+2017-07-06 22:24:11,438 ERROR FullProcessService - Project will not be processed
+2017-07-06 22:24:11,438 ERROR FullProcessService - Project build has not produced APK file
+2017-07-06 22:24:11,438 ERROR FullProcessService - Could not find generated or existed APK file

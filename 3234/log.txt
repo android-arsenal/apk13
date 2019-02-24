@@ -1,0 +1,165 @@
+2019-01-11 10:44:27,861 INFO  DownloadService - Downloading "https://github.com/RurioLuca/MarshmallowPermissionManager/archive/master.zip", attempt 3
+2019-01-11 10:44:28,969 INFO  DownloadService - Downloaded https://github.com/RurioLuca/MarshmallowPermissionManager/archive/master.zip, attempt 3
+2019-01-11 10:44:28,969 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/master.zip": 408 KB
+2019-01-11 10:44:28,969 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-11 10:44:28,970 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/master.zip: true
+2019-01-11 10:44:28,970 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src'.
+2019-01-11 10:44:29,001 INFO  FullProcessService - Size of directory with sources: 505 KB
+2019-01-11 10:44:29,001 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src]
+2019-01-11 10:44:29,022 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/.git/
+
+2019-01-11 10:44:29,026 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/gradlew
+2019-01-11 10:44:29,031 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/marshmallowpermissionhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/build.gradle
+2019-01-11 10:44:29,036 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/marshmallowpermissionhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/settings.gradle
+2019-01-11 10:44:29,036 INFO  ProjectBuildService - Remote scripts: none
+2019-01-11 10:44:29,036 INFO  ProjectFixService - Fixing project...
+2019-01-11 10:44:29,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/local.properties
+2019-01-11 10:44:29,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-11 10:44:29,051 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-11 10:44:29,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/marshmallowpermissionhelper/local.properties
+2019-01-11 10:44:29,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/marshmallowpermissionhelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-11 10:44:29,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/marshmallowpermissionhelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-11 10:44:29,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/local.properties
+2019-01-11 10:44:29,055 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-11 10:44:29,056 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-11 10:44:29,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-11 10:44:29,057 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-11 10:44:29,058 INFO  ProjectFixService - Project was maybe fixed
+2019-01-11 10:44:29,058 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-11 10:44:29,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-11 10:44:36,293 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-11 10:44:36,293 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-11 10:44:36,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-11 10:45:06,140 INFO  SysUtils - Configuration on demand is an incubating feature.
+Publication release not found in project :marshmallowpermissionhelper.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:marshmallowpermissionhelper:preBuild UP-TO-DATE
+:marshmallowpermissionhelper:preDebugBuild UP-TO-DATE
+:marshmallowpermissionhelper:checkDebugManifest
+:marshmallowpermissionhelper:processDebugManifest
+:app:preDebugBuild
+:marshmallowpermissionhelper:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:marshmallowpermissionhelper:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:marshmallowpermissionhelper:compileDebugRenderscript
+:marshmallowpermissionhelper:generateDebugResValues
+:marshmallowpermissionhelper:generateDebugResources
+:marshmallowpermissionhelper:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:marshmallowpermissionhelper:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:marshmallowpermissionhelper:generateDebugBuildConfig
+:marshmallowpermissionhelper:prepareLintJar
+:marshmallowpermissionhelper:generateDebugSources
+:marshmallowpermissionhelper:javaPreCompileDebug
+:marshmallowpermissionhelper:compileDebugJavaWithJavac
+:marshmallowpermissionhelper:processDebugJavaRes NO-SOURCE
+:marshmallowpermissionhelper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:marshmallowpermissionhelper:mergeDebugShaders
+:marshmallowpermissionhelper:compileDebugShaders
+:marshmallowpermissionhelper:generateDebugAssets
+:marshmallowpermissionhelper:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:marshmallowpermissionhelper:compileDebugNdk NO-SOURCE
+:marshmallowpermissionhelper:mergeDebugJniLibFolders
+:marshmallowpermissionhelper:transformNativeLibsWithMergeJniLibsForDebug
+:marshmallowpermissionhelper:transformNativeLibsWithStripDebugSymbolForDebug
+:marshmallowpermissionhelper:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:marshmallowpermissionhelper:preReleaseBuild UP-TO-DATE
+:marshmallowpermissionhelper:checkReleaseManifest
+:marshmallowpermissionhelper:processReleaseManifest
+:app:preReleaseBuild
+:marshmallowpermissionhelper:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:marshmallowpermissionhelper:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:marshmallowpermissionhelper:compileReleaseRenderscript
+:marshmallowpermissionhelper:generateReleaseResValues
+:marshmallowpermissionhelper:generateReleaseResources
+:marshmallowpermissionhelper:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:marshmallowpermissionhelper:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:marshmallowpermissionhelper:generateReleaseBuildConfig
+:marshmallowpermissionhelper:generateReleaseSources
+:marshmallowpermissionhelper:javaPreCompileRelease
+:marshmallowpermissionhelper:compileReleaseJavaWithJavac
+:marshmallowpermissionhelper:processReleaseJavaRes NO-SOURCE
+:marshmallowpermissionhelper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:marshmallowpermissionhelper:mergeReleaseShaders
+:marshmallowpermissionhelper:compileReleaseShaders
+:marshmallowpermissionhelper:generateReleaseAssets
+:marshmallowpermissionhelper:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:marshmallowpermissionhelper:compileReleaseNdk NO-SOURCE
+:marshmallowpermissionhelper:mergeReleaseJniLibFolders
+:marshmallowpermissionhelper:transformNativeLibsWithMergeJniLibsForRelease
+:marshmallowpermissionhelper:transformNativeLibsWithStripDebugSymbolForRelease
+:marshmallowpermissionhelper:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 29s
+90 actionable tasks: 90 executed
+
+2019-01-11 10:45:06,246 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547178267855-0/src/PermissionManager-master/app/build/outputs/apk/debug/app-debug.apk

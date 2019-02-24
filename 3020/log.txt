@@ -1,0 +1,51 @@
+2019-01-13 03:34:03,933 INFO  DownloadService - Downloading "https://github.com/nantaphop/HoverTouchView/archive/master.zip", attempt 3
+2019-01-13 03:35:04,547 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-13 03:35:05,593 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-13 03:35:05,593 INFO  DownloadService - Downloading "https://github.com/nantaphop/HoverTouchView/archive/master.zip", attempt 3
+2019-01-13 03:36:07,079 DEBUG FullProcessService - Repository https://github.com/nantaphop/HoverTouchView available: true
+2019-01-13 03:36:07,079 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-13 03:36:07,079 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/nantaphop/HoverTouchView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src]
+2019-01-13 03:36:08,981 INFO  SysUtils - 
+2019-01-13 03:36:09,015 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/.git": true
+2019-01-13 03:36:09,018 INFO  FullProcessService - Size of directory with sources: 159 KB
+2019-01-13 03:36:09,018 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src]
+2019-01-13 03:36:09,036 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/.git/
+
+2019-01-13 03:36:09,039 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/gradlew
+2019-01-13 03:36:09,042 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/hoverTouchView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/build.gradle
+2019-01-13 03:36:09,045 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/hoverTouchView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/settings.gradle
+2019-01-13 03:36:09,045 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-01-13 03:36:09,829 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-01-13 03:36:09,829 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-01-13 03:36:10,020 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-01-13 03:36:10,020 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-01-13 03:36:10,020 INFO  ProjectFixService - Fixing project...
+2019-01-13 03:36:10,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/app/local.properties
+2019-01-13 03:36:10,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-13 03:36:10,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/hoverTouchView/local.properties
+2019-01-13 03:36:10,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/hoverTouchView/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-13 03:36:10,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/local.properties
+2019-01-13 03:36:10,031 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-13 03:36:10,032 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-13 03:36:10,033 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-13 03:36:10,033 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 03:36:10,034 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 03:36:10,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 03:36:10,042 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-01-13 03:36:10,042 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-01-13 03:36:10,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-01-13 03:36:10,049 INFO  SysUtils - 
+2019-01-13 03:36:10,053 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 03:36:10,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/hoverTouchView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 03:36:10,060 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-01-13 03:36:10,060 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-01-13 03:36:10,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/hoverTouchView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-01-13 03:36:10,067 INFO  SysUtils - 
+2019-01-13 03:36:10,071 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 03:36:10,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 03:36:10,079 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-01-13 03:36:10,079 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-01-13 03:36:10,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547325243931-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-01-13 03:36:10,086 INFO  SysUtils - 
+2019-01-13 03:36:10,090 ERROR FullProcessService - Project build has not produced APK file
+2019-01-13 03:36:10,093 ERROR FullProcessService - Could not find generated or existed APK file

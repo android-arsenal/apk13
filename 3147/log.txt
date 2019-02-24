@@ -1,0 +1,143 @@
+2019-01-12 22:08:52,409 INFO  DownloadService - Downloading "https://github.com/blad/nosey/archive/master.zip", attempt 3
+2019-01-12 22:08:53,064 INFO  DownloadService - Downloaded https://github.com/blad/nosey/archive/master.zip, attempt 3
+2019-01-12 22:08:53,064 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/master.zip": 170 KB
+2019-01-12 22:08:53,064 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 22:08:53,065 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/master.zip: true
+2019-01-12 22:08:53,065 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src'.
+2019-01-12 22:08:53,084 INFO  FullProcessService - Size of directory with sources: 186 KB
+2019-01-12 22:08:53,084 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src]
+2019-01-12 22:08:53,103 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/.git/
+
+2019-01-12 22:08:53,106 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/gradlew
+2019-01-12 22:08:53,109 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/noseyexplorer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/build.gradle
+2019-01-12 22:08:53,112 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/noseyexplorer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/settings.gradle
+2019-01-12 22:08:53,112 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 22:08:53,112 INFO  ProjectFixService - Fixing project...
+2019-01-12 22:08:53,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/local.properties
+2019-01-12 22:08:53,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2019-01-12 22:08:53,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/noseyexplorer/local.properties
+2019-01-12 22:08:53,121 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/noseyexplorer/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2019-01-12 22:08:53,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/local.properties
+2019-01-12 22:08:53,121 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-01-12 22:08:53,122 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-01-12 22:08:53,122 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=15,targetSdkVersion=21]
+2019-01-12 22:08:53,123 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 22:08:53,123 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 22:08:53,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 22:09:16,553 INFO  ProjectTaskService - Detected possible tasks: 54
+2019-01-12 22:09:16,553 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 22:09:16,553 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 22:09:45,468 INFO  SysUtils - Configuration on demand is an incubating feature.
+:example:preBuild
+:example:compileDebugNdk
+:example:preDebugBuild
+:example:checkDebugManifest
+:example:preReleaseBuild
+:noseyexplorer:compileLint
+:noseyexplorer:copyReleaseLint UP-TO-DATE
+:noseyexplorer:preBuild
+:noseyexplorer:preReleaseBuild
+:noseyexplorer:checkReleaseManifest
+:noseyexplorer:preDebugBuild
+:noseyexplorer:preDebugTestBuild
+:noseyexplorer:prepareComAndroidSupportAppcompatV72103Library
+:noseyexplorer:prepareComAndroidSupportSupportV42103Library
+:noseyexplorer:prepareReleaseDependencies
+:noseyexplorer:compileReleaseAidl
+:noseyexplorer:compileReleaseRenderscript
+:noseyexplorer:generateReleaseBuildConfig
+:noseyexplorer:generateReleaseAssets UP-TO-DATE
+:noseyexplorer:mergeReleaseAssets
+:noseyexplorer:generateReleaseResValues
+:noseyexplorer:generateReleaseResources
+:noseyexplorer:mergeReleaseResources
+:noseyexplorer:processReleaseManifest
+:noseyexplorer:processReleaseResources
+:noseyexplorer:generateReleaseSources
+:noseyexplorer:compileReleaseJavaNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/noseyexplorer/src/main/java/com/btellez/noseyexplorer/DisplayModelActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:noseyexplorer:extractReleaseAnnotations
+:noseyexplorer:mergeReleaseProguardFiles
+:noseyexplorer:processReleaseJavaRes UP-TO-DATE
+:noseyexplorer:packageReleaseJar
+:noseyexplorer:compileReleaseNdk
+:noseyexplorer:packageReleaseJniLibs UP-TO-DATE
+:noseyexplorer:packageReleaseLocalJar UP-TO-DATE
+:noseyexplorer:packageReleaseRenderscript UP-TO-DATE
+:noseyexplorer:packageReleaseResources
+:noseyexplorer:bundleRelease
+:example:prepareComAndroidSupportAppcompatV72103Library
+:example:prepareComAndroidSupportSupportV42103Library
+:example:prepareNoseyMasterNoseyexplorerUnspecifiedLibrary
+:example:prepareDebugDependencies
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:generateDebugBuildConfig
+:example:generateDebugAssets UP-TO-DATE
+:example:mergeDebugAssets
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:compileDebugJavaNote: Version 5.8.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class SomeModelA
+Note: Creating DefaultRealmModule
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/classes/debug/io/realm/SomeModelARealmProxy.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:example:preDexDebug
+:example:dexDebug
+:example:processDebugJavaRes UP-TO-DATE
+:example:validateDebugSigning
+:example:packageDebug
+:example:zipalignDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:generateReleaseBuildConfig
+:example:generateReleaseAssets UP-TO-DATE
+:example:mergeReleaseAssets
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:compileReleaseJavaNote: Version 5.8.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class SomeModelA
+Note: Creating DefaultRealmModule
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/intermediates/classes/release/io/realm/SomeModelARealmProxy.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:example:lintVitalRelease
+:example:compileReleaseNdk
+:example:preDexRelease
+:example:dexRelease
+:example:processReleaseJavaRes UP-TO-DATE
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.355 secs
+
+2019-01-12 22:09:45,537 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547305732405-0/src/nosey-master/example/build/outputs/apk/example-debug-unaligned.apk

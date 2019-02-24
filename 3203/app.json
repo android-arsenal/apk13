@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.athkalia.emphasis.sample",
+    "label" : "EmphasisTextView - Sample",
+    "icon" : "res/drawable-mdpi-v4/launcher_icon.png",
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/launcher_icon.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 246,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.athkalia.emphasis.sample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"24\" />\n\t<application android:label=\"EmphasisTextView - Sample\" android:icon=\"res/drawable-xxxhdpi-v4/launcher_icon.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"com.athkalia.emphasis.activities.MainActivity_\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 131051,
+  "crc32" : 4294558185,
+  "sha256" : "d5c26b687808e45e91ed2b52cf1e1a4c266ede794dc27f9b98da6ab7bee0be1c",
+  "buildTime" : 1547298066000
+}

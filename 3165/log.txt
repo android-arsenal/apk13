@@ -1,0 +1,413 @@
+2019-01-12 21:08:48,532 INFO  DownloadService - Downloading "https://github.com/reisub/HttPizza/archive/master.zip", attempt 3
+2019-01-12 21:08:48,985 INFO  DownloadService - Downloaded https://github.com/reisub/HttPizza/archive/master.zip, attempt 3
+2019-01-12 21:08:48,985 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/master.zip": 111 KB
+2019-01-12 21:08:48,985 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 21:08:48,990 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/master.zip: true
+2019-01-12 21:08:48,990 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src'.
+2019-01-12 21:08:49,004 INFO  FullProcessService - Size of directory with sources: 304 KB
+2019-01-12 21:08:49,004 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src]
+2019-01-12 21:08:49,024 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/.git/
+
+2019-01-12 21:08:49,027 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/gradlew
+2019-01-12 21:08:49,030 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/build.gradle
+2019-01-12 21:08:49,033 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/settings.gradle
+2019-01-12 21:08:49,033 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 21:08:49,033 INFO  ProjectFixService - Fixing project...
+2019-01-12 21:08:49,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/local.properties
+2019-01-12 21:08:49,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-01-12 21:08:49,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/local.properties
+2019-01-12 21:08:49,040 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-01-12 21:08:49,040 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-01-12 21:08:49,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-01-12 21:08:49,042 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 21:08:49,042 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:08:49,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:08:59,433 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-12 21:08:59,433 INFO  ProjectTaskService - Excluded tasks (18): lintDebug mockableAndroidJar deviceCheck coveralls lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll cobertura test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 21:08:59,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, coveralls, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, cobertura, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 21:09:10,038 INFO  SysUtils - Configuration on demand is an incubating feature.
+:httpizza:preBuild UP-TO-DATE
+:httpizza:preDebugBuild UP-TO-DATE
+:httpizza:compileDebugNdk UP-TO-DATE
+:httpizza:compileLint
+:httpizza:copyDebugLint UP-TO-DATE
+:httpizza:mergeDebugProguardFiles
+:httpizza:packageDebugRenderscript UP-TO-DATE
+:httpizza:checkDebugManifest
+:httpizza:prepareDebugDependencies
+:httpizza:compileDebugRenderscript
+:httpizza:generateDebugResValues
+:httpizza:generateDebugResources
+:httpizza:packageDebugResources
+:httpizza:compileDebugAidl
+:httpizza:generateDebugBuildConfig
+:httpizza:generateDebugAssets UP-TO-DATE
+:httpizza:mergeDebugAssets
+:httpizza:processDebugManifest
+:httpizza:processDebugResources
+:httpizza:generateDebugSources
+:httpizza:compileDebugJavaWithJavac
+:httpizza:processDebugJavaRes UP-TO-DATE
+:httpizza:transformResourcesWithMergeJavaResForDebug
+:httpizza:transformClassesAndResourcesWithSyncLibJarsForDebug
+:httpizza:mergeDebugJniLibFolders
+:httpizza:transformNative_libsWithMergeJniLibsForDebug
+:httpizza:transformNative_libsWithSyncJniLibsForDebug
+:httpizza:bundleDebug
+:httpizza:compileDebugSources
+:httpizza:assembleDebug
+:httpizza:preReleaseBuild UP-TO-DATE
+:httpizza:compileReleaseNdk UP-TO-DATE
+:httpizza:copyReleaseLint UP-TO-DATE
+:httpizza:mergeReleaseProguardFiles
+:httpizza:packageReleaseRenderscript UP-TO-DATE
+:httpizza:checkReleaseManifest
+:httpizza:prepareReleaseDependencies
+:httpizza:compileReleaseRenderscript
+:httpizza:generateReleaseResValues
+:httpizza:generateReleaseResources
+:httpizza:packageReleaseResources
+:httpizza:compileReleaseAidl
+:httpizza:generateReleaseBuildConfig
+:httpizza:generateReleaseAssets UP-TO-DATE
+:httpizza:mergeReleaseAssets
+:httpizza:processReleaseManifest
+:httpizza:processReleaseResources
+:httpizza:generateReleaseSources
+:httpizza:compileReleaseJavaWithJavac
+:httpizza:processReleaseJavaRes UP-TO-DATE
+:httpizza:transformResourcesWithMergeJavaResForRelease
+:httpizza:transformClassesAndResourcesWithSyncLibJarsForRelease
+:httpizza:mergeReleaseJniLibFolders
+:httpizza:transformNative_libsWithMergeJniLibsForRelease
+:httpizza:transformNative_libsWithSyncJniLibsForRelease
+:httpizza:bundleRelease
+:httpizza:compileReleaseSources
+:httpizza:assembleRelease
+:httpizza:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/FormBody.java:43: warning: no @return
+    public int size() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:17: warning: no @return
+    public abstract MediaType contentType();
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:29: warning: no @param for contentType
+    public static RequestBody create(MediaType contentType, String content) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:29: warning: no @param for content
+    public static RequestBody create(MediaType contentType, String content) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:29: warning: no @return
+    public static RequestBody create(MediaType contentType, String content) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:43: warning: no @param for contentType
+    public static RequestBody create(final MediaType contentType, final byte[] content) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:43: warning: no @param for content
+    public static RequestBody create(final MediaType contentType, final byte[] content) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:43: warning: no @return
+    public static RequestBody create(final MediaType contentType, final byte[] content) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:48: warning: no @param for contentType
+    public static RequestBody create(final MediaType contentType, final byte[] content, final int offset, final int byteCount) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:48: warning: no @param for content
+    public static RequestBody create(final MediaType contentType, final byte[] content, final int offset, final int byteCount) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:48: warning: no @param for offset
+    public static RequestBody create(final MediaType contentType, final byte[] content, final int offset, final int byteCount) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:48: warning: no @param for byteCount
+    public static RequestBody create(final MediaType contentType, final byte[] content, final int offset, final int byteCount) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:48: warning: no @return
+    public static RequestBody create(final MediaType contentType, final byte[] content, final int offset, final int byteCount) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:72: warning: no @param for contentType
+    public static RequestBody create(final MediaType contentType, final File file) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:72: warning: no @param for file
+    public static RequestBody create(final MediaType contentType, final File file) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/RequestBody.java:72: warning: no @return
+    public static RequestBody create(final MediaType contentType, final File file) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttPizza.java:34: warning: no @param for timeoutMillis
+        public Builder connectTimeout(int timeoutMillis) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttPizza.java:34: warning: no @return
+        public Builder connectTimeout(int timeoutMillis) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttPizza.java:44: warning: no @param for timeoutMillis
+        public Builder readTimeout(int timeoutMillis) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttPizza.java:44: warning: no @return
+        public Builder readTimeout(int timeoutMillis) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:368: warning: no @return
+    public URL url() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:389: warning: no @return
+    public URI uri() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:407: warning: no @return
+    public String scheme() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:418: warning: no @return
+    public String encodedUsername() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:434: warning: no @return
+    public String encodedPassword() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:446: warning: no @return
+    public String password() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:461: warning: no @return
+    public String host() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:470: warning: no @return
+    public int port() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:478: warning: no @param for scheme
+    public static int defaultPort(String scheme) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:478: warning: no @return
+    public static int defaultPort(String scheme) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:496: warning: no @return
+    public String encodedPath() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:531: warning: no @return
+    public String encodedQuery() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:599: warning: no @param for name
+    public String queryParameter(String name) {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:599: warning: no @return
+    public String queryParameter(String name) {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:659: warning: no @param for link
+    public HttpUrl resolve(String link) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:659: warning: no @return
+    public HttpUrl resolve(String link) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:683: warning: no @param for link
+    public Builder newBuilder(String link) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:683: warning: no @return
+    public Builder newBuilder(String link) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:693: warning: no @param for url
+    public static HttpUrl parse(String url) {
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:693: warning: no @return
+    public static HttpUrl parse(String url) {
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:703: warning: no @param for url
+    public static HttpUrl get(URL url) {
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:703: warning: no @return
+    public static HttpUrl get(URL url) {
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1730: warning: no @param for input
+    public static int skipLeadingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1730: warning: no @param for pos
+    public static int skipLeadingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1730: warning: no @param for limit
+    public static int skipLeadingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1730: warning: no @return
+    public static int skipLeadingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1750: warning: no @param for input
+    public static int skipTrailingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1750: warning: no @param for pos
+    public static int skipTrailingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1750: warning: no @param for limit
+    public static int skipTrailingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1750: warning: no @return
+    public static int skipTrailingAsciiWhitespace(String input, int pos, int limit) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1770: warning: no @param for input
+    public static int delimiterOffset(String input, int pos, int limit, String delimiters) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1770: warning: no @param for pos
+    public static int delimiterOffset(String input, int pos, int limit, String delimiters) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1770: warning: no @param for limit
+    public static int delimiterOffset(String input, int pos, int limit, String delimiters) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1770: warning: no @param for delimiters
+    public static int delimiterOffset(String input, int pos, int limit, String delimiters) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1770: warning: no @return
+    public static int delimiterOffset(String input, int pos, int limit, String delimiters) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1783: warning: no @param for input
+    public static int delimiterOffset(String input, int pos, int limit, char delimiter) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1783: warning: no @param for pos
+    public static int delimiterOffset(String input, int pos, int limit, char delimiter) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1783: warning: no @param for limit
+    public static int delimiterOffset(String input, int pos, int limit, char delimiter) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1783: warning: no @param for delimiter
+    public static int delimiterOffset(String input, int pos, int limit, char delimiter) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1783: warning: no @return
+    public static int delimiterOffset(String input, int pos, int limit, char delimiter) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1798: warning: no @param for input
+    public static String domainToAscii(String input) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:1798: warning: no @return
+    public static String domainToAscii(String input) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:822: warning: no @return
+        public Builder host(String host) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:926: warning: no @param for name
+        public Builder addQueryParameter(String name, String value) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:926: warning: no @param for value
+        public Builder addQueryParameter(String name, String value) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:926: warning: no @return
+        public Builder addQueryParameter(String name, String value) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:943: warning: no @param for encodedName
+        public Builder addEncodedQueryParameter(String encodedName, String encodedValue) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:943: warning: no @param for encodedValue
+        public Builder addEncodedQueryParameter(String encodedName, String encodedValue) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/HttpUrl.java:943: warning: no @return
+        public Builder addEncodedQueryParameter(String encodedName, String encodedValue) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/MediaType.java:52: warning: no @param for string
+    public static MediaType parse(String string) {
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/MediaType.java:52: warning: no @return
+    public static MediaType parse(String string) {
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/MediaType.java:82: warning: no @return
+    public String type() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/MediaType.java:89: warning: no @return
+    public String subtype() {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/MediaType.java:96: warning: no @return
+    public Charset charset() {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/MediaType.java:104: warning: no @param for defaultValue
+    public Charset charset(Charset defaultValue) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/MediaType.java:104: warning: no @return
+    public Charset charset(Charset defaultValue) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/Request.java:102: warning: no @return
+        public Builder delete() {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/Util.java:39: warning: no @param for <T>
+    public static <T> List<T> immutableList(List<T> list) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/Util.java:39: warning: no @param for list
+    public static <T> List<T> immutableList(List<T> list) {
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/httpizza/src/main/java/sexy/code/Util.java:39: warning: no @return
+    public static <T> List<T> immutableList(List<T> list) {
+                              ^
+
+80 warnings
+:httpizza:javadocJar
+:httpizza:sourcesJar
+:httpizza:assemble
+:httpizza:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.111 secs
+
+2019-01-12 21:09:10,049 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 21:09:10,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 21:09:16,275 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-01-12 21:09:16,275 INFO  ProjectTaskService - Excluded tasks (18): lintDebug mockableAndroidJar deviceCheck coveralls lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll cobertura test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 21:09:16,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547302128527-0/src/HttPizza-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, coveralls, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, cobertura, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 21:09:22,983 INFO  SysUtils - Configuration on demand is an incubating feature.
+:httpizza:preBuild UP-TO-DATE
+:httpizza:preDebugBuild UP-TO-DATE
+:httpizza:compileDebugNdk UP-TO-DATE
+:httpizza:compileLint
+:httpizza:copyDebugLint UP-TO-DATE
+:httpizza:mergeDebugProguardFiles UP-TO-DATE
+:httpizza:packageDebugRenderscript UP-TO-DATE
+:httpizza:checkDebugManifest
+:httpizza:prepareDebugDependencies
+:httpizza:compileDebugRenderscript UP-TO-DATE
+:httpizza:generateDebugResValues UP-TO-DATE
+:httpizza:generateDebugResources UP-TO-DATE
+:httpizza:packageDebugResources UP-TO-DATE
+:httpizza:compileDebugAidl UP-TO-DATE
+:httpizza:generateDebugBuildConfig UP-TO-DATE
+:httpizza:generateDebugAssets UP-TO-DATE
+:httpizza:mergeDebugAssets UP-TO-DATE
+:httpizza:processDebugManifest UP-TO-DATE
+:httpizza:processDebugResources UP-TO-DATE
+:httpizza:generateDebugSources UP-TO-DATE
+:httpizza:compileDebugJavaWithJavac UP-TO-DATE
+:httpizza:processDebugJavaRes UP-TO-DATE
+:httpizza:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:httpizza:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:httpizza:mergeDebugJniLibFolders UP-TO-DATE
+:httpizza:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:httpizza:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:httpizza:bundleDebug UP-TO-DATE
+:httpizza:compileDebugSources UP-TO-DATE
+:httpizza:assembleDebug UP-TO-DATE
+:httpizza:preReleaseBuild UP-TO-DATE
+:httpizza:compileReleaseNdk UP-TO-DATE
+:httpizza:copyReleaseLint UP-TO-DATE
+:httpizza:mergeReleaseProguardFiles UP-TO-DATE
+:httpizza:packageReleaseRenderscript UP-TO-DATE
+:httpizza:checkReleaseManifest
+:httpizza:prepareReleaseDependencies
+:httpizza:compileReleaseRenderscript UP-TO-DATE
+:httpizza:generateReleaseResValues UP-TO-DATE
+:httpizza:generateReleaseResources UP-TO-DATE
+:httpizza:packageReleaseResources UP-TO-DATE
+:httpizza:compileReleaseAidl UP-TO-DATE
+:httpizza:generateReleaseBuildConfig UP-TO-DATE
+:httpizza:generateReleaseAssets UP-TO-DATE
+:httpizza:mergeReleaseAssets UP-TO-DATE
+:httpizza:processReleaseManifest UP-TO-DATE
+:httpizza:processReleaseResources UP-TO-DATE
+:httpizza:generateReleaseSources UP-TO-DATE
+:httpizza:compileReleaseJavaWithJavac UP-TO-DATE
+:httpizza:processReleaseJavaRes UP-TO-DATE
+:httpizza:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:httpizza:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:httpizza:mergeReleaseJniLibFolders UP-TO-DATE
+:httpizza:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:httpizza:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:httpizza:bundleRelease UP-TO-DATE
+:httpizza:compileReleaseSources UP-TO-DATE
+:httpizza:assembleRelease UP-TO-DATE
+:httpizza:javadoc UP-TO-DATE
+:httpizza:javadocJar UP-TO-DATE
+:httpizza:sourcesJar UP-TO-DATE
+:httpizza:assemble UP-TO-DATE
+:httpizza:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.225 secs
+
+2019-01-12 21:09:22,993 ERROR FullProcessService - Project build has not produced APK file
+2019-01-12 21:09:23,003 ERROR FullProcessService - Could not find generated or existed APK file

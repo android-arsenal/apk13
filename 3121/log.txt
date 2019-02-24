@@ -1,0 +1,340 @@
+2019-01-12 23:30:54,304 INFO  DownloadService - Downloading "https://github.com/kristiyanP/colorpicker/archive/master.zip", attempt 3
+2019-01-12 23:30:54,810 INFO  DownloadService - Downloaded https://github.com/kristiyanP/colorpicker/archive/master.zip, attempt 3
+2019-01-12 23:30:54,811 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/master.zip": 290 KB
+2019-01-12 23:30:54,811 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 23:30:54,816 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/master.zip: true
+2019-01-12 23:30:54,816 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src'.
+2019-01-12 23:30:54,840 INFO  FullProcessService - Size of directory with sources: 330 KB
+2019-01-12 23:30:54,840 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src]
+2019-01-12 23:30:54,860 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/.git/
+
+2019-01-12 23:30:54,863 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/gradlew
+2019-01-12 23:30:54,867 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/build.gradle
+2019-01-12 23:30:54,870 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/settings.gradle
+2019-01-12 23:30:54,871 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 23:30:54,871 INFO  ProjectFixService - Fixing project...
+2019-01-12 23:30:54,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/local.properties
+2019-01-12 23:30:54,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-12 23:30:54,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 23:30:54,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/local.properties
+2019-01-12 23:30:54,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-12 23:30:54,889 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 23:30:54,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/local.properties
+2019-01-12 23:30:54,891 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-12 23:30:54,892 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-12 23:30:54,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-12 23:30:54,895 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-12 23:30:54,896 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 23:30:54,896 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:30:54,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:31:02,764 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-12 23:31:02,764 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 23:31:02,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 23:31:19,265 INFO  SysUtils - Configuration on demand is an incubating feature.
+:colorpicker-library:preBuild UP-TO-DATE
+:colorpicker-library:preDebugBuild UP-TO-DATE
+:colorpicker-library:compileDebugAidl NO-SOURCE
+:colorpicker-library:compileDebugRenderscript
+:colorpicker-library:checkDebugManifest
+:colorpicker-library:generateDebugBuildConfig
+:colorpicker-library:generateDebugResValues
+:colorpicker-library:generateDebugResources
+:colorpicker-library:packageDebugResources
+:colorpicker-library:processDebugManifest
+:colorpicker-library:generateDebugRFile
+:colorpicker-library:prepareLintJar
+:colorpicker-library:generateDebugSources
+:colorpicker-library:javaPreCompileDebug
+:colorpicker-library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:colorpicker-library:extractDebugAnnotations
+:colorpicker-library:mergeDebugConsumerProguardFiles
+:colorpicker-library:mergeDebugShaders
+:colorpicker-library:compileDebugShaders
+:colorpicker-library:generateDebugAssets
+:colorpicker-library:packageDebugAssets
+:colorpicker-library:packageDebugRenderscript NO-SOURCE
+:colorpicker-library:processDebugJavaRes NO-SOURCE
+:colorpicker-library:transformResourcesWithMergeJavaResForDebug
+:colorpicker-library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:colorpicker-library:compileDebugNdk NO-SOURCE
+:colorpicker-library:mergeDebugJniLibFolders
+:colorpicker-library:transformNativeLibsWithMergeJniLibsForDebug
+:colorpicker-library:transformNativeLibsWithStripDebugSymbolForDebug
+:colorpicker-library:transformNativeLibsWithSyncJniLibsForDebug
+:colorpicker-library:bundleDebugAar
+:colorpicker-library:compileDebugSources
+:colorpicker-library:assembleDebug
+:colorpicker-library:preReleaseBuild UP-TO-DATE
+:colorpicker-library:compileReleaseAidl NO-SOURCE
+:colorpicker-library:compileReleaseRenderscript
+:colorpicker-library:checkReleaseManifest
+:colorpicker-library:generateReleaseBuildConfig
+:colorpicker-library:generateReleaseResValues
+:colorpicker-library:generateReleaseResources
+:colorpicker-library:packageReleaseResources
+:colorpicker-library:processReleaseManifest
+:colorpicker-library:generateReleaseRFile
+:colorpicker-library:generateReleaseSources
+:colorpicker-library:javaPreCompileRelease
+:colorpicker-library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:colorpicker-library:extractReleaseAnnotations
+:colorpicker-library:mergeReleaseConsumerProguardFiles
+:colorpicker-library:mergeReleaseShaders
+:colorpicker-library:compileReleaseShaders
+:colorpicker-library:generateReleaseAssets
+:colorpicker-library:packageReleaseAssets
+:colorpicker-library:packageReleaseRenderscript NO-SOURCE
+:colorpicker-library:processReleaseJavaRes NO-SOURCE
+:colorpicker-library:transformResourcesWithMergeJavaResForRelease
+:colorpicker-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:colorpicker-library:compileReleaseNdk NO-SOURCE
+:colorpicker-library:mergeReleaseJniLibFolders
+:colorpicker-library:transformNativeLibsWithMergeJniLibsForRelease
+:colorpicker-library:transformNativeLibsWithStripDebugSymbolForRelease
+:colorpicker-library:transformNativeLibsWithSyncJniLibsForRelease
+:colorpicker-library:bundleReleaseAar
+:colorpicker-library:compileReleaseSources
+:colorpicker-library:mergeReleaseResources
+:colorpicker-library:verifyReleaseResources
+:colorpicker-library:assembleRelease
+:colorpicker-library:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorUtils.java:5: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:18: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:19: error: package androidx.appcompat.widget does not exist
+import androidx.appcompat.widget.AppCompatButton;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:20: error: package androidx.appcompat.widget does not exist
+import androidx.appcompat.widget.AppCompatTextView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:21: error: package androidx.core.content does not exist
+import androidx.core.content.ContextCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:22: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.GridLayoutManager;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:23: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java:8: error: package androidx.appcompat.widget does not exist
+import androidx.appcompat.widget.AppCompatButton;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java:9: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.GridLayoutManager;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java:10: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java:23: error: package RecyclerView does not exist
+public class ColorViewAdapter extends RecyclerView.Adapter<ColorViewAdapter.ViewHolder> {
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java:37: error: package RecyclerView does not exist
+    public class ViewHolder extends RecyclerView.ViewHolder implements OnClickListener {
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/CustomDialog.java:5: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AppCompatDialog;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/CustomDialog.java:9: error: cannot find symbol
+public class CustomDialog extends AppCompatDialog {
+                                  ^
+  symbol: class AppCompatDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:67: error: cannot find symbol
+    private RecyclerView recyclerView;
+            ^
+  symbol:   class RecyclerView
+  location: class ColorPicker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:74: error: cannot find symbol
+    private AppCompatButton positiveButton, negativeButton;
+            ^
+  symbol:   class AppCompatButton
+  location: class ColorPicker
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorViewAdapter.java:39: error: cannot find symbol
+        public AppCompatButton colorItem;
+               ^
+  symbol:   class AppCompatButton
+  location: class ColorViewAdapter.ViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorUtils.java:19: error: cannot find symbol
+    public static boolean isWhiteText(@ColorInt final int color) {
+                                       ^
+  symbol:   class ColorInt
+  location: class ColorUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:477: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class ColorPicker
+javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:376: warning: no @return
+    public ColorPicker setOnChooseColorListener(OnChooseColorListener listener) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-library/src/main/java/petrov/kristiyan/colorpicker/ColorPicker.java:79: warning: no @param for context
+    public ColorPicker(Activity context) {
+           ^
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+
+29 warnings
+:colorpicker-library:javadocJar
+:colorpicker-library:sourcesJar
+:colorpicker-library:assemble
+:colorpicker-library:build
+
+BUILD SUCCESSFUL in 16s
+48 actionable tasks: 48 executed
+
+2019-01-12 23:31:19,323 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:31:19,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:31:26,472 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-12 23:31:26,472 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 23:31:26,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 23:31:59,982 INFO  SysUtils - Configuration on demand is an incubating feature.
+:colorpicker-library:preBuild UP-TO-DATE
+:colorpicker-library:preDebugBuild UP-TO-DATE
+:colorpicker-library:compileDebugAidl NO-SOURCE
+:colorpicker-library:compileDebugRenderscript UP-TO-DATE
+:colorpicker-library:checkDebugManifest UP-TO-DATE
+:colorpicker-library:generateDebugBuildConfig UP-TO-DATE
+:colorpicker-library:generateDebugResValues UP-TO-DATE
+:colorpicker-library:generateDebugResources UP-TO-DATE
+:colorpicker-library:packageDebugResources UP-TO-DATE
+:colorpicker-library:processDebugManifest UP-TO-DATE
+:colorpicker-library:generateDebugRFile UP-TO-DATE
+:colorpicker-library:prepareLintJar UP-TO-DATE
+:colorpicker-library:generateDebugSources UP-TO-DATE
+:colorpicker-library:javaPreCompileDebug UP-TO-DATE
+:colorpicker-library:compileDebugJavaWithJavac UP-TO-DATE
+:colorpicker-library:processDebugJavaRes NO-SOURCE
+:colorpicker-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:colorpicker-sample:checkDebugClasspath
+:colorpicker-sample:preBuild UP-TO-DATE
+:colorpicker-sample:preDebugBuild
+:colorpicker-sample:compileDebugAidl NO-SOURCE
+:colorpicker-library:packageDebugRenderscript NO-SOURCE
+:colorpicker-sample:compileDebugRenderscript
+:colorpicker-sample:checkDebugManifest
+:colorpicker-sample:generateDebugBuildConfig
+:colorpicker-sample:prepareLintJar
+:colorpicker-sample:mainApkListPersistenceDebug
+:colorpicker-sample:generateDebugResValues
+:colorpicker-sample:generateDebugResources
+:colorpicker-sample:mergeDebugResources
+:colorpicker-sample:createDebugCompatibleScreenManifests
+:colorpicker-sample:processDebugManifest
+:colorpicker-sample:splitsDiscoveryTaskDebug
+:colorpicker-sample:processDebugResources
+:colorpicker-sample:generateDebugSources
+:colorpicker-sample:javaPreCompileDebug
+:colorpicker-sample:compileDebugJavaWithJavac
+:colorpicker-sample:compileDebugNdk NO-SOURCE
+:colorpicker-sample:compileDebugSources
+:colorpicker-library:mergeDebugShaders UP-TO-DATE
+:colorpicker-library:compileDebugShaders UP-TO-DATE
+:colorpicker-library:generateDebugAssets UP-TO-DATE
+:colorpicker-library:packageDebugAssets UP-TO-DATE
+:colorpicker-sample:mergeDebugShaders
+:colorpicker-sample:compileDebugShaders
+:colorpicker-sample:generateDebugAssets
+:colorpicker-sample:mergeDebugAssets
+:colorpicker-sample:transformClassesWithDexBuilderForDebug
+:colorpicker-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:colorpicker-sample:transformDexArchiveWithDexMergerForDebug
+:colorpicker-library:compileDebugNdk NO-SOURCE
+:colorpicker-library:mergeDebugJniLibFolders UP-TO-DATE
+:colorpicker-library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:colorpicker-library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:colorpicker-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:colorpicker-sample:mergeDebugJniLibFolders
+:colorpicker-sample:transformNativeLibsWithMergeJniLibsForDebug
+:colorpicker-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:colorpicker-sample:checkDebugLibraries
+:colorpicker-sample:processDebugJavaRes NO-SOURCE
+:colorpicker-sample:transformResourcesWithMergeJavaResForDebug
+:colorpicker-sample:validateSigningDebug
+:colorpicker-sample:packageDebug
+:colorpicker-sample:assembleDebug
+:colorpicker-library:preReleaseBuild UP-TO-DATE
+:colorpicker-library:compileReleaseAidl NO-SOURCE
+:colorpicker-library:compileReleaseRenderscript UP-TO-DATE
+:colorpicker-library:checkReleaseManifest UP-TO-DATE
+:colorpicker-library:generateReleaseBuildConfig UP-TO-DATE
+:colorpicker-library:generateReleaseResValues UP-TO-DATE
+:colorpicker-library:generateReleaseResources UP-TO-DATE
+:colorpicker-library:packageReleaseResources UP-TO-DATE
+:colorpicker-library:processReleaseManifest UP-TO-DATE
+:colorpicker-library:generateReleaseRFile UP-TO-DATE
+:colorpicker-library:generateReleaseSources UP-TO-DATE
+:colorpicker-library:javaPreCompileRelease UP-TO-DATE
+:colorpicker-library:compileReleaseJavaWithJavac UP-TO-DATE
+:colorpicker-library:processReleaseJavaRes NO-SOURCE
+:colorpicker-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:colorpicker-sample:checkReleaseClasspath
+:colorpicker-sample:preReleaseBuild
+:colorpicker-sample:compileReleaseAidl NO-SOURCE
+:colorpicker-library:packageReleaseRenderscript NO-SOURCE
+:colorpicker-sample:compileReleaseRenderscript
+:colorpicker-sample:checkReleaseManifest
+:colorpicker-sample:generateReleaseBuildConfig
+:colorpicker-sample:mainApkListPersistenceRelease
+:colorpicker-sample:generateReleaseResValues
+:colorpicker-sample:generateReleaseResources
+:colorpicker-sample:mergeReleaseResources
+:colorpicker-sample:createReleaseCompatibleScreenManifests
+:colorpicker-sample:processReleaseManifest
+:colorpicker-sample:splitsDiscoveryTaskRelease
+:colorpicker-sample:processReleaseResources
+:colorpicker-sample:generateReleaseSources
+:colorpicker-sample:javaPreCompileRelease
+:colorpicker-sample:compileReleaseJavaWithJavac
+:colorpicker-sample:compileReleaseNdk NO-SOURCE
+:colorpicker-sample:compileReleaseSources
+:colorpicker-sample:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.0-beta02/espresso-idling-resource-3.1.0-beta02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.1.0-beta02/espresso-core-3.1.0-beta02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/runner/1.1.0-beta02/runner-1.1.0-beta02.aar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/cd9b4b191159b3100e4e2cb7e2f2b28e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:colorpicker-library:mergeReleaseShaders UP-TO-DATE
+:colorpicker-library:compileReleaseShaders UP-TO-DATE
+:colorpicker-library:generateReleaseAssets UP-TO-DATE
+:colorpicker-library:packageReleaseAssets UP-TO-DATE
+:colorpicker-sample:mergeReleaseShaders
+:colorpicker-sample:compileReleaseShaders
+:colorpicker-sample:generateReleaseAssets
+:colorpicker-sample:mergeReleaseAssets
+:colorpicker-sample:transformClassesWithDexBuilderForRelease
+:colorpicker-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:colorpicker-sample:transformDexArchiveWithDexMergerForRelease
+:colorpicker-library:compileReleaseNdk NO-SOURCE
+:colorpicker-library:mergeReleaseJniLibFolders UP-TO-DATE
+:colorpicker-library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:colorpicker-library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:colorpicker-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:colorpicker-sample:mergeReleaseJniLibFolders
+:colorpicker-sample:transformNativeLibsWithMergeJniLibsForRelease
+:colorpicker-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:colorpicker-sample:checkReleaseLibraries
+:colorpicker-sample:processReleaseJavaRes NO-SOURCE
+:colorpicker-sample:transformResourcesWithMergeJavaResForRelease
+:colorpicker-sample:packageRelease
+:colorpicker-sample:assembleRelease
+:colorpicker-sample:assemble
+:colorpicker-sample:build
+
+BUILD SUCCESSFUL in 33s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2019-01-12 23:32:00,113 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547310654301-0/src/colorpicker-master/colorpicker-sample/build/outputs/apk/release/colorpicker-sample-release-unsigned.apk

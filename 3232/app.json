@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "at.pardus.android.webview.gm.demo",
+    "label" : null,
+    "icon" : null,
+    "versionName" : "1.2.0",
+    "versionCode" : 6,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 52,
+  "locales" : [ "", "de" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"6\" android:versionName=\"1.2.0\" package=\"at.pardus.android.webview.gm.demo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Userscript Browser\" android:name=\"at.pardus.android.webview.gm.demo.WebViewGmImpl\" android:configChanges=\"0xa0\" android:description=\"Implementation of the WebView GM library. Features the fast default browser with support of Greasemonkey functions and the management of user scripts.\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 43300,
+  "crc32" : 1785498596,
+  "sha256" : "18d411f3d2274eb06d945a40f82150051c296bb914d83b57eee0d3d054463d75",
+  "buildTime" : 1496784534000
+}

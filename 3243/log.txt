@@ -1,0 +1,9 @@
+2019-01-10 14:57:16,365 INFO  DownloadService - Downloading "https://github.com/chaossss/PianoView/archive/master.zip", attempt 3
+2019-01-10 14:57:16,366 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-10 14:57:16,863 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-10 14:57:16,863 INFO  DownloadService - Downloading "https://github.com/chaossss/PianoView/archive/master.zip", attempt 3
+2019-01-10 14:57:16,864 DEBUG FullProcessService - Repository https://github.com/chaossss/PianoView available: false
+2019-01-10 14:57:16,864 ERROR FullProcessService - Could not find directory with sources
+2019-01-10 14:57:16,864 ERROR FullProcessService - Project will not be processed
+2019-01-10 14:57:16,864 ERROR FullProcessService - Project build has not produced APK file
+2019-01-10 14:57:16,864 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,1298 @@
+2019-01-12 18:24:14,229 INFO  DownloadService - Downloading "https://github.com/BennyWang/KBinding/archive/master.zip", attempt 3
+2019-01-12 18:24:16,096 INFO  DownloadService - Downloaded https://github.com/BennyWang/KBinding/archive/master.zip, attempt 3
+2019-01-12 18:24:16,096 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/master.zip": 199 KB
+2019-01-12 18:24:16,096 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 18:24:16,102 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/master.zip: true
+2019-01-12 18:24:16,102 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src'.
+2019-01-12 18:24:16,156 INFO  FullProcessService - Size of directory with sources: 285 KB
+2019-01-12 18:24:16,156 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src]
+2019-01-12 18:24:16,173 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/.git/
+
+2019-01-12 18:24:16,180 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew
+2019-01-12 18:24:16,188 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-adapterview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-compiler/build.gradle
+2019-01-12 18:24:16,195 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-adapterview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradle/bintrayUpload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradle/androidBintrayUpload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-support-v4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/build.gradle
+2019-01-12 18:24:16,196 INFO  ProjectBuildService - Remote scripts: none
+2019-01-12 18:24:16,196 INFO  ProjectFixService - Fixing project...
+2019-01-12 18:24:16,217 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-adapterview/local.properties
+2019-01-12 18:24:16,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-adapterview/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/local.properties
+2019-01-12 18:24:16,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-support-v4/local.properties
+2019-01-12 18:24:16,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-support-v4/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding/local.properties
+2019-01-12 18:24:16,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/local.properties
+2019-01-12 18:24:16,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/local.properties
+2019-01-12 18:24:16,221 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-01-12 18:24:16,221 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-01-12 18:24:16,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,222 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-annotations/local.properties
+2019-01-12 18:24:16,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-annotations/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-compiler/local.properties
+2019-01-12 18:24:16,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-compiler/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-01-12 18:24:16,224 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 18:24:16,224 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:24:16,224 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-adapterview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:25:24,262 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:25:24,262 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:25:24,262 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:25:24,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-adapterview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:25:44,416 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:25:44,417 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:kbinding-adapterview:preBuild UP-TO-DATE
+:kbinding-adapterview:preDebugBuild UP-TO-DATE
+:kbinding-adapterview:compileDebugNdk UP-TO-DATE
+:kbinding-adapterview:compileLint
+:kbinding-adapterview:copyDebugLint UP-TO-DATE
+:kbinding:preBuild UP-TO-DATE
+:kbinding:preReleaseBuild UP-TO-DATE
+:kbinding:compileReleaseNdk UP-TO-DATE
+:kbinding:compileLint
+:kbinding:copyReleaseLint UP-TO-DATE
+:kbinding:mergeReleaseProguardFiles
+:kbinding:packageReleaseRenderscript UP-TO-DATE
+:kbinding:checkReleaseManifest
+:kbinding:preDebugAndroidTestBuild UP-TO-DATE
+:kbinding:preDebugBuild UP-TO-DATE
+:kbinding:preDebugUnitTestBuild UP-TO-DATE
+:kbinding:preReleaseUnitTestBuild UP-TO-DATE
+:kbinding-annotations:compileKotlin
+No Kotlin files found, skipping Kotlin compiler task
+:kbinding-annotations:compileJava
+:kbinding-annotations:processResources UP-TO-DATE
+:kbinding-annotations:classes
+:kbinding-annotations:jar
+:kbinding:prepareIoReactivexRxandroid101Library
+:kbinding:prepareReleaseDependencies
+:kbinding:compileReleaseRenderscript
+:kbinding:generateReleaseResValues
+:kbinding:generateReleaseResources
+:kbinding:packageReleaseResources
+:kbinding:compileReleaseAidl
+:kbinding:generateReleaseBuildConfig
+:kbinding:generateReleaseAssets UP-TO-DATE
+:kbinding:mergeReleaseAssets
+:kbinding:mergeReleaseResources
+:kbinding:processReleaseManifest
+:kbinding:processReleaseResources
+:kbinding:generateReleaseSources
+:kbinding:compileReleaseKotlin
+:kbinding:compileReleaseJavaWithJavac
+:kbinding:processReleaseJavaRes UP-TO-DATE
+:kbinding:transformResourcesWithMergeJavaResForRelease
+:kbinding:transformClassesAndResourcesWithSyncLibJarsForRelease
+:kbinding:mergeReleaseJniLibFolders
+:kbinding:transformNative_libsWithMergeJniLibsForRelease
+:kbinding:transformNative_libsWithSyncJniLibsForRelease
+:kbinding:bundleRelease
+:kbinding-adapterview:checkDebugManifest
+:kbinding-adapterview:preDebugAndroidTestBuild UP-TO-DATE
+:kbinding-adapterview:preDebugUnitTestBuild UP-TO-DATE
+:kbinding-adapterview:preReleaseBuild UP-TO-DATE
+:kbinding-adapterview:preReleaseUnitTestBuild UP-TO-DATE
+:kbinding-adapterview:prepareComAndroidSupportRecyclerviewV72311Library
+:kbinding-adapterview:prepareComAndroidSupportSupportV42311Library
+:kbinding-adapterview:prepareComBennyLibraryAutoadapter013Library
+:kbinding-adapterview:prepareComBennyLibraryKbinding021Library
+:kbinding-adapterview:prepareComJakewhartonRxbindingRxbinding030Library
+:kbinding-adapterview:prepareIoReactivexRxandroid101Library
+:kbinding-adapterview:prepareDebugDependencies
+:kbinding-adapterview:compileDebugAidl
+:kbinding-adapterview:compileDebugRenderscript
+:kbinding-adapterview:generateDebugBuildConfig
+:kbinding-adapterview:generateDebugAssets UP-TO-DATE
+:kbinding-adapterview:mergeDebugAssets
+:kbinding-adapterview:generateDebugResValues
+:kbinding-adapterview:generateDebugResources
+:kbinding-adapterview:mergeDebugResources
+:kbinding-adapterview:processDebugManifest
+:kbinding-adapterview:processDebugResources
+:kbinding-adapterview:generateDebugSources
+:kbinding-adapterview:compileDebugKotlin
+:kbinding-adapterview:compileDebugJavaWithJavac
+:kbinding-adapterview:extractDebugAnnotations
+:kbinding-adapterview:mergeDebugProguardFiles
+:kbinding-adapterview:packageDebugRenderscript UP-TO-DATE
+:kbinding-adapterview:packageDebugResources
+:kbinding-adapterview:processDebugJavaRes UP-TO-DATE
+:kbinding-adapterview:transformResourcesWithMergeJavaResForDebug
+:kbinding-adapterview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:kbinding-adapterview:mergeDebugJniLibFolders
+:kbinding-adapterview:transformNative_libsWithMergeJniLibsForDebug
+:kbinding-adapterview:transformNative_libsWithSyncJniLibsForDebug
+:kbinding-adapterview:bundleDebug
+:kbinding-adapterview:compileDebugSources
+:kbinding-adapterview:assembleDebug
+:kbinding-adapterview:compileReleaseNdk UP-TO-DATE
+:kbinding-adapterview:copyReleaseLint UP-TO-DATE
+:kbinding-adapterview:checkReleaseManifest
+:kbinding-adapterview:prepareReleaseDependencies
+:kbinding-adapterview:compileReleaseAidl
+:kbinding-adapterview:compileReleaseRenderscript
+:kbinding-adapterview:generateReleaseBuildConfig
+:kbinding-adapterview:generateReleaseAssets UP-TO-DATE
+:kbinding-adapterview:mergeReleaseAssets
+:kbinding-adapterview:generateReleaseResValues
+:kbinding-adapterview:generateReleaseResources
+:kbinding-adapterview:mergeReleaseResources
+:kbinding-adapterview:processReleaseManifest
+:kbinding-adapterview:processReleaseResources
+:kbinding-adapterview:generateReleaseSources
+:kbinding-adapterview:compileReleaseKotlin
+:kbinding-adapterview:compileReleaseJavaWithJavac
+:kbinding-adapterview:extractReleaseAnnotations
+:kbinding-adapterview:mergeReleaseProguardFiles
+:kbinding-adapterview:packageReleaseRenderscript UP-TO-DATE
+:kbinding-adapterview:packageReleaseResources
+:kbinding-adapterview:processReleaseJavaRes UP-TO-DATE
+:kbinding-adapterview:transformResourcesWithMergeJavaResForRelease
+:kbinding-adapterview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:kbinding-adapterview:mergeReleaseJniLibFolders
+:kbinding-adapterview:transformNative_libsWithMergeJniLibsForRelease
+:kbinding-adapterview:transformNative_libsWithSyncJniLibsForRelease
+:kbinding-adapterview:bundleRelease
+:kbinding-adapterview:compileReleaseSources
+:kbinding-adapterview:assembleRelease
+:kbinding-adapterview:sourcesJar
+:kbinding-adapterview:assemble
+:kbinding-adapterview:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':kbinding-adapterview:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':kbinding-adapterview:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:333)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:411)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 18.677 secs
+
+2019-01-12 18:25:44,451 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:25:44,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:25:54,765 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:25:54,766 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:25:54,766 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:25:54,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:26:11,748 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:26:11,749 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:kbinding-common:preBuild UP-TO-DATE
+:kbinding-common:preDebugBuild UP-TO-DATE
+:kbinding-common:compileDebugNdk UP-TO-DATE
+:kbinding-common:compileLint
+:kbinding-common:copyDebugLint UP-TO-DATE
+:kbinding:preBuild UP-TO-DATE
+:kbinding:preReleaseBuild UP-TO-DATE
+:kbinding:compileReleaseNdk UP-TO-DATE
+:kbinding:compileLint
+:kbinding:copyReleaseLint UP-TO-DATE
+:kbinding:mergeReleaseProguardFiles UP-TO-DATE
+:kbinding:packageReleaseRenderscript UP-TO-DATE
+:kbinding:checkReleaseManifest
+:kbinding:preDebugAndroidTestBuild UP-TO-DATE
+:kbinding:preDebugBuild UP-TO-DATE
+:kbinding:preDebugUnitTestBuild UP-TO-DATE
+:kbinding:preReleaseUnitTestBuild UP-TO-DATE
+:kbinding-annotations:compileKotlin UP-TO-DATE
+:kbinding-annotations:compileJava UP-TO-DATE
+:kbinding-annotations:processResources UP-TO-DATE
+:kbinding-annotations:classes UP-TO-DATE
+:kbinding-annotations:jar UP-TO-DATE
+:kbinding:prepareIoReactivexRxandroid101Library UP-TO-DATE
+:kbinding:prepareReleaseDependencies
+:kbinding:compileReleaseRenderscript UP-TO-DATE
+:kbinding:generateReleaseResValues UP-TO-DATE
+:kbinding:generateReleaseResources UP-TO-DATE
+:kbinding:packageReleaseResources UP-TO-DATE
+:kbinding:compileReleaseAidl UP-TO-DATE
+:kbinding:generateReleaseBuildConfig UP-TO-DATE
+:kbinding:generateReleaseAssets UP-TO-DATE
+:kbinding:mergeReleaseAssets UP-TO-DATE
+:kbinding:mergeReleaseResources UP-TO-DATE
+:kbinding:processReleaseManifest UP-TO-DATE
+:kbinding:processReleaseResources UP-TO-DATE
+:kbinding:generateReleaseSources UP-TO-DATE
+:kbinding:compileReleaseKotlin UP-TO-DATE
+:kbinding:compileReleaseJavaWithJavac UP-TO-DATE
+:kbinding:processReleaseJavaRes UP-TO-DATE
+:kbinding:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:kbinding:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:kbinding:mergeReleaseJniLibFolders UP-TO-DATE
+:kbinding:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:kbinding:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:kbinding:bundleRelease UP-TO-DATE
+:kbinding-common:checkDebugManifest
+:kbinding-common:preDebugAndroidTestBuild UP-TO-DATE
+:kbinding-common:preDebugUnitTestBuild UP-TO-DATE
+:kbinding-common:preReleaseBuild UP-TO-DATE
+:kbinding-common:preReleaseUnitTestBuild UP-TO-DATE
+:kbinding-common:prepareComBennyLibraryKbinding021Library
+:kbinding-common:prepareComJakewhartonRxbindingRxbinding030Library
+:kbinding-common:prepareIoReactivexRxandroid101Library
+:kbinding-common:prepareDebugDependencies
+:kbinding-common:compileDebugAidl
+:kbinding-common:compileDebugRenderscript
+:kbinding-common:generateDebugBuildConfig
+:kbinding-common:generateDebugAssets UP-TO-DATE
+:kbinding-common:mergeDebugAssets
+:kbinding-common:generateDebugResValues
+:kbinding-common:generateDebugResources
+:kbinding-common:mergeDebugResources
+:kbinding-common:processDebugManifest
+:kbinding-common:processDebugResources
+:kbinding-common:generateDebugSources
+:kbinding-common:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/src/main/kotlin/com/benny/library/kbinding/common/bindings/TextViewBindings.kt: (21, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/src/main/kotlin/com/benny/library/kbinding/common/bindings/ViewBindings.kt: (30, 13): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+:kbinding-common:compileDebugJavaWithJavac
+:kbinding-common:extractDebugAnnotations
+:kbinding-common:mergeDebugProguardFiles
+:kbinding-common:packageDebugRenderscript UP-TO-DATE
+:kbinding-common:packageDebugResources
+:kbinding-common:processDebugJavaRes UP-TO-DATE
+:kbinding-common:transformResourcesWithMergeJavaResForDebug
+:kbinding-common:transformClassesAndResourcesWithSyncLibJarsForDebug
+:kbinding-common:mergeDebugJniLibFolders
+:kbinding-common:transformNative_libsWithMergeJniLibsForDebug
+:kbinding-common:transformNative_libsWithSyncJniLibsForDebug
+:kbinding-common:bundleDebug
+:kbinding-common:compileDebugSources
+:kbinding-common:assembleDebug
+:kbinding-common:compileReleaseNdk UP-TO-DATE
+:kbinding-common:copyReleaseLint UP-TO-DATE
+:kbinding-common:checkReleaseManifest
+:kbinding-common:prepareReleaseDependencies
+:kbinding-common:compileReleaseAidl
+:kbinding-common:compileReleaseRenderscript
+:kbinding-common:generateReleaseBuildConfig
+:kbinding-common:generateReleaseAssets UP-TO-DATE
+:kbinding-common:mergeReleaseAssets
+:kbinding-common:generateReleaseResValues
+:kbinding-common:generateReleaseResources
+:kbinding-common:mergeReleaseResources
+:kbinding-common:processReleaseManifest
+:kbinding-common:processReleaseResources
+:kbinding-common:generateReleaseSources
+:kbinding-common:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/src/main/kotlin/com/benny/library/kbinding/common/bindings/TextViewBindings.kt: (21, 45): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-common/src/main/kotlin/com/benny/library/kbinding/common/bindings/ViewBindings.kt: (30, 13): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+:kbinding-common:compileReleaseJavaWithJavac
+:kbinding-common:extractReleaseAnnotations
+:kbinding-common:mergeReleaseProguardFiles
+:kbinding-common:packageReleaseRenderscript UP-TO-DATE
+:kbinding-common:packageReleaseResources
+:kbinding-common:processReleaseJavaRes UP-TO-DATE
+:kbinding-common:transformResourcesWithMergeJavaResForRelease
+:kbinding-common:transformClassesAndResourcesWithSyncLibJarsForRelease
+:kbinding-common:mergeReleaseJniLibFolders
+:kbinding-common:transformNative_libsWithMergeJniLibsForRelease
+:kbinding-common:transformNative_libsWithSyncJniLibsForRelease
+:kbinding-common:bundleRelease
+:kbinding-common:compileReleaseSources
+:kbinding-common:assembleRelease
+:kbinding-common:sourcesJar
+:kbinding-common:assemble
+:kbinding-common:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':kbinding-common:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':kbinding-common:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:333)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:411)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 15.431 secs
+
+2019-01-12 18:26:11,794 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:26:11,794 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:26:22,032 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:26:22,032 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:26:22,032 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:26:22,032 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding-support-v4/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:26:34,728 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:26:34,728 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:kbinding-support-v4:preBuild UP-TO-DATE
+:kbinding-support-v4:preDebugBuild UP-TO-DATE
+:kbinding-support-v4:compileDebugNdk UP-TO-DATE
+:kbinding-support-v4:compileLint
+:kbinding-support-v4:copyDebugLint UP-TO-DATE
+:kbinding:preBuild UP-TO-DATE
+:kbinding:preReleaseBuild UP-TO-DATE
+:kbinding:compileReleaseNdk UP-TO-DATE
+:kbinding:compileLint
+:kbinding:copyReleaseLint UP-TO-DATE
+:kbinding:mergeReleaseProguardFiles UP-TO-DATE
+:kbinding:packageReleaseRenderscript UP-TO-DATE
+:kbinding:checkReleaseManifest
+:kbinding:preDebugAndroidTestBuild UP-TO-DATE
+:kbinding:preDebugBuild UP-TO-DATE
+:kbinding:preDebugUnitTestBuild UP-TO-DATE
+:kbinding:preReleaseUnitTestBuild UP-TO-DATE
+:kbinding-annotations:compileKotlin UP-TO-DATE
+:kbinding-annotations:compileJava UP-TO-DATE
+:kbinding-annotations:processResources UP-TO-DATE
+:kbinding-annotations:classes UP-TO-DATE
+:kbinding-annotations:jar UP-TO-DATE
+:kbinding:prepareIoReactivexRxandroid101Library UP-TO-DATE
+:kbinding:prepareReleaseDependencies
+:kbinding:compileReleaseRenderscript UP-TO-DATE
+:kbinding:generateReleaseResValues UP-TO-DATE
+:kbinding:generateReleaseResources UP-TO-DATE
+:kbinding:packageReleaseResources UP-TO-DATE
+:kbinding:compileReleaseAidl UP-TO-DATE
+:kbinding:generateReleaseBuildConfig UP-TO-DATE
+:kbinding:generateReleaseAssets UP-TO-DATE
+:kbinding:mergeReleaseAssets UP-TO-DATE
+:kbinding:mergeReleaseResources UP-TO-DATE
+:kbinding:processReleaseManifest UP-TO-DATE
+:kbinding:processReleaseResources UP-TO-DATE
+:kbinding:generateReleaseSources UP-TO-DATE
+:kbinding:compileReleaseKotlin UP-TO-DATE
+:kbinding:compileReleaseJavaWithJavac UP-TO-DATE
+:kbinding:processReleaseJavaRes UP-TO-DATE
+:kbinding:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:kbinding:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:kbinding:mergeReleaseJniLibFolders UP-TO-DATE
+:kbinding:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:kbinding:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:kbinding:bundleRelease UP-TO-DATE
+:kbinding-support-v4:checkDebugManifest
+:kbinding-support-v4:preDebugAndroidTestBuild UP-TO-DATE
+:kbinding-support-v4:preDebugUnitTestBuild UP-TO-DATE
+:kbinding-support-v4:preReleaseBuild UP-TO-DATE
+:kbinding-support-v4:preReleaseUnitTestBuild UP-TO-DATE
+:kbinding-support-v4:prepareComAndroidSupportSupportV42311Library
+:kbinding-support-v4:prepareComBennyLibraryKbinding021Library
+:kbinding-support-v4:prepareComJakewhartonRxbindingRxbinding030Library
+:kbinding-support-v4:prepareComJakewhartonRxbindingRxbindingSupportV4030Library
+:kbinding-support-v4:prepareIoReactivexRxandroid101Library
+:kbinding-support-v4:prepareDebugDependencies
+:kbinding-support-v4:compileDebugAidl
+:kbinding-support-v4:compileDebugRenderscript
+:kbinding-support-v4:generateDebugBuildConfig
+:kbinding-support-v4:generateDebugAssets UP-TO-DATE
+:kbinding-support-v4:mergeDebugAssets
+:kbinding-support-v4:generateDebugResValues
+:kbinding-support-v4:generateDebugResources
+:kbinding-support-v4:mergeDebugResources
+:kbinding-support-v4:processDebugManifest
+:kbinding-support-v4:processDebugResources
+:kbinding-support-v4:generateDebugSources
+:kbinding-support-v4:compileDebugKotlin
+:kbinding-support-v4:compileDebugJavaWithJavac
+:kbinding-support-v4:extractDebugAnnotations
+:kbinding-support-v4:mergeDebugProguardFiles
+:kbinding-support-v4:packageDebugRenderscript UP-TO-DATE
+:kbinding-support-v4:packageDebugResources
+:kbinding-support-v4:processDebugJavaRes UP-TO-DATE
+:kbinding-support-v4:transformResourcesWithMergeJavaResForDebug
+:kbinding-support-v4:transformClassesAndResourcesWithSyncLibJarsForDebug
+:kbinding-support-v4:mergeDebugJniLibFolders
+:kbinding-support-v4:transformNative_libsWithMergeJniLibsForDebug
+:kbinding-support-v4:transformNative_libsWithSyncJniLibsForDebug
+:kbinding-support-v4:bundleDebug
+:kbinding-support-v4:compileDebugSources
+:kbinding-support-v4:assembleDebug
+:kbinding-support-v4:compileReleaseNdk UP-TO-DATE
+:kbinding-support-v4:copyReleaseLint UP-TO-DATE
+:kbinding-support-v4:checkReleaseManifest
+:kbinding-support-v4:prepareReleaseDependencies
+:kbinding-support-v4:compileReleaseAidl
+:kbinding-support-v4:compileReleaseRenderscript
+:kbinding-support-v4:generateReleaseBuildConfig
+:kbinding-support-v4:generateReleaseAssets UP-TO-DATE
+:kbinding-support-v4:mergeReleaseAssets
+:kbinding-support-v4:generateReleaseResValues
+:kbinding-support-v4:generateReleaseResources
+:kbinding-support-v4:mergeReleaseResources
+:kbinding-support-v4:processReleaseManifest
+:kbinding-support-v4:processReleaseResources
+:kbinding-support-v4:generateReleaseSources
+:kbinding-support-v4:compileReleaseKotlin
+:kbinding-support-v4:compileReleaseJavaWithJavac
+:kbinding-support-v4:extractReleaseAnnotations
+:kbinding-support-v4:mergeReleaseProguardFiles
+:kbinding-support-v4:packageReleaseRenderscript UP-TO-DATE
+:kbinding-support-v4:packageReleaseResources
+:kbinding-support-v4:processReleaseJavaRes UP-TO-DATE
+:kbinding-support-v4:transformResourcesWithMergeJavaResForRelease
+:kbinding-support-v4:transformClassesAndResourcesWithSyncLibJarsForRelease
+:kbinding-support-v4:mergeReleaseJniLibFolders
+:kbinding-support-v4:transformNative_libsWithMergeJniLibsForRelease
+:kbinding-support-v4:transformNative_libsWithSyncJniLibsForRelease
+:kbinding-support-v4:bundleRelease
+:kbinding-support-v4:compileReleaseSources
+:kbinding-support-v4:assembleRelease
+:kbinding-support-v4:sourcesJar
+:kbinding-support-v4:assemble
+:kbinding-support-v4:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':kbinding-support-v4:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':kbinding-support-v4:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:333)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:411)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 11.321 secs
+
+2019-01-12 18:26:34,777 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:26:34,777 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:26:45,354 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:26:45,355 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:26:45,355 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:26:45,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/kbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:27:01,173 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:27:01,174 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:kbinding:preBuild UP-TO-DATE
+:kbinding:preDebugBuild UP-TO-DATE
+:kbinding:compileDebugNdk UP-TO-DATE
+:kbinding:compileLint
+:kbinding:copyDebugLint UP-TO-DATE
+:kbinding:mergeDebugProguardFiles
+:kbinding:packageDebugRenderscript UP-TO-DATE
+:kbinding:checkDebugManifest
+:kbinding:preDebugAndroidTestBuild UP-TO-DATE
+:kbinding:preDebugUnitTestBuild UP-TO-DATE
+:kbinding:preReleaseBuild UP-TO-DATE
+:kbinding:preReleaseUnitTestBuild UP-TO-DATE
+:kbinding-annotations:compileKotlin UP-TO-DATE
+:kbinding-annotations:compileJava UP-TO-DATE
+:kbinding-annotations:processResources UP-TO-DATE
+:kbinding-annotations:classes UP-TO-DATE
+:kbinding-annotations:jar UP-TO-DATE
+:kbinding:prepareIoReactivexRxandroid101Library UP-TO-DATE
+:kbinding:prepareDebugDependencies
+:kbinding:compileDebugRenderscript
+:kbinding:generateDebugResValues
+:kbinding:generateDebugResources
+:kbinding:packageDebugResources
+:kbinding:compileDebugAidl
+:kbinding:generateDebugBuildConfig
+:kbinding:generateDebugAssets UP-TO-DATE
+:kbinding:mergeDebugAssets
+:kbinding:mergeDebugResources
+:kbinding:processDebugManifest
+:kbinding:processDebugResources
+:kbinding:generateDebugSources
+:kbinding:compileDebugKotlin
+:kbinding:compileDebugJavaWithJavac
+:kbinding:processDebugJavaRes UP-TO-DATE
+:kbinding:transformResourcesWithMergeJavaResForDebug
+:kbinding:transformClassesAndResourcesWithSyncLibJarsForDebug
+:kbinding:mergeDebugJniLibFolders
+:kbinding:transformNative_libsWithMergeJniLibsForDebug
+:kbinding:transformNative_libsWithSyncJniLibsForDebug
+:kbinding:bundleDebug
+:kbinding:compileDebugSources
+:kbinding:assembleDebug
+:kbinding:compileReleaseNdk UP-TO-DATE
+:kbinding:copyReleaseLint UP-TO-DATE
+:kbinding:mergeReleaseProguardFiles UP-TO-DATE
+:kbinding:packageReleaseRenderscript UP-TO-DATE
+:kbinding:checkReleaseManifest
+:kbinding:prepareReleaseDependencies
+:kbinding:compileReleaseRenderscript UP-TO-DATE
+:kbinding:generateReleaseResValues UP-TO-DATE
+:kbinding:generateReleaseResources UP-TO-DATE
+:kbinding:packageReleaseResources UP-TO-DATE
+:kbinding:compileReleaseAidl UP-TO-DATE
+:kbinding:generateReleaseBuildConfig UP-TO-DATE
+:kbinding:generateReleaseAssets UP-TO-DATE
+:kbinding:mergeReleaseAssets UP-TO-DATE
+:kbinding:mergeReleaseResources UP-TO-DATE
+:kbinding:processReleaseManifest UP-TO-DATE
+:kbinding:processReleaseResources UP-TO-DATE
+:kbinding:generateReleaseSources UP-TO-DATE
+:kbinding:compileReleaseKotlin UP-TO-DATE
+:kbinding:compileReleaseJavaWithJavac UP-TO-DATE
+:kbinding:processReleaseJavaRes UP-TO-DATE
+:kbinding:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:kbinding:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:kbinding:mergeReleaseJniLibFolders UP-TO-DATE
+:kbinding:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:kbinding:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:kbinding:bundleRelease UP-TO-DATE
+:kbinding:compileReleaseSources UP-TO-DATE
+:kbinding:assembleRelease UP-TO-DATE
+:kbinding:sourcesJar
+:kbinding:assemble
+:kbinding:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':kbinding:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':kbinding:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:333)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:411)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 14.644 secs
+
+2019-01-12 18:27:01,228 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 18:27:01,228 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 18:27:11,460 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-01-12 18:27:11,460 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-01-12 18:27:11,460 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-01-12 18:27:11,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 18:28:21,800 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 18:28:21,800 INFO  SysUtils - Configuration on demand is an incubating feature.
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Observed package id 'build-tools;28.0.0-preview' in inconsistent location '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2' (Expected '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-preview')
+Already observed package id 'build-tools;28.0.0-preview' in '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc1'. Skipping duplicate at '/Users/vbauer/Library/Android/sdk/build-tools/28.0.0-rc2'
+Incremental java compilation is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2320Library
+:sample:prepareComAndroidSupportAppcompatV72320Library
+:sample:prepareComAndroidSupportDesign2320Library
+:sample:prepareComAndroidSupportGridlayoutV72320Library
+:sample:prepareComAndroidSupportRecyclerviewV72320Library
+:sample:prepareComAndroidSupportSupportV42320Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2320Library
+:sample:prepareComBennyLibraryAutoadapter013Library
+:sample:prepareComBennyLibraryKbinding021Library
+:sample:prepareComBennyLibraryKbindingAdapterview021Library
+:sample:prepareComBennyLibraryKbindingCommon021Library
+:sample:prepareComBennyLibraryKbindingSupportV4021Library
+:sample:prepareComFacebookFrescoDrawee090Library
+:sample:prepareComFacebookFrescoFbcore090Library
+:sample:prepareComFacebookFrescoFresco090Library
+:sample:prepareComFacebookFrescoImagepipeline090Library
+:sample:prepareComFacebookFrescoImagepipelineBase090Library
+:sample:prepareComJakewhartonRxbindingRxbinding030Library
+:sample:prepareComJakewhartonRxbindingRxbindingSupportV4030Library
+:sample:prepareComYqritcRecyclerviewFlexibledivider129Library
+:sample:prepareIoReactivexRxandroid101Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/converter/OneWayConverter.kt: (48, 94): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/converter/OneWayConverter.kt: (49, 94): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/extension/Views.kt: (22, 59): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (43, 33): The corresponding parameter in the supertype 'LoginDelegate' is named 's'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (65, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (68, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (71, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (84, 21): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/item/StockItemView.kt: (35, 113): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/item/StockItemView.kt: (40, 117): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/item/StockItemView.kt: (43, 93): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/stock/StockInfoUI.kt: (35, 68): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/stock/StockInfoUI.kt: (35, 81): Parameter 'converter' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/stock/StockInfoUI.kt: (100, 43): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/widget/ViewPagerIndicator.kt: (126, 35): Parameter 'old' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/widget/ViewPagerIndicator.kt: (126, 55): Parameter 'adapter' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (12, 26): 'bindProperty(String): ReadWriteProperty<Any, T?>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (14, 27): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (15, 32): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (16, 30): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (17, 25): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (18, 27): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (19, 28): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (20, 29): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (21, 30): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:prePackageMarkerForDebug
+:sample:transformClassesWithDexForDebug
+Allocated dexExecutorService of size 1
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar took 330
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-appcompat-v7/0.8.2/ed7b4f73c336785997180849bedaf5d6a6dc5a0b/anko-appcompat-v7-0.8.2.jar took 602
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.yqritc/recyclerview-flexibledivider/1.2.9/jars/classes.jar took 419
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.0-beta4/bd49baf667542c7d06f71e598bdee7fe57272013/adapter-rxjava-2.0.0-beta4.jar took 341
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.benny.library/kbinding-common/0.2.1/jars/classes.jar took 517
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.9.0/jars/classes.jar took 798
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.0/8739b3cd3bf98584cf2d1cabf59b55dbd5f7349d/kotlin-runtime-1.0.0.jar took 799
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar took 1031
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar took 429
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/classes/debug took 1064
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.2.0/jars/classes.jar took 640
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.benny.library/kbinding-support-v4/0.2.1/jars/classes.jar took 323
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-design/0.8.2/79f8ed8a68dc817846afd0983c7b1acbbad56dcf/anko-design-0.8.2.jar took 594
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.benny.library/autoadapter/0.1.3/jars/classes.jar took 417
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding-support-v4/0.3.0/jars/classes.jar took 347
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar took 803
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar took 539
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar took 1864
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar took 790
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar took 574
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.3.0/jars/classes.jar took 875
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-support-v4/0.8.2/aae9fb16f206a2f3b0289687218bc00b202b03d/anko-support-v4-0.8.2.jar took 727
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.9.0/jars/classes.jar took 369
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.9.0/jars/classes.jar took 807
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar took 2328
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.0/748f0546d5c3c27f1aef07270ffea0c45f0c42a4/rxjava-1.1.0.jar took 1759
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.benny.library/kbinding-adapterview/0.2.1/jars/classes.jar took 473
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.1/b34c1f2d993044656e87f88970b6818e99e886ba/okhttp-3.0.1.jar took 1436
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar took 1010
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.9.0/jars/classes.jar took 1135
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-gridlayout-v7/0.8.2/1a2d44831b5efd414d01596e618fe6831a5b5e74/anko-gridlayout-v7-0.8.2.jar took 364
+Dexing /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar took 229
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0-beta4/739e00dea1f0ac04fdb9b6160d667e23cc50a791/retrofit-2.0.0-beta4.jar took 732
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.0/2db5ac6eb2746708e77e4c439625f9331c25e766/kotlin-stdlib-1.0.0.jar took 2273
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.0-beta4/de5935a367ba5e343e9df786ac8fc0c7d52b5f0c/converter-gson-2.0.0-beta4.jar took 313
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar took 1291
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar took 596
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk15/0.8.2/164386142a4b25f8c9a95e205e068b80866cd971/anko-sdk15-0.8.2.jar took 1129
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-recyclerview-v7/0.8.2/efb1b0ce9e1c52aa6de6a4b93bb10b2b06ff766a/anko-recyclerview-v7-0.8.2.jar took 372
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.9.0/jars/classes.jar took 660
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-common/0.8.2/8974e9997afe8701e4207a315d4aa9bf7f05a8f4/anko-common-0.8.2.jar took 759
+Dexing /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.benny.library/kbinding-annotations/0.2.1/d582394b38196c9a5ed452424b611d18e98c5f39/kbinding-annotations-0.2.1.jar took 209
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar took 975
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/exploded-aar/com.benny.library/kbinding/0.2.1/jars/classes.jar took 574
+Dexing /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-23.2.0_74536da11991d383ec75b125d01b5e402d5ef412.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.benny.library-kbinding-support-v4-0.2.1_242fe1687bcac225cac09f7d81fd228063e00043.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/anko-sdk15-0.8.2_1794bcd4c1944220971d8738f52da060b9d60d54.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/rxjava-1.1.0_e1de5e9526225e72c9d695d87624217e22f100c5.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.benny.library-kbinding-0.2.1_054238c249abda7e66d9281ec90cc4b99977983e.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_1318a312964618f003e5c984db77aee0f4ec2474.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/kotlin-runtime-1.0.0_e929d86ab35e161e1071a76f94a36ae33ba2794a.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.benny.library-kbinding-adapterview-0.2.1_6bcb8c92527b450b5fbebab5f0f838bf19cdb907.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/kbinding-annotations-0.2.1_ad28716b9d1d65af1160cb562e4252c7bacd09f9.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_35fc7f8b55cd516867e0d73dd44793f9746b40bf.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0-beta4_7c8157f6ebf94e1be005ac66384ccc0ae75179ee.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/okhttp-3.0.1_1b4764cd8899f25b5fcf50c86bc221ef5c07b5f4.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.9.0_02d890d89fde7f80787e723190aefce85e93986a.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/anko-appcompat-v7-0.8.2_0f9cbce80d87c00301766feed222dcea4b97338c.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/gson-2.4_9a8ebd6c6588a4ae04901a0c48da336e49111e8d.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_9dc7cc24347a0191d2fd402448cc1174f116282b.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/kotlin-stdlib-1.0.0_f3ea981c98f1ec9d263199f976cc1539354e8024.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta4_c53d9374b636e1bada407e7ed1decd31caef1b4b.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.jakewharton.rxbinding-rxbinding-0.3.0_89c11135e83cb03d5152fde43fe681551ad43f9a.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/anko-common-0.8.2_f2b3515f1477a37b66bf9aba3f1fd949baa4b6a8.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/anko-gridlayout-v7-0.8.2_521b5f109cffbe818370041f77be12b6c9911c84.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.yqritc-recyclerview-flexibledivider-1.2.9_fffcd16fa28ec5ea0c8377564b8727b992e20c06.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/okio-1.6.0_4a6a5a9896edeee3626aa18d8a22ea3a1ca415b7.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_0a3ad2ac3d7df1e5b9ff5025cb72390a54b103a5.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/debug_96865bea13041879f89b3eab49e7969407f1f749.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.9.0_f8b05d1de028d65a7688bf0229d3d15e5a7b2476.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/eventbus-2.4.0_38534b4b2d774492a0dddea880956e4470faf701.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/anko-support-v4-0.8.2_e26573404a97bc16a039b1de4b7bf7c45467ea0e.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/library-2.4.0_4e9dfbad74a523fee3978ab523b0ddf3595ef932.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/anko-recyclerview-v7-0.8.2_5fe3dcd17ffbc1cc174a986e19b4fae8e7d01a44.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_e8dec89665e15d15309dee98deb85519ca985ae8.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_5756c1264bd58e18a867ddb73cbcf4df6358f991.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_bc6fea57bbe1e9cb0e2f9b2e885bedabc5317f0b.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/io.reactivex-rxandroid-1.0.1_69f65e8b2e57b541c13b6c0d6b390f0ee8157b0c.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/anko-design-0.8.2_1a9400e97755c3d35f787d014265c71a457f5829.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.9.0_12a97342d673d7f4dbd0536bf368189705c65991.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_4361ab5488487625f4aa7937ee9cb33fae96afa8.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.9.0_b409febe828dda489f0d20c24f8353d4b19316d7.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.benny.library-kbinding-common-0.2.1_5f01dd11fb914f1e9906fff6a2bc38bfb65826c5.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.jakewharton.rxbinding-rxbinding-support-v4-0.3.0_231685f09a0eaac908b930f559e3d794fbcf88ee.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.9.0_902adc48f5a7f76ce646344af9030bc4f256eaa7.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_2b7ab06cf51cdc9c44d498106831059caa5fd588.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta4_1a220f43366e751d6ff458b8d86ebc5d8a096ea4.jar,/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/intermediates/pre-dexed/debug/com.benny.library-autoadapter-0.1.3_702b5cf9ff5d2215becb997ed134256666cd8033.jar took 1165
+:sample:mergeDebugJniLibFolders
+:sample:transformNative_libsWithMergeJniLibsForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/converter/OneWayConverter.kt: (48, 94): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/converter/OneWayConverter.kt: (49, 94): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/extension/Views.kt: (22, 59): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (43, 33): The corresponding parameter in the supertype 'LoginDelegate' is named 's'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (65, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (68, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (71, 61): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/fragment/LoginFragment.kt: (84, 21): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/item/StockItemView.kt: (35, 113): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/item/StockItemView.kt: (40, 117): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/item/StockItemView.kt: (43, 93): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/stock/StockInfoUI.kt: (35, 68): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/stock/StockInfoUI.kt: (35, 81): Parameter 'converter' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/layout/stock/StockInfoUI.kt: (100, 43): Parameter 'key' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/widget/ViewPagerIndicator.kt: (126, 35): Parameter 'old' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/ui/widget/ViewPagerIndicator.kt: (126, 55): Parameter 'adapter' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (12, 26): 'bindProperty(String): ReadWriteProperty<Any, T?>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (14, 27): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (15, 32): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (16, 30): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (17, 25): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (18, 27): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (19, 28): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (20, 29): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/src/main/kotlin/com/benny/app/sample/viewmodel/MovieViewModel.kt: (21, 30): 'bindProperty(vararg String, () -> T): ReadWriteProperty<Any, T>' is deprecated. Use Annotation @Property/@DependencyProperty/@ExtractProperty and Delegates.property instead
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:333)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:232)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:411)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 1 mins 9.248 secs
+
+2019-01-12 18:28:21,928 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547292254226-0/src/KBinding-master/sample/build/outputs/apk/sample-debug-unaligned.apk

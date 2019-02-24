@@ -1,0 +1,795 @@
+2019-01-12 23:37:15,365 INFO  DownloadService - Downloading "https://github.com/Commit451/AdapterLayout/archive/master.zip", attempt 3
+2019-01-12 23:37:16,613 INFO  DownloadService - Downloaded https://github.com/Commit451/AdapterLayout/archive/master.zip, attempt 3
+2019-01-12 23:37:16,614 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/master.zip": 1 MB
+2019-01-12 23:37:16,614 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-12 23:37:16,615 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/master.zip: true
+2019-01-12 23:37:16,615 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src'.
+2019-01-12 23:37:16,642 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-12 23:37:16,642 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src]
+2019-01-12 23:37:16,660 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/.git/
+
+2019-01-12 23:37:16,663 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew
+2019-01-12 23:37:16,667 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterflowlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/build.gradle
+2019-01-12 23:37:16,670 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterflowlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/build.gradle
+2019-01-12 23:37:16,671 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle", attempt 3
+2019-01-12 23:37:16,873 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle, attempt 3
+2019-01-12 23:37:16,874 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle
+2019-01-12 23:37:16,874 INFO  ProjectFixService - Fixing project...
+2019-01-12 23:37:16,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterflowlayout/local.properties
+2019-01-12 23:37:16,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterflowlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-12 23:37:16,887 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterflowlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 23:37:16,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/local.properties
+2019-01-12 23:37:16,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-12 23:37:16,892 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 23:37:16,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/local.properties
+2019-01-12 23:37:16,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-12 23:37:16,895 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 23:37:16,896 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/local.properties
+2019-01-12 23:37:16,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-12 23:37:16,899 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 23:37:16,900 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/local.properties
+2019-01-12 23:37:16,900 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-12 23:37:16,900 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-12 23:37:16,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-12 23:37:16,902 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-12 23:37:16,903 INFO  ProjectFixService - Project was maybe fixed
+2019-01-12 23:37:16,903 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:37:16,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterflowlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:37:25,162 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-12 23:37:25,163 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 23:37:25,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterflowlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 23:37:38,288 INFO  SysUtils - Configuration on demand is an incubating feature.
+:adapterflowlayout:preBuild UP-TO-DATE
+:adapterflowlayout:preDebugBuild UP-TO-DATE
+:adapterlayout:preBuild UP-TO-DATE
+:adapterlayout:preDebugBuild UP-TO-DATE
+:adapterlayout:compileDebugAidl NO-SOURCE
+:adapterflowlayout:compileDebugAidl NO-SOURCE
+:adapterlayout:packageDebugRenderscript NO-SOURCE
+:adapterflowlayout:compileDebugRenderscript
+Download https://jcenter.bintray.com/com/wefika/flowlayout/0.4.1/flowlayout-0.4.1.pom
+Download https://jcenter.bintray.com/com/wefika/flowlayout/0.4.1/flowlayout-0.4.1.aar
+:adapterflowlayout:checkDebugManifest
+:adapterflowlayout:generateDebugBuildConfig
+:adapterflowlayout:generateDebugResValues
+:adapterflowlayout:generateDebugResources
+:adapterflowlayout:packageDebugResources
+:adapterflowlayout:processDebugManifest
+:adapterflowlayout:generateDebugRFile
+:adapterflowlayout:prepareLintJar
+:adapterflowlayout:generateDebugSources
+:adapterlayout:compileDebugRenderscript
+:adapterlayout:checkDebugManifest
+:adapterlayout:generateDebugBuildConfig
+:adapterlayout:generateDebugResValues
+:adapterlayout:generateDebugResources
+:adapterlayout:packageDebugResources
+:adapterlayout:processDebugManifest
+:adapterlayout:generateDebugRFile
+:adapterlayout:prepareLintJar
+:adapterlayout:generateDebugSources
+:adapterlayout:javaPreCompileDebug
+:adapterlayout:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/src/main/java/com/commit451/adapterlayout/AdapterLayoutDelegate.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:adapterlayout:processDebugJavaRes NO-SOURCE
+:adapterlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:adapterflowlayout:javaPreCompileDebug
+:adapterflowlayout:compileDebugJavaWithJavac
+:adapterflowlayout:extractDebugAnnotations
+:adapterflowlayout:mergeDebugConsumerProguardFiles
+:adapterflowlayout:mergeDebugShaders
+:adapterflowlayout:compileDebugShaders
+:adapterflowlayout:generateDebugAssets
+:adapterflowlayout:packageDebugAssets
+:adapterflowlayout:packageDebugRenderscript NO-SOURCE
+:adapterflowlayout:processDebugJavaRes NO-SOURCE
+:adapterflowlayout:transformResourcesWithMergeJavaResForDebug
+:adapterflowlayout:transformClassesAndResourcesWithSyncLibJarsForDebug
+:adapterflowlayout:compileDebugNdk NO-SOURCE
+:adapterflowlayout:mergeDebugJniLibFolders
+:adapterflowlayout:transformNativeLibsWithMergeJniLibsForDebug
+:adapterflowlayout:transformNativeLibsWithStripDebugSymbolForDebug
+:adapterflowlayout:transformNativeLibsWithSyncJniLibsForDebug
+:adapterflowlayout:bundleDebugAar
+:adapterflowlayout:compileDebugSources
+:adapterflowlayout:assembleDebug
+:adapterflowlayout:preReleaseBuild UP-TO-DATE
+:adapterlayout:preReleaseBuild UP-TO-DATE
+:adapterlayout:compileReleaseAidl NO-SOURCE
+:adapterflowlayout:compileReleaseAidl NO-SOURCE
+:adapterlayout:packageReleaseRenderscript NO-SOURCE
+:adapterflowlayout:compileReleaseRenderscript
+:adapterflowlayout:checkReleaseManifest
+:adapterflowlayout:generateReleaseBuildConfig
+:adapterflowlayout:generateReleaseResValues
+:adapterflowlayout:generateReleaseResources
+:adapterflowlayout:packageReleaseResources
+:adapterflowlayout:processReleaseManifest
+:adapterflowlayout:generateReleaseRFile
+:adapterflowlayout:generateReleaseSources
+:adapterlayout:compileReleaseRenderscript
+:adapterlayout:checkReleaseManifest
+:adapterlayout:generateReleaseBuildConfig
+:adapterlayout:generateReleaseResValues
+:adapterlayout:generateReleaseResources
+:adapterlayout:packageReleaseResources
+:adapterlayout:processReleaseManifest
+:adapterlayout:generateReleaseRFile
+:adapterlayout:generateReleaseSources
+:adapterlayout:javaPreCompileRelease
+:adapterlayout:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/src/main/java/com/commit451/adapterlayout/AdapterLayoutDelegate.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:adapterlayout:processReleaseJavaRes NO-SOURCE
+:adapterlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:adapterflowlayout:javaPreCompileRelease
+:adapterflowlayout:compileReleaseJavaWithJavac
+:adapterflowlayout:extractReleaseAnnotations
+:adapterflowlayout:mergeReleaseConsumerProguardFiles
+:adapterflowlayout:mergeReleaseShaders
+:adapterflowlayout:compileReleaseShaders
+:adapterflowlayout:generateReleaseAssets
+:adapterflowlayout:packageReleaseAssets
+:adapterflowlayout:packageReleaseRenderscript NO-SOURCE
+:adapterflowlayout:processReleaseJavaRes NO-SOURCE
+:adapterflowlayout:transformResourcesWithMergeJavaResForRelease
+:adapterflowlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+:adapterflowlayout:compileReleaseNdk NO-SOURCE
+:adapterflowlayout:mergeReleaseJniLibFolders
+:adapterflowlayout:transformNativeLibsWithMergeJniLibsForRelease
+:adapterflowlayout:transformNativeLibsWithStripDebugSymbolForRelease
+:adapterflowlayout:transformNativeLibsWithSyncJniLibsForRelease
+:adapterflowlayout:bundleReleaseAar
+:adapterflowlayout:compileReleaseSources
+:adapterflowlayout:mergeReleaseResources
+:adapterflowlayout:verifyReleaseResources
+:adapterflowlayout:assembleRelease
+:adapterflowlayout:assemble
+:adapterflowlayout:build
+
+BUILD SUCCESSFUL in 12s
+66 actionable tasks: 66 executed
+
+2019-01-12 23:37:38,319 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:37:38,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:37:45,290 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-12 23:37:45,291 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 23:37:45,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 23:37:51,697 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 23:37:51,697 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':adapterlayout-kotlin'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':adapterlayout-kotlin'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2019-01-12 23:37:51,697 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-01-12 23:37:51,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 23:38:15,085 INFO  SysUtils - Configuration on demand is an incubating feature.
+:adapterlayout:preBuild UP-TO-DATE
+:adapterlayout:preDebugBuild UP-TO-DATE
+:adapterlayout:compileDebugAidl NO-SOURCE
+:adapterlayout-kotlin:preBuild UP-TO-DATE
+:adapterlayout-kotlin:preDebugBuild UP-TO-DATE
+:adapterlayout-kotlin:compileDebugAidl NO-SOURCE
+:adapterlayout:compileDebugRenderscript UP-TO-DATE
+:adapterlayout:checkDebugManifest UP-TO-DATE
+:adapterlayout:generateDebugBuildConfig UP-TO-DATE
+:adapterlayout:generateDebugResValues UP-TO-DATE
+:adapterlayout:generateDebugResources UP-TO-DATE
+:adapterlayout:packageDebugResources UP-TO-DATE
+:adapterlayout:processDebugManifest UP-TO-DATE
+:adapterlayout:generateDebugRFile UP-TO-DATE
+:adapterlayout:prepareLintJar UP-TO-DATE
+:adapterlayout:generateDebugSources UP-TO-DATE
+:adapterlayout:javaPreCompileDebug UP-TO-DATE
+:adapterlayout:compileDebugJavaWithJavac UP-TO-DATE
+:adapterlayout:processDebugJavaRes NO-SOURCE
+:adapterlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:adapterlayout:packageDebugRenderscript NO-SOURCE
+:adapterlayout-kotlin:compileDebugRenderscript
+:adapterlayout-kotlin:checkDebugManifest
+:adapterlayout-kotlin:generateDebugBuildConfig
+:adapterlayout-kotlin:generateDebugResValues
+:adapterlayout-kotlin:generateDebugResources
+:adapterlayout-kotlin:packageDebugResources
+:adapterlayout-kotlin:processDebugManifest
+:adapterlayout-kotlin:generateDebugRFile
+:adapterlayout-kotlin:compileDebugKotlin
+:adapterlayout-kotlin:prepareLintJar
+:adapterlayout-kotlin:generateDebugSources
+:adapterlayout-kotlin:javaPreCompileDebug
+:adapterlayout-kotlin:compileDebugJavaWithJavac
+:adapterlayout-kotlin:extractDebugAnnotations
+:adapterlayout-kotlin:mergeDebugConsumerProguardFiles
+:adapterlayout-kotlin:mergeDebugShaders
+:adapterlayout-kotlin:compileDebugShaders
+:adapterlayout-kotlin:generateDebugAssets
+:adapterlayout-kotlin:packageDebugAssets
+:adapterlayout-kotlin:packageDebugRenderscript NO-SOURCE
+:adapterlayout-kotlin:processDebugJavaRes NO-SOURCE
+:adapterlayout-kotlin:transformResourcesWithMergeJavaResForDebug
+:adapterlayout-kotlin:transformClassesAndResourcesWithSyncLibJarsForDebug
+:adapterlayout-kotlin:compileDebugNdk NO-SOURCE
+:adapterlayout-kotlin:mergeDebugJniLibFolders
+:adapterlayout-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:adapterlayout-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:adapterlayout-kotlin:transformNativeLibsWithSyncJniLibsForDebug
+:adapterlayout-kotlin:bundleDebugAar
+:adapterlayout-kotlin:compileDebugSources
+:adapterlayout-kotlin:assembleDebug
+:adapterlayout:preReleaseBuild UP-TO-DATE
+:adapterlayout:compileReleaseAidl NO-SOURCE
+:adapterlayout-kotlin:preReleaseBuild UP-TO-DATE
+:adapterlayout-kotlin:compileReleaseAidl NO-SOURCE
+:adapterlayout:compileReleaseRenderscript UP-TO-DATE
+:adapterlayout:checkReleaseManifest UP-TO-DATE
+:adapterlayout:generateReleaseBuildConfig UP-TO-DATE
+:adapterlayout:generateReleaseResValues UP-TO-DATE
+:adapterlayout:generateReleaseResources UP-TO-DATE
+:adapterlayout:packageReleaseResources UP-TO-DATE
+:adapterlayout:processReleaseManifest UP-TO-DATE
+:adapterlayout:generateReleaseRFile UP-TO-DATE
+:adapterlayout:generateReleaseSources UP-TO-DATE
+:adapterlayout:javaPreCompileRelease UP-TO-DATE
+:adapterlayout:compileReleaseJavaWithJavac UP-TO-DATE
+:adapterlayout:processReleaseJavaRes NO-SOURCE
+:adapterlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:adapterlayout:packageReleaseRenderscript NO-SOURCE
+:adapterlayout-kotlin:compileReleaseRenderscript
+:adapterlayout-kotlin:checkReleaseManifest
+:adapterlayout-kotlin:generateReleaseBuildConfig
+:adapterlayout-kotlin:generateReleaseResValues
+:adapterlayout-kotlin:generateReleaseResources
+:adapterlayout-kotlin:packageReleaseResources
+:adapterlayout-kotlin:processReleaseManifest
+:adapterlayout-kotlin:generateReleaseRFile
+:adapterlayout-kotlin:compileReleaseKotlin
+:adapterlayout-kotlin:generateReleaseSources
+:adapterlayout-kotlin:javaPreCompileRelease
+:adapterlayout-kotlin:compileReleaseJavaWithJavac
+:adapterlayout-kotlin:extractReleaseAnnotations
+:adapterlayout-kotlin:mergeReleaseConsumerProguardFiles
+:adapterlayout-kotlin:mergeReleaseShaders
+:adapterlayout-kotlin:compileReleaseShaders
+:adapterlayout-kotlin:generateReleaseAssets
+:adapterlayout-kotlin:packageReleaseAssets
+:adapterlayout-kotlin:packageReleaseRenderscript NO-SOURCE
+:adapterlayout-kotlin:processReleaseJavaRes NO-SOURCE
+:adapterlayout-kotlin:transformResourcesWithMergeJavaResForRelease
+:adapterlayout-kotlin:transformClassesAndResourcesWithSyncLibJarsForRelease
+:adapterlayout-kotlin:compileReleaseNdk NO-SOURCE
+:adapterlayout-kotlin:mergeReleaseJniLibFolders
+:adapterlayout-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:adapterlayout-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:adapterlayout-kotlin:transformNativeLibsWithSyncJniLibsForRelease
+:adapterlayout-kotlin:bundleReleaseAar
+:adapterlayout-kotlin:compileReleaseSources
+:adapterlayout-kotlin:mergeReleaseResources
+:adapterlayout-kotlin:verifyReleaseResources
+:adapterlayout-kotlin:assembleRelease
+:adapterlayout-kotlin:assemble
+:adapterlayout-kotlin:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/667bbc7b56a8bef12e708b3787a2cc1b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+:adapterlayout-kotlin:compileDebugUnitTestKotlin NO-SOURCE
+:adapterlayout-kotlin:generateDebugUnitTestSources
+:adapterlayout-kotlin:preDebugUnitTestBuild UP-TO-DATE
+:adapterlayout-kotlin:javaPreCompileDebugUnitTest
+:adapterlayout-kotlin:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:adapterlayout-kotlin:processDebugUnitTestJavaRes NO-SOURCE
+:adapterlayout-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:adapterlayout-kotlin:testDebugUnitTest NO-SOURCE
+:adapterlayout-kotlin:compileReleaseUnitTestKotlin NO-SOURCE
+:adapterlayout-kotlin:generateReleaseUnitTestSources
+:adapterlayout-kotlin:preReleaseUnitTestBuild UP-TO-DATE
+:adapterlayout-kotlin:javaPreCompileReleaseUnitTest
+:adapterlayout-kotlin:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:adapterlayout-kotlin:processReleaseUnitTestJavaRes NO-SOURCE
+:adapterlayout-kotlin:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:adapterlayout-kotlin:testReleaseUnitTest NO-SOURCE
+:adapterlayout-kotlin:test UP-TO-DATE
+:adapterlayout-kotlin:check
+:adapterlayout-kotlin:build
+
+BUILD SUCCESSFUL in 22s
+73 actionable tasks: 52 executed, 21 up-to-date
+
+2019-01-12 23:38:15,141 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:38:15,149 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:38:22,640 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-12 23:38:22,640 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-12 23:38:22,640 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/adapterlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-12 23:38:31,266 INFO  SysUtils - Configuration on demand is an incubating feature.
+:adapterlayout:preBuild UP-TO-DATE
+:adapterlayout:preDebugBuild UP-TO-DATE
+:adapterlayout:compileDebugAidl NO-SOURCE
+:adapterlayout:compileDebugRenderscript UP-TO-DATE
+:adapterlayout:checkDebugManifest UP-TO-DATE
+:adapterlayout:generateDebugBuildConfig UP-TO-DATE
+:adapterlayout:generateDebugResValues UP-TO-DATE
+:adapterlayout:generateDebugResources UP-TO-DATE
+:adapterlayout:packageDebugResources UP-TO-DATE
+:adapterlayout:processDebugManifest UP-TO-DATE
+:adapterlayout:generateDebugRFile UP-TO-DATE
+:adapterlayout:prepareLintJar UP-TO-DATE
+:adapterlayout:generateDebugSources UP-TO-DATE
+:adapterlayout:javaPreCompileDebug UP-TO-DATE
+:adapterlayout:compileDebugJavaWithJavac UP-TO-DATE
+:adapterlayout:extractDebugAnnotations
+:adapterlayout:mergeDebugConsumerProguardFiles
+:adapterlayout:mergeDebugShaders
+:adapterlayout:compileDebugShaders
+:adapterlayout:generateDebugAssets
+:adapterlayout:packageDebugAssets
+:adapterlayout:packageDebugRenderscript NO-SOURCE
+:adapterlayout:processDebugJavaRes NO-SOURCE
+:adapterlayout:transformResourcesWithMergeJavaResForDebug
+:adapterlayout:transformClassesAndResourcesWithSyncLibJarsForDebug
+:adapterlayout:compileDebugNdk NO-SOURCE
+:adapterlayout:mergeDebugJniLibFolders
+:adapterlayout:transformNativeLibsWithMergeJniLibsForDebug
+:adapterlayout:transformNativeLibsWithStripDebugSymbolForDebug
+:adapterlayout:transformNativeLibsWithSyncJniLibsForDebug
+:adapterlayout:bundleDebugAar
+:adapterlayout:compileDebugSources UP-TO-DATE
+:adapterlayout:assembleDebug
+:adapterlayout:preReleaseBuild UP-TO-DATE
+:adapterlayout:compileReleaseAidl NO-SOURCE
+:adapterlayout:compileReleaseRenderscript UP-TO-DATE
+:adapterlayout:checkReleaseManifest UP-TO-DATE
+:adapterlayout:generateReleaseBuildConfig UP-TO-DATE
+:adapterlayout:generateReleaseResValues UP-TO-DATE
+:adapterlayout:generateReleaseResources UP-TO-DATE
+:adapterlayout:packageReleaseResources UP-TO-DATE
+:adapterlayout:processReleaseManifest UP-TO-DATE
+:adapterlayout:generateReleaseRFile UP-TO-DATE
+:adapterlayout:generateReleaseSources UP-TO-DATE
+:adapterlayout:javaPreCompileRelease UP-TO-DATE
+:adapterlayout:compileReleaseJavaWithJavac UP-TO-DATE
+:adapterlayout:extractReleaseAnnotations
+:adapterlayout:mergeReleaseConsumerProguardFiles
+:adapterlayout:mergeReleaseShaders
+:adapterlayout:compileReleaseShaders
+:adapterlayout:generateReleaseAssets
+:adapterlayout:packageReleaseAssets
+:adapterlayout:packageReleaseRenderscript NO-SOURCE
+:adapterlayout:processReleaseJavaRes NO-SOURCE
+:adapterlayout:transformResourcesWithMergeJavaResForRelease
+:adapterlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+:adapterlayout:compileReleaseNdk NO-SOURCE
+:adapterlayout:mergeReleaseJniLibFolders
+:adapterlayout:transformNativeLibsWithMergeJniLibsForRelease
+:adapterlayout:transformNativeLibsWithStripDebugSymbolForRelease
+:adapterlayout:transformNativeLibsWithSyncJniLibsForRelease
+:adapterlayout:bundleReleaseAar
+:adapterlayout:compileReleaseSources UP-TO-DATE
+:adapterlayout:mergeReleaseResources
+:adapterlayout:verifyReleaseResources
+:adapterlayout:assembleRelease
+:adapterlayout:assemble
+:adapterlayout:build
+
+BUILD SUCCESSFUL in 8s
+45 actionable tasks: 26 executed, 19 up-to-date
+
+2019-01-12 23:38:31,324 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-12 23:38:31,324 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-12 23:38:37,635 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-01-12 23:38:37,635 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-12 23:38:37,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-12 23:38:43,393 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-12 23:38:43,394 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2019-01-12 23:38:43,394 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-01-12 23:38:43,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-01-12 23:39:16,893 INFO  SysUtils - Configuration on demand is an incubating feature.
+:adapterflowlayout:preBuild UP-TO-DATE
+:adapterflowlayout:preDebugBuild UP-TO-DATE
+:adapterlayout:preBuild UP-TO-DATE
+:adapterlayout:preDebugBuild UP-TO-DATE
+:adapterlayout:compileDebugAidl NO-SOURCE
+:adapterflowlayout:compileDebugAidl NO-SOURCE
+:adapterlayout:packageDebugRenderscript NO-SOURCE
+:adapterflowlayout:compileDebugRenderscript UP-TO-DATE
+:adapterflowlayout:checkDebugManifest UP-TO-DATE
+:adapterflowlayout:generateDebugBuildConfig UP-TO-DATE
+:adapterflowlayout:generateDebugResValues UP-TO-DATE
+:adapterflowlayout:generateDebugResources UP-TO-DATE
+:adapterflowlayout:packageDebugResources UP-TO-DATE
+:adapterflowlayout:processDebugManifest UP-TO-DATE
+:adapterflowlayout:generateDebugRFile UP-TO-DATE
+:adapterflowlayout:prepareLintJar UP-TO-DATE
+:adapterflowlayout:generateDebugSources UP-TO-DATE
+:adapterlayout:compileDebugRenderscript UP-TO-DATE
+:adapterlayout:checkDebugManifest UP-TO-DATE
+:adapterlayout:generateDebugBuildConfig UP-TO-DATE
+:adapterlayout:generateDebugResValues UP-TO-DATE
+:adapterlayout:generateDebugResources UP-TO-DATE
+:adapterlayout:packageDebugResources UP-TO-DATE
+:adapterlayout:processDebugManifest UP-TO-DATE
+:adapterlayout:generateDebugRFile UP-TO-DATE
+:adapterlayout:prepareLintJar UP-TO-DATE
+:adapterlayout:generateDebugSources UP-TO-DATE
+:adapterlayout:javaPreCompileDebug UP-TO-DATE
+:adapterlayout:compileDebugJavaWithJavac UP-TO-DATE
+:adapterlayout:processDebugJavaRes NO-SOURCE
+:adapterlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:adapterflowlayout:javaPreCompileDebug UP-TO-DATE
+:adapterflowlayout:compileDebugJavaWithJavac UP-TO-DATE
+:adapterflowlayout:processDebugJavaRes NO-SOURCE
+:adapterflowlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:adapterflowlayout:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:adapterflowlayout:mergeDebugShaders UP-TO-DATE
+:adapterflowlayout:compileDebugShaders UP-TO-DATE
+:adapterflowlayout:generateDebugAssets UP-TO-DATE
+:adapterflowlayout:packageDebugAssets UP-TO-DATE
+:adapterlayout:mergeDebugShaders UP-TO-DATE
+:adapterlayout:compileDebugShaders UP-TO-DATE
+:adapterlayout:generateDebugAssets UP-TO-DATE
+:adapterlayout:packageDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:adapterflowlayout:compileDebugNdk NO-SOURCE
+:adapterflowlayout:mergeDebugJniLibFolders UP-TO-DATE
+:adapterflowlayout:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:adapterflowlayout:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:adapterflowlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+:adapterlayout:compileDebugNdk NO-SOURCE
+:adapterlayout:mergeDebugJniLibFolders UP-TO-DATE
+:adapterlayout:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:adapterlayout:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:adapterlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:adapterflowlayout:preReleaseBuild UP-TO-DATE
+:adapterlayout:preReleaseBuild UP-TO-DATE
+:adapterlayout:compileReleaseAidl NO-SOURCE
+:adapterflowlayout:compileReleaseAidl NO-SOURCE
+:adapterlayout:packageReleaseRenderscript NO-SOURCE
+:adapterflowlayout:compileReleaseRenderscript UP-TO-DATE
+:adapterflowlayout:checkReleaseManifest UP-TO-DATE
+:adapterflowlayout:generateReleaseBuildConfig UP-TO-DATE
+:adapterflowlayout:generateReleaseResValues UP-TO-DATE
+:adapterflowlayout:generateReleaseResources UP-TO-DATE
+:adapterflowlayout:packageReleaseResources UP-TO-DATE
+:adapterflowlayout:processReleaseManifest UP-TO-DATE
+:adapterflowlayout:generateReleaseRFile UP-TO-DATE
+:adapterflowlayout:generateReleaseSources UP-TO-DATE
+:adapterlayout:compileReleaseRenderscript UP-TO-DATE
+:adapterlayout:checkReleaseManifest UP-TO-DATE
+:adapterlayout:generateReleaseBuildConfig UP-TO-DATE
+:adapterlayout:generateReleaseResValues UP-TO-DATE
+:adapterlayout:generateReleaseResources UP-TO-DATE
+:adapterlayout:packageReleaseResources UP-TO-DATE
+:adapterlayout:processReleaseManifest UP-TO-DATE
+:adapterlayout:generateReleaseRFile UP-TO-DATE
+:adapterlayout:generateReleaseSources UP-TO-DATE
+:adapterlayout:javaPreCompileRelease UP-TO-DATE
+:adapterlayout:compileReleaseJavaWithJavac UP-TO-DATE
+:adapterlayout:processReleaseJavaRes NO-SOURCE
+:adapterlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:adapterflowlayout:javaPreCompileRelease UP-TO-DATE
+:adapterflowlayout:compileReleaseJavaWithJavac UP-TO-DATE
+:adapterflowlayout:processReleaseJavaRes NO-SOURCE
+:adapterflowlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:adapterflowlayout:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease SKIPPED
+:adapterflowlayout:mergeReleaseShaders UP-TO-DATE
+:adapterflowlayout:compileReleaseShaders UP-TO-DATE
+:adapterflowlayout:generateReleaseAssets UP-TO-DATE
+:adapterflowlayout:packageReleaseAssets UP-TO-DATE
+:adapterlayout:mergeReleaseShaders UP-TO-DATE
+:adapterlayout:compileReleaseShaders UP-TO-DATE
+:adapterlayout:generateReleaseAssets UP-TO-DATE
+:adapterlayout:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:adapterflowlayout:compileReleaseNdk NO-SOURCE
+:adapterflowlayout:mergeReleaseJniLibFolders UP-TO-DATE
+:adapterflowlayout:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:adapterflowlayout:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:adapterflowlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+:adapterlayout:compileReleaseNdk NO-SOURCE
+:adapterlayout:mergeReleaseJniLibFolders UP-TO-DATE
+:adapterlayout:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:adapterlayout:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:adapterlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant release: 20 issues found
+Ran lint on variant debug: 20 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build/reports/lint-results.xml
+:app:generateDebugUnitTestSources
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:javaPreCompileDebugUnitTest
+:app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:app:processDebugUnitTestJavaRes NO-SOURCE
+:app:testDebugUnitTest NO-SOURCE
+:app:generateReleaseUnitTestSources
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:javaPreCompileReleaseUnitTest
+:app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:app:processReleaseUnitTestJavaRes NO-SOURCE
+:app:testReleaseUnitTest NO-SOURCE
+:app:test UP-TO-DATE
+:app:check
+:app:build
+
+BUILD SUCCESSFUL in 32s
+127 actionable tasks: 63 executed, 64 up-to-date
+
+2019-01-12 23:39:17,030 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547311035357-0/src/AdapterLayout-master/app/build/outputs/apk/debug/app-debug.apk

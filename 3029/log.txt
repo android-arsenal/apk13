@@ -1,0 +1,111 @@
+2019-01-13 03:11:00,221 INFO  DownloadService - Downloading "https://github.com/workarounds/bundler/archive/master.zip", attempt 3
+2019-01-13 03:12:00,816 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-13 03:12:01,758 INFO  GithubDownloadService - Default branch of this repository: master
+2019-01-13 03:12:01,759 INFO  DownloadService - Downloading "https://github.com/workarounds/bundler/archive/master.zip", attempt 3
+2019-01-13 03:13:03,509 DEBUG FullProcessService - Repository https://github.com/workarounds/bundler available: true
+2019-01-13 03:13:03,509 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-13 03:13:03,510 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/workarounds/bundler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src]
+2019-01-13 03:13:05,659 INFO  SysUtils - 
+2019-01-13 03:13:05,668 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/.git": true
+2019-01-13 03:13:05,673 INFO  FullProcessService - Size of directory with sources: 224 KB
+2019-01-13 03:13:05,673 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src]
+2019-01-13 03:13:05,691 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/.git/
+
+2019-01-13 03:13:05,696 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/gradlew
+2019-01-13 03:13:05,701 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-parceler/build.gradle
+2019-01-13 03:13:05,705 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-parceler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/settings.gradle
+2019-01-13 03:13:05,706 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 03:13:05,706 INFO  ProjectFixService - Fixing project...
+2019-01-13 03:13:05,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/app/local.properties
+2019-01-13 03:13:05,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:13:05,719 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/local.properties
+2019-01-13 03:13:05,719 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-01-13 03:13:05,719 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-01-13 03:13:05,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:13:05,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-annotations/local.properties
+2019-01-13 03:13:05,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-annotations/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:13:05,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-compiler/local.properties
+2019-01-13 03:13:05,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-compiler/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:13:05,723 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-parceler/local.properties
+2019-01-13 03:13:05,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/bundler-parceler/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-01-13 03:13:05,724 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 03:13:05,724 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 03:13:05,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 03:13:25,252 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-01-13 03:13:25,252 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-13 03:13:25,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-13 03:13:47,685 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:bundler-annotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:bundler-annotations:processResources UP-TO-DATE
+:bundler-annotations:classes
+:bundler-annotations:jar
+:bundler-parceler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:bundler-parceler:processResources UP-TO-DATE
+:bundler-parceler:classes
+:bundler-parceler:jar
+:app:prepareComAndroidSupportAppcompatV72311Library
+:app:prepareComAndroidSupportSupportV42311Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:processDebugJavaRes UP-TO-DATE
+:bundler-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+:bundler-compiler:processResources UP-TO-DATE
+:bundler-compiler:classes
+:bundler-compiler:jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:preDexDebug
+:app:dexDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:processReleaseJavaRes UP-TO-DATE
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:preDexRelease
+:app:dexRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.892 secs
+
+2019-01-13 03:13:47,742 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547323860214-0/src/app/build/outputs/apk/app-debug.apk
